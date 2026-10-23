@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Intern Radar</title>
+<style>
+:root{--bg:#fbfbfa;--fg:#1d1d1b;--muted:#6b6b66;--line:#e6e5e0;--card:#fff;--accent:#2f5bd3;--accent-bg:#e9effc;--hot:#c4321f;--hot-bg:#fbeae7;--new:#1f7a3d;--new-bg:#e4f4e8;--chip:#f1f0ec}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#141413;--fg:#ecebe6;--muted:#9c9b95;--line:#2b2b28;--card:#1b1b19;--accent:#8aa8ff;--accent-bg:#1e2740;--hot:#ff8a78;--hot-bg:#3a1d18;--new:#6fd08f;--new-bg:#16301f;--chip:#24241f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:12px 16px}
+h1{font-size:18px;margin:0 0 2px}
+.meta{color:var(--muted);font-size:12px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;align-items:center}
+.seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{border:0;background:var(--card);color:var(--fg);padding:6px 10px;font:inherit;cursor:pointer}
+.seg button.on{background:var(--accent-bg);color:var(--accent);font-weight:600}
+input[type=search],select{border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:8px;padding:6px 10px;font:inherit}
+input[type=search]{flex:1;min-width:160px}
+label.tog{display:flex;gap:6px;align-items:center;color:var(--muted);font-size:13px;cursor:pointer}
+main{padding:8px 16px 40px;max-width:1100px;margin:0 auto}
+.row{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.row.applied{opacity:.45}
+.co{font-weight:600}
+.title a{color:var(--accent);text-decoration:none;font-weight:500}
+.title a:hover{text-decoration:underline}
+.sub{color:var(--muted);font-size:12.5px;display:flex;flex-wrap:wrap;gap:4px 10px}
+.right{text-align:right;white-space:nowrap}
+.age{font-weight:600}
+.age.fresh{color:var(--new)}
+.badge{display:inline-block;font-size:11px;padding:1px 6px;border-radius:5px;background:var(--chip);color:var(--muted);margin-left:4px;vertical-align:1px}
+.badge.big{background:var(--hot-bg);color:var(--hot)}
+.badge.new{background:var(--new-bg);color:var(--new);font-weight:600}
+.badge.lead{background:var(--accent-bg);color:var(--accent)}
+.acts{margin-top:4px;display:flex;gap:6px;justify-content:flex-end}
+.acts button{border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:6px;font-size:12px;padding:2px 8px;cursor:pointer}
+.empty{color:var(--muted);padding:40px 0;text-align:center}
+@media (max-width:640px){header{position:static}.row{grid-template-columns:1fr}.right{text-align:left}.acts{justify-content:flex-start}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Intern Radar</h1>
+  <div class="meta" id="meta">Loading…</div>
+  <div class="controls">
+    <div class="seg" id="type">
+      <button data-v="all" class="on">All</button><button data-v="bigtech">Big tech</button><button data-v="startup">Startups</button><button data-v="other">Other</button>
+    </div>
+    <div class="seg" id="age">
+      <button data-v="6">6h</button><button data-v="24">24h</button><button data-v="72">3d</button><button data-v="336">2w</button><button data-v="0" class="on">Any</button>
+    </div>
+    <select id="sort"><option value="posted">Newest posted</option><option value="seen">First seen by radar</option><option value="score">Best fit</option></select>
+    <input type="search" id="q" placeholder="Search company, title, location">
+    <label class="tog"><input type="checkbox" id="usonly" checked> US / remote only</label>
+    <label class="tog"><input type="checkbox" id="hideapplied"> Hide applied</label>
+    <label class="tog">Min fit <input type="range" id="minscore" min="0" max="10" value="0" style="width:80px"><span id="msv">0</span></label>
+  </div>
+</header>
+<main id="list"></main>
+<script>
+const $=s=>document.querySelector(s);
+const store={get(k,d){try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+let feed={jobs:[]},st=Object.assign({type:'all',age:0,sort:'posted',q:'',usonly:true,hideapplied:false,minscore:0},store.get('radar.ui',{}));
+let marks=store.get('radar.marks',{});
+function seg(id,key){const el=$(id);el.querySelectorAll('button').forEach(b=>{b.classList.toggle('on',String(st[key])===b.dataset.v);b.onclick=()=>{st[key]=isNaN(+b.dataset.v)?b.dataset.v:+b.dataset.v;seg(id,key);save();render()}})}
+function save(){store.set('radar.ui',st)}
+function t(s){return s?new Date(s):null}
+function ago(d){if(!d)return'date not shown';const h=(Date.now()-d)/36e5;if(h<1)return Math.max(1,Math.round(h*60))+'m ago';if(h<48)return Math.round(h)+'h ago';return Math.round(h/24)+'d ago'}
+function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function posted(j){return t(j.posted_at)||t(j.agg_posted_at)}
+function render(){
+  const now=Date.now(),q=st.q.toLowerCase();
+  let js=feed.jobs.filter(j=>{
+    if(st.type!=='all'&&j.type!==st.type)return false;
+    if(st.usonly&&!(j.region==='us'||j.region==='unknown'))return false;
+    if(j.score<st.minscore)return false;
+    const m=marks[j.id];if(m==='hide')return false;if(st.hideapplied&&m==='applied')return false;
+    if(st.age){const d=posted(j)||t(j.first_seen);if(!d||(now-d)/36e5>st.age)return false}
+    if(q&&!(j.company+' '+j.title+' '+j.location+' '+(j.term||'')).toLowerCase().includes(q))return false;
+    return true});
+  const key={posted:j=>+(posted(j)||t(j.first_seen)),seen:j=>+t(j.first_seen),score:j=>j.score*1e13+ +(posted(j)||t(j.first_seen))}[st.sort];
+  js.sort((a,b)=>key(b)-key(a));
+  $('#list').innerHTML=js.length?js.slice(0,600).map(j=>{
+    const p=posted(j),fresh=p&&(now-p)<864e5,m=marks[j.id];
+    const yc=j.yc?`<span class="badge">YC ${esc(j.yc)}</span>`:'';
+    const size=j.team_size?`<span class="badge">${esc(j.team_size)} ppl</span>`:'';
+    const lead=j.agg_lead_hours?`<span class="badge lead" title="Radar saw it before Simplify listed it">${j.agg_lead_hours}h before Simplify</span>`:'';
+    return `<div class="row ${m==='applied'?'applied':''}">
+      <div><div><span class="co">${esc(j.company)}</span>${j.type==='bigtech'?'<span class="badge big">Big tech</span>':''}${yc}${size}${j.is_new?'<span class="badge new">NEW</span>':''}</div>
+      <div class="title"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></div>
+      <div class="sub">${j.term?`<span>${esc(j.term)}</span>`:''}<span>${esc(j.location||'Location not shown')}</span>${j.pay?`<span>${esc(j.pay)}</span>`:''}${j.one_liner?`<span>${esc(j.one_liner)}</span>`:''}</div></div>
+      <div class="right"><div class="age ${fresh?'fresh':''}" title="${p?p.toLocaleString():''}">${ago(p)}</div>
+      <div class="meta">seen ${ago(t(j.first_seen))} · fit ${j.score}${lead}</div>
+      <div class="acts"><button data-id="${esc(j.id)}" data-m="applied">${m==='applied'?'Applied ✓':'Mark applied'}</button><button data-id="${esc(j.id)}" data-m="hide">Hide</button></div></div></div>`}).join(''):'<div class="empty">Nothing matches these filters.</div>';
+  $('#list').querySelectorAll('.acts button').forEach(b=>b.onclick=()=>{const id=b.dataset.id,v=b.dataset.m;marks[id]=marks[id]===v?undefined:v;store.set('radar.marks',marks);render()});
+  const s=feed.stats||{};
+  $('#meta').textContent=`${js.length} shown of ${feed.jobs.length} open roles · updated ${ago(t(feed.generated_at))} · ${s.boards_ok||0} boards checked`+(s.boards_failed?` (${s.boards_failed} unreachable)`:'');
+}
+function feedUrl(){const h=location.hostname;if(h.endsWith('github.io')){const user=h.split('.')[0],repo=location.pathname.split('/').filter(Boolean)[0]||(user+'.github.io');return `https://raw.githubusercontent.com/${user}/${repo}/main/data/jobs.json`}return '../data/jobs.json'}
+async function load(){try{const r=await fetch(feedUrl()+'?ts='+Date.now());feed=await r.json()}catch(e){$('#meta').textContent='Could not load jobs.json yet.'}render()}
+seg('#type','type');seg('#age','age');
+$('#sort').value=st.sort;$('#sort').onchange=e=>{st.sort=e.target.value;save();render()};
+$('#q').value=st.q;$('#q').oninput=e=>{st.q=e.target.value;save();render()};
+$('#usonly').checked=st.usonly;$('#usonly').onchange=e=>{st.usonly=e.target.checked;save();render()};
+$('#hideapplied').checked=st.hideapplied;$('#hideapplied').onchange=e=>{st.hideapplied=e.target.checked;save();render()};
+$('#minscore').value=st.minscore;$('#msv').textContent=st.minscore;$('#minscore').oninput=e=>{st.minscore=+e.target.value;$('#msv').textContent=st.minscore;save();render()};
+load();setInterval(load,120000);
+</script>
+</body>
+</html>

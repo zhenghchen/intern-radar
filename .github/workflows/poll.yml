@@ -1,0 +1,37 @@
+name: poll
+on:
+  schedule:
+    - cron: "*/5 * * * *"      # GitHub's fastest schedule; real gaps are often 5-15 min (see README for a faster trigger)
+  workflow_dispatch:
+  repository_dispatch:
+    types: [poll]
+concurrency:
+  group: poll
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Poll job boards
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          BOARD_URL: ${{ vars.BOARD_URL }}
+        run: python -m radar.main
+      - name: Save results
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add data/jobs.json data/state.json data/new_log.json
+          git diff --cached --quiet && exit 0
+          git commit -q -m "poll $(date -u +%FT%TZ)"
+          for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; sleep 5; done

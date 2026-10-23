@@ -1,0 +1,154 @@
+# Companies you care most about. Matches by company-name prefix (case-insensitive).
+# Watchlist jobs get a score bonus, a "Big tech" tag on the board, and high-priority alerts.
+watchlist:
+  - NVIDIA
+  - Google
+  - Meta
+  - Apple
+  - Amazon
+  - AWS
+  - Annapurna
+  - Microsoft
+  - Netflix
+  - Tesla
+  - SpaceX
+  - xAI
+  - OpenAI
+  - Anthropic
+  - Databricks
+  - Snowflake
+  - Stripe
+  - Datadog
+  - Cloudflare
+  - Salesforce
+  - Adobe
+  - Uber
+  - Airbnb
+  - LinkedIn
+  - Pinterest
+  - Coinbase
+  - Roblox
+  - Figma
+  - Notion
+  - Scale AI
+  - Palantir
+  - Verkada
+  - Samsara
+  - DoorDash
+  - Atlassian
+  - Rippling
+  - Ramp
+  - Plaid
+  - Robinhood
+  - Snap
+  - Intel
+  - AMD
+  - Qualcomm
+  - Cisco
+  - HP
+  - Western Digital
+  - Garmin
+  - Genentech
+  - Zipline
+  - Waymo
+  - Skydio
+  - MongoDB
+  - 1Password
+  - Lyft
+  - Twitch
+  - Discord
+  - Reddit
+  - Dropbox
+  - Instacart
+  - Anduril
+  - Applied Intuition
+  - Jane Street
+  - Citadel
+  - Hudson River Trading
+  - Two Sigma
+  - TikTok
+  - ByteDance
+
+# Boards polled every run in addition to everything auto-discovered (data/companies.json).
+# Use these for companies Simplify doesn't list (or lists under a custom careers domain).
+boards:
+  greenhouse:
+    stripe: Stripe
+    databricks: Databricks
+    coinbase: Coinbase
+    datadog: Datadog
+    airbnb: Airbnb
+    pinterest: Pinterest
+    roblox: Roblox
+    samsara: Samsara
+    waymo: Waymo
+    mongodb: MongoDB
+    lyft: Lyft
+    flyzipline: Zipline
+    anthropic: Anthropic
+    spacex: SpaceX
+    xai: xAI
+    scaleai: Scale AI
+    figma: Figma
+    verkada: Verkada
+    robinhood: Robinhood
+    doordashusa: DoorDash
+    cloudflare: Cloudflare
+    discord: Discord
+    reddit: Reddit
+    dropbox: Dropbox
+    instacart: Instacart
+    andurilindustries: Anduril
+  ashby:
+    openai: OpenAI
+    notion: Notion
+    ramp: Ramp
+    plaid: Plaid
+    snowflake: Snowflake
+    skydio: Skydio
+    1password: 1Password
+    dedalus-labs: Dedalus Labs
+    applied-intuition: Applied Intuition
+    cursor: Cursor
+    perplexity: Perplexity
+    replit: Replit
+    vercel: Vercel
+    supabase: Supabase
+    modal: Modal
+    linear: Linear
+    sierra: Sierra
+    decagon: Decagon
+    harvey: Harvey
+    cognition: Cognition
+    mercor: Mercor
+  lever:
+    palantir: Palantir
+  smartrecruiters:
+    LinkedIn3: LinkedIn
+    WesternDigital: Western Digital
+  workday:
+    # host | tenant | site | name   (pages: how many 20-row pages to read per query)
+    - [nvidia.wd5.myworkdayjobs.com, nvidia, NVIDIAExternalCareerSite, NVIDIA, 5]
+    - [salesforce.wd12.myworkdayjobs.com, salesforce, Futureforce_Internships, Salesforce, 3]
+    - [salesforce.wd12.myworkdayjobs.com, salesforce, External_Career_Site, Salesforce, 2]
+    - [adobe.wd5.myworkdayjobs.com, adobe, external_experienced, Adobe, 3]
+    - [intel.wd1.myworkdayjobs.com, intel, External, Intel, 3]
+    - [cisco.wd5.myworkdayjobs.com, cisco, Cisco_Careers, Cisco, 3]
+    - [hp.wd5.myworkdayjobs.com, hp, ExternalCareerSite, HP, 2]
+    - [roche.wd3.myworkdayjobs.com, roche, ROG-A2O-GENE, Genentech, 2]
+    - [wd1.myworkdaysite.com, snapchat, snapchat, Snap, 2]
+    - [netflix.wd1.myworkdayjobs.com, netflix, Netflix, Netflix, 1]
+
+# Custom big-tech endpoints (no public ATS). Turn any off with false.
+custom:
+  amazon: true
+  google: true
+  apple: true
+  microsoft: true
+  uber: true
+  eightfold:
+    - [explore.jobs.netflix.net, netflix.com, Netflix]
+    - [qualcomm.eightfold.ai, qualcomm.com, Qualcomm]
+
+# Aggregator lists (Simplify + others) as a backstop for companies with no API (Meta, Tesla, ...).
+aggregators: true
