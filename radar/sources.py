@@ -132,41 +132,43 @@ async def amazon(http):
     return out if ok else None
 
 
-async def eightfold(http, host, domain, name, query="intern"):
-    d = await http.get_json(f"https://{host}/api/apply/v2/jobs?domain={domain}&query={quote(query)}&num=100&sort_by=new")
-    if d is None:
-        return None
+def _eightfold_job(host, name, source, j):
+    url = j.get("canonicalPositionUrl") or j.get("positionUrl") or f"https://{host}/careers/job/{j.get('id')}"
+    if url.startswith("/"):
+        url = f"https://{host}" + url
+    locs = j.get("locations") or j.get("standardizedLocations") or [j.get("location") or ""]
+    return J(name, j.get("name") or j.get("posting_name"), "; ".join(map(str, locs)), url,
+             parse_time(j.get("postedTs") or j.get("t_create") or j.get("creationTs")), source)
+
+
+async def pcsx(http, host, domain, name, source, query="intern", max_pages=10):
+    """Eightfold's newer search API (Microsoft, Qualcomm). Returns 10 positions per page."""
     out = []
-    for j in d.get("positions", []):
-        url = j.get("canonicalPositionUrl") or f"https://{host}/careers/job/{j.get('id')}"
-        out.append(J(name, j.get("name") or j.get("posting_name"), "; ".join(j.get("locations") or [j.get("location") or ""]),
-                     url, parse_time(j.get("t_create")), "eightfold"))
+    for page in range(max_pages):
+        d = await http.get_json(f"https://{host}/api/pcsx/search?domain={domain}&query={quote(query)}"
+                                f"&location=United%20States&start={page * 10}&sort_by=timestamp")
+        if not isinstance(d, dict):
+            return None if page == 0 else out
+        dd = d.get("data") or d
+        pos = dd.get("positions") or []
+        out.extend(_eightfold_job(host, name, source, j) for j in pos)
+        if len(pos) < 10 or (page + 1) * 10 >= (dd.get("count") or 0):
+            break
     return out
 
 
+async def eightfold(http, host, domain, name, query="intern", source="eightfold"):
+    d = await http.get_json(f"https://{host}/api/apply/v2/jobs?domain={domain}&query={quote(query)}&num=100&sort_by=new")
+    if d is None:
+        return await pcsx(http, host, domain, name, source, query)  # tenants migrated off the v2 API
+    return [_eightfold_job(host, name, source, j) for j in d.get("positions", [])]
+
+
 async def microsoft(http):
-    urls = [
-        "https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=intern&location=United%20States&start=0&sort_by=timestamp",
-        "https://apply.careers.microsoft.com/api/apply/v2/jobs?domain=microsoft.com&query=intern&location=United%20States&num=100&sort_by=new",
-    ]
-    for u in urls:
-        d = await http.get_json(u)
-        if not d:
-            continue
-        pos = d.get("positions") or (d.get("data") or {}).get("positions") or []
-        if not pos:
-            continue
-        out = []
-        for j in pos:
-            pid = j.get("id")
-            url = j.get("canonicalPositionUrl") or j.get("positionUrl") or f"https://apply.careers.microsoft.com/careers/job/{pid}"
-            if url.startswith("/"):
-                url = "https://apply.careers.microsoft.com" + url
-            locs = j.get("locations") or j.get("standardizedLocations") or [j.get("location") or ""]
-            out.append(J("Microsoft", j.get("name") or j.get("posting_name"), "; ".join(map(str, locs)), url,
-                         parse_time(j.get("postedTs") or j.get("t_create") or j.get("creationTs")), "microsoft"))
+    out = await pcsx(http, "apply.careers.microsoft.com", "microsoft.com", "Microsoft", "microsoft")
+    if out:
         return out
-    return None
+    return await eightfold(http, "apply.careers.microsoft.com", "microsoft.com", "Microsoft", source="microsoft")
 
 
 async def google(http):
@@ -203,10 +205,14 @@ async def apple(http):
     if not tok:
         return None
     out = []
-    for page in (1, 2):
+    for page in (1, 2, 3):
+        # a text query of "intern" also matches "internal"; the Students > Internships team filter is exact
         r2 = await http.request("POST", "https://jobs.apple.com/api/v1/search",
-                                json={"query": "intern", "filters": {"locations": ["postLocation-USA"]}, "page": page,
-                                      "locale": "en-us", "sort": "newest"},
+                                json={"query": "", "filters": {"locations": ["postLocation-USA"],
+                                                               "teams": [{"team": "teamsAndSubTeams-STDNT", "subTeam": "subTeam-INTRN"}]},
+                                      "page": page, "locale": "en-us", "sort": "newest",
+                                      # without "format" the API silently returns zero results
+                                      "format": {"longDate": "MMMM D, YYYY", "mediumDate": "MMM D, YYYY"}},
                                 headers={"x-apple-csrf-token": tok, "Content-Type": "application/json",
                                          "Origin": "https://jobs.apple.com", "Referer": "https://jobs.apple.com/en-us/search"},
                                 cookies=r.cookies)
@@ -222,6 +228,8 @@ async def apple(http):
             locs = "; ".join([l.get("name", "") for l in (j.get("locations") or []) if isinstance(l, dict)])
             out.append(J("Apple", j.get("postingTitle"), locs or "United States",
                          f"https://jobs.apple.com/en-us/details/{pid}/{slug}", parse_time(j.get("postingDate") or j.get("postDateInGMT")), "apple"))
+        if len(res) < 20:
+            break
     return out or None
 
 

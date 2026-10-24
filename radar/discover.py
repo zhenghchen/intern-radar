@@ -24,8 +24,8 @@ PATS = {
     "lever": re.compile(r"jobs\.lever\.co/([^/?#]+)"),
     "lever_eu": re.compile(r"jobs\.eu\.lever\.co/([^/?#]+)"),
     "smartrecruiters": re.compile(r"jobs\.smartrecruiters\.com/([A-Za-z0-9_-]+)/"),
-    "workday": re.compile(r"https://([a-z0-9-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:[a-z]{2}-[A-Z]{2}/)?([A-Za-z0-9_-]+)/"),
-    "workday_site": re.compile(r"https://(wd\d+)\.myworkdaysite\.com/(?:[a-z]{2}-[A-Z]{2}/)?recruiting/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)"),
+    "workday": re.compile(r"https://([a-z0-9-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:[a-zA-Z]{2}-[a-zA-Z]{2}/)?([A-Za-z0-9_-]+)/"),
+    "workday_site": re.compile(r"https://(wd\d+)\.myworkdaysite\.com/(?:[a-zA-Z]{2}-[a-zA-Z]{2}/)?recruiting/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)"),
 }
 SKIP_SLUGS = {"embed", "job_app", "jobs", "careers"}
 

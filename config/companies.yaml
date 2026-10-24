@@ -136,8 +136,7 @@ boards:
     - [cisco.wd5.myworkdayjobs.com, cisco, Cisco_Careers, Cisco, 3]
     - [hp.wd5.myworkdayjobs.com, hp, ExternalCareerSite, HP, 2]
     - [roche.wd3.myworkdayjobs.com, roche, ROG-A2O-GENE, Genentech, 2]
-    - [wd1.myworkdaysite.com, snapchat, snapchat, Snap, 2]
-    - [netflix.wd1.myworkdayjobs.com, netflix, Netflix, Netflix, 1]
+    - [snapchat.wd1.myworkdayjobs.com, snapchat, snap, Snap, 2]
 
 # Custom big-tech endpoints (no public ATS). Turn any off with false.
 custom:
@@ -145,10 +144,10 @@ custom:
   google: true
   apple: true
   microsoft: true
-  uber: true
+  uber: false   # careers RPC (loadSearchJobsResults) was removed; Uber roles still arrive via the aggregator lists
   eightfold:
     - [explore.jobs.netflix.net, netflix.com, Netflix]
-    - [qualcomm.eightfold.ai, qualcomm.com, Qualcomm]
+    - [careers.qualcomm.com, qualcomm.com, Qualcomm]
 
 # Aggregator lists (Simplify + others) as a backstop for companies with no API (Meta, Tesla, ...).
 aggregators: true
