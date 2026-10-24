@@ -180,6 +180,14 @@ class Http:
         await self.client.aclose()
 
 
+LEGAL = re.compile(r"\b(inc|llc|ltd|corp|corporation|co|company|the|gmbh|plc|pbc)\b\.?", re.I)
+
+
+def company_key(name):
+    """Loose company identity for joining sources: 'Ramp, Inc.' and 'ramp' match."""
+    return re.sub(r"[^a-z0-9]+", "", LEGAL.sub("", (name or "").lower()))
+
+
 def slugify(s):
     return re.sub(r"[^a-z0-9]+", "-", (s or "").lower()).strip("-")
 

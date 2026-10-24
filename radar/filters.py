@@ -23,8 +23,10 @@ class Profile:
         self.score_title = [(re.compile(k, re.I), v) for k, v in (sc.get("title") or {}).items()]
         self.score_loc = [(re.compile(k, re.I), v) for k, v in (sc.get("location") or {}).items()]
         self.watch_bonus = sc.get("watchlist_bonus", 2)
+        self.ambiguous_penalty = sc.get("ambiguous_title_penalty", 2)
         self.alert_max_age_hours = cfg.get("alert_max_age_hours", 48)
-        self.alert_min_score = cfg.get("alert_min_score", 0)
+        self.alert_min_signal = cfg.get("alert_min_signal", 0)
+        self.alert_min_fit = cfg.get("alert_min_fit", 0)
 
     @staticmethod
     def _any(pats, s):
@@ -51,18 +53,16 @@ class Profile:
             return "canada" if ca else "non_us"
         return "unknown"
 
-    def is_tech(self, job, startup=False):
-        """Clear CS words always count; ambiguous ones ("Engineering Intern") need a CS category or a small startup."""
+    def tech_level(self, job, startup=False):
+        """'clear' for CS words; 'ambiguous' for "Engineering Intern"-style titles (kept, ranked lower);
+        None when there's no tech signal or the title names a non-CS discipline."""
         t = job["title"]
         if self._any(self.tech, t):
-            return True
+            return "clear"
         if not self._any(self.weak_tech, t) or self._any(self.non_cs, t):
-            return False
-        if job.get("category") in self.cs_categories:
-            return True
-        # at a small startup "Systems Engineer Intern" is almost always software (the non-CS check above
-        # already dropped "Harness Design Engineer" and friends)
-        return startup
+            return None
+        # a CS category on Simplify, or a small startup, makes "Systems Engineer Intern" almost surely software
+        return "clear" if job.get("category") in self.cs_categories or startup else "ambiguous"
 
     def evaluate(self, job, watchlist=False, startup=False):
         """Return (match: bool, score: int, region: str, reason: str)."""
@@ -71,7 +71,8 @@ class Profile:
             return False, 0, "", "not intern"
         if self._any(self.exclude, t):
             return False, 0, "", "excluded title"
-        if not self.is_tech(job, startup):
+        level = self.tech_level(job, startup)
+        if level is None:
             return False, 0, "", "not tech"
         degrees = job.get("degrees")
         if degrees and self.allowed_degrees and not self.allowed_degrees & set(degrees):
@@ -90,6 +91,8 @@ class Profile:
             s += self.watch_bonus
         if reg == "canada":
             s -= 2
+        if level == "ambiguous":
+            s -= self.ambiguous_penalty
         return True, s, reg, "ok"
 
 

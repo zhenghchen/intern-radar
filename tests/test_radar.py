@@ -131,9 +131,10 @@ def test_filters_cs_only():
     assert not ok("Roadway Engineering Intern - Summer 2027", known_intern=True)
     assert not ok("Structural Engineering Intern", category="Software")
     assert not ok("Quality Engineering Intern", startup=True)
-    # bare "Engineering Intern" needs a CS category or a small startup
-    assert not ok("Engineering Intern")
-    assert not ok("Engineering Intern", category="Hardware")
+    # bare "Engineering Intern" stays on the board but ranks lower, unless a CS category or small startup vouches for it
+    fit = lambda t, **kw: p.evaluate({"title": t, "location": "San Francisco, CA", **kw}, startup=kw.pop("startup", False))[1]
+    assert ok("Engineering Intern") and ok("Engineering Intern", category="Hardware")
+    assert fit("Engineering Intern") < fit("Engineering Intern", category="Software") == fit("Engineering Intern", startup=True)
     assert ok("Engineering Intern", category="Software")
     assert ok("Engineering Intern", startup=True)
     assert ok("Summer 2027 Engineering Internship/Co-op", startup=True)
@@ -232,10 +233,13 @@ def test_end_to_end_alert_logic(sandbox, monkeypatch):
     t = now_utc()
     job = lambda i, title, posted, src="ashby", co="Acme": S.J(co, title, "San Francisco, CA",
                                                                f"https://jobs.ashbyhq.com/acme/{i:08d}-0000-0000-0000-000000000000", posted, src)
+    json.dump({"vc_companies": {"acme": {"name": "Acme", "vcs": ["Sequoia"], "investors": ["Sequoia Capital"]}}},
+              open(sandbox / "data" / "companies.json", "w"))
     # run 1: bootstrap -> no alerts, board filled
-    monkeypatch.setattr(M, "build_tasks", fake_tasks({"ashby:acme": [job(1, "Software Engineer Intern", t - timedelta(days=30))]}))
+    monkeypatch.setattr(M, "build_tasks", fake_tasks({"ashby:acme": [job(1, "Software Engineer Intern", t - timedelta(days=30))],
+                                                      "ashby:plain": [job(9, "Software Engineer Intern", t - timedelta(days=9), co="Plain")]}))
     st = M.run_once(args)
-    assert st["matches"] == 1 and not sent
+    assert st["matches"] == 2 and not sent
     # run 2: a fresh posting on a known board -> alert; an old posting -> silent; a brand-new board's backlog -> silent
     monkeypatch.setattr(M, "build_tasks", fake_tasks({
         "ashby:acme": [job(1, "Software Engineer Intern", t - timedelta(days=30)),
@@ -243,11 +247,15 @@ def test_end_to_end_alert_logic(sandbox, monkeypatch):
                        job(3, "Infrastructure Software Intern", t - timedelta(days=20))],
         "ashby:newco": [job(4, "Software Engineer Intern", None, co="NewCo")],
         "ashby:broken": None,
+        # fresh role at a company with no notable backing: board only, no alert
+        "ashby:plain": [job(9, "Software Engineer Intern", t - timedelta(days=9), co="Plain"),
+                        job(10, "Backend Engineer Intern", t - timedelta(hours=1), co="Plain")],
     }))
     st = M.run_once(args)
-    assert [j["title"] for j in sent] == ["Backend Engineer Intern"]
+    assert [j["title"] for j in sent] == ["Backend Engineer Intern"] and sent[0]["company"] == "Acme"
+    assert sent[0]["backers"] == ["Sequoia Capital"] and sent[0]["signal"] == 3   # same fund under two names counts once
     feed = json.load(open(sandbox / "data" / "jobs.json"))
-    assert feed["stats"]["matches"] == 4 and [j["title"] for j in feed["jobs"] if j["company"] == "Acme"][0] == "Backend Engineer Intern"
+    assert feed["stats"]["matches"] == 6 and [j["title"] for j in feed["jobs"] if j["company"] == "Acme"][0] == "Backend Engineer Intern"
     # run 3: same data -> nothing new
     sent.clear()
     st = M.run_once(args)
@@ -265,3 +273,40 @@ def test_posted_date_keeps_earliest(sandbox, monkeypatch):
         M.run_once(args)
     feed = json.load(open(sandbox / "data" / "jobs.json"))
     assert feed["jobs"][0]["posted_at"] == iso(t - timedelta(hours=3))
+
+
+CONSIDER_JOBS = {"jobs": [{"companyName": "Cyera", "title": "Software Engineer Intern", "locations": ["New York, NY"],
+                           "applyUrl": "https://jobs.ashbyhq.com/cyera/0b6f6a8e-1111-2222-3333-444455556666", "companyStaffCount": 1776,
+                           "timeStamp": "2026-10-23T18:40:06Z"}], "meta": {"size": 50, "sequence": None}}
+GETRO_JOBS = {"results": {"count": 1, "jobs": [{"title": "Backend Engineering Intern", "url": "https://boards.greenhouse.io/varda/jobs/8041944003",
+                                                "created_at": 1792762370, "location_details": [{"name": "El Segundo, CA, USA"}],
+                                                "organization": {"name": "Varda Space Industries", "stage": "series_b"}}]}}
+A16Z_PAGE = ('<script>self.__next_f.push([1,' + json.dumps('x:["$","div",null,{"initialData":{"jobs":[{"title":"Software Engineering Intern",'
+             '"apply_url":"https://job-boards.greenhouse.io/arcboatcompany/jobs/5442881008","location":"Torrance, CA","company_name":"Arc",'
+             '"posted_at":"2026-10-02T21:56:54.000Z","funding_stage":{"label":"Growth"}}]}}]') + '])</script>')
+
+
+def test_vc_sources():
+    http = FakeHttp({"api-boards/search-jobs": CONSIDER_JOBS, "sequoiacap.com/jobs": 'x "csrfToken":"tok" x',
+                     "api.getro.com": GETRO_JOBS, "jobs.a16z.com": A16Z_PAGE})
+    c = run(S.consider(http, "jobs.sequoiacap.com", "sequoia-capital", "Sequoia Capital"))
+    assert c[0]["company"] == "Cyera" and c[0]["vcs"] == ["Sequoia Capital"] and c[0]["posted_at"] is None
+    g = run(S.getro(http, 222, "General Catalyst"))
+    assert g[0]["location"] == "El Segundo, CA, USA" and g[0]["posted_at"].year == 2026 and g[0]["stage"] == "series_b"
+    a = run(S.a16z(http))
+    assert len(a) == 1 and a[0]["company"] == "Arc" and a[0]["vcs"] == ["Andreessen Horowitz"]
+    assert run(S.consider(FakeHttp({}), "jobs.x.com", "x", "X")) is None
+
+
+def test_company_signal_and_type():
+    score = M.investor_scorer({"investors": {"sequoia|andreessen": 3, "y combinator|first round": 2, "sv angel": 1}, "watchlist": 4})
+    rec = lambda **kw: {"watchlist": False, "company": "Acme", "url": "https://jobs.ashbyhq.com/acme/1", **kw}
+    assert score(rec()) == (0, [])
+    assert score(rec(yc="S25")) == (2, ["Y Combinator"])
+    assert score(rec(vcs=["Sequoia Capital"], investors=["Sequoia Capital", "SV Angel"]))[0] == 3
+    assert score(rec(vcs=["Andreessen Horowitz"], investors=["First Round Capital"]))[0] == 4
+    assert score(rec(watchlist=True))[0] == 4
+    rules = {"max_open_roles": 60, "max_yc_team_size": 1000}
+    assert M.company_type(rec(backers=["Sequoia Capital"], team_size=300, open_roles=400), rules) == "startup"
+    assert M.company_type(rec(backers=["Sequoia Capital"], team_size=2877), rules) == "other"   # Verkada-sized
+    assert M.EXITED.search("Acquisition") and M.EXITED.search("Public") and not M.EXITED.search("Series B")

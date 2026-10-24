@@ -77,8 +77,8 @@ tech_patterns:
   - 'computer science|\bcs\b|linux|\bquant|game (?:dev|engineer|programm)|graphics|robotics|autonomy|autonomous|perception'
 
 # Ambiguous words ("Engineering Intern", "Systems Engineer"): they could be civil, mechanical, aerospace...
-# A title with only these counts when Simplify files the listing under a CS category below,
-# or the company is a small startup - and never when it names a non-CS discipline.
+# A title with only these still counts (ranked lower) unless it names a non-CS discipline.
+# It isn't ranked lower when Simplify files it under a CS category or the company is a small startup.
 weak_tech_patterns:
   - '\bengineer(?:s|ing)?\b|systems|infra|network|automation|tools|technology|technologist|r&d|research & development'
   - 'embedded|computer engineer|maps|\btest|platform|storage|application development'
@@ -110,22 +110,23 @@ us_patterns:
 canada_patterns:
   - 'canada|toronto|vancouver|waterloo|montreal|montréal|ottawa|calgary|markham|mississauga|\bon\b, ca|\bbc\b'
 
-# Ranking: +points when the title (or location) matches.
+# Role fit: +points when the title matches (backend/infra first, then SWE and AI). Location doesn't count:
+# anywhere in the US is fine. Titles that only passed on an ambiguous word ("Engineering Intern") get -2.
 score:
   title:
     'backend|back-end|infra|platform|distributed|systems|cloud|kernel|\bos\b|operating system|storage|database|reliability|\bsre\b|devops|kubernetes|\bgo\b|golang': 3
-    'software engineer|software development|\bswe\b|\bsde\b|developer|technical staff|product engineer|forward deployed': 2
+    'software engineer|software development|\bswe\b|\bsde\b|developer|technical staff|product engineer|forward deployed|founding engineer': 2
     'machine learning|\bml\b|\bai\b|llm|applied': 2
-    'full[- ]?stack|security': 1
+    'full[- ]?stack|security|data engineer|data scien|\bquant': 1
     'embedded|firmware|compiler|performance|gpu|cuda': 1
-  location:
-    'san francisco|\bsf\b|bay area|palo alto|mountain view|menlo park|sunnyvale|san jose|santa clara|cupertino|redwood city|san mateo|south san francisco|oakland|berkeley|fremont|los gatos': 2
-    'remote': 1
-    'seattle|bellevue|redmond|portland|oregon': 1
-  watchlist_bonus: 2
+  location: {}
+  watchlist_bonus: 0
+  ambiguous_title_penalty: 2
 
-# Alerts: only for postings whose posted date (or first-seen time, if the source gives none)
-# is at most this many hours old. Older postings still go on the board, silently.
+# Alerts go only to the best: big-tech watchlist roles, and roles at companies with at least
+# alert_min_signal (see signal in companies.yaml) whose role fit is at least alert_min_fit.
+# Only postings at most alert_max_age_hours old (by posted date, or first-seen if none) alert.
+# Everything else still goes on the board, silently.
 alert_max_age_hours: 48
-# Minimum score for a phone alert (0 = every match).
-alert_min_score: 0
+alert_min_signal: 3
+alert_min_fit: 2

@@ -42,6 +42,7 @@ main{padding:8px 16px 40px;max-width:1100px;margin:0 auto}
 .liner{color:var(--muted);font-size:12.5px}
 .coc .row{border-bottom:0;border-top:1px dashed var(--line);padding:9px 0 9px 12px}
 .badge.st{background:var(--accent-bg);color:var(--accent)}
+.badge.vc{background:var(--new-bg);color:var(--new)}
 .lnk{color:var(--accent);text-decoration:none}
 .lnk:hover{text-decoration:underline}
 .more,.ghost{border:0;background:none;color:var(--accent);font:inherit;font-size:12.5px;cursor:pointer;padding:4px 0 6px 12px}
@@ -60,18 +61,18 @@ main{padding:8px 16px 40px;max-width:1100px;margin:0 auto}
     <div class="seg" id="age">
       <button data-v="6">6h</button><button data-v="24">24h</button><button data-v="72">3d</button><button data-v="336">2w</button><button data-v="0" class="on">Any</button>
     </div>
-    <select id="sort"><option value="posted">Newest posted</option><option value="seen">First seen by radar</option><option value="score">Best fit</option></select>
+    <select id="sort"><option value="score">Best for me</option><option value="posted">Newest posted</option><option value="seen">First seen by radar</option></select>
     <input type="search" id="q" placeholder="Search company, title, location">
     <label class="tog"><input type="checkbox" id="usonly" checked> US / remote only</label>
     <label class="tog"><input type="checkbox" id="hideapplied"> Hide applied</label>
-    <label class="tog">Min fit <input type="range" id="minscore" min="0" max="10" value="0" style="width:80px"><span id="msv">0</span></label>
+    <label class="tog" title="Score = role fit + company signal">Min score <input type="range" id="minscore" min="0" max="12" value="0" style="width:80px"><span id="msv">0</span></label>
   </div>
 </header>
 <main id="list"></main>
 <script>
 const $=s=>document.querySelector(s);
 const store={get(k,d){try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
-let feed={jobs:[]},st=Object.assign({type:'all',age:0,sort:'posted',q:'',usonly:true,hideapplied:false,minscore:0},store.get('radar.ui',{}));
+let feed={jobs:[]},st=Object.assign({type:'all',age:0,sort:'score',q:'',usonly:true,hideapplied:false,minscore:0},store.get('radar.ui',{}));
 let marks=store.get('radar.marks',{}),muted=store.get('radar.muted',{}),open={};
 function seg(id,key){const el=$(id);el.querySelectorAll('button').forEach(b=>{b.classList.toggle('on',String(st[key])===b.dataset.v);b.onclick=()=>{st[key]=isNaN(+b.dataset.v)?b.dataset.v:+b.dataset.v;seg(id,key);save();render()}})}
 function save(){store.set('radar.ui',st)}
@@ -104,8 +105,10 @@ function render(){
     const j0=c.j0,roles=[...c.roles.values()],n=roles.length,show=open[ck]?roles:roles.slice(0,3);
     const yc=j0.yc?`<span class="badge">YC ${esc(j0.yc)}</span>`:'';
     const size=j0.team_size?`<span class="badge">${esc(j0.team_size)} ppl</span>`:'';
+    const stage=j0.stage?`<span class="badge">${esc(j0.stage)}</span>`:'';
+    const backers=(j0.backers||[]).filter(b=>!/^y combinator$/i.test(b)).slice(0,3).map(b=>`<span class="badge vc" title="Investor">${esc(b)}</span>`).join('');
     const kind=j0.type==='bigtech'?'<span class="badge big">Big tech</span>':j0.type==='startup'?'<span class="badge st">Startup</span>':'';
-    return `<div class="coc"><div class="coh"><div><span class="co">${esc(c.name)}</span>${kind}${yc}${size}<span class="badge">${n} role${n>1?'s':''}</span>
+    return `<div class="coc"><div class="coh"><div><span class="co">${esc(c.name)}</span>${kind}${yc}${backers}${stage}${size}<span class="badge">${n} role${n>1?'s':''}</span>
       ${j0.one_liner?`<div class="liner">${esc(j0.one_liner)}</div>`:''}</div>
       <button class="ghost" data-mute="${esc(ck)}" title="Hide every role from this company">Hide company</button></div>
       ${show.map(vs=>roleRow(vs,now)).join('')}
@@ -122,14 +125,14 @@ function roleRow(vs,now){
   const j=vs[0],ids=vs.map(v=>v.id),m=marks[j.id];
   const p=vs.map(posted).filter(Boolean).sort((a,b)=>b-a)[0],fresh=p&&(now-p)<864e5;
   const seen=vs.map(v=>t(v.first_seen)).filter(Boolean).sort((a,b)=>a-b)[0];
-  const lead=vs.find(v=>v.agg_lead_hours),fit=Math.max(...vs.map(v=>v.score));
+  const lead=vs.find(v=>v.agg_lead_hours),fit=Math.max(...vs.map(v=>v.fit??v.score)),sig=j.signal||0;
   const where=vs.length>1?vs.map(v=>`<a class="lnk" href="${esc(v.url)}" target="_blank" rel="noopener">${esc((v.location||'Location not shown').slice(0,70))}</a>`).join(' · ')
     :`<span>${esc(j.location||'Location not shown')}</span>`;
   return `<div class="row ${m==='applied'?'applied':''}">
     <div><div class="title"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>${vs.some(v=>v.is_new)?'<span class="badge new">NEW</span>':''}</div>
     <div class="sub">${j.term?`<span>${esc(j.term)}</span>`:''}${where}${j.pay?`<span>${esc(j.pay)}</span>`:''}</div></div>
     <div class="right"><div class="age ${fresh?'fresh':''}" title="${p?p.toLocaleString():''}">${j.posted_text?esc(j.posted_text.replace(/^posted /i,'')):ago(p)}</div>
-    <div class="meta">seen ${ago(seen)} · fit ${fit}${lead?`<span class="badge lead" title="Radar saw it before Simplify listed it">${lead.agg_lead_hours}h before Simplify</span>`:''}</div>
+    <div class="meta" title="Role fit (title match) + company signal (investors, YC, watchlist)">seen ${ago(seen)} · fit ${fit} · signal ${sig}${lead?`<span class="badge lead" title="Radar saw it before Simplify listed it">${lead.agg_lead_hours}h before Simplify</span>`:''}</div>
     <div class="acts"><button data-ids="${esc(ids.join(' '))}" data-m="applied">${m==='applied'?'Applied ✓':'Mark applied'}</button><button data-ids="${esc(ids.join(' '))}" data-m="hide">Hide</button></div></div></div>`}
 function feedUrl(){const h=location.hostname;if(h.endsWith('github.io')){const user=h.split('.')[0],repo=location.pathname.split('/').filter(Boolean)[0]||(user+'.github.io');return `https://raw.githubusercontent.com/${user}/${repo}/main/data/jobs.json`}return '../data/jobs.json'}
 async function load(){try{const r=await fetch(feedUrl()+'?ts='+Date.now());feed=await r.json()}catch(e){$('#meta').textContent='Could not load jobs.json yet.'}render()}

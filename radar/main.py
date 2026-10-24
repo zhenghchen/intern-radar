@@ -10,10 +10,11 @@ import yaml
 from . import sources as S
 from .filters import Profile, term_of
 from .notify import notify
-from .util import Http, path, load_json, save_json, now_utc, iso, parse_time, canonical_key, ts
+from .util import Http, path, load_json, save_json, now_utc, iso, parse_time, canonical_key, company_key, ts
 
-AGGREGATORS = {"simplify", "vanshb03"}
+AGGREGATORS = {"simplify", "vanshb03", "vc"}
 STARTUP_ATS = re.compile(r"ashbyhq\.com|greenhouse\.io|lever\.co|workable\.com|ats\.rippling\.com|ycombinator\.com|wellfound\.com|gem\.com|dover\.com|breezy\.hr|recruitee\.com|teamtailor\.com|bamboohr\.com", re.I)
+EXITED = re.compile(r"acqui|public|\bipo\b", re.I)
 CAMPUS_BOARD = re.compile(r"campus|university|early career|students|college", re.I)
 NOT_WATCH = re.compile(r"^(apple bank|snap finance|snap-on|western alliance|western union|hp hood|intelcom|meta(morphic|lenz))", re.I)
 
@@ -29,19 +30,46 @@ def watch_matcher(names):
     return is_watch
 
 
-def company_type(rec, rules):
+def company_type(rec, rules, max_team=2000):
     """bigtech (watchlist) / startup / other. Big companies use Ashby and Greenhouse too (Rivian, Robinhood),
-    so a startup ATS alone isn't enough: the board must also be small, or the company a small YC team."""
+    so a startup ATS alone isn't enough: the company must be VC- or YC-backed, or its board small."""
     if rec["watchlist"]:
         return "bigtech"
     if CAMPUS_BOARD.search(rec["company"]):  # a big company's separate intern board looks deceptively small
         return "other"
     if rec.get("yc") and (rec.get("team_size") or 0) <= rules.get("max_yc_team_size", 1000):
         return "startup"
+    if rec.get("backers") and (rec.get("team_size") or 0) <= max_team:
+        return "startup"
     roles = rec.get("open_roles")
     if roles and roles <= rules.get("max_open_roles", 80) and STARTUP_ATS.search(rec["url"]):
         return "startup"
     return "other"
+
+
+def investor_scorer(sig):
+    pats = [(re.compile(k, re.I), v) for k, v in (sig.get("investors") or {}).items()]
+
+    def weigh(name):
+        return max((v for p, v in pats if p.search(name)), default=0)
+
+    def score(rec):
+        """(signal, notable backers best-first). Best investor's weight, +1 for a second one weighing 2+."""
+        names, keys = [], []
+        for n in (rec.get("investors") or []) + (rec.get("vcs") or []) + (["Y Combinator"] if rec.get("yc") else []):
+            k = company_key(n)
+            if k and not any(k.startswith(o) or o.startswith(k) for o in keys):  # "Sequoia" == "Sequoia Capital"
+                names.append(n)
+                keys.append(k)
+        ranked = sorted(((weigh(n), n) for n in names), key=lambda x: -x[0])
+        ranked = [(w, n) for w, n in ranked if w > 0]
+        sig_ = ranked[0][0] if ranked else 0
+        if len(ranked) > 1 and ranked[1][0] >= 2:
+            sig_ += 1
+        if rec["watchlist"]:
+            sig_ = max(sig_, sig.get("watchlist", 4))
+        return sig_, [n for _, n in ranked][:4]
+    return score
 
 
 def build_tasks(http, cfg, db):
@@ -99,6 +127,13 @@ def build_tasks(http, cfg, db):
     if cfg.get("aggregators", True):
         for label, url in S.SIMPLIFY_FEEDS:
             add(f"agg:{label}", lambda l=label, u=url: S.simplify_feed(http, l, u))
+    vcb = cfg.get("vc_boards") or {}
+    for domain, board, vc in vcb.get("consider") or []:
+        add(f"vc:consider:{board}", lambda d=domain, b=board, v=vc: S.consider(http, d, b, v))
+    for network, vc in vcb.get("getro") or []:
+        add(f"vc:getro:{network}", lambda n=network, v=vc: S.getro(http, n, v))
+    if vcb.get("a16z"):
+        add("vc:a16z", lambda: S.a16z(http))
     return tasks
 
 
@@ -134,17 +169,27 @@ def run_once(args):
             prev_by_board.setdefault(b, []).append(j)
     is_watch = watch_matcher(cfg.get("watchlist") or [])
     bootstrap = not state["jobs"]
+    # VC boards change slowly and Getro pages are small; read them every `every_minutes`, carry them forward otherwise
+    vc_every = timedelta(minutes=(cfg.get("vc_boards") or {}).get("every_minutes", 30))
+    vc_due = (t0 - (parse_time(state.get("vc_last")) or t0 - vc_every)) >= vc_every - timedelta(minutes=1)
+    skipped = []
 
     async def go():
         http = Http(concurrency=args.concurrency, per_host=6)
         try:
             tasks = build_tasks(http, cfg, db)
+            if not vc_due:
+                skipped.extend(k for k in tasks if k.startswith("vc:"))
+                for k in skipped:
+                    del tasks[k]
             res = await fetch_all(tasks, args.limit_boards)
             return res, http.stats
         finally:
             await http.close()
     results, hstats = asyncio.run(go())
 
+    if vc_due and any(k.startswith("vc:") and v is not None for k, v in results.items()):
+        state["vc_last"] = iso(t0)
     ok_boards = [k for k, v in results.items() if v is not None]
     failed = [k for k, v in results.items() if v is None]
     new_boards = {k for k in results if not (state["boards"].get(k) or {}).get("last_ok")}
@@ -160,6 +205,8 @@ def run_once(args):
     merged = {}
     raw_count = 0
     small_max = (cfg.get("startup") or {}).get("max_open_roles", 60)
+    sig_cfg = cfg.get("signal") or {}
+    max_team = sig_cfg.get("max_team_size", 2000)
     for bkey, jobs in results.items():
         if not jobs:
             continue
@@ -171,7 +218,8 @@ def run_once(args):
             if not raw.get("url") or not raw.get("title"):
                 continue
             w = is_watch(raw["company"])
-            ok, score, region, _ = prof.evaluate(raw, watchlist=w, startup=small_startup)
+            vc_small = bool(raw.get("vcs")) and (raw.get("team_size") or 0) <= max_team
+            ok, score, region, _ = prof.evaluate(raw, watchlist=w, startup=small_startup or vc_small)
             if not ok:
                 continue
             key = canonical_key(raw["url"])
@@ -181,9 +229,9 @@ def run_once(args):
                 rec = merged[key] = {
                     "id": key, "company": raw["company"], "title": raw["title"], "location": raw["location"],
                     "region": region, "url": raw["url"], "posted_at": None, "agg_posted_at": None,
-                    "score": score, "watchlist": w, "term": term_of(raw["title"], raw.get("term")),
+                    "fit": score, "watchlist": w, "term": term_of(raw["title"], raw.get("term")),
                     "source": raw["source"], "sources": [], "boards": [], "pay": raw.get("pay"),
-                    "posted_text": raw.get("posted_text"),
+                    "posted_text": raw.get("posted_text"), "vcs": [],
                 }
             if bkey not in rec["boards"]:
                 rec["boards"].append(bkey)
@@ -195,23 +243,53 @@ def run_once(args):
                     rec["agg_posted_at"] = iso(p)
                 if rec.get("term") in ("", None) and raw.get("term"):
                     rec["term"] = raw["term"]
+                rec["fit"] = max(score, rec["fit"])
             else:
                 # direct source wins for identity fields and the posted date
                 rec.update({"company": raw["company"], "title": raw["title"], "location": raw["location"] or rec["location"],
-                            "url": raw["url"], "source": raw["source"], "region": region, "score": max(score, rec["score"])})
+                            "url": raw["url"], "source": raw["source"], "region": region, "fit": max(score, rec["fit"])})
                 if raw.get("pay"):
                     rec["pay"] = raw["pay"]
                 if p:
                     rec["posted_at"] = iso(p)
+            for v in raw.get("vcs") or []:
+                if v not in rec["vcs"]:
+                    rec["vcs"].append(v)
+            for mk in ("team_size", "stage"):
+                if raw.get(mk) and not rec.get(mk):
+                    rec[mk] = raw[mk]
             for mk in ("yc", "team_size", "one_liner"):
                 if meta.get(mk) and not rec.get(mk):
                     rec[mk] = meta[mk]
 
-    # keep jobs from boards that failed this run (avoid flapping)
-    for b in failed:
+    # keep jobs from boards that failed this run, or weren't due (avoid flapping)
+    for b in failed + skipped:
         for j in prev_by_board.get(b, []):
             if j["id"] not in merged:
                 merged[j["id"]] = j
+
+    # company facts (investors, stage, size, markets) from the VC company lists the discover job collects,
+    # then company signal, startup label and the overall score (role fit + company signal)
+    vc_cos = db.get("vc_companies") or {}
+    signal_of = investor_scorer(sig_cfg)
+    for rec in merged.values():
+        info = vc_cos.get(company_key(rec["company"])) or {}
+        rec["vcs"] = list(dict.fromkeys((rec.get("vcs") or []) + (info.get("vcs") or [])))
+        rec["investors"] = info.get("investors") or rec.get("investors") or []
+        for mk in ("stage", "team_size", "markets"):
+            if info.get(mk) and not rec.get(mk):
+                rec[mk] = info[mk]
+        rec["open_roles"] = max((state["boards"].get(b, {}).get("open_roles", 0) for b in rec["boards"]
+                                 if not b.startswith(("agg:", "vc:"))), default=0) or None
+        rec["fit"] = rec.get("fit", rec.get("score", 0))  # records carried over from before fit existed
+        rec["signal"], rec["backers"] = signal_of(rec)
+        if EXITED.search(str(rec.get("stage") or "")) and not rec["watchlist"]:
+            rec["signal"], rec["backers"] = 0, []  # acquired or public: old VC backing no longer means "strong startup"
+        rec["score"] = rec["fit"] + rec["signal"]
+        rec["type"] = company_type(rec, cfg.get("startup") or {}, max_team)
+
+    def best(rec):
+        return rec["watchlist"] or (rec["signal"] >= prof.alert_min_signal and rec["fit"] >= prof.alert_min_fit)
 
     # diff + alert decision
     new_jobs = []
@@ -224,7 +302,7 @@ def run_once(args):
             fresh = posted is None or (t0 - posted) <= max_age
             # a board polled for the first time shows its whole backlog; don't alert on that
             backlog = all(b in new_boards for b in rec["boards"])
-            if not bootstrap and fresh and not backlog and rec["score"] >= prof.alert_min_score:
+            if not bootstrap and fresh and not backlog and best(rec):
                 new_jobs.append(rec)
                 rec["is_new"] = True
                 st["alerted"] = iso(t0)
@@ -240,9 +318,6 @@ def run_once(args):
             lead = (parse_time(rec["agg_posted_at"]) - parse_time(rec["first_seen"])).total_seconds() / 3600
             if lead > 0.25:
                 rec["agg_lead_hours"] = round(lead, 1)
-        rec["open_roles"] = max((state["boards"].get(b, {}).get("open_roles", 0) for b in rec["boards"] if not b.startswith("agg:")),
-                                default=0) or None
-        rec["type"] = company_type(rec, cfg.get("startup") or {})
 
     # prune stale state
     cut = t0 - timedelta(days=60)
@@ -259,7 +334,8 @@ def run_once(args):
     save_json(path("data", "state.json"), state)
     log = load_json(path("data", "new_log.json"), [])
     for r in new_jobs:
-        log.insert(0, {k: r.get(k) for k in ("id", "company", "title", "term", "location", "url", "posted_at", "first_seen", "score", "type")})
+        log.insert(0, {k: r.get(k) for k in ("id", "company", "title", "term", "location", "url", "posted_at", "first_seen",
+                                             "score", "fit", "signal", "backers", "type")})
     save_json(path("data", "new_log.json"), log[:500], indent=1)
     print(f"[{ts()}] {stats}")
     bad = sorted(failed)[:25]

@@ -28,6 +28,9 @@ def line(j):
         bits.append(j["pay"])
     if j.get("yc"):
         bits.append(f"YC {j['yc']}")
+    backers = [b for b in (j.get("backers") or []) if b != "Y Combinator"][:2]
+    if backers:
+        bits.append(", ".join(backers))
     return " · ".join(b for b in bits if b)
 
 

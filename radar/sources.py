@@ -293,6 +293,100 @@ async def uber(http):
     return out
 
 
+# ---------------- VC portfolio job boards ----------------
+# Each lists every internship at a fund's portfolio companies, including ones on job sites
+# the radar can't read directly (Gem, Rippling, Comeet, custom careers pages).
+
+async def consider(http, domain, board, vc):
+    """Consider-hosted boards (Sequoia, Lightspeed, Kleiner, GV...). The API wants the page's CSRF token and cookie."""
+    r = await http.request("GET", f"https://{domain}/jobs")
+    tok = re.search(r'"csrfToken":"([^"]+)"', r.text) if r is not None and r.status_code == 200 else None
+    if not tok:
+        return None
+    out, meta = [], {"size": 50}
+    for page in range(20):
+        r2 = await http.request("POST", f"https://{domain}/api-boards/search-jobs",
+                                json={"meta": meta, "board": {"id": board, "isParent": True},
+                                      "query": {"internshipOnly": True}, "grouped": False},
+                                headers={"x-csrf-token": tok.group(1), "Accept": "application/json"}, cookies=r.cookies)
+        try:
+            d = r2.json() if r2 is not None and r2.status_code == 200 else None
+        except ValueError:
+            d = None
+        if d is None:
+            return out if page else None
+        jobs = d.get("jobs") or []
+        for j in jobs:
+            # timeStamp is when Consider last scraped the role, not when it was posted
+            out.append(J(j.get("companyName"), j.get("title"), "; ".join(j.get("locations") or []),
+                         j.get("applyUrl") or j.get("url"), None, "vc", vcs=[vc], team_size=j.get("companyStaffCount")))
+        seq = (d.get("meta") or {}).get("sequence")
+        if len(jobs) < 50 or not seq:
+            break
+        meta = {"size": 50, "sequence": seq}
+    return out
+
+
+async def getro(http, network, vc):
+    """Getro-hosted boards (General Catalyst, Accel, Khosla, Thrive...). 20 results per page."""
+    out = []
+    for page in range(40):
+        r = await http.request("POST", f"https://api.getro.com/api/v2/collections/{network}/search/jobs",
+                               json={"hitsPerPage": 20, "page": page, "filters": {"seniority": ["internship"]}, "query": ""},
+                               headers={"Accept": "application/json"})
+        try:
+            res = r.json().get("results") if r is not None and r.status_code == 200 else None
+        except ValueError:
+            res = None
+        if res is None:
+            return out if page else None
+        jobs = res.get("jobs") or []
+        for j in jobs:
+            org = j.get("organization") or {}
+            locs = [l.get("name") for l in (j.get("location_details") or []) if l.get("name")] or (j.get("searchable_locations") or [])[:1]
+            out.append(J(org.get("name"), j.get("title"), "; ".join(locs), j.get("url"), parse_time(j.get("created_at")), "vc",
+                         vcs=[vc], stage=org.get("stage")))
+        if len(jobs) < 20 or (page + 1) * 20 >= (res.get("count") or 0):
+            break
+    return out
+
+
+A16Z_QUERIES = ("software intern", "engineering intern", "backend intern", "infrastructure intern",
+                "machine learning intern", "data intern", "intern")
+
+
+def _a16z_jobs(text):
+    """jobs.a16z.com server-renders its search results inside the Next.js flight data."""
+    chunks = re.findall(r'self\.__next_f\.push\(\[1,"(.*?)(?<!\\)"\]\)', text, re.S)
+    try:
+        flight = json.loads('"' + "".join(chunks) + '"')
+        i = flight.find('{"initialData":')
+        obj = json.JSONDecoder().raw_decode(flight, i)[0] if i >= 0 else None
+    except ValueError:
+        return None
+    return None if obj is None else (obj.get("initialData") or {}).get("jobs") or []
+
+
+async def a16z(http):
+    """Only the first 25 results of a search are server-rendered, so run a few targeted searches."""
+    out, seen, ok = [], set(), False
+    for q in A16Z_QUERIES:
+        r = await http.request("GET", f"https://jobs.a16z.com/jobs?q={quote(q)}")
+        jobs = _a16z_jobs(r.text) if r is not None and r.status_code == 200 else None
+        if jobs is None:
+            continue
+        ok = True
+        for j in jobs:
+            url = j.get("apply_url")
+            if not url or url in seen:
+                continue
+            seen.add(url)
+            out.append(J(j.get("company_name"), j.get("title"), j.get("location") or "; ".join(j.get("locations") or []),
+                         url, parse_time(j.get("posted_at")), "vc", vcs=["Andreessen Horowitz"],
+                         stage=(j.get("funding_stage") or {}).get("label")))
+    return out if ok else None
+
+
 # ---------------- Aggregator backstops (Simplify-format GitHub lists) ----------------
 
 SIMPLIFY_FEEDS = [

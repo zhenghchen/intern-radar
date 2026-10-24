@@ -150,6 +150,63 @@ custom:
     - [explore.jobs.netflix.net, netflix.com, Netflix]
     - [careers.qualcomm.com, qualcomm.com, Qualcomm]
 
+# Companies you know are good. The daily discover job reports any that have no job board being polled
+# (data/coverage.json and the end of the discover log), so a gap shows up instead of going unnoticed.
+must_cover:
+  - Dedalus Labs
+  - SideShift
+
+# VC portfolio job boards: every internship at each fund's portfolio companies. Checked every
+# `every_minutes`; the daily discover job also reads their company lists (investors, stage, size).
+vc_boards:
+  every_minutes: 30
+  consider:   # [domain, board id, fund name]
+    - [jobs.sequoiacap.com, sequoia-capital, Sequoia Capital]
+    - [jobs.lsvp.com, lightspeed, Lightspeed]
+    - [jobs.kleinerperkins.com, kleiner-perkins, Kleiner Perkins]
+    - [jobs.gv.com, gv, GV]
+    - [jobs.felicis.com, felicis, Felicis]
+    - [jobs.bvp.com, bessemer-ventures, Bessemer Venture Partners]
+    - [jobs.firstround.com, first-round-capital, First Round Capital]
+    - [jobs.usv.com, union-square-ventures, Union Square Ventures]
+    - [careers.nea.com, nea, NEA]
+    - [jobs.crv.com, crv, CRV]
+    - [jobs.battery.com, battery-ventures, Battery Ventures]
+    - [jobs.initialized.com, initialized, Initialized Capital]
+    - [jobs.contrary.com, contrary, Contrary]
+    - [jobs.baincapitalventures.com, bain-ventures, Bain Capital Ventures]
+    - [jobs.costanoa.vc, costanoa-ventures, Costanoa Ventures]
+  getro:      # [network id, fund name]
+    - [222, General Catalyst]
+    - [8672, Accel]
+    - [257, Khosla Ventures]
+    - [2105, Thrive Capital]
+    - [246, Insight Partners]
+    - [103, Lux Capital]
+    - [1005, 8VC]
+    - [340, Craft Ventures]
+    - [767, Menlo Ventures]
+    - [151, Madrona Venture Group]
+    - [880, SV Angel]
+    - [764, Notable Capital]
+    - [514, DCVC]
+    - [1124, Primary Venture Partners]
+    - [247, Uncork Capital]
+    - [307, NFX]
+    - [120, Lerer Hippeau]
+    - [1636, Fifth Wall]
+  a16z: true
+
+# Company signal: how strong a company's backing is. The best-known investor's weight counts,
+# +1 when a second investor weighs 2 or more. Names match case-insensitively anywhere in an investor's name.
+signal:
+  investors:
+    'sequoia|andreessen|a16z|benchmark|founders fund|accel|greylock|kleiner|lightspeed|index ventures|general catalyst|khosla|thrive': 3
+    'y combinator|\bgv\b|google ventures|bessemer|first round|union square|\busv\b|\bnea\b|new enterprise|insight partners|\blux\b|8vc|felicis|\bcrv\b|menlo|craft|coatue|conviction|elad gil|initialized|battery|dcvc|notable|bain capital ventures|spark capital|\bivp\b|redpoint|ribbit|paradigm|tiger global|iconiq|greenoaks|abstract ventures': 2
+    'sv angel|contrary|nfx|primary|uncork|lerer|fifth wall|costanoa|madrona|south park commons|pear|soma|boxgroup|neo\b': 1
+  watchlist: 4      # big-tech watchlist companies
+  max_team_size: 2000   # bigger VC-backed companies count as "other", not "startup"
+
 # What counts as a startup on the board. Companies on startup job sites (Ashby, Greenhouse, Lever...)
 # count only if their board is small; YC companies count up to a team size.
 startup:
