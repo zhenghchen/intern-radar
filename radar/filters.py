@@ -5,11 +5,6 @@ import yaml
 from .util import path
 
 
-FILLER = re.compile(r"\b(?:intern(?:ship)?s?|co-?op|student|university|new grad|early career|program|summer|fall|winter|spring|"
-                    r"20\d\d|\d{4}|the|and|for)\b|[^a-z0-9 ]", re.I)
-GENERIC_ENG = re.compile(r"(?:(?:founding|general(?:ist)?|technical)\s+)?engineer(?:ing|s)?(?:\s+generalist)?", re.I)
-
-
 class Profile:
     def __init__(self, cfg_path=None):
         cfg = yaml.safe_load(open(cfg_path or path("config", "profile.yaml")))
@@ -57,7 +52,7 @@ class Profile:
         return "unknown"
 
     def is_tech(self, job, startup=False):
-        """Clear CS words always count; ambiguous ones ("Engineering Intern") need a CS category or a YC startup."""
+        """Clear CS words always count; ambiguous ones ("Engineering Intern") need a CS category or a small startup."""
         t = job["title"]
         if self._any(self.tech, t):
             return True
@@ -65,8 +60,9 @@ class Profile:
             return False
         if job.get("category") in self.cs_categories:
             return True
-        # at a YC startup a bare "Engineering Intern" is almost always software; "Harness Design Engineer" isn't
-        return startup and GENERIC_ENG.fullmatch(FILLER.sub(" ", t).strip()) is not None
+        # at a small startup "Systems Engineer Intern" is almost always software (the non-CS check above
+        # already dropped "Harness Design Engineer" and friends)
+        return startup
 
     def evaluate(self, job, watchlist=False, startup=False):
         """Return (match: bool, score: int, region: str, reason: str)."""

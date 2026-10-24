@@ -110,6 +110,7 @@ boards:
     dedalus-labs: Dedalus Labs
     applied-intuition: Applied Intuition
     cursor: Cursor
+    sideshift: SideShift
     perplexity: Perplexity
     replit: Replit
     vercel: Vercel

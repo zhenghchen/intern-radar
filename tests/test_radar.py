@@ -131,12 +131,14 @@ def test_filters_cs_only():
     assert not ok("Roadway Engineering Intern - Summer 2027", known_intern=True)
     assert not ok("Structural Engineering Intern", category="Software")
     assert not ok("Quality Engineering Intern", startup=True)
-    # bare "Engineering Intern" needs a CS category or a YC startup
+    # bare "Engineering Intern" needs a CS category or a small startup
     assert not ok("Engineering Intern")
     assert not ok("Engineering Intern", category="Hardware")
     assert ok("Engineering Intern", category="Software")
     assert ok("Engineering Intern", startup=True)
     assert ok("Summer 2027 Engineering Internship/Co-op", startup=True)
+    assert ok("Systems Engineer Intern", startup=True)            # Dedalus Labs
+    assert ok("Infrastructure Engineer Intern", startup=True)
     assert not ok("Harness Design Engineer Intern (Winter 2027)", startup=True)
     assert ok("Systems Engineer Intern", category="AI/ML/Data")
     # clear CS words count anywhere

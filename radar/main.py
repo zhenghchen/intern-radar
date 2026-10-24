@@ -159,16 +159,19 @@ def run_once(args):
 
     merged = {}
     raw_count = 0
+    small_max = (cfg.get("startup") or {}).get("max_open_roles", 60)
     for bkey, jobs in results.items():
         if not jobs:
             continue
         meta = board_meta(db, bkey)
+        small_startup = bool(meta.get("yc")) or (bkey.split(":")[0] in ("ashby", "greenhouse", "lever", "lever_eu")
+                                                 and len(jobs) <= small_max)
         for raw in jobs:
             raw_count += 1
             if not raw.get("url") or not raw.get("title"):
                 continue
             w = is_watch(raw["company"])
-            ok, score, region, _ = prof.evaluate(raw, watchlist=w, startup=bool(meta.get("yc")))
+            ok, score, region, _ = prof.evaluate(raw, watchlist=w, startup=small_startup)
             if not ok:
                 continue
             key = canonical_key(raw["url"])

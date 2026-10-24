@@ -78,7 +78,7 @@ tech_patterns:
 
 # Ambiguous words ("Engineering Intern", "Systems Engineer"): they could be civil, mechanical, aerospace...
 # A title with only these counts when Simplify files the listing under a CS category below,
-# or the company is a YC startup - and never when it names a non-CS discipline.
+# or the company is a small startup - and never when it names a non-CS discipline.
 weak_tech_patterns:
   - '\bengineer(?:s|ing)?\b|systems|infra|network|automation|tools|technology|technologist|r&d|research & development'
   - 'embedded|computer engineer|maps|\btest|platform|storage|application development'
@@ -87,6 +87,7 @@ non_cs_patterns:
   - 'structural|roadway|traffic|drainage|bridge|geotech|transportation|hvac|plumbing|mining|petroleum|pipeline|water'
   - 'industrial|quality|packaging|\bcad\b|mechatronic|controls? engineer|avionics|aerospace|propulsion|manufactur|materials|metallurg'
   - 'electronics|power systems|substation|utility|energy|nuclear|biomedical|medical device|optical|photonic|thermal|fluids|test technician'
+  - 'harness|radiation|antenna|structures|composites|machinist|technician|assembly|integration (?:and|&) test|\bi&t\b|\bgnc\b|design engineer'
 
 # Simplify (and Google) list the degrees a posting accepts. When they do, one of these must be among them.
 allowed_degrees: ["Bachelor's", "Associate's"]
