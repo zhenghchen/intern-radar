@@ -109,7 +109,7 @@ def test_filters():
     p = Profile()
     ok = lambda t, l="San Francisco, CA", **kw: p.evaluate({"title": t, "location": l, **kw})[0]
     assert ok("Software Engineer Intern")
-    assert ok("Systems Engineer", employment_type="Intern")
+    assert ok("Systems Software Engineer", employment_type="Intern")
     assert ok("Backend Engineer Co-op - Winter 2027", "Remote - US")
     assert not ok("Software Engineer Intern", "London, UK")
     assert not ok("PhD Research Scientist Intern")
@@ -122,6 +122,40 @@ def test_filters():
     s_infra = p.evaluate({"title": "Infrastructure Software Engineer Intern", "location": "San Francisco"})[1]
     s_plain = p.evaluate({"title": "Software Engineer Intern", "location": "Chicago, IL"})[1]
     assert s_infra > s_plain
+
+
+def test_filters_cs_only():
+    p = Profile()
+    ok = lambda t, **kw: p.evaluate({"title": t, "location": "San Francisco, CA", **kw}, startup=kw.pop("startup", False))[0]
+    # non-CS engineering never counts, even with a CS-sounding category or at a YC startup
+    assert not ok("Roadway Engineering Intern - Summer 2027", known_intern=True)
+    assert not ok("Structural Engineering Intern", category="Software")
+    assert not ok("Quality Engineering Intern", startup=True)
+    # bare "Engineering Intern" needs a CS category or a YC startup
+    assert not ok("Engineering Intern")
+    assert not ok("Engineering Intern", category="Hardware")
+    assert ok("Engineering Intern", category="Software")
+    assert ok("Engineering Intern", startup=True)
+    assert ok("Summer 2027 Engineering Internship/Co-op", startup=True)
+    assert not ok("Harness Design Engineer Intern (Winter 2027)", startup=True)
+    assert ok("Systems Engineer Intern", category="AI/ML/Data")
+    # clear CS words count anywhere
+    assert ok("Software Engineering Intern - Embedded Platforms")
+    assert ok("Data Science Intern")
+    assert ok("Quantitative Developer Intern")
+
+
+def test_company_type():
+    rules = {"max_open_roles": 80, "max_yc_team_size": 1000}
+    rec = lambda **kw: {"watchlist": False, "company": "Acme", "url": "https://jobs.ashbyhq.com/x/1", **kw}
+    assert M.company_type(rec(watchlist=True, open_roles=900), rules) == "bigtech"
+    assert M.company_type(rec(open_roles=25), rules) == "startup"
+    assert M.company_type(rec(open_roles=600), rules) == "other"      # e.g. Rivian on Ashby
+    assert M.company_type(rec(open_roles=None), rules) == "other"     # only seen via an aggregator
+    assert M.company_type(rec(yc="W24", team_size=40, open_roles=300), rules) == "startup"
+    assert M.company_type(rec(yc="W09", team_size=6000, open_roles=300), rules) == "other"
+    assert M.company_type(rec(open_roles=10, url="https://acme.wd1.myworkdayjobs.com/x"), rules) == "other"
+    assert M.company_type(rec(open_roles=12, company="Klaviyo Campus"), rules) == "other"
 
 
 def test_relative_posted():
@@ -167,7 +201,7 @@ def test_end_to_end_alert_logic(sandbox, monkeypatch):
     monkeypatch.setattr(M, "build_tasks", fake_tasks({
         "ashby:acme": [job(1, "Software Engineer Intern", t - timedelta(days=30)),
                        job(2, "Backend Engineer Intern", t - timedelta(hours=1)),
-                       job(3, "Infra Intern", t - timedelta(days=20))],
+                       job(3, "Infrastructure Software Intern", t - timedelta(days=20))],
         "ashby:newco": [job(4, "Software Engineer Intern", None, co="NewCo")],
         "ashby:broken": None,
     }))

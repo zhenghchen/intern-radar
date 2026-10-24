@@ -274,5 +274,5 @@ async def simplify_feed(http, label, url):
         terms = ", ".join(tl)
         out.append(J(j.get("company_name"), j.get("title"), "; ".join(j.get("locations") or []), j.get("url"),
                      parse_time(j.get("date_posted")), label, term=terms or None, known_intern=True,
-                     degrees=j.get("degrees"), sponsorship=j.get("sponsorship")))
+                     degrees=j.get("degrees"), sponsorship=j.get("sponsorship"), category=j.get("category")))
     return out

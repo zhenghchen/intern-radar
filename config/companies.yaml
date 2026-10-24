@@ -149,5 +149,11 @@ custom:
     - [explore.jobs.netflix.net, netflix.com, Netflix]
     - [careers.qualcomm.com, qualcomm.com, Qualcomm]
 
+# What counts as a startup on the board. Companies on startup job sites (Ashby, Greenhouse, Lever...)
+# count only if their board is small; YC companies count up to a team size.
+startup:
+  max_open_roles: 60        # all open roles on the company's board, interns and full-time
+  max_yc_team_size: 1000
+
 # Aggregator lists (Simplify + others) as a backstop for companies with no API (Meta, Tesla, ...).
 aggregators: true

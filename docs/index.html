@@ -36,6 +36,16 @@ main{padding:8px 16px 40px;max-width:1100px;margin:0 auto}
 .acts{margin-top:4px;display:flex;gap:6px;justify-content:flex-end}
 .acts button{border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:6px;font-size:12px;padding:2px 8px;cursor:pointer}
 .empty{color:var(--muted);padding:40px 0;text-align:center}
+.coc{border-bottom:1px solid var(--line);padding:6px 0 4px}
+.coh{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:10px 0 2px}
+.coh .co{font-size:15px}
+.liner{color:var(--muted);font-size:12.5px}
+.coc .row{border-bottom:0;border-top:1px dashed var(--line);padding:9px 0 9px 12px}
+.badge.st{background:var(--accent-bg);color:var(--accent)}
+.lnk{color:var(--accent);text-decoration:none}
+.lnk:hover{text-decoration:underline}
+.more,.ghost{border:0;background:none;color:var(--accent);font:inherit;font-size:12.5px;cursor:pointer;padding:4px 0 6px 12px}
+.ghost{color:var(--muted);padding:0;white-space:nowrap}
 @media (max-width:640px){header{position:static}.row{grid-template-columns:1fr}.right{text-align:left}.acts{justify-content:flex-start}}
 </style>
 </head>
@@ -62,41 +72,65 @@ main{padding:8px 16px 40px;max-width:1100px;margin:0 auto}
 const $=s=>document.querySelector(s);
 const store={get(k,d){try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
 let feed={jobs:[]},st=Object.assign({type:'all',age:0,sort:'posted',q:'',usonly:true,hideapplied:false,minscore:0},store.get('radar.ui',{}));
-let marks=store.get('radar.marks',{});
+let marks=store.get('radar.marks',{}),muted=store.get('radar.muted',{}),open={};
 function seg(id,key){const el=$(id);el.querySelectorAll('button').forEach(b=>{b.classList.toggle('on',String(st[key])===b.dataset.v);b.onclick=()=>{st[key]=isNaN(+b.dataset.v)?b.dataset.v:+b.dataset.v;seg(id,key);save();render()}})}
 function save(){store.set('radar.ui',st)}
 function t(s){return s?new Date(s):null}
 function ago(d){if(!d)return'date not shown';const h=(Date.now()-d)/36e5;if(h<1)return Math.max(1,Math.round(h*60))+'m ago';if(h<48)return Math.round(h)+'h ago';return Math.round(h/24)+'d ago'}
 function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 function posted(j){return t(j.posted_at)||t(j.agg_posted_at)}
+function cokey(j){return (j.company||'').trim().toLowerCase()}
 function render(){
   const now=Date.now(),q=st.q.toLowerCase();
   let js=feed.jobs.filter(j=>{
     if(st.type!=='all'&&j.type!==st.type)return false;
     if(st.usonly&&!(j.region==='us'||j.region==='unknown'))return false;
     if(j.score<st.minscore)return false;
+    if(muted[cokey(j)])return false;
     const m=marks[j.id];if(m==='hide')return false;if(st.hideapplied&&m==='applied')return false;
     if(st.age){const d=posted(j)||t(j.first_seen);if(!d||(now-d)/36e5>st.age)return false}
     if(q&&!(j.company+' '+j.title+' '+j.location+' '+(j.term||'')).toLowerCase().includes(q))return false;
     return true});
   const key={posted:j=>+(posted(j)||t(j.first_seen)),seen:j=>+t(j.first_seen),score:j=>j.score*1e13+ +(posted(j)||t(j.first_seen))}[st.sort];
   js.sort((a,b)=>key(b)-key(a));
-  $('#list').innerHTML=js.length?js.slice(0,600).map(j=>{
-    const p=posted(j),fresh=p&&(now-p)<864e5,m=marks[j.id];
-    const yc=j.yc?`<span class="badge">YC ${esc(j.yc)}</span>`:'';
-    const size=j.team_size?`<span class="badge">${esc(j.team_size)} ppl</span>`:'';
-    const lead=j.agg_lead_hours?`<span class="badge lead" title="Radar saw it before Simplify listed it">${j.agg_lead_hours}h before Simplify</span>`:'';
-    return `<div class="row ${m==='applied'?'applied':''}">
-      <div><div><span class="co">${esc(j.company)}</span>${j.type==='bigtech'?'<span class="badge big">Big tech</span>':''}${yc}${size}${j.is_new?'<span class="badge new">NEW</span>':''}</div>
-      <div class="title"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></div>
-      <div class="sub">${j.term?`<span>${esc(j.term)}</span>`:''}<span>${esc(j.location||'Location not shown')}</span>${j.pay?`<span>${esc(j.pay)}</span>`:''}${j.one_liner?`<span>${esc(j.one_liner)}</span>`:''}</div></div>
-      <div class="right"><div class="age ${fresh?'fresh':''}" title="${p?p.toLocaleString():''}">${ago(p)}</div>
-      <div class="meta">seen ${ago(t(j.first_seen))} · fit ${j.score}${lead}</div>
-      <div class="acts"><button data-id="${esc(j.id)}" data-m="applied">${m==='applied'?'Applied ✓':'Mark applied'}</button><button data-id="${esc(j.id)}" data-m="hide">Hide</button></div></div></div>`}).join(''):'<div class="empty">Nothing matches these filters.</div>';
-  $('#list').querySelectorAll('.acts button').forEach(b=>b.onclick=()=>{const id=b.dataset.id,v=b.dataset.m;marks[id]=marks[id]===v?undefined:v;store.set('radar.marks',marks);render()});
-  const s=feed.stats||{};
-  $('#meta').textContent=`${js.length} shown of ${feed.jobs.length} open roles · updated ${ago(t(feed.generated_at))} · ${s.boards_ok||0} boards checked`+(s.boards_failed?` (${s.boards_failed} unreachable)`:'');
+  // one card per company; the same title posted for several locations becomes one role with a link per location
+  const cos=new Map();
+  for(const j of js){
+    const ck=cokey(j);if(!cos.has(ck))cos.set(ck,{name:(j.company||'').trim(),j0:j,roles:new Map()});
+    const c=cos.get(ck),rk=j.title.trim().toLowerCase()+'|'+(j.term||'');
+    if(!c.roles.has(rk))c.roles.set(rk,[]);c.roles.get(rk).push(j)}
+  const list=[...cos.entries()].slice(0,300);
+  $('#list').innerHTML=list.length?list.map(([ck,c])=>{
+    const j0=c.j0,roles=[...c.roles.values()],n=roles.length,show=open[ck]?roles:roles.slice(0,3);
+    const yc=j0.yc?`<span class="badge">YC ${esc(j0.yc)}</span>`:'';
+    const size=j0.team_size?`<span class="badge">${esc(j0.team_size)} ppl</span>`:'';
+    const kind=j0.type==='bigtech'?'<span class="badge big">Big tech</span>':j0.type==='startup'?'<span class="badge st">Startup</span>':'';
+    return `<div class="coc"><div class="coh"><div><span class="co">${esc(c.name)}</span>${kind}${yc}${size}<span class="badge">${n} role${n>1?'s':''}</span>
+      ${j0.one_liner?`<div class="liner">${esc(j0.one_liner)}</div>`:''}</div>
+      <button class="ghost" data-mute="${esc(ck)}" title="Hide every role from this company">Hide company</button></div>
+      ${show.map(vs=>roleRow(vs,now)).join('')}
+      ${n>3?`<button class="more" data-open="${esc(ck)}">${open[ck]?'Show fewer':`Show ${n-3} more role${n-3>1?'s':''}`}</button>`:''}</div>`}).join(''):'<div class="empty">Nothing matches these filters.</div>';
+  $('#list').querySelectorAll('.acts button').forEach(b=>b.onclick=()=>{const v=b.dataset.m,ids=b.dataset.ids.split(' '),on=marks[ids[0]]===v;ids.forEach(id=>marks[id]=on?undefined:v);store.set('radar.marks',marks);render()});
+  $('#list').querySelectorAll('[data-mute]').forEach(b=>b.onclick=()=>{muted[b.dataset.mute]=1;store.set('radar.muted',muted);render()});
+  $('#list').querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>{open[b.dataset.open]=!open[b.dataset.open];render()});
+  const s=feed.stats||{},nm=Object.keys(muted).length;
+  $('#meta').innerHTML=esc(`${js.length} roles at ${cos.size} companies shown of ${feed.jobs.length} open roles · updated ${ago(t(feed.generated_at))} · ${s.boards_ok||0} boards checked`+(s.boards_failed?` (${s.boards_failed} unreachable)`:''))+
+    (nm?` · ${nm} hidden compan${nm>1?'ies':'y'} <button class="ghost" id="unmute">show again</button>`:'');
+  if(nm)$('#unmute').onclick=()=>{muted={};store.set('radar.muted',muted);render()};
 }
+function roleRow(vs,now){
+  const j=vs[0],ids=vs.map(v=>v.id),m=marks[j.id];
+  const p=vs.map(posted).filter(Boolean).sort((a,b)=>b-a)[0],fresh=p&&(now-p)<864e5;
+  const seen=vs.map(v=>t(v.first_seen)).filter(Boolean).sort((a,b)=>a-b)[0];
+  const lead=vs.find(v=>v.agg_lead_hours),fit=Math.max(...vs.map(v=>v.score));
+  const where=vs.length>1?vs.map(v=>`<a class="lnk" href="${esc(v.url)}" target="_blank" rel="noopener">${esc((v.location||'Location not shown').slice(0,70))}</a>`).join(' · ')
+    :`<span>${esc(j.location||'Location not shown')}</span>`;
+  return `<div class="row ${m==='applied'?'applied':''}">
+    <div><div class="title"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>${vs.some(v=>v.is_new)?'<span class="badge new">NEW</span>':''}</div>
+    <div class="sub">${j.term?`<span>${esc(j.term)}</span>`:''}${where}${j.pay?`<span>${esc(j.pay)}</span>`:''}</div></div>
+    <div class="right"><div class="age ${fresh?'fresh':''}" title="${p?p.toLocaleString():''}">${ago(p)}</div>
+    <div class="meta">seen ${ago(seen)} · fit ${fit}${lead?`<span class="badge lead" title="Radar saw it before Simplify listed it">${lead.agg_lead_hours}h before Simplify</span>`:''}</div>
+    <div class="acts"><button data-ids="${esc(ids.join(' '))}" data-m="applied">${m==='applied'?'Applied ✓':'Mark applied'}</button><button data-ids="${esc(ids.join(' '))}" data-m="hide">Hide</button></div></div></div>`}
 function feedUrl(){const h=location.hostname;if(h.endsWith('github.io')){const user=h.split('.')[0],repo=location.pathname.split('/').filter(Boolean)[0]||(user+'.github.io');return `https://raw.githubusercontent.com/${user}/${repo}/main/data/jobs.json`}return '../data/jobs.json'}
 async function load(){try{const r=await fetch(feedUrl()+'?ts='+Date.now());feed=await r.json()}catch(e){$('#meta').textContent='Could not load jobs.json yet.'}render()}
 seg('#type','type');seg('#age','age');

@@ -5,6 +5,11 @@ import yaml
 from .util import path
 
 
+FILLER = re.compile(r"\b(?:intern(?:ship)?s?|co-?op|student|university|new grad|early career|program|summer|fall|winter|spring|"
+                    r"20\d\d|\d{4}|the|and|for)\b|[^a-z0-9 ]", re.I)
+GENERIC_ENG = re.compile(r"(?:(?:founding|general(?:ist)?|technical)\s+)?engineer(?:ing|s)?(?:\s+generalist)?", re.I)
+
+
 class Profile:
     def __init__(self, cfg_path=None):
         cfg = yaml.safe_load(open(cfg_path or path("config", "profile.yaml")))
@@ -12,6 +17,9 @@ class Profile:
         self.intern = c(cfg["intern_patterns"])
         self.exclude = c(cfg["exclude_title_patterns"])
         self.tech = c(cfg["tech_patterns"])
+        self.weak_tech = c(cfg.get("weak_tech_patterns") or [])
+        self.non_cs = c(cfg.get("non_cs_patterns") or [])
+        self.cs_categories = set(cfg.get("cs_categories") or [])
         self.non_us = c(cfg["non_us_patterns"])
         self.us = c(cfg["us_patterns"])
         self.canada = c(cfg["canada_patterns"])
@@ -47,14 +55,26 @@ class Profile:
             return "canada" if ca else "non_us"
         return "unknown"
 
-    def evaluate(self, job, watchlist=False):
+    def is_tech(self, job, startup=False):
+        """Clear CS words always count; ambiguous ones ("Engineering Intern") need a CS category or a YC startup."""
+        t = job["title"]
+        if self._any(self.tech, t):
+            return True
+        if not self._any(self.weak_tech, t) or self._any(self.non_cs, t):
+            return False
+        if job.get("category") in self.cs_categories:
+            return True
+        # at a YC startup a bare "Engineering Intern" is almost always software; "Harness Design Engineer" isn't
+        return startup and GENERIC_ENG.fullmatch(FILLER.sub(" ", t).strip()) is not None
+
+    def evaluate(self, job, watchlist=False, startup=False):
         """Return (match: bool, score: int, region: str, reason: str)."""
         t = job["title"]
         if not self.is_intern(job):
             return False, 0, "", "not intern"
         if self._any(self.exclude, t):
             return False, 0, "", "excluded title"
-        if not self._any(self.tech, t):
+        if not self.is_tech(job, startup):
             return False, 0, "", "not tech"
         degrees = job.get("degrees")
         if degrees and all(d in ("Master's", "PhD", "MBA") for d in degrees):

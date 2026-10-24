@@ -62,15 +62,27 @@ exclude_title_patterns:
   - '\b2025\b'
   - '\bsummer 2028\b'
 
-# Tech signal: a title must match at least one of these (after the intern check).
+# Tech signal. A title matching any of these is clearly SWE / CS-adjacent.
 tech_patterns:
-  - 'software|swe\b|sde\b|developer|engineer|engineering|programmer|coding'
-  - 'backend|back-end|frontend|front-end|full[- ]?stack|web|mobile|ios|android'
-  - 'infra|platform|cloud|devops|sre\b|reliability|systems|distributed|kernel|os\b|embedded|firmware|compiler|database|storage|network'
-  - 'machine learning|\bml\b|\bai\b|artificial intelligence|deep learning|llm|nlp|computer vision|data engineer|applied (?:ai|ml)'
+  - 'software|\bswe\b|\bsde\b|developer|programm(?:er|ing)|coding'
+  - 'back-?end|front-?end|full[- ]?stack|\bweb\b|mobile|\bios\b|android'
+  - 'cloud|devops|\bsre\b|site reliability|distributed|kernel|operating system|compiler|database|firmware|embedded software|platform engineer'
+  - 'machine learning|\bml\b|\bai\b|artificial intelligence|deep learning|llm|nlp|computer vision|data engineer|analytics engineer|data scien|applied (?:ai|ml)'
   - 'security|cyber|appsec'
-  - 'technical staff|forward deployed|product engineer|research engineer|tools|automation'
-  - 'application development|technology intern|technologist|game|r&d|research & development|maps|robotics|autonomy|graphics'
+  - 'technical staff|forward deployed|product engineer|research engineer|solutions engineer|founding engineer'
+  - 'computer science|\bcs\b|linux|\bquant|game (?:dev|engineer|programm)|graphics|robotics|autonomy|autonomous|perception'
+
+# Ambiguous words ("Engineering Intern", "Systems Engineer"): they could be civil, mechanical, aerospace...
+# A title with only these counts when Simplify files the listing under a CS category below,
+# or the company is a YC startup - and never when it names a non-CS discipline.
+weak_tech_patterns:
+  - '\bengineer(?:s|ing)?\b|systems|infra|network|automation|tools|technology|technologist|r&d|research & development'
+  - 'embedded|computer engineer|maps|\btest|platform|storage|application development'
+cs_categories: ['Software', 'Software Engineering', 'AI/ML/Data', 'Data Science, AI & Machine Learning', 'Quant', 'Quantitative Finance']
+non_cs_patterns:
+  - 'structural|roadway|traffic|drainage|bridge|geotech|transportation|hvac|plumbing|mining|petroleum|pipeline|water'
+  - 'industrial|quality|packaging|\bcad\b|mechatronic|controls? engineer|avionics|aerospace|propulsion|manufactur|materials|metallurg'
+  - 'electronics|power systems|substation|utility|energy|nuclear|biomedical|medical device|optical|photonic|thermal|fluids|test technician'
 
 # Locations that disqualify a posting unless it also mentions US / remote US.
 non_us_patterns:

@@ -14,6 +14,7 @@ from .util import Http, path, load_json, save_json, now_utc, iso, parse_time, ca
 
 AGGREGATORS = {"simplify", "vanshb03"}
 STARTUP_ATS = re.compile(r"ashbyhq\.com|greenhouse\.io|lever\.co|workable\.com|ats\.rippling\.com|ycombinator\.com|wellfound\.com|gem\.com|dover\.com|breezy\.hr|recruitee\.com|teamtailor\.com|bamboohr\.com", re.I)
+CAMPUS_BOARD = re.compile(r"campus|university|early career|students|college", re.I)
 NOT_WATCH = re.compile(r"^(apple bank|snap finance|snap-on|western alliance|western union|hp hood|intelcom|meta(morphic|lenz))", re.I)
 
 
@@ -26,6 +27,21 @@ def watch_matcher(names):
             return False
         return any(p.search(c) for p in pats)
     return is_watch
+
+
+def company_type(rec, rules):
+    """bigtech (watchlist) / startup / other. Big companies use Ashby and Greenhouse too (Rivian, Robinhood),
+    so a startup ATS alone isn't enough: the board must also be small, or the company a small YC team."""
+    if rec["watchlist"]:
+        return "bigtech"
+    if CAMPUS_BOARD.search(rec["company"]):  # a big company's separate intern board looks deceptively small
+        return "other"
+    if rec.get("yc") and (rec.get("team_size") or 0) <= rules.get("max_yc_team_size", 1000):
+        return "startup"
+    roles = rec.get("open_roles")
+    if roles and roles <= rules.get("max_open_roles", 80) and STARTUP_ATS.search(rec["url"]):
+        return "startup"
+    return "other"
 
 
 def build_tasks(http, cfg, db):
@@ -139,6 +155,7 @@ def run_once(args):
         else:
             b["fails"] = 0
             b["last_ok"] = iso(t0)
+            b["open_roles"] = len(results[k])  # all roles, not just interns: a rough company-size signal
 
     merged = {}
     raw_count = 0
@@ -151,7 +168,7 @@ def run_once(args):
             if not raw.get("url") or not raw.get("title"):
                 continue
             w = is_watch(raw["company"])
-            ok, score, region, _ = prof.evaluate(raw, watchlist=w)
+            ok, score, region, _ = prof.evaluate(raw, watchlist=w, startup=bool(meta.get("yc")))
             if not ok:
                 continue
             key = canonical_key(raw["url"])
@@ -215,7 +232,9 @@ def run_once(args):
             lead = (parse_time(rec["agg_posted_at"]) - parse_time(rec["first_seen"])).total_seconds() / 3600
             if lead > 0.25:
                 rec["agg_lead_hours"] = round(lead, 1)
-        rec["type"] = "bigtech" if rec["watchlist"] else ("startup" if (rec.get("yc") or STARTUP_ATS.search(rec["url"])) else "other")
+        rec["open_roles"] = max((state["boards"].get(b, {}).get("open_roles", 0) for b in rec["boards"] if not b.startswith("agg:")),
+                                default=0) or None
+        rec["type"] = company_type(rec, cfg.get("startup") or {})
 
     # prune stale state
     cut = t0 - timedelta(days=60)
