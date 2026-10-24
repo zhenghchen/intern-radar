@@ -204,7 +204,7 @@ signal:
     'sequoia|andreessen|a16z|benchmark|founders fund|accel|greylock|kleiner|lightspeed|index ventures|general catalyst|khosla|thrive': 3
     'y combinator|\bgv\b|google ventures|bessemer|first round|union square|\busv\b|\bnea\b|new enterprise|insight partners|\blux\b|8vc|felicis|\bcrv\b|menlo|craft|coatue|conviction|elad gil|initialized|battery|dcvc|notable|bain capital ventures|spark capital|\bivp\b|redpoint|ribbit|paradigm|tiger global|iconiq|greenoaks|abstract ventures': 2
     'sv angel|contrary|nfx|primary|uncork|lerer|fifth wall|costanoa|madrona|south park commons|pear|soma|boxgroup|neo\b': 1
-  watchlist: 4      # big-tech watchlist companies
+  watchlist: 2      # big-tech watchlist companies: startups come first; watchlist roles still always alert
   max_team_size: 2000   # bigger VC-backed companies count as "other", not "startup"
 
 # What counts as a startup on the board. Companies on startup job sites (Ashby, Greenhouse, Lever...)

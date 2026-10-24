@@ -110,8 +110,9 @@ us_patterns:
 canada_patterns:
   - 'canada|toronto|vancouver|waterloo|montreal|montréal|ottawa|calgary|markham|mississauga|\bon\b, ca|\bbc\b'
 
-# Role fit: +points when the title matches (backend/infra first, then SWE and AI). Location doesn't count:
-# anywhere in the US is fine. Titles that only passed on an ambiguous word ("Engineering Intern") get -2.
+# Role fit: the best-matching line's points, +1 if another line matches too (so 0-4; backend/infra first,
+# then SWE and AI). Location doesn't count: anywhere in the US is fine. Titles that only passed on an
+# ambiguous word ("Engineering Intern") get -2.
 score:
   title:
     'backend|back-end|infra|platform|distributed|systems|cloud|kernel|\bos\b|operating system|storage|database|reliability|\bsre\b|devops|kubernetes|\bgo\b|golang': 3

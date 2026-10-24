@@ -285,7 +285,10 @@ def run_once(args):
         rec["signal"], rec["backers"] = signal_of(rec)
         if EXITED.search(str(rec.get("stage") or "")) and not rec["watchlist"]:
             rec["signal"], rec["backers"] = 0, []  # acquired or public: old VC backing no longer means "strong startup"
-        rec["score"] = rec["fit"] + rec["signal"]
+        # stale postings sink: -1 past 30 days, -2 past 90 (often evergreen or already filled)
+        posted = parse_time(rec.get("posted_at")) or parse_time(rec.get("agg_posted_at"))
+        age = (t0 - posted).days if posted else 0
+        rec["score"] = rec["fit"] + rec["signal"] - (2 if age > 90 else 1 if age > 30 else 0)
         rec["type"] = company_type(rec, cfg.get("startup") or {}, max_team)
 
     def best(rec):

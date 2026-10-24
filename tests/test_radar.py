@@ -305,7 +305,7 @@ def test_company_signal_and_type():
     assert score(rec(yc="S25")) == (2, ["Y Combinator"])
     assert score(rec(vcs=["Sequoia Capital"], investors=["Sequoia Capital", "SV Angel"]))[0] == 3
     assert score(rec(vcs=["Andreessen Horowitz"], investors=["First Round Capital"]))[0] == 4
-    assert score(rec(watchlist=True))[0] == 4
+    assert score(rec(watchlist=True))[0] == 4   # (companies.yaml sets watchlist: 2 so startups rank first)
     rules = {"max_open_roles": 60, "max_yc_team_size": 1000}
     assert M.company_type(rec(backers=["Sequoia Capital"], team_size=300, open_roles=400), rules) == "startup"
     assert M.company_type(rec(backers=["Sequoia Capital"], team_size=2877), rules) == "other"   # Verkada-sized

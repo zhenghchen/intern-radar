@@ -80,10 +80,9 @@ class Profile:
         reg = self.region(job.get("location"))
         if reg == "non_us":
             return False, 0, reg, "non-US"
-        s = 0
-        for p, v in self.score_title:
-            if p.search(t):
-                s += v
+        # strongest match, +1 if another kind also matches: keyword-stuffed titles shouldn't win on length
+        pts = sorted((v for p, v in self.score_title if p.search(t)), reverse=True)
+        s = (pts[0] + (1 if len(pts) > 1 else 0)) if pts else 0
         for p, v in self.score_loc:
             if p.search(job.get("location") or ""):
                 s += v
