@@ -4,7 +4,8 @@ or None if the fetch failed (so the caller can keep last-known jobs for that boa
 import asyncio
 import html
 import re
-from urllib.parse import quote
+import json
+from urllib.parse import quote, unquote
 
 from .util import parse_time, parse_relative_posted, now_utc
 
@@ -21,7 +22,7 @@ def J(company, title, location, url, posted_at, source, **extra):
 # ---------------- Startup / mid-size ATS boards ----------------
 
 async def ashby(http, slug, name):
-    d = await http.get_json(f"https://api.ashbyhq.com/posting-api/job-board/{quote(slug)}?includeCompensation=true")
+    d = await http.get_json(f"https://api.ashbyhq.com/posting-api/job-board/{quote(unquote(slug))}?includeCompensation=true")
     if d is None:
         return None
     out = []
@@ -41,7 +42,7 @@ async def ashby(http, slug, name):
 
 
 async def greenhouse(http, slug, name):
-    d = await http.get_json(f"https://boards-api.greenhouse.io/v1/boards/{quote(slug)}/jobs")
+    d = await http.get_json(f"https://boards-api.greenhouse.io/v1/boards/{quote(unquote(slug))}/jobs")
     if d is None:
         return None
     out = []
@@ -54,7 +55,7 @@ async def greenhouse(http, slug, name):
 
 async def lever(http, slug, name, eu=False):
     host = "api.eu.lever.co" if eu else "api.lever.co"
-    d = await http.get_json(f"https://{host}/v0/postings/{quote(slug)}?mode=json")
+    d = await http.get_json(f"https://{host}/v0/postings/{quote(unquote(slug))}?mode=json")
     if d is None or not isinstance(d, list):
         return None
     out = []
@@ -71,7 +72,7 @@ async def lever(http, slug, name, eu=False):
 async def smartrecruiters(http, slug, name):
     out = []
     for q in ("intern", "co-op"):
-        d = await http.get_json(f"https://api.smartrecruiters.com/v1/companies/{quote(slug)}/postings?q={quote(q)}&limit=100")
+        d = await http.get_json(f"https://api.smartrecruiters.com/v1/companies/{quote(unquote(slug))}/postings?q={quote(q)}&limit=100")
         if d is None:
             return None
         for j in d.get("content", []):
@@ -180,6 +181,12 @@ async def google(http):
             continue
         ok = True
         text = r.text
+        rows = _google_rows(text)
+        if rows is not None:
+            out.extend(rows)
+            if len(rows) < 20:
+                break
+            continue
         seen = set()
         for m in re.finditer(r'jobs/results/(\d+)-([a-z0-9-]+)', text):
             jid, slug = m.group(1), m.group(2)
@@ -195,6 +202,40 @@ async def google(http):
             out.append(J("Google", title, "United States", f"https://www.google.com/about/careers/applications/jobs/results/{jid}-{slug}",
                          None, "google"))
     return out if ok else None
+
+
+def _google_rows(text):
+    """The results page embeds every posting as JSON (the 'ds:1' block): real titles, locations, created time
+    and the qualifications text. Returns None if the block is missing, so the caller can fall back to links."""
+    m = re.search(r"AF_initDataCallback\(\{key: 'ds:1'.*?data:(.*?), sideChannel: \{\}\}\);", text, re.S)
+    if not m:
+        return None
+    try:
+        rows = json.loads(m.group(1))[0] or []
+    except (ValueError, IndexError, TypeError):
+        return None
+    out = []
+    for r in rows:
+        try:
+            jid, title = r[0], r[1]
+            locs = "; ".join(l[0] for l in (r[9] or []) if l and l[0])
+            created = parse_time(r[12][0]) if r[12] else None
+            quals = html.unescape(re.sub("<.*?>", " ", str(r[4] or "")))
+        except (IndexError, TypeError):
+            continue
+        slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
+        out.append(J("Google", title, locs or "United States",
+                     f"https://www.google.com/about/careers/applications/jobs/results/{jid}-{slug}", created, "google",
+                     degrees=degrees_in(quals)))
+    return out
+
+
+def degrees_in(text):
+    """Degrees a qualifications blurb accepts, in Simplify's vocabulary (None if it doesn't say)."""
+    t = (text or "").lower()
+    found = [d for d, p in (("Bachelor's", r"bachelor|\bbs\b|\bb\.s\.|undergrad"), ("Master's", r"master|\bms\b|\bm\.s\."),
+                            ("PhD", r"ph\.?d|doctoral"), ("MBA", r"\bmba\b")) if re.search(p, t)]
+    return found or None
 
 
 async def apple(http):

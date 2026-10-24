@@ -11,8 +11,12 @@ intern_patterns:
 
 # Titles with any of these are dropped.
 exclude_title_patterns:
-  # degree-gated
+  # degree-gated (bachelor's only for now; "BS/MS" and "Undergraduate" still count)
   - '\bph\.?d\b'
+  - '\bgraduate\b'
+  - '(?<![/\w])m\.?s\b(?!/)'
+  - '\bmsc\b'
+  - '^(?!.*quant).*\bresearch intern'
   - 'doctoral'
   - "\\bmaster'?s\\b"
   - '\bmba\b'
@@ -83,6 +87,9 @@ non_cs_patterns:
   - 'structural|roadway|traffic|drainage|bridge|geotech|transportation|hvac|plumbing|mining|petroleum|pipeline|water'
   - 'industrial|quality|packaging|\bcad\b|mechatronic|controls? engineer|avionics|aerospace|propulsion|manufactur|materials|metallurg'
   - 'electronics|power systems|substation|utility|energy|nuclear|biomedical|medical device|optical|photonic|thermal|fluids|test technician'
+
+# Simplify (and Google) list the degrees a posting accepts. When they do, one of these must be among them.
+allowed_degrees: ["Bachelor's", "Associate's"]
 
 # Locations that disqualify a posting unless it also mentions US / remote US.
 non_us_patterns:

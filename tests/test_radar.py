@@ -145,6 +145,43 @@ def test_filters_cs_only():
     assert ok("Quantitative Developer Intern")
 
 
+def test_filters_bachelors_only():
+    p = Profile()
+    ok = lambda t, **kw: p.evaluate({"title": t, "location": "San Francisco, CA", **kw})[0]
+    assert ok("Software Engineer Intern, Undergraduate - Summer 2027")
+    assert ok("Forward Deployed Engineering Intern, BS/MS, Summer 2027")
+    assert ok("Software Engineer Intern", degrees=["Bachelor's", "Master's"])
+    assert not ok("Software Engineer Intern", degrees=["Master's", "PhD"])
+    assert not ok("Compiler Engineering Graduate Intern")
+    assert not ok("AI Data Science Intern, MS - Summer 2027")
+    assert not ok("Research Intern - Machine Learning at MSR NYC")
+    assert ok("Quantitative Strategies Research Intern")
+    assert ok("Machine Learning Research Engineer Intern")
+
+
+def test_google_embedded_rows():
+    row = ["7566", "Forward Deployed Engineering Intern, BS/MS, Summer 2027", None, None,
+           [None, "<h3>Minimum qualifications:</h3><ul><li>Currently pursuing a Bachelor's or Master's degree</li></ul>"],
+           None, None, "Google", "en-US", [["Sunnyvale, CA, USA", []], ["Seattle, WA, USA", []]], None, None, [1791796170, 0]]
+    page = "AF_initDataCallback({key: 'ds:1', hash: '2', data:" + json.dumps([[row], None, 1, 20]) + ", sideChannel: {}});"
+    out = run(S.google(FakeHttp({"careers/applications/jobs/results": page})))
+    j = out[0]
+    assert j["title"].startswith("Forward Deployed") and j["location"] == "Sunnyvale, CA, USA; Seattle, WA, USA"
+    assert j["degrees"] == ["Bachelor's", "Master's"] and j["posted_at"].year == 2026
+    assert canonical_key(j["url"]) == "google:7566"
+
+
+def test_slug_not_double_encoded():
+    seen = []
+
+    class H(FakeHttp):
+        async def get_json(self, url, **kw):
+            seen.append(url)
+            return {"jobs": []}
+    run(S.ashby(H({}), "Flock%20Safety", "Flock Safety"))
+    assert "job-board/Flock%20Safety?" in seen[0]
+
+
 def test_company_type():
     rules = {"max_open_roles": 80, "max_yc_team_size": 1000}
     rec = lambda **kw: {"watchlist": False, "company": "Acme", "url": "https://jobs.ashbyhq.com/x/1", **kw}
@@ -213,3 +250,16 @@ def test_end_to_end_alert_logic(sandbox, monkeypatch):
     sent.clear()
     st = M.run_once(args)
     assert not sent and st["new"] == 0
+
+
+def test_posted_date_keeps_earliest(sandbox, monkeypatch):
+    # Workday says "Posted Today" on every run; the role must not jump back to the top each time
+    args = types.SimpleNamespace(no_notify=True, limit_boards=0, concurrency=4)
+    t = now_utc()
+    job = lambda posted: S.J("Acme", "Software Engineer Intern", "San Francisco, CA",
+                             "https://acme.wd1.myworkdayjobs.com/x/job/SF/SWE-Intern_R1", posted, "workday", posted_text="Posted Today")
+    for posted in (t - timedelta(hours=3), t):
+        monkeypatch.setattr(M, "build_tasks", fake_tasks({"workday:acme": [job(posted)]}))
+        M.run_once(args)
+    feed = json.load(open(sandbox / "data" / "jobs.json"))
+    assert feed["jobs"][0]["posted_at"] == iso(t - timedelta(hours=3))

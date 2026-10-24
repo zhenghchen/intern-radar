@@ -226,6 +226,11 @@ def run_once(args):
                 rec["is_new"] = True
                 st["alerted"] = iso(t0)
         st["last_seen"] = iso(t0)
+        # day-precision sources (Workday "Posted Today") would otherwise re-stamp a role as brand new every run
+        if rec.get("posted_at"):
+            if st.get("posted_at") and st["posted_at"] < rec["posted_at"]:
+                rec["posted_at"] = st["posted_at"]
+            st["posted_at"] = rec["posted_at"]
         rec["first_seen"] = st["first_seen"]
         rec["is_new"] = bool(rec.get("is_new")) and st.get("alerted") == iso(t0)
         if rec.get("agg_posted_at") and "agg_lead_hours" not in rec:

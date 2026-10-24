@@ -128,7 +128,7 @@ function roleRow(vs,now){
   return `<div class="row ${m==='applied'?'applied':''}">
     <div><div class="title"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>${vs.some(v=>v.is_new)?'<span class="badge new">NEW</span>':''}</div>
     <div class="sub">${j.term?`<span>${esc(j.term)}</span>`:''}${where}${j.pay?`<span>${esc(j.pay)}</span>`:''}</div></div>
-    <div class="right"><div class="age ${fresh?'fresh':''}" title="${p?p.toLocaleString():''}">${ago(p)}</div>
+    <div class="right"><div class="age ${fresh?'fresh':''}" title="${p?p.toLocaleString():''}">${j.posted_text?esc(j.posted_text.replace(/^posted /i,'')):ago(p)}</div>
     <div class="meta">seen ${ago(seen)} · fit ${fit}${lead?`<span class="badge lead" title="Radar saw it before Simplify listed it">${lead.agg_lead_hours}h before Simplify</span>`:''}</div>
     <div class="acts"><button data-ids="${esc(ids.join(' '))}" data-m="applied">${m==='applied'?'Applied ✓':'Mark applied'}</button><button data-ids="${esc(ids.join(' '))}" data-m="hide">Hide</button></div></div></div>`}
 function feedUrl(){const h=location.hostname;if(h.endsWith('github.io')){const user=h.split('.')[0],repo=location.pathname.split('/').filter(Boolean)[0]||(user+'.github.io');return `https://raw.githubusercontent.com/${user}/${repo}/main/data/jobs.json`}return '../data/jobs.json'}

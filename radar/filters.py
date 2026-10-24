@@ -20,6 +20,7 @@ class Profile:
         self.weak_tech = c(cfg.get("weak_tech_patterns") or [])
         self.non_cs = c(cfg.get("non_cs_patterns") or [])
         self.cs_categories = set(cfg.get("cs_categories") or [])
+        self.allowed_degrees = set(cfg.get("allowed_degrees") or [])
         self.non_us = c(cfg["non_us_patterns"])
         self.us = c(cfg["us_patterns"])
         self.canada = c(cfg["canada_patterns"])
@@ -77,8 +78,8 @@ class Profile:
         if not self.is_tech(job, startup):
             return False, 0, "", "not tech"
         degrees = job.get("degrees")
-        if degrees and all(d in ("Master's", "PhD", "MBA") for d in degrees):
-            return False, 0, "", "grad-degree only"
+        if degrees and self.allowed_degrees and not self.allowed_degrees & set(degrees):
+            return False, 0, "", "degree not accepted"
         reg = self.region(job.get("location"))
         if reg == "non_us":
             return False, 0, reg, "non-US"
