@@ -1,6 +1,24 @@
 [
  {
   "backers": [
+   "Accel",
+   "Andreessen Horowitz"
+  ],
+  "company": "Skydio",
+  "first_seen": "2026-10-25T23:14:20Z",
+  "fit": 0,
+  "id": "ashby:skydio:d39c46ce-a4e9-45d2-99bf-17e3b7dac34b",
+  "location": "San Mateo, California, United States",
+  "posted_at": "2026-10-25T23:09:06Z",
+  "score": 4,
+  "signal": 4,
+  "term": "2027",
+  "title": "Autonomy Engineer Intern, 2027",
+  "type": "bigtech",
+  "url": "https://jobs.ashbyhq.com/skydio/d39c46ce-a4e9-45d2-99bf-17e3b7dac34b"
+ },
+ {
+  "backers": [
    "Accel"
   ],
   "company": "DocuSign",
