@@ -1,6 +1,46 @@
 [
  {
   "backers": [
+   "Sequoia Capital",
+   "Thrive Capital",
+   "Felicis",
+   "First Round Capital"
+  ],
+  "company": "Notion",
+  "first_seen": "2026-10-25T08:46:42Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/BF",
+  "location": "San Francisco, CA; New York, NY",
+  "posted_at": null,
+  "score": 6,
+  "signal": 4,
+  "term": "Winter",
+  "title": "Software Engineer Intern, Mobile",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/BF"
+ },
+ {
+  "backers": [
+   "Sequoia Capital",
+   "Thrive Capital",
+   "Felicis",
+   "First Round Capital"
+  ],
+  "company": "Notion",
+  "first_seen": "2026-10-25T08:46:42Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/BE",
+  "location": "San Francisco, CA; New York, NY",
+  "posted_at": null,
+  "score": 6,
+  "signal": 4,
+  "term": "Winter",
+  "title": "Software Engineer Intern",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/BE"
+ },
+ {
+  "backers": [
    "Accel",
    "Andreessen Horowitz"
   ],
