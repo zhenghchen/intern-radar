@@ -1,6 +1,57 @@
 [
  {
   "backers": [
+   "Accel"
+  ],
+  "company": "DocuSign",
+  "first_seen": "2026-10-25T16:05:46Z",
+  "fit": 4,
+  "id": "url:uscareers-docusign.icims.com/jobs/30578/ai-platform-engineer-intern/job",
+  "location": "San Francisco, CA, USA",
+  "posted_at": null,
+  "score": 7,
+  "signal": 3,
+  "term": "",
+  "title": "AI Platform Engineer Intern",
+  "type": "other",
+  "url": "https://uscareers-docusign.icims.com/jobs/30578/ai-platform-engineer-intern/job"
+ },
+ {
+  "backers": [
+   "Accel"
+  ],
+  "company": "DocuSign",
+  "first_seen": "2026-10-25T16:05:46Z",
+  "fit": 2,
+  "id": "url:uscareers-docusign.icims.com/jobs/30587/agentic-ai-engineer-intern/job",
+  "location": "San Francisco, CA, USA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "",
+  "title": "Agentic AI Engineer Intern",
+  "type": "other",
+  "url": "https://uscareers-docusign.icims.com/jobs/30587/agentic-ai-engineer-intern/job"
+ },
+ {
+  "backers": [
+   "Accel"
+  ],
+  "company": "DocuSign",
+  "first_seen": "2026-10-25T16:05:46Z",
+  "fit": 2,
+  "id": "url:uscareers-docusign.icims.com/jobs/30571/software-developer-intern/job",
+  "location": "San Francisco, CA, USA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "",
+  "title": "Software Developer Intern",
+  "type": "other",
+  "url": "https://uscareers-docusign.icims.com/jobs/30571/software-developer-intern/job"
+ },
+ {
+  "backers": [
    "Sequoia Capital",
    "Thrive Capital",
    "Felicis",
