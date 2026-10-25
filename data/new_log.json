@@ -1,5 +1,59 @@
 [
  {
+  "backers": [
+   "Accel",
+   "Andreessen Horowitz"
+  ],
+  "company": "Skydio",
+  "first_seen": "2026-10-25T08:41:59Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/BD",
+  "location": "San Mateo, CA",
+  "posted_at": null,
+  "score": 7,
+  "signal": 4,
+  "term": "Winter",
+  "title": "Embedded Software Engineer Intern",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/BD"
+ },
+ {
+  "backers": [
+   "Accel",
+   "Andreessen Horowitz"
+  ],
+  "company": "Skydio",
+  "first_seen": "2026-10-25T08:41:59Z",
+  "fit": 0,
+  "id": "url:go.vansh.nyc/BA",
+  "location": "San Mateo, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 4,
+  "term": "Summer",
+  "title": "Autonomy Engineer Intern, Computer Vision / Deep Learning",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/BA"
+ },
+ {
+  "backers": [
+   "Accel",
+   "Andreessen Horowitz"
+  ],
+  "company": "Skydio",
+  "first_seen": "2026-10-25T08:41:59Z",
+  "fit": -2,
+  "id": "url:go.vansh.nyc/Bz",
+  "location": "San Mateo, CA",
+  "posted_at": null,
+  "score": 2,
+  "signal": 4,
+  "term": "Summer",
+  "title": "Flight Test Intern",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/Bz"
+ },
+ {
   "backers": [],
   "company": "Microsoft",
   "first_seen": "2026-10-25T08:27:41Z",
