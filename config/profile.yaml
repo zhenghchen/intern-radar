@@ -95,20 +95,33 @@ allowed_degrees: ["Bachelor's", "Associate's"]
 # Locations that disqualify a posting unless it also mentions US / remote US.
 non_us_patterns:
   - 'united kingdom|\buk\b|england|london|edinburgh|manchester|cambridge, uk|belfast|dublin|ireland'
-  - 'india|bangalore|bengaluru|hyderabad|pune|chennai|mumbai|delhi|noida|gurgaon|gurugram'
+  - '\bindia\b|bangalore|bengaluru|hyderabad|pune|chennai|mumbai|delhi|noida|gurgaon|gurugram'
   - 'germany|berlin|munich|frankfurt|hamburg|france|paris|netherlands|amsterdam|spain|madrid|barcelona|italy|milan'
   - 'switzerland|zurich|zürich|geneva|sweden|stockholm|denmark|copenhagen|norway|oslo|finland|helsinki|poland|warsaw|krakow|czech|prague|romania|bucharest|portugal|lisbon|austria|vienna|belgium|brussels|hungary|budapest|greece|athens|estonia|tallinn|ukraine'
   - 'israel|tel aviv|singapore|japan|tokyo|korea|seoul|china|beijing|shanghai|shenzhen|hong kong|taiwan|taipei|australia|sydney|melbourne|new zealand|philippines|manila|vietnam|indonesia|malaysia|thailand'
-  - 'brazil|são paulo|sao paulo|mexico|argentina|buenos aires|colombia|bogot|chile|costa rica|uae|dubai|saudi|egypt|nigeria|kenya|south africa|turkey|istanbul|emea|apac|latam|europe'
+  - 'malaysia|kuala lumpur|petaling jaya|selangor|penang|\bmys\b|qatar|doha|abu dhabi|peru|lima|serbia|belgrade|armenia|yerevan|curitiba|belo horizonte|guadalajara|monterrey|sophia antipolis|valbonne|aubervilliers|saint-sulpice|veghel|eindhoven|malmo|malmö|oberkochen|warszawa|wroclaw|gdansk|bratislava|sofia|zagreb|ljubljana|riyadh|cairo|lagos|nairobi|bangkok|jakarta|ho chi minh|hanoi|karachi|lahore|dhaka|colombo|pakistan|bangladesh|sri lanka'
+  - ', (?:my|mx|pl|se|rs|fr|gb|nl|es|it|ch|at|be|dk|no|fi|pt|ie|cz|ro|hu|gr|sg|jp|kr|cn|hk|tw|au|nz|ph|vn|th|br|cl|pe|ae|sa|eg|ng|ke|za|tr|ua|bg|hr|si|sk|lt|lv|ee|am)$'
+  - 'brazil|são paulo|sao paulo|mexico|argentina|buenos aires|colombia|bogot|chile|costa rica|uae|dubai|saudi|egypt|nigeria|kenya|south africa|turkey|istanbul|\bemea\b|\bapac\b|\blatam\b|europe'
 
+# Region: a named US place wins; then a named foreign place; then Canada; then weak US hints
+# (", IN" is Indiana or India, "Remote" can be anywhere).
 us_patterns:
-  - 'united states|\busa\b|\bus\b|u\.s\.|remote|anywhere|north america'
-  - ', (?:al|ak|az|ar|ca|co|ct|de|fl|ga|hi|id|il|in|ia|ks|ky|la|me|md|ma|mi|mn|ms|mo|mt|ne|nv|nh|nj|nm|ny|nc|nd|oh|ok|or|pa|ri|sc|sd|tn|tx|ut|vt|va|wa|wv|wi|wy|dc)\b'
+  - 'united states|\busa\b|\bus\b|u\.s\.|north america|puerto rico'
+  - ', (?:ak|az|ct|fl|ga|hi|ia|ks|ky|la|ma|md|me|mi|mn|mo|ms|mt|nc|nd|ne|nh|nj|nm|nv|ny|oh|ok|or|pa|ri|sc|sd|tn|tx|ut|va|vt|wa|wi|wv|wy|dc)\b'
+  - '^(?!.*canada|.*\b(?:on|bc|ab|qc|mb|sk|ns|nb|ca-on|ca-qc|ca-bc),? ca\b).*, ca\b(?!-)'
   - 'california|washington|new york|texas|massachusetts|oregon|colorado|illinois|georgia|virginia|arizona|utah|florida|north carolina|pennsylvania|michigan|minnesota|ohio|new jersey'
   - 'san francisco|\bsf\b|bay area|palo alto|mountain view|menlo park|sunnyvale|san jose|santa clara|cupertino|redwood city|san mateo|south san francisco|oakland|berkeley|fremont|seattle|bellevue|redmond|kirkland|portland|austin|boston|cambridge, ma|nyc|new york city|brooklyn|los angeles|santa monica|san diego|irvine|denver|boulder|chicago|atlanta|pittsburgh|raleigh|durham|phoenix|salt lake|hawthorne|los gatos|lehi|miami|dallas|houston|philadelphia|detroit|ann arbor|minneapolis|nashville|washington, dc'
 
+us_weak_patterns:
+  - 'remote|anywhere|flexible'
+  - '(?:,|^) ?(?:al|ak|az|ar|ca|co|ct|de|fl|ga|hi|id|il|in|ia|ks|ky|la|me|md|ma|mi|mn|ms|mo|mt|ne|nv|nh|nj|nm|ny|nc|nd|oh|ok|or|pa|ri|sc|sd|tn|tx|ut|vt|va|wa|wv|wi|wy|dc)\b'
+  - '\b(?:al|ak|az|ar|co|ct|fl|ga|hi|ia|ks|ky|md|ma|mi|mn|ms|mo|mt|ne|nv|nh|nj|nm|ny|nc|nd|oh|ok|pa|ri|sc|sd|tn|tx|ut|vt|wa|wv|wi|wy)\b(?:,? \d{5})?$'
+  - 'nevada|missouri|kentucky|iowa|south dakota|wisconsin|indiana|tennessee|maryland|connecticut|alabama|kansas|oklahoma|nebraska|idaho|montana|new mexico|delaware|louisiana|arkansas|mississippi|south carolina|vermont|maine|new hampshire|rhode island|wyoming|alaska|hawaii|west virginia|north dakota'
+  - 'torrance|long beach|scotts valley|las vegas|kansas city|sioux falls|stamford|parsippany|carmel|madison|spartanburg|richmond|erie|reston|herndon|mclean|arlington|columbus|cleveland|cincinnati|st\.? louis|indianapolis|charlotte|tampa|orlando|sacramento|baltimore|new haven|princeton|newark|jersey city|hoboken|providence|rochester|buffalo|albany|omaha|tucson|albuquerque|el segundo|culver city|burbank|pasadena|playa vista|emeryville|san ramon|pleasanton|milpitas|foster city|burlingame|livermore|huntsville|colorado springs|fort worth|plano|irving|san antonio|boise|des moines|milwaukee|louisville|memphis|knoxville|greenville|wilmington'
+
+allow_canada: false   # US work authorization only; set true to keep Canadian roles (ranked 2 lower)
 canada_patterns:
-  - 'canada|toronto|vancouver|waterloo|montreal|montréal|ottawa|calgary|markham|mississauga|\bon\b, ca|\bbc\b'
+  - 'canada|toronto|vancouver|waterloo|montreal|montréal|ottawa|calgary|markham|mississauga|kanata|kitchener|longueuil|burnaby|edmonton|quebec|québec|halifax|winnipeg|\bon\b, ca|\bbc\b|^can\b|ca-qc|ca-on|ca-bc'
 
 # Role fit: the best-matching line's points, +1 if another line matches too (so 0-4; backend/infra first,
 # then SWE and AI). Location doesn't count: anywhere in the US is fine. Titles that only passed on an

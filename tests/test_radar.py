@@ -124,6 +124,17 @@ def test_filters():
     assert s_infra > s_plain
 
 
+def test_regions():
+    r = Profile().region
+    for loc in ["Indianapolis, IN", "Vienna, VA", "Pomona, CA; Rosemead, CA", "Waterloo, IA; Cary, NC", "Remote", "Torrance"]:
+        assert r(loc) == "us", loc
+    for loc in ["Bengaluru, IN", "Berlin; Remote", "Kuala Lumpur, MY", "Remote in UK", "Munich, DE"]:
+        assert r(loc) == "non_us", loc
+    for loc in ["Toronto, ON, CA", "Ottawa, CA-ON, CA", "Remote; Canada"]:
+        assert r(loc) == "canada", loc
+    assert not Profile().evaluate({"title": "Software Engineer Intern", "location": "Toronto, ON"})[0]
+
+
 def test_filters_cs_only():
     p = Profile()
     ok = lambda t, **kw: p.evaluate({"title": t, "location": "San Francisco, CA", **kw}, startup=kw.pop("startup", False))[0]

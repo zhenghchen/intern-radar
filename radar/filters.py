@@ -18,6 +18,8 @@ class Profile:
         self.allowed_degrees = set(cfg.get("allowed_degrees") or [])
         self.non_us = c(cfg["non_us_patterns"])
         self.us = c(cfg["us_patterns"])
+        self.us_weak = c(cfg.get("us_weak_patterns") or [])
+        self.allow_canada = cfg.get("allow_canada", True)
         self.canada = c(cfg["canada_patterns"])
         sc = cfg.get("score", {})
         self.score_title = [(re.compile(k, re.I), v) for k, v in (sc.get("title") or {}).items()]
@@ -42,15 +44,14 @@ class Profile:
         l = loc or ""
         if not l.strip():
             return "unknown"
-        us = self._any(self.us, l)
-        ca = self._any(self.canada, l)
-        non = self._any(self.non_us, l)
-        if us:
+        if self._any(self.us, l):
             return "us"
-        if ca and not non:
+        if self._any(self.non_us, l):
+            return "non_us"
+        if self._any(self.canada, l):
             return "canada"
-        if non or ca:
-            return "canada" if ca else "non_us"
+        if self._any(self.us_weak, l):
+            return "us"
         return "unknown"
 
     def tech_level(self, job, startup=False):
@@ -78,7 +79,7 @@ class Profile:
         if degrees and self.allowed_degrees and not self.allowed_degrees & set(degrees):
             return False, 0, "", "degree not accepted"
         reg = self.region(job.get("location"))
-        if reg == "non_us":
+        if reg == "non_us" or (reg == "canada" and not self.allow_canada):
             return False, 0, reg, "non-US"
         # strongest match, +1 if another kind also matches: keyword-stuffed titles shouldn't win on length
         pts = sorted((v for p, v in self.score_title if p.search(t)), reverse=True)
