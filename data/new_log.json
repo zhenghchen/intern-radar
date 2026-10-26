@@ -5,6 +5,42 @@
    "Andreessen Horowitz"
   ],
   "company": "Skydio",
+  "first_seen": "2026-10-26T16:59:52Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/Sj",
+  "location": "San Mateo, CA",
+  "posted_at": null,
+  "score": 7,
+  "signal": 4,
+  "term": "Summer",
+  "title": "Autonomy Engineer Intern, Autonomy Infrastructure, Systems and Tools",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/Sj"
+ },
+ {
+  "backers": [
+   "Accel",
+   "Andreessen Horowitz"
+  ],
+  "company": "Skydio",
+  "first_seen": "2026-10-26T16:59:52Z",
+  "fit": 0,
+  "id": "url:go.vansh.nyc/Si",
+  "location": "San Mateo, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 4,
+  "term": "Summer",
+  "title": "Autonomy Engineer Intern, Simulation & Robotics",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/Si"
+ },
+ {
+  "backers": [
+   "Accel",
+   "Andreessen Horowitz"
+  ],
+  "company": "Skydio",
   "first_seen": "2026-10-26T16:19:34Z",
   "fit": 0,
   "id": "ashby:skydio:19352f5e-c30d-4184-a070-3c25b0ebc048",
