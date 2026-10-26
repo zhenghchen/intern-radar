@@ -7,6 +7,26 @@
    "General Catalyst"
   ],
   "company": "Glean",
+  "first_seen": "2026-10-26T20:16:39Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/SV",
+  "location": "Mountain View, CA",
+  "posted_at": null,
+  "score": 6,
+  "signal": 4,
+  "term": "Summer",
+  "title": "Software Engineer Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/SV"
+ },
+ {
+  "backers": [
+   "Kleiner Perkins",
+   "Lightspeed",
+   "Sequoia Capital",
+   "General Catalyst"
+  ],
+  "company": "Glean",
   "first_seen": "2026-10-26T19:27:18Z",
   "fit": 2,
   "id": "gh:4747670005",
