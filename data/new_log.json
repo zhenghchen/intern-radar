@@ -2,6 +2,26 @@
  {
   "backers": [
    "Kleiner Perkins",
+   "Lightspeed",
+   "Sequoia Capital",
+   "General Catalyst"
+  ],
+  "company": "Glean",
+  "first_seen": "2026-10-26T19:27:18Z",
+  "fit": 2,
+  "id": "gh:4747670005",
+  "location": "Mountain View, CA",
+  "posted_at": "2026-10-26T19:26:35Z",
+  "score": 6,
+  "signal": 4,
+  "term": "Summer 2027",
+  "title": "Software Engineer, Intern (Summer 2027)",
+  "type": "startup",
+  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4747670005"
+ },
+ {
+  "backers": [
+   "Kleiner Perkins",
    "General Catalyst",
    "First Round Capital",
    "NEA"
