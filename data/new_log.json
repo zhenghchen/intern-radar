@@ -1,5 +1,59 @@
 [
  {
+  "backers": [
+   "Accel",
+   "Andreessen Horowitz"
+  ],
+  "company": "Skydio",
+  "first_seen": "2026-10-26T16:19:34Z",
+  "fit": 0,
+  "id": "ashby:skydio:19352f5e-c30d-4184-a070-3c25b0ebc048",
+  "location": "San Mateo, California, United States",
+  "posted_at": "2026-10-26T16:15:37Z",
+  "score": 4,
+  "signal": 4,
+  "term": "2027",
+  "title": "Autonomy Engineer Intern, Reinforcement Learning, 2027 (HQ)",
+  "type": "bigtech",
+  "url": "https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048"
+ },
+ {
+  "backers": [
+   "Accel",
+   "Andreessen Horowitz"
+  ],
+  "company": "Skydio",
+  "first_seen": "2026-10-26T16:19:34Z",
+  "fit": 0,
+  "id": "ashby:skydio:6f5caf41-fa1d-4208-9bdc-82c72e5d3f17",
+  "location": "San Mateo, California, United States",
+  "posted_at": "2026-10-26T16:16:13Z",
+  "score": 4,
+  "signal": 4,
+  "term": "2027",
+  "title": "Autonomy Engineer Intern, Simulation & Robotics, 2027 (HQ)",
+  "type": "bigtech",
+  "url": "https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17"
+ },
+ {
+  "backers": [
+   "Accel",
+   "Andreessen Horowitz"
+  ],
+  "company": "Skydio",
+  "first_seen": "2026-10-26T16:19:34Z",
+  "fit": 3,
+  "id": "ashby:skydio:ec82eb16-a5b4-46e7-827a-326b33d7d2cb",
+  "location": "San Mateo, California, United States",
+  "posted_at": "2026-10-26T16:15:31Z",
+  "score": 7,
+  "signal": 4,
+  "term": "2027",
+  "title": "Autonomy Engineer Intern, Autonomy Infrastructure, Systems and Tools, 2027 (HQ)",
+  "type": "bigtech",
+  "url": "https://jobs.ashbyhq.com/skydio/ec82eb16-a5b4-46e7-827a-326b33d7d2cb"
+ },
+ {
   "backers": [],
   "company": "Adobe",
   "first_seen": "2026-10-26T08:50:23Z",
