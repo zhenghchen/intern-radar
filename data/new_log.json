@@ -1,5 +1,20 @@
 [
  {
+  "backers": [],
+  "company": "Adobe",
+  "first_seen": "2026-10-26T08:50:23Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/BO",
+  "location": "San Jose, CA; Waltham, MA; San Francisco, CA; Austin, TX; Seattle, WA; Lehi, UT; New York, NY",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Machine Learning Engineer Intern",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/BO"
+ },
+ {
   "backers": [
    "Accel",
    "Andreessen Horowitz"
