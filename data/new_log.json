@@ -1,5 +1,25 @@
 [
  {
+  "backers": [
+   "Sequoia Capital",
+   "Accel",
+   "Battery Ventures",
+   "GV"
+  ],
+  "company": "Cohesity",
+  "first_seen": "2026-10-26T22:43:54Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/Tc",
+  "location": "Santa Clara, CA",
+  "posted_at": null,
+  "score": 6,
+  "signal": 4,
+  "term": "Summer",
+  "title": "Software Engineering Intern",
+  "type": "other",
+  "url": "https://go.vansh.nyc/Tc"
+ },
+ {
   "backers": [],
   "company": "Meta",
   "first_seen": "2026-10-26T22:34:30Z",
