@@ -1,5 +1,20 @@
 [
  {
+  "backers": [],
+  "company": "Amazon",
+  "first_seen": "2026-10-26T17:58:58Z",
+  "fit": -2,
+  "id": "amazon:10588969",
+  "location": "San Diego, California, USA",
+  "posted_at": "2026-10-26T00:00:00Z",
+  "score": 0,
+  "signal": 2,
+  "term": "2027",
+  "title": "Tech Ops Engineer Intern, 2027 Summer Intern",
+  "type": "bigtech",
+  "url": "https://www.amazon.jobs/en/jobs/10588969/tech-ops-engineer-intern-2027-summer-intern"
+ },
+ {
   "backers": [
    "Accel",
    "Andreessen Horowitz"
