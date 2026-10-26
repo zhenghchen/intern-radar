@@ -403,6 +403,10 @@
    "name": "Dubclub",
    "src": "common crawl"
   },
+  "EYT": {
+   "name": "Eyt",
+   "src": "common crawl"
+  },
   "Edison Scientific": {
    "name": "Edison Scientific",
    "src": "common crawl"
@@ -432,6 +436,10 @@
    "name": "Evvy",
    "src": "common crawl"
   },
+  "Excelerate": {
+   "name": "Excelerate",
+   "src": "common crawl"
+  },
   "FINNY": {
    "name": "Finny",
    "src": "common crawl"
@@ -453,6 +461,10 @@
   },
   "Fiducial": {
    "name": "Fiducial",
+   "src": "common crawl"
+  },
+  "Fleet Health": {
+   "name": "Fleet Health",
    "src": "common crawl"
   },
   "Fleetcraft": {
@@ -480,6 +492,10 @@
   },
   "Fourier": {
    "name": "Fourier",
+   "src": "common crawl"
+  },
+  "FronzaFrancis": {
+   "name": "Fronzafrancis",
    "src": "common crawl"
   },
   "Fundamental": {
@@ -517,11 +533,19 @@
    "name": "Goventi",
    "src": "common crawl"
   },
+  "GotPhoto": {
+   "name": "Gotphoto",
+   "src": "common crawl"
+  },
   "GovSignals": {
    "name": "GovSignals"
   },
   "Graphitehq": {
    "name": "Graphitehq",
+   "src": "common crawl"
+  },
+  "Gravity": {
+   "name": "Gravity",
    "src": "common crawl"
   },
   "GravityClimate": {
@@ -532,11 +556,19 @@
    "name": "Growthx Ai",
    "src": "common crawl"
   },
+  "Gruntwork": {
+   "name": "Gruntwork",
+   "src": "common crawl"
+  },
   "Gumloop": {
    "name": "Gumloop"
   },
   "HUMAN": {
    "name": "Human",
+   "src": "common crawl"
+  },
+  "Haast": {
+   "name": "Haast",
    "src": "common crawl"
   },
   "Hang": {
@@ -597,8 +629,16 @@
   "Inclined": {
    "name": "Inclined Technologies"
   },
+  "Injective": {
+   "name": "Injective",
+   "src": "common crawl"
+  },
   "InscribeAI": {
    "name": "Inscribeai",
+   "src": "common crawl"
+  },
+  "Intelligence-Security-Laboratories": {
+   "name": "Intelligence Security Laboratories",
    "src": "common crawl"
   },
   "Intellistack": {
@@ -611,6 +651,10 @@
   },
   "Jasper AI": {
    "name": "Jasper Ai",
+   "src": "common crawl"
+  },
+  "Joyteractive": {
+   "name": "Joyteractive",
    "src": "common crawl"
   },
   "Jump": {
@@ -701,6 +745,10 @@
    "name": "M Kopa",
    "src": "common crawl"
   },
+  "MSquared": {
+   "name": "Msquared",
+   "src": "common crawl"
+  },
   "MUBI": {
    "name": "MUBI"
   },
@@ -713,6 +761,10 @@
   },
   "MaticRobots": {
    "name": "Matic"
+  },
+  "Meliora-Academy": {
+   "name": "Meliora Academy",
+   "src": "common crawl"
   },
   "Merge Labs": {
    "name": "Merge Labs",
@@ -763,12 +815,28 @@
    "name": "Neuromorphic Labs",
    "src": "common crawl"
   },
+  "New Story": {
+   "name": "New Story",
+   "src": "common crawl"
+  },
+  "New-Story-Schools-OH": {
+   "name": "New Story Schools Oh",
+   "src": "common crawl"
+  },
+  "New-Story-Schools-PA": {
+   "name": "New Story Schools Pa",
+   "src": "common crawl"
+  },
   "Nivoda": {
    "name": "Nivoda",
    "src": "common crawl"
   },
   "NorthwoodSpace": {
    "name": "Northwood Space"
+  },
+  "Novogaia": {
+   "name": "Novogaia",
+   "src": "common crawl"
   },
   "OBRIO": {
    "name": "Obrio",
@@ -4211,6 +4279,14 @@
    "team_size": 0,
    "yc": "Summer 2019"
   },
+  "deepsetai": {
+   "name": "Deepsetai",
+   "src": "common crawl"
+  },
+  "deepslate": {
+   "name": "Deepslate",
+   "src": "common crawl"
+  },
   "deeptune": {
    "name": "Deeptune",
    "src": "common crawl"
@@ -4245,6 +4321,10 @@
   },
   "demandbase": {
    "name": "Demandbase",
+   "src": "common crawl"
+  },
+  "deposco": {
+   "name": "Deposco",
    "src": "common crawl"
   },
   "depot": {
@@ -4284,6 +4364,10 @@
   "dexmate": {
    "name": "Dexmate"
   },
+  "dialo": {
+   "name": "Dialo",
+   "src": "common crawl"
+  },
   "diligencesquared": {
    "hq": "New York City, NY, USA",
    "name": "DiligenceSquared",
@@ -4300,6 +4384,10 @@
    "one_liner": "Satellites for Manufacturing in Space",
    "team_size": 4,
    "yc": "Spring 2026"
+  },
+  "distance": {
+   "name": "Distance",
+   "src": "common crawl"
   },
   "distill": {
    "name": "Distill",
@@ -4321,6 +4409,10 @@
   },
   "dittoai": {
    "name": "Ditto AI"
+  },
+  "diversified-botanics": {
+   "name": "Diversified Botanics",
+   "src": "common crawl"
   },
   "dlc-inc": {
    "name": "Dlc Inc",
@@ -4348,6 +4440,14 @@
    "name": "Docplanner",
    "src": "common crawl"
   },
+  "doctolib": {
+   "name": "Doctolib",
+   "src": "common crawl"
+  },
+  "doctoralia-brasil": {
+   "name": "Doctoralia Brasil",
+   "src": "common crawl"
+  },
   "doctronic": {
    "name": "Doctronic",
    "src": "common crawl"
@@ -4363,8 +4463,16 @@
    "name": "Doinstruct",
    "src": "common crawl"
   },
+  "doji": {
+   "name": "Doji",
+   "src": "common crawl"
+  },
   "dome-systems-inc": {
    "name": "Dome Systems Inc"
+  },
+  "dons-garage-doors": {
+   "name": "Dons Garage Doors",
+   "src": "common crawl"
   },
   "doppler": {
    "name": "Doppler",
@@ -4384,6 +4492,10 @@
    "one_liner": "We make software for bookkeepers.",
    "team_size": 80,
    "yc": "Summer 2021"
+  },
+  "double-the-donation": {
+   "name": "Double The Donation",
+   "src": "common crawl"
   },
   "doubleblindbio": {
    "name": "Doubleblindbio",
@@ -4535,6 +4647,10 @@
   "egra": {
    "name": "Egra"
   },
+  "egym": {
+   "name": "Egym",
+   "src": "common crawl"
+  },
   "eigen-labs": {
    "name": "Eigen Labs",
    "src": "common crawl"
@@ -4563,6 +4679,10 @@
   },
   "electricplant": {
    "name": "Electricplant",
+   "src": "common crawl"
+  },
+  "electronx": {
+   "name": "Electronx",
    "src": "common crawl"
   },
   "element451": {
@@ -4617,6 +4737,10 @@
    "team_size": 5,
    "yc": "Spring 2025"
   },
+  "elorian-ai-inc": {
+   "name": "Elorian Ai Inc",
+   "src": "common crawl"
+  },
   "elyos": {
    "name": "Elyos",
    "src": "common crawl"
@@ -4631,14 +4755,34 @@
   "embedding-vc": {
    "name": "Creatify"
   },
+  "emberai": {
+   "name": "Emberai",
+   "src": "common crawl"
+  },
   "emerald-ai": {
    "name": "Emerald AI"
+  },
+  "emergence": {
+   "name": "Emergence",
+   "src": "common crawl"
+  },
+  "emergence-capital-partners": {
+   "name": "Emergence Capital Partners",
+   "src": "common crawl"
   },
   "emidat": {
    "name": "Emidat"
   },
   "emora-health": {
    "name": "Emora Health",
+   "src": "common crawl"
+  },
+  "empirical": {
+   "name": "Empirical",
+   "src": "common crawl"
+  },
+  "empirical-security": {
+   "name": "Empirical Security",
    "src": "common crawl"
   },
   "encord": {
@@ -4663,8 +4807,16 @@
    "name": "Endgame",
    "src": "common crawl"
   },
+  "endra": {
+   "name": "Endra",
+   "src": "common crawl"
+  },
   "endurance-energy": {
    "name": "Endurance Energy",
+   "src": "common crawl"
+  },
+  "eneba": {
+   "name": "Eneba",
    "src": "common crawl"
   },
   "engflow": {
@@ -4686,6 +4838,10 @@
    "name": "Enpal",
    "src": "common crawl"
   },
+  "ens-labs": {
+   "name": "Ens Labs",
+   "src": "common crawl"
+  },
   "entendre": {
    "name": "Entendre",
    "src": "common crawl"
@@ -4698,6 +4854,10 @@
   },
   "envoy": {
    "name": "Envoy"
+  },
+  "epackpro": {
+   "name": "Epackpro",
+   "src": "common crawl"
   },
   "epay-policy": {
    "name": "Epay Policy",
@@ -4716,6 +4876,10 @@
   },
   "equal1": {
    "name": "Equal1",
+   "src": "common crawl"
+  },
+  "equi": {
+   "name": "Equi",
    "src": "common crawl"
   },
   "equip": {
@@ -4747,6 +4911,10 @@
   },
   "ether.fi": {
    "name": "ether.fi"
+  },
+  "ethereum-foundation": {
+   "name": "Ethereum Foundation",
+   "src": "common crawl"
   },
   "ethglobal": {
    "name": "Ethglobal",
@@ -4789,6 +4957,10 @@
    "name": "Everis",
    "src": "common crawl"
   },
+  "everops": {
+   "name": "Everops",
+   "src": "common crawl"
+  },
   "evertune": {
    "name": "Evertune",
    "src": "common crawl"
@@ -4821,6 +4993,10 @@
   },
   "expa": {
    "name": "Expa",
+   "src": "common crawl"
+  },
+  "exponential": {
+   "name": "Exponential",
    "src": "common crawl"
   },
   "expressable": {
@@ -4891,6 +5067,10 @@
    "name": "Farmersd40",
    "src": "common crawl"
   },
+  "farmraise": {
+   "name": "Farmraise",
+   "src": "common crawl"
+  },
   "faros-ai": {
    "name": "Faros AI"
   },
@@ -4912,11 +5092,19 @@
    "team_size": 8,
    "yc": "Summer 2024"
   },
+  "featherlessai": {
+   "name": "Featherlessai",
+   "src": "common crawl"
+  },
   "feathery": {
    "name": "Feathery"
   },
   "feathr": {
    "name": "Feathr",
+   "src": "common crawl"
+  },
+  "feedbackfruits": {
+   "name": "Feedbackfruits",
    "src": "common crawl"
   },
   "feldera": {
@@ -4952,6 +5140,10 @@
    "name": "Ferryhealth",
    "src": "common crawl"
   },
+  "fidamy": {
+   "name": "Fidamy",
+   "src": "common crawl"
+  },
   "fiddler-ai": {
    "name": "Fiddler Ai",
    "src": "common crawl"
@@ -4977,6 +5169,10 @@
   },
   "fin": {
    "name": "Fin",
+   "src": "common crawl"
+  },
+  "finagra": {
+   "name": "Finagra",
    "src": "common crawl"
   },
   "finary": {
@@ -5023,6 +5219,10 @@
    "one_liner": "AI accounting for enterprise finance teams",
    "team_size": 10,
    "yc": "Summer 2025"
+  },
+  "finvari": {
+   "name": "Finvari",
+   "src": "common crawl"
   },
   "fira-health": {
    "name": "Fira Health",
@@ -5101,6 +5301,10 @@
    "name": "Flatfile",
    "src": "common crawl"
   },
+  "flawless": {
+   "name": "Flawless",
+   "src": "common crawl"
+  },
   "fleek": {
    "hq": "London, England, United Kingdom",
    "name": "Fleek",
@@ -5137,6 +5341,10 @@
    "name": "Flink",
    "src": "common crawl"
   },
+  "flinn": {
+   "name": "Flinn",
+   "src": "common crawl"
+  },
   "flint": {
    "hq": "New York City, NY, USA",
    "name": "Flint",
@@ -5153,6 +5361,10 @@
   },
   "flipper": {
    "name": "Flipper",
+   "src": "common crawl"
+  },
+  "flipturn": {
+   "name": "Flipturn",
    "src": "common crawl"
   },
   "float": {
@@ -5175,6 +5387,10 @@
   },
   "flowgen labs": {
    "name": "Flowgen Labs",
+   "src": "common crawl"
+  },
+  "flowhub": {
+   "name": "Flowhub",
    "src": "common crawl"
   },
   "flowtel": {
@@ -5247,8 +5463,12 @@
    "src": "common crawl"
   },
   "forerunner": {
+   "hq": "Los Angeles, CA, USA",
    "name": "Forerunner",
-   "src": "common crawl"
+   "one_liner": "Quick-turn bent tube shop for aerospace, energy, industrials",
+   "src": "common crawl",
+   "team_size": 2,
+   "yc": "Fall 2024"
   },
   "foresight": {
    "hq": "New York City, NY, USA",
@@ -5283,8 +5503,16 @@
    "team_size": 33,
    "yc": "Summer 2021"
   },
+  "formbio": {
+   "name": "Formbio",
+   "src": "common crawl"
+  },
   "formenergy": {
    "name": "Formenergy",
+   "src": "common crawl"
+  },
+  "formula": {
+   "name": "Formula",
    "src": "common crawl"
   },
   "fortell": {
@@ -5300,6 +5528,10 @@
    "one_liner": "TurboTax for Medicaid",
    "team_size": 29,
    "yc": "Summer 2023"
+  },
+  "forum-ventures": {
+   "name": "Forum Ventures",
+   "src": "common crawl"
   },
   "forus": {
    "name": "Forus"
@@ -5357,6 +5589,10 @@
   },
   "frec": {
    "name": "Frec Markets, Inc."
+  },
+  "freckle": {
+   "name": "Freckle",
+   "src": "common crawl"
   },
   "freda": {
    "name": "Freda",
@@ -5442,6 +5678,10 @@
   },
   "futrue": {
    "name": "Futrue",
+   "src": "common crawl"
+  },
+  "futrue-neuroscience": {
+   "name": "Futrue Neuroscience",
    "src": "common crawl"
   },
   "futurefitai": {
@@ -5572,6 +5812,10 @@
    "name": "Genomics",
    "src": "common crawl"
   },
+  "genpeach": {
+   "name": "Genpeach",
+   "src": "common crawl"
+  },
   "geordieai": {
    "name": "Geordieai",
    "src": "common crawl"
@@ -5589,6 +5833,10 @@
   },
   "gigaton": {
    "name": "Gigaton",
+   "src": "common crawl"
+  },
+  "gigi": {
+   "name": "Gigi",
    "src": "common crawl"
   },
   "gigs": {
@@ -5643,6 +5891,10 @@
   },
   "glinttglobal": {
    "name": "Glinttglobal",
+   "src": "common crawl"
+  },
+  "glomo": {
+   "name": "Glomo",
    "src": "common crawl"
   },
   "glow25": {
@@ -5759,12 +6011,20 @@
    "name": "Granted",
    "src": "common crawl"
   },
+  "grapevine": {
+   "name": "Grapevine",
+   "src": "common crawl"
+  },
   "graphite": {
    "name": "Graphite",
    "src": "common crawl"
   },
   "graphitehq": {
    "name": "Graphitehq",
+   "src": "common crawl"
+  },
+  "graphyte": {
+   "name": "Graphyte",
    "src": "common crawl"
   },
   "gratia": {
@@ -5843,12 +6103,24 @@
   "grow-therapy": {
    "name": "Grow Therapy"
   },
+  "growthprotocol": {
+   "name": "Growthprotocol",
+   "src": "common crawl"
+  },
+  "gruntwork": {
+   "name": "Gruntwork",
+   "src": "common crawl"
+  },
   "grvt": {
    "name": "Grvt",
    "src": "common crawl"
   },
   "gt-hq": {
    "name": "Gt Hq",
+   "src": "common crawl"
+  },
+  "guild": {
+   "name": "Guild",
    "src": "common crawl"
   },
   "gumloop": {
@@ -5893,6 +6165,10 @@
    "one_liner": "Operational Intelligence for Global Logistics",
    "team_size": 4,
    "yc": "Winter 2026"
+  },
+  "hall-cpa": {
+   "name": "Hall Cpa",
+   "src": "common crawl"
   },
   "halliday": {
    "name": "Halliday",
@@ -5956,6 +6232,10 @@
   },
   "harmattan-ai": {
    "name": "Harmattan Ai",
+   "src": "common crawl"
+  },
+  "harmonic-ai": {
+   "name": "Harmonic Ai",
    "src": "common crawl"
   },
   "harmonic-security-inc": {
@@ -6105,6 +6385,10 @@
    "name": "Hercules",
    "src": "common crawl"
   },
+  "heritage-holding": {
+   "name": "Heritage Holding",
+   "src": "common crawl"
+  },
   "heron-power": {
    "name": "Heron Power"
   },
@@ -6116,11 +6400,19 @@
    "name": "Hex Technologies"
   },
   "hexa": {
+   "hq": "London, England, United Kingdom",
    "name": "Hexa",
-   "src": "common crawl"
+   "one_liner": "Autonomous operations for industrial distributors",
+   "src": "common crawl",
+   "team_size": 3,
+   "yc": "Spring 2026"
   },
   "heyjobs": {
    "name": "Heyjobs",
+   "src": "common crawl"
+  },
+  "heymilo": {
+   "name": "Heymilo",
    "src": "common crawl"
   },
   "higgsfieldai": {
@@ -6174,11 +6466,23 @@
    "name": "Hinoki",
    "src": "common crawl"
   },
+  "hipeople-official": {
+   "name": "Hipeople Official",
+   "src": "common crawl"
+  },
   "hipp": {
    "name": "Hipp Health"
   },
   "hirehangar": {
    "name": "Hire Hangar"
+  },
+  "hirehire": {
+   "name": "Hirehire",
+   "src": "common crawl"
+  },
+  "hive-autonomy": {
+   "name": "Hive Autonomy",
+   "src": "common crawl"
   },
   "hived": {
    "name": "Hived",
@@ -6379,6 +6683,18 @@
   "hyperexponential": {
    "name": "hyperexponential"
   },
+  "hyperhug": {
+   "name": "Hyperhug",
+   "src": "common crawl"
+  },
+  "hypha": {
+   "name": "Hypha",
+   "src": "common crawl"
+  },
+  "hyphametrics": {
+   "name": "Hyphametrics",
+   "src": "common crawl"
+  },
   "i3d": {
    "name": "I3D",
    "src": "common crawl"
@@ -6407,6 +6723,10 @@
    "name": "Ideal Dental",
    "src": "common crawl"
   },
+  "ideals": {
+   "name": "Ideals",
+   "src": "common crawl"
+  },
   "ideogram": {
    "name": "Ideogram"
   },
@@ -6432,6 +6752,10 @@
    "name": "Immersivelabs",
    "src": "common crawl"
   },
+  "immunic-therapeutics": {
+   "name": "Immunic Therapeutics",
+   "src": "common crawl"
+  },
   "impact-justice": {
    "name": "Impact Justice",
    "src": "common crawl"
@@ -6451,6 +6775,10 @@
    "name": "Impulse",
    "src": "common crawl"
   },
+  "imubiosciences": {
+   "name": "Imubiosciences",
+   "src": "common crawl"
+  },
   "inato": {
    "name": "Inato",
    "src": "common crawl"
@@ -6465,6 +6793,10 @@
   },
   "incident": {
    "name": "incident.io"
+  },
+  "indent": {
+   "name": "Indent",
+   "src": "common crawl"
   },
   "inductive-automation-llc": {
    "name": "Inductive Automation"
@@ -6558,6 +6890,10 @@
    "name": "Innatera",
    "src": "common crawl"
   },
+  "inngest": {
+   "name": "Inngest",
+   "src": "common crawl"
+  },
   "inshur": {
    "name": "Inshur",
    "src": "common crawl"
@@ -6570,6 +6906,10 @@
   },
   "inspiren": {
    "name": "Inspiren",
+   "src": "common crawl"
+  },
+  "instil": {
+   "name": "Instil",
    "src": "common crawl"
   },
   "instinct": {
@@ -6591,6 +6931,10 @@
   },
   "intelligence": {
    "name": "Intelligence",
+   "src": "common crawl"
+  },
+  "interface": {
+   "name": "Interface",
    "src": "common crawl"
   },
   "interface-ai": {
@@ -6679,8 +7023,16 @@
    "name": "Ispeedtolead",
    "src": "common crawl"
   },
+  "ivo-inc": {
+   "name": "Ivo Inc",
+   "src": "common crawl"
+  },
   "jack-jill-external-ats": {
    "name": "Jack Jill External Ats",
+   "src": "common crawl"
+  },
+  "jameda": {
+   "name": "Jameda",
    "src": "common crawl"
   },
   "jampack-ai": {
@@ -6760,6 +7112,10 @@
   "joinpogo": {
    "name": "Pogo Technologies, Inc."
   },
+  "joinsherpa": {
+   "name": "Joinsherpa",
+   "src": "common crawl"
+  },
   "joko": {
    "name": "Joko",
    "src": "common crawl"
@@ -6770,6 +7126,14 @@
   },
   "jordandigitalmarketing": {
    "name": "Jordandigitalmarketing",
+   "src": "common crawl"
+  },
+  "josys": {
+   "name": "Josys",
+   "src": "common crawl"
+  },
+  "joyteractive": {
+   "name": "Joyteractive",
    "src": "common crawl"
   },
   "judgmentlabs": {
@@ -6815,6 +7179,10 @@
    "name": "Juro",
    "src": "common crawl"
   },
+  "justplay-gmbh": {
+   "name": "Justplay Gmbh",
+   "src": "common crawl"
+  },
   "k-ID": {
    "name": "k-ID"
   },
@@ -6840,6 +7208,10 @@
    "name": "Kaizenlabs",
    "src": "common crawl"
   },
+  "kalibri-labs": {
+   "name": "Kalibri Labs",
+   "src": "common crawl"
+  },
   "kalshi": {
    "hq": "New York City, NY, USA; New York, NY, USA",
    "name": "Kalshi",
@@ -6855,6 +7227,10 @@
    "name": "Kantiv",
    "src": "common crawl"
   },
+  "kantoko": {
+   "name": "Kantoko",
+   "src": "common crawl"
+  },
   "kastle": {
    "hq": "San Francisco, CA, USA",
    "name": "Kastle AI",
@@ -6862,8 +7238,16 @@
    "team_size": 15,
    "yc": "Summer 2024"
   },
+  "katana": {
+   "name": "Katana",
+   "src": "common crawl"
+  },
   "katana-network": {
    "name": "Katana Network",
+   "src": "common crawl"
+  },
+  "katapult-Labs": {
+   "name": "Katapult Labs",
    "src": "common crawl"
   },
   "kelluu": {
@@ -6887,6 +7271,10 @@
   },
   "kestra": {
    "name": "Kestra",
+   "src": "common crawl"
+  },
+  "keycard-labs": {
+   "name": "Keycard Labs",
    "src": "common crawl"
   },
   "keyrock": {
@@ -6927,6 +7315,10 @@
    "name": "Kinship",
    "src": "common crawl"
   },
+  "kinsteadhealth": {
+   "name": "Kinsteadhealth",
+   "src": "common crawl"
+  },
   "kira": {
    "name": "Kira"
   },
@@ -6958,6 +7350,10 @@
    "one_liner": "Kiwi is your GTM agent's favorite data engineer.",
    "team_size": 2,
    "yc": "Fall 2026"
+  },
+  "kiwi-com": {
+   "name": "Kiwi Com",
+   "src": "common crawl"
   },
   "klarify": {
    "hq": "Toronto, ON, Canada",
@@ -7003,6 +7399,10 @@
    "one_liner": "Making doctors 2x more efficient with AI note-taking & charge capture",
    "team_size": null,
    "yc": "Summer 2022"
+  },
+  "knowunity": {
+   "name": "Knowunity",
+   "src": "common crawl"
   },
   "knox-systems": {
    "name": "Knox Systems",
@@ -7066,6 +7466,18 @@
    "name": "Kovo",
    "src": "common crawl"
   },
+  "kpr": {
+   "name": "Kpr",
+   "src": "common crawl"
+  },
+  "kraken-kinetics": {
+   "name": "Kraken Kinetics",
+   "src": "common crawl"
+  },
+  "krakentech": {
+   "name": "Krakentech",
+   "src": "common crawl"
+  },
   "kranz-consulting": {
    "name": "Kranz Consulting",
    "src": "common crawl"
@@ -7084,8 +7496,16 @@
    "name": "Kueski",
    "src": "common crawl"
   },
+  "kuro": {
+   "name": "Kuro",
+   "src": "common crawl"
+  },
   "kustomer": {
    "name": "Kustomer"
+  },
+  "kyanhealth": {
+   "name": "Kyanhealth",
+   "src": "common crawl"
   },
   "kyra": {
    "name": "Kyra",
@@ -7163,6 +7583,10 @@
    "one_liner": "Catch wrong LLM answers before your customers do",
    "team_size": 1,
    "yc": "Fall 2026"
+  },
+  "latent defense": {
+   "name": "Latent Defense",
+   "src": "common crawl"
   },
   "latentlabs": {
    "name": "Latentlabs",
@@ -7268,6 +7692,10 @@
    "team_size": 500,
    "yc": "Summer 2021"
   },
+  "lemlist": {
+   "name": "Lemlist",
+   "src": "common crawl"
+  },
   "lemon-io": {
    "name": "Lemon Io",
    "src": "common crawl"
@@ -7301,6 +7729,14 @@
    "team_size": 70,
    "yc": "Summer 2023"
   },
+  "level": {
+   "name": "Level",
+   "src": "common crawl"
+  },
+  "level-ai": {
+   "name": "Level Ai",
+   "src": "common crawl"
+  },
   "levels": {
    "name": "Levels Technologies"
   },
@@ -7311,8 +7747,16 @@
   "lgads": {
    "name": "LG Ad Solutions"
   },
+  "libra": {
+   "name": "Libra",
+   "src": "common crawl"
+  },
   "life-space-digital": {
    "name": "Life Space Digital",
+   "src": "common crawl"
+  },
+  "liftoffrank": {
+   "name": "Liftoffrank",
    "src": "common crawl"
   },
   "light-inc": {
@@ -7387,12 +7831,20 @@
   "linqapp": {
    "name": "LINQ"
   },
+  "linro": {
+   "name": "Linro",
+   "src": "common crawl"
+  },
   "lio": {
    "hq": "BY, Germany",
    "name": "Lio (formerly askLio)",
    "one_liner": "The World's First Multi-Agent System for Procurement",
    "team_size": 80,
    "yc": "Summer 2023"
+  },
+  "liqid-lig": {
+   "name": "Liqid Lig",
+   "src": "common crawl"
   },
   "liquid": {
    "name": "Liquid"
@@ -7557,6 +8009,10 @@
    "name": "Lumbermanufactory",
    "src": "common crawl"
   },
+  "lumen.energy": {
+   "name": "Lumen.Energy",
+   "src": "common crawl"
+  },
   "lumilens": {
    "name": "Lumilens"
   },
@@ -7578,6 +8034,10 @@
    "team_size": 50,
    "yc": "Summer 2020"
   },
+  "lumos": {
+   "name": "Lumos",
+   "src": "common crawl"
+  },
   "lunar": {
    "name": "Lunar",
    "src": "common crawl"
@@ -7592,6 +8052,10 @@
   },
   "luxor": {
    "name": "Luxor",
+   "src": "common crawl"
+  },
+  "lyceum": {
+   "name": "Lyceum",
    "src": "common crawl"
   },
   "lydian": {
@@ -7622,6 +8086,10 @@
    "one_liner": "AI CAD Software for Civil Engineering",
    "team_size": 25,
    "yc": "Summer 2021"
+  },
+  "macroscope": {
+   "name": "Macroscope",
+   "src": "common crawl"
   },
   "madcitywindows": {
    "name": "Madcitywindows",
@@ -7672,6 +8140,10 @@
   "makai-labs": {
    "name": "Makai Labs"
   },
+  "maki": {
+   "name": "Maki",
+   "src": "common crawl"
+  },
   "malga": {
    "hq": "Rio de Janeiro, RJ, Brazil",
    "name": "Malga",
@@ -7684,6 +8156,10 @@
   },
   "mandrel": {
    "name": "Mandrel",
+   "src": "common crawl"
+  },
+  "maneuver-marketing": {
+   "name": "Maneuver Marketing",
    "src": "common crawl"
   },
   "manex": {
@@ -7711,8 +8187,16 @@
    "team_size": 2,
    "yc": "Fall 2026"
   },
+  "manychat": {
+   "name": "Manychat",
+   "src": "common crawl"
+  },
   "mapbox": {
    "name": "Mapbox",
+   "src": "common crawl"
+  },
+  "maple": {
+   "name": "Maple",
    "src": "common crawl"
   },
   "marble": {
@@ -7753,12 +8237,20 @@
    "name": "Masabi",
    "src": "common crawl"
   },
+  "mast": {
+   "name": "Mast",
+   "src": "common crawl"
+  },
   "mastra": {
    "hq": "San Francisco, CA, USA; Remote",
    "name": "Mastra",
    "one_liner": "The Javascript framework for building AI agents, from the Gatsby devs",
    "team_size": 30,
    "yc": "Winter 2025"
+  },
+  "materialize": {
+   "name": "Materialize",
+   "src": "common crawl"
   },
   "materialsecurity": {
    "name": "Materialsecurity",
@@ -7826,6 +8318,10 @@
    "name": "Mazehq",
    "src": "common crawl"
   },
+  "mdcalc": {
+   "name": "Mdcalc",
+   "src": "common crawl"
+  },
   "meadow": {
    "hq": "San Francisco, CA, USA",
    "name": "Meadow",
@@ -7879,6 +8375,10 @@
    "name": "Mend Io",
    "src": "common crawl"
   },
+  "menlo": {
+   "name": "Menlo",
+   "src": "common crawl"
+  },
   "menlosecurity": {
    "name": "Menlosecurity",
    "src": "common crawl"
@@ -7906,6 +8406,10 @@
    "one_liner": "AI Quote and Order Automation for Distributors & Manufacturers",
    "team_size": 20,
    "yc": "Winter 2025"
+  },
+  "mercury": {
+   "name": "Mercury",
+   "src": "common crawl"
   },
   "merge": {
    "name": "Merge",
@@ -8006,6 +8510,14 @@
    "name": "Midjourney",
    "src": "common crawl"
   },
+  "midpage": {
+   "name": "Midpage",
+   "src": "common crawl"
+  },
+  "midstream": {
+   "name": "Midstream",
+   "src": "common crawl"
+  },
   "mimica": {
    "name": "Mimica",
    "src": "common crawl"
@@ -8045,8 +8557,20 @@
    "name": "Miramace",
    "src": "common crawl"
   },
+  "mirelo": {
+   "name": "Mirelo",
+   "src": "common crawl"
+  },
   "mirendil": {
    "name": "Mirendil",
+   "src": "common crawl"
+  },
+  "miri": {
+   "name": "Miri",
+   "src": "common crawl"
+  },
+  "mirror-physics": {
+   "name": "Mirror Physics",
    "src": "common crawl"
   },
   "misolabs": {
@@ -8103,6 +8627,10 @@
    "team_size": 160,
    "yc": "Summer 2018"
   },
+  "modulate": {
+   "name": "Modulate",
+   "src": "common crawl"
+  },
   "modus": {
    "hq": "Austin, TX, USA; Remote",
    "name": "Modus",
@@ -8152,6 +8680,10 @@
    "name": "Monei",
    "src": "common crawl"
   },
+  "monk": {
+   "name": "Monk",
+   "src": "common crawl"
+  },
   "monogram": {
    "name": "Monogram"
   },
@@ -8169,6 +8701,10 @@
   },
   "monumental": {
    "name": "Monumental",
+   "src": "common crawl"
+  },
+  "moonactive": {
+   "name": "Moonactive",
    "src": "common crawl"
   },
   "moonshot": {
@@ -8237,6 +8773,10 @@
    "name": "Mudflap",
    "src": "common crawl"
   },
+  "multiply": {
+   "name": "Multiply",
+   "src": "common crawl"
+  },
   "multiplymii": {
    "name": "Multiplymii",
    "src": "common crawl"
@@ -8251,6 +8791,10 @@
    "one_liner": "The data layer for perceptual intelligence",
    "team_size": 30,
    "yc": "Winter 2025"
+  },
+  "munich-electrification": {
+   "name": "Munich Electrification",
+   "src": "common crawl"
   },
   "mural": {
    "name": "Mural",
@@ -8274,12 +8818,20 @@
    "name": "Mytomorrows",
    "src": "common crawl"
   },
+  "mycroft": {
+   "name": "Mycroft",
+   "src": "common crawl"
+  },
   "myedspacecareers": {
    "name": "Myedspacecareers",
    "src": "common crawl"
   },
   "myperch": {
    "name": "Myperch",
+   "src": "common crawl"
+  },
+  "myriad-ai": {
+   "name": "Myriad Ai",
    "src": "common crawl"
   },
   "mystenlabs": {
@@ -8356,6 +8908,14 @@
   },
   "navi": {
    "name": "Navi AI"
+  },
+  "ncontracts": {
+   "name": "Ncontracts",
+   "src": "common crawl"
+  },
+  "ndeavour": {
+   "name": "Ndeavour",
+   "src": "common crawl"
   },
   "neara": {
    "name": "Neara",
@@ -8450,6 +9010,10 @@
    "name": "Neudata",
    "src": "common crawl"
   },
+  "neura-robotics-gmbh": {
+   "name": "Neura Robotics Gmbh",
+   "src": "common crawl"
+  },
   "neural-earth": {
    "name": "Neural Earth",
    "src": "common crawl"
@@ -8466,12 +9030,24 @@
    "name": "Nevis",
    "src": "common crawl"
   },
+  "nevoya": {
+   "name": "Nevoya",
+   "src": "common crawl"
+  },
+  "new story": {
+   "name": "New Story",
+   "src": "common crawl"
+  },
   "new-story": {
    "hq": "Atlanta, GA, USA",
    "name": "New Story",
    "one_liner": "We pioneer solutions to end the global housing crisis by empowering…",
    "team_size": 20,
    "yc": "Summer 2015"
+  },
+  "new-story-schools-pa": {
+   "name": "New Story Schools Pa",
+   "src": "common crawl"
   },
   "newlantern": {
    "name": "New Lantern"
@@ -8484,6 +9060,10 @@
    "name": "Newtonx",
    "src": "common crawl"
   },
+  "nexos-ai": {
+   "name": "Nexos Ai",
+   "src": "common crawl"
+  },
   "nextdata": {
    "name": "Nextdata",
    "src": "common crawl"
@@ -8492,12 +9072,24 @@
    "name": "Nextlinklabs",
    "src": "common crawl"
   },
+  "nextpatient": {
+   "name": "Nextpatient",
+   "src": "common crawl"
+  },
   "nexus-cognitive": {
    "name": "Nexus Cognitive",
    "src": "common crawl"
   },
+  "nexus-intelligence": {
+   "name": "Nexus Intelligence",
+   "src": "common crawl"
+  },
   "nexus-marketing": {
    "name": "Nexus Marketing",
+   "src": "common crawl"
+  },
+  "nexxa": {
+   "name": "Nexxa",
    "src": "common crawl"
   },
   "nexxen": {
@@ -8558,6 +9150,10 @@
   },
   "nooks": {
    "name": "Nooks"
+  },
+  "noon-design": {
+   "name": "Noon Design",
+   "src": "common crawl"
   },
   "nord-security": {
    "name": "Nord Security",
@@ -8704,6 +9300,10 @@
    "name": "Oaknorth",
    "src": "common crawl"
   },
+  "oath": {
+   "name": "Oath",
+   "src": "common crawl"
+  },
   "observable-space": {
    "name": "Observable Space"
   },
@@ -8760,6 +9360,10 @@
    "team_size": 10,
    "yc": "Summer 2024"
   },
+  "oh": {
+   "name": "Oh",
+   "src": "common crawl"
+  },
   "oktoberagency": {
    "name": "Oktoberagency",
    "src": "common crawl"
@@ -8786,6 +9390,10 @@
    "name": "Omaze",
    "src": "common crawl"
   },
+  "omegga": {
+   "name": "Omegga",
+   "src": "common crawl"
+  },
   "omnea": {
    "name": "Omnea",
    "src": "common crawl"
@@ -8796,6 +9404,10 @@
   },
   "omnifold": {
    "name": "Omnifold",
+   "src": "common crawl"
+  },
+  "omnilex": {
+   "name": "Omnilex",
    "src": "common crawl"
   },
   "omniscient": {
@@ -9165,8 +9777,12 @@
    "yc": "Winter 2025"
   },
   "parallel": {
+   "hq": "Paris, Île-de-France, France",
    "name": "Parallel",
-   "src": "common crawl"
+   "one_liner": "AI agents for healthcare admin",
+   "src": "common crawl",
+   "team_size": 15,
+   "yc": "Winter 2024"
   },
   "parallel-bio": {
    "hq": "San Francisco, CA, USA",
@@ -14556,6 +15172,14 @@
    "at": "2026-10-24T13:41:38Z",
    "hit": true
   },
+  "ashby:deepsetai": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
+  "ashby:deepslate": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:deeptune": {
    "at": "2026-10-24T13:41:38Z",
    "hit": true
@@ -14600,6 +15224,10 @@
    "at": "2026-10-24T13:41:38Z",
    "hit": false
   },
+  "ashby:deposco": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:depthfirst": {
    "at": "2026-10-24T03:14:35Z",
    "hit": true
@@ -14632,6 +15260,10 @@
    "at": "2026-10-24T13:41:38Z",
    "hit": true
   },
+  "ashby:dialo": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:directive": {
    "at": "2026-10-24T03:14:35Z",
    "hit": true
@@ -14644,12 +15276,20 @@
    "at": "2026-10-24T13:41:38Z",
    "hit": true
   },
+  "ashby:distance": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:distill": {
    "at": "2026-10-24T03:14:35Z",
    "hit": true
   },
   "ashby:distributed-spectrum": {
    "at": "2026-10-24T03:14:35Z",
+   "hit": true
+  },
+  "ashby:diversified-botanics": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:divineresearch": {
@@ -14668,12 +15308,24 @@
    "at": "2026-10-24T13:41:38Z",
    "hit": true
   },
+  "ashby:doctolib": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:doctoralia-brasil": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:doctronic": {
    "at": "2026-10-24T13:41:38Z",
    "hit": true
   },
   "ashby:doinstruct": {
    "at": "2026-10-24T13:41:38Z",
+   "hit": true
+  },
+  "ashby:doji": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:dolarapp": {
@@ -14683,6 +15335,14 @@
   "ashby:dominion dynamics": {
    "at": "2026-10-24T03:14:35Z",
    "hit": true
+  },
+  "ashby:dons-garage-doors": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:doodles": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
   },
   "ashby:doppel": {
    "at": "2026-10-24T03:14:35Z",
@@ -14702,6 +15362,10 @@
   },
   "ashby:dottxt": {
    "at": "2026-10-24T13:41:38Z",
+   "hit": true
+  },
+  "ashby:double-the-donation": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:doubleblindbio": {
@@ -14735,6 +15399,10 @@
   "ashby:duck-duck-go": {
    "at": "2026-10-24T03:14:35Z",
    "hit": true
+  },
+  "ashby:duckduckgo": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
   },
   "ashby:duet": {
    "at": "2026-10-24T03:14:35Z",
@@ -14816,6 +15484,10 @@
    "at": "2026-10-24T03:14:35Z",
    "hit": true
   },
+  "ashby:egym": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:eigen-labs": {
    "at": "2026-10-24T13:41:38Z",
    "hit": true
@@ -14832,8 +15504,16 @@
    "at": "2026-10-24T13:41:38Z",
    "hit": true
   },
+  "ashby:electricai": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
   "ashby:electricplant": {
    "at": "2026-10-24T03:14:35Z",
+   "hit": true
+  },
+  "ashby:electronx": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:element451": {
@@ -14860,6 +15540,10 @@
    "at": "2026-10-24T13:41:38Z",
    "hit": true
   },
+  "ashby:ellamind": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
   "ashby:ellipsis-health": {
    "at": "2026-10-24T03:14:35Z",
    "hit": true
@@ -14872,6 +15556,10 @@
    "at": "2026-10-24T03:14:35Z",
    "hit": true
   },
+  "ashby:elorian-ai-inc": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:elyos": {
    "at": "2026-10-24T03:14:35Z",
    "hit": true
@@ -14880,8 +15568,28 @@
    "at": "2026-10-24T13:41:39Z",
    "hit": true
   },
+  "ashby:emberai": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
+  "ashby:emergence": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:emergence-capital-partners": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:emora-health": {
    "at": "2026-10-24T13:41:38Z",
+   "hit": true
+  },
+  "ashby:empirical": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:empirical-security": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:empower finance": {
@@ -14900,8 +15608,16 @@
    "at": "2026-10-24T13:41:38Z",
    "hit": true
   },
+  "ashby:endra": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:endurance-energy": {
    "at": "2026-10-24T13:41:38Z",
+   "hit": true
+  },
+  "ashby:eneba": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:engflow": {
@@ -14916,8 +15632,16 @@
    "at": "2026-10-24T13:41:38Z",
    "hit": true
   },
+  "ashby:ens-labs": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:entendre": {
    "at": "2026-10-24T03:14:35Z",
+   "hit": true
+  },
+  "ashby:epackpro": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:epay-policy": {
@@ -14936,6 +15660,10 @@
    "at": "2026-10-24T03:14:35Z",
    "hit": true
   },
+  "ashby:eppo": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
+  },
   "ashby:epsilon-health": {
    "at": "2026-10-24T13:41:38Z",
    "hit": true
@@ -14948,12 +15676,20 @@
    "at": "2026-10-24T13:41:38Z",
    "hit": false
   },
+  "ashby:equi": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:eradrive": {
    "at": "2026-10-24T03:14:35Z",
    "hit": true
   },
   "ashby:espresso": {
    "at": "2026-10-25T13:49:21Z",
+   "hit": true
+  },
+  "ashby:ethereum-foundation": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:ethglobal": {
@@ -14980,6 +15716,10 @@
    "at": "2026-10-25T13:49:20Z",
    "hit": true
   },
+  "ashby:everops": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:evertune": {
    "at": "2026-10-25T13:49:22Z",
    "hit": true
@@ -15000,12 +15740,20 @@
    "at": "2026-10-24T03:14:35Z",
    "hit": true
   },
+  "ashby:excelerate": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:exo": {
    "at": "2026-10-24T03:14:35Z",
    "hit": true
   },
   "ashby:expa": {
    "at": "2026-10-25T13:49:21Z",
+   "hit": true
+  },
+  "ashby:exponential": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:expressable": {
@@ -15020,6 +15768,10 @@
    "at": "2026-10-25T13:49:22Z",
    "hit": true
   },
+  "ashby:eyt": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:f2-ai": {
    "at": "2026-10-25T13:49:20Z",
    "hit": true
@@ -15032,9 +15784,17 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": false
   },
+  "ashby:factorhouse": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
   "ashby:factory": {
    "at": "2026-10-24T03:14:35Z",
    "hit": true
+  },
+  "ashby:fairing": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
   },
   "ashby:fal-ai": {
    "at": "2026-10-24T03:14:35Z",
@@ -15056,6 +15816,10 @@
    "at": "2026-10-24T03:14:35Z",
    "hit": true
   },
+  "ashby:farmraise": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:fastino-ai": {
    "at": "2026-10-25T13:49:22Z",
    "hit": true
@@ -15064,8 +15828,20 @@
    "at": "2026-10-25T13:49:22Z",
    "hit": true
   },
+  "ashby:fauna-robotics": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
+  "ashby:featherlessai": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:feathr": {
    "at": "2026-10-24T03:14:35Z",
+   "hit": true
+  },
+  "ashby:feedbackfruits": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:feldera": {
@@ -15104,6 +15880,10 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": true
   },
+  "ashby:fidamy": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:fiddler-ai": {
    "at": "2026-10-24T03:14:35Z",
    "hit": true
@@ -15127,6 +15907,14 @@
   "ashby:fin": {
    "at": "2026-10-24T03:14:35Z",
    "hit": true
+  },
+  "ashby:finagra": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
+  "ashby:finalroundai": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
   },
   "ashby:finary": {
    "at": "2026-10-25T13:49:21Z",
@@ -15156,6 +15944,14 @@
    "at": "2026-10-24T03:14:35Z",
    "hit": true
   },
+  "ashby:finvari": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
+  "ashby:finvest": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
   "ashby:fira-health": {
    "at": "2026-10-25T13:49:22Z",
    "hit": true
@@ -15166,6 +15962,10 @@
   },
   "ashby:firewall": {
    "at": "2026-10-25T13:49:21Z",
+   "hit": false
+  },
+  "ashby:firmable": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": false
   },
   "ashby:first-resonance": {
@@ -15212,6 +16012,14 @@
    "at": "2026-10-25T13:49:20Z",
    "hit": true
   },
+  "ashby:flawless": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:fleet health": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:fleetcraft": {
    "at": "2026-10-25T13:49:22Z",
    "hit": true
@@ -15220,8 +16028,16 @@
    "at": "2026-10-25T13:49:20Z",
    "hit": true
   },
+  "ashby:flex-living": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
   "ashby:flink": {
    "at": "2026-10-25T13:49:20Z",
+   "hit": true
+  },
+  "ashby:flinn": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:flipper": {
@@ -15231,6 +16047,10 @@
   "ashby:flipsidecrypto": {
    "at": "2026-10-25T13:49:21Z",
    "hit": false
+  },
+  "ashby:flipturn": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
   },
   "ashby:floatme": {
    "at": "2026-10-24T03:14:35Z",
@@ -15244,8 +16064,16 @@
    "at": "2026-10-25T13:49:20Z",
    "hit": true
   },
+  "ashby:flourish research": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
+  },
   "ashby:flowgen labs": {
    "at": "2026-10-24T03:14:35Z",
+   "hit": true
+  },
+  "ashby:flowhub": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:flox": {
@@ -15259,6 +16087,14 @@
   "ashby:fnfm": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
+  },
+  "ashby:focus-ai": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
+  "ashby:focused-energy": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
   },
   "ashby:foley": {
    "at": "2026-10-25T13:49:20Z",
@@ -15284,6 +16120,10 @@
    "at": "2026-10-24T03:14:35Z",
    "hit": true
   },
+  "ashby:foodhealthco": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
   "ashby:footprint": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
@@ -15304,8 +16144,16 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": true
   },
+  "ashby:formbio": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:formenergy": {
    "at": "2026-10-24T03:14:35Z",
+   "hit": true
+  },
+  "ashby:formula": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:fort health": {
@@ -15314,6 +16162,14 @@
   },
   "ashby:forto": {
    "at": "2026-10-25T13:49:21Z",
+   "hit": true
+  },
+  "ashby:fortytwo": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
+  },
+  "ashby:forum-ventures": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:forward financing": {
@@ -15360,6 +16216,10 @@
    "at": "2026-10-25T13:49:20Z",
    "hit": true
   },
+  "ashby:freckle": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:freda": {
    "at": "2026-10-24T03:14:35Z",
    "hit": true
@@ -15376,6 +16236,10 @@
    "at": "2026-10-24T03:14:35Z",
    "hit": true
   },
+  "ashby:freeplay": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
   "ashby:freetrade": {
    "at": "2026-10-25T13:49:22Z",
    "hit": true
@@ -15386,6 +16250,10 @@
   },
   "ashby:frontcareers": {
    "at": "2026-10-25T13:49:22Z",
+   "hit": true
+  },
+  "ashby:fronzafrancis": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:fulcrum-inc": {
@@ -15414,6 +16282,10 @@
   },
   "ashby:futrue": {
    "at": "2026-10-24T03:14:35Z",
+   "hit": true
+  },
+  "ashby:futrue-neuroscience": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:futurefitai": {
@@ -15451,6 +16323,10 @@
   "ashby:galvany": {
    "at": "2026-10-24T03:14:35Z",
    "hit": true
+  },
+  "ashby:game-plan-tech": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
   },
   "ashby:gamma": {
    "at": "2026-10-24T03:14:35Z",
@@ -15516,9 +16392,17 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": false
   },
+  "ashby:genpeach": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:geordieai": {
    "at": "2026-10-25T13:49:22Z",
    "hit": true
+  },
+  "ashby:get-ivy": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
   },
   "ashby:getpluto": {
    "at": "2026-10-25T13:49:21Z",
@@ -15538,6 +16422,10 @@
   },
   "ashby:gigaton": {
    "at": "2026-10-25T13:49:20Z",
+   "hit": true
+  },
+  "ashby:gigi": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:gismart": {
@@ -15562,6 +16450,10 @@
   },
   "ashby:glinttglobal": {
    "at": "2026-10-24T03:14:36Z",
+   "hit": true
+  },
+  "ashby:glomo": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:glow25": {
@@ -15632,6 +16524,10 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": true
   },
+  "ashby:gotphoto": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:goventi": {
    "at": "2026-10-24T03:14:36Z",
    "hit": true
@@ -15656,6 +16552,10 @@
    "at": "2026-10-25T13:49:22Z",
    "hit": true
   },
+  "ashby:grand": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
+  },
   "ashby:granica": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
@@ -15672,6 +16572,10 @@
    "at": "2026-10-25T13:49:22Z",
    "hit": true
   },
+  "ashby:grapevine": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:graphite": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
@@ -15680,8 +16584,16 @@
    "at": "2026-10-25T13:49:22Z",
    "hit": true
   },
+  "ashby:graphyte": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:gratia": {
    "at": "2026-10-24T03:14:36Z",
+   "hit": true
+  },
+  "ashby:gravity": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:gravityclimate": {
@@ -15695,6 +16607,10 @@
   "ashby:gray swan ai": {
    "at": "2026-10-24T03:14:36Z",
    "hit": true
+  },
+  "ashby:grayce": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
   },
   "ashby:greatsky": {
    "at": "2026-10-24T03:14:36Z",
@@ -15732,12 +16648,20 @@
    "at": "2026-10-24T03:14:36Z",
    "hit": true
   },
+  "ashby:growthprotocol": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:growthtroops": {
    "at": "2026-10-25T13:49:20Z",
    "hit": false
   },
   "ashby:growthx ai": {
    "at": "2026-10-25T13:49:20Z",
+   "hit": true
+  },
+  "ashby:gruntwork": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:grvt": {
@@ -15752,8 +16676,16 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": false
   },
+  "ashby:guild": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:h2analytics": {
    "at": "2026-10-25T13:49:22Z",
+   "hit": true
+  },
+  "ashby:haast": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:haastautonomous": {
@@ -15767,6 +16699,10 @@
   "ashby:halborn": {
    "at": "2026-10-25T13:49:22Z",
    "hit": false
+  },
+  "ashby:hall-cpa": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
   },
   "ashby:halliday": {
    "at": "2026-10-25T13:49:22Z",
@@ -15818,6 +16754,10 @@
   },
   "ashby:harmonic": {
    "at": "2026-10-24T03:14:36Z",
+   "hit": true
+  },
+  "ashby:harmonic-ai": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:harmonic-security-inc": {
@@ -15932,6 +16872,10 @@
    "at": "2026-10-25T13:49:20Z",
    "hit": true
   },
+  "ashby:heritage-holding": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:herondata": {
    "at": "2026-10-24T03:14:36Z",
    "hit": true
@@ -15944,6 +16888,10 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": true
   },
+  "ashby:heymilo": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:hifi": {
    "at": "2026-10-25T13:49:22Z",
    "hit": false
@@ -15951,6 +16899,10 @@
   "ashby:higgsfieldai": {
    "at": "2026-10-24T03:14:36Z",
    "hit": true
+  },
+  "ashby:highlight": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
   },
   "ashby:hike-medical": {
    "at": "2026-10-24T03:14:36Z",
@@ -15968,9 +16920,21 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": true
   },
+  "ashby:hipeople-official": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:hirehire": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:hiring-pros": {
    "at": "2026-10-25T13:49:22Z",
    "hit": false
+  },
+  "ashby:hive-autonomy": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
   },
   "ashby:hived": {
    "at": "2026-10-24T03:14:36Z",
@@ -16048,6 +17012,10 @@
    "at": "2026-10-24T03:14:36Z",
    "hit": true
   },
+  "ashby:hotstuff labs": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
+  },
   "ashby:hoxhunt": {
    "at": "2026-10-25T13:49:22Z",
    "hit": true
@@ -16072,6 +17040,10 @@
    "at": "2026-10-24T03:14:36Z",
    "hit": true
   },
+  "ashby:humandelta": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
   "ashby:humatahealth": {
    "at": "2026-10-25T13:49:22Z",
    "hit": true
@@ -16092,12 +17064,24 @@
    "at": "2026-10-24T03:14:36Z",
    "hit": true
   },
+  "ashby:hyperhug": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:hyperliquid labs": {
    "at": "2026-10-24T03:14:36Z",
    "hit": true
   },
   "ashby:hyperscience": {
    "at": "2026-10-24T03:14:36Z",
+   "hit": true
+  },
+  "ashby:hypha": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:hyphametrics": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:i3d": {
@@ -16108,12 +17092,20 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": false
   },
+  "ashby:ice speak social": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
   "ashby:iddqd": {
    "at": "2026-10-25T13:49:22Z",
    "hit": true
   },
   "ashby:ideal dental": {
    "at": "2026-10-24T03:14:36Z",
+   "hit": true
+  },
+  "ashby:ideals": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:ignite-reading": {
@@ -16126,6 +17118,10 @@
   },
   "ashby:immersivelabs": {
    "at": "2026-10-25T13:49:21Z",
+   "hit": true
+  },
+  "ashby:immunic-therapeutics": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:impact-justice": {
@@ -16144,6 +17140,10 @@
    "at": "2026-10-24T03:14:36Z",
    "hit": true
   },
+  "ashby:imubiosciences": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:inato": {
    "at": "2026-10-24T03:14:36Z",
    "hit": true
@@ -16158,6 +17158,10 @@
   },
   "ashby:inception point ai": {
    "at": "2026-10-25T13:49:21Z",
+   "hit": true
+  },
+  "ashby:indent": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:inductive-bio": {
@@ -16196,12 +17200,20 @@
    "at": "2026-10-25T13:49:20Z",
    "hit": true
   },
+  "ashby:injective": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:injective-labs": {
    "at": "2026-10-25T13:49:22Z",
    "hit": true
   },
   "ashby:innatera": {
    "at": "2026-10-25T13:49:22Z",
+   "hit": true
+  },
+  "ashby:inngest": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:inscribeai": {
@@ -16216,12 +17228,20 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": true
   },
+  "ashby:instil": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:instructure": {
    "at": "2026-10-24T03:14:36Z",
    "hit": true
   },
   "ashby:intelligence": {
    "at": "2026-10-25T13:49:22Z",
+   "hit": true
+  },
+  "ashby:intelligence-security-laboratories": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:intellistack": {
@@ -16231,6 +17251,10 @@
   "ashby:interaction": {
    "at": "2026-10-24T03:14:36Z",
    "hit": false
+  },
+  "ashby:interface": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
   },
   "ashby:interrahealth": {
    "at": "2026-10-25T13:49:20Z",
@@ -16272,6 +17296,10 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": false
   },
+  "ashby:ionlace": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
   "ashby:iota-bio": {
    "at": "2026-10-25T13:49:20Z",
    "hit": true
@@ -16308,8 +17336,16 @@
    "at": "2026-10-25T13:49:20Z",
    "hit": true
   },
+  "ashby:ivo-inc": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:jack-jill-external-ats": {
    "at": "2026-10-24T03:14:36Z",
+   "hit": true
+  },
+  "ashby:jameda": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:jane": {
@@ -16360,8 +17396,20 @@
    "at": "2026-10-24T03:14:36Z",
    "hit": true
   },
+  "ashby:joinarc": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
+  },
   "ashby:joinbetter": {
    "at": "2026-10-25T13:49:21Z",
+   "hit": true
+  },
+  "ashby:joinforage": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
+  "ashby:joinsherpa": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:jointangelo": {
@@ -16380,6 +17428,18 @@
    "at": "2026-10-25T13:49:20Z",
    "hit": true
   },
+  "ashby:josys": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
+  "ashby:joyteractive": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:judge-me": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
+  },
   "ashby:judgmentlabs": {
    "at": "2026-10-24T03:14:36Z",
    "hit": true
@@ -16395,6 +17455,14 @@
   "ashby:juro": {
    "at": "2026-10-25T13:49:20Z",
    "hit": true
+  },
+  "ashby:justplay-gmbh": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:k2space": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
   },
   "ashby:kairon-health": {
    "at": "2026-10-25T13:49:22Z",
@@ -16412,6 +17480,10 @@
    "at": "2026-10-25T13:49:20Z",
    "hit": false
   },
+  "ashby:kalibri-labs": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:kandou-ai": {
    "at": "2026-10-24T03:14:36Z",
    "hit": true
@@ -16420,9 +17492,25 @@
    "at": "2026-10-24T03:14:36Z",
    "hit": true
   },
+  "ashby:kantoko": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:katana": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:katana-network": {
    "at": "2026-10-25T13:49:20Z",
    "hit": true
+  },
+  "ashby:katapult-labs": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:keel": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
   },
   "ashby:keep": {
    "at": "2026-10-24T03:14:36Z",
@@ -16450,6 +17538,10 @@
   },
   "ashby:kestra": {
    "at": "2026-10-25T13:49:21Z",
+   "hit": true
+  },
+  "ashby:keycard-labs": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:keyrock": {
@@ -16484,12 +17576,20 @@
    "at": "2026-10-24T03:14:36Z",
    "hit": true
   },
+  "ashby:kingdomsupercultures": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
+  },
   "ashby:kins": {
    "at": "2026-10-24T03:14:36Z",
    "hit": true
   },
   "ashby:kinship": {
    "at": "2026-10-25T13:49:20Z",
+   "hit": true
+  },
+  "ashby:kinsteadhealth": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:kintsugi": {
@@ -16506,6 +17606,14 @@
   },
   "ashby:kit": {
    "at": "2026-10-25T13:49:20Z",
+   "hit": true
+  },
+  "ashby:kittl": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
+  },
+  "ashby:kiwi-com": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:klarify": {
@@ -16534,6 +17642,10 @@
   },
   "ashby:knownwell": {
    "at": "2026-10-25T13:49:20Z",
+   "hit": true
+  },
+  "ashby:knowunity": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:knox-systems": {
@@ -16580,6 +17692,18 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": true
   },
+  "ashby:kpr": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:kraken-kinetics": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
+  "ashby:krakentech": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:kranz-consulting": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
@@ -16590,6 +17714,18 @@
   },
   "ashby:kueski": {
    "at": "2026-10-25T13:49:21Z",
+   "hit": true
+  },
+  "ashby:kuro": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:kuru-labs": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
+  "ashby:kyanhealth": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:kyra": {
@@ -16634,6 +17770,10 @@
   },
   "ashby:latchbio": {
    "at": "2026-10-25T13:49:21Z",
+   "hit": true
+  },
+  "ashby:latent defense": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:latentlabs": {
@@ -16688,6 +17828,10 @@
    "at": "2026-10-25T13:49:22Z",
    "hit": true
   },
+  "ashby:leapsome": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
+  },
   "ashby:learn-bedford": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
@@ -16708,6 +17852,10 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": true
   },
+  "ashby:lemlist": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:lemon-io": {
    "at": "2026-10-24T03:14:36Z",
    "hit": true
@@ -16715,6 +17863,10 @@
   "ashby:lemonade": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
+  },
+  "ashby:lempire": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
   },
   "ashby:lemrock": {
    "at": "2026-10-24T03:14:36Z",
@@ -16728,6 +17880,14 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": true
   },
+  "ashby:level": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
+  "ashby:level-ai": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:levelpath": {
    "at": "2026-10-24T03:14:36Z",
    "hit": true
@@ -16736,8 +17896,16 @@
    "at": "2026-10-24T03:14:36Z",
    "hit": true
   },
+  "ashby:libra": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:life-space-digital": {
    "at": "2026-10-25T13:49:22Z",
+   "hit": true
+  },
+  "ashby:liftoffrank": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:light-inc": {
@@ -16794,6 +17962,14 @@
   },
   "ashby:linear": {
    "at": "2026-10-24T03:14:36Z",
+   "hit": true
+  },
+  "ashby:linro": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
+  "ashby:liqid-lig": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:liquid-ai": {
@@ -16904,6 +18080,10 @@
    "at": "2026-10-25T13:49:22Z",
    "hit": false
   },
+  "ashby:luma": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
   "ashby:luma-ai": {
    "at": "2026-10-25T13:49:22Z",
    "hit": false
@@ -16920,6 +18100,10 @@
    "at": "2026-10-24T03:14:36Z",
    "hit": true
   },
+  "ashby:lumen.energy": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:lumin-digital": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
@@ -16930,6 +18114,10 @@
   },
   "ashby:luminovo": {
    "at": "2026-10-24T03:14:36Z",
+   "hit": true
+  },
+  "ashby:lumos": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:lunar": {
@@ -16946,6 +18134,10 @@
   },
   "ashby:luxor": {
    "at": "2026-10-24T03:14:36Z",
+   "hit": true
+  },
+  "ashby:lyceum": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:lyra": {
@@ -16975,6 +18167,10 @@
   "ashby:machinify": {
    "at": "2026-10-25T13:49:22Z",
    "hit": false
+  },
+  "ashby:macroscope": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
   },
   "ashby:madcitywindows": {
    "at": "2026-10-25T13:49:22Z",
@@ -17016,6 +18212,10 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": true
   },
+  "ashby:mainshares": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
   "ashby:mainstay": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
@@ -17024,8 +18224,20 @@
    "at": "2026-10-24T03:14:36Z",
    "hit": true
   },
+  "ashby:maki": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
+  "ashby:mako": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
   "ashby:mandrel": {
    "at": "2026-10-25T13:49:21Z",
+   "hit": true
+  },
+  "ashby:maneuver-marketing": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:mangomint": {
@@ -17044,8 +18256,16 @@
    "at": "2026-10-25T13:49:22Z",
    "hit": false
   },
+  "ashby:manychat": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:mapbox": {
    "at": "2026-10-24T03:14:36Z",
+   "hit": true
+  },
+  "ashby:maple": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:marblehealth": {
@@ -17076,6 +18296,10 @@
    "at": "2026-10-25T13:49:20Z",
    "hit": true
   },
+  "ashby:mast": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:mastodon": {
    "at": "2026-10-25T13:49:22Z",
    "hit": false
@@ -17084,9 +18308,17 @@
    "at": "2026-10-24T03:14:36Z",
    "hit": false
   },
+  "ashby:materialize": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:materialsecurity": {
    "at": "2026-10-24T03:14:36Z",
    "hit": true
+  },
+  "ashby:mathgpt": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
   },
   "ashby:matia": {
    "at": "2026-10-25T13:49:22Z",
@@ -17128,6 +18360,10 @@
    "at": "2026-10-25T13:49:22Z",
    "hit": true
   },
+  "ashby:mdcalc": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:meadowmemorials": {
    "at": "2026-10-25T13:49:20Z",
    "hit": false
@@ -17144,6 +18380,10 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": false
   },
+  "ashby:medbill-ai": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
+  },
   "ashby:medely": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
@@ -17156,8 +18396,20 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": false
   },
+  "ashby:meetpace": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
+  "ashby:meliora-academy": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:mend-io": {
    "at": "2026-10-25T13:49:22Z",
+   "hit": true
+  },
+  "ashby:menlo": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:menlosecurity": {
@@ -17172,6 +18424,10 @@
    "at": "2026-10-25T13:49:22Z",
    "hit": true
   },
+  "ashby:mercury": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:merge": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
@@ -17179,6 +18435,10 @@
   "ashby:merge labs": {
    "at": "2026-10-24T03:14:36Z",
    "hit": true
+  },
+  "ashby:meridian": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
   },
   "ashby:messa": {
    "at": "2026-10-25T13:49:21Z",
@@ -17208,6 +18468,10 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": true
   },
+  "ashby:methodical-careers": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
   "ashby:mexdigital": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
@@ -17226,6 +18490,14 @@
   },
   "ashby:midjourney": {
    "at": "2026-10-24T03:14:36Z",
+   "hit": true
+  },
+  "ashby:midpage": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:midstream": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:mimica": {
@@ -17260,8 +18532,20 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": true
   },
+  "ashby:mirelo": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:mirendil": {
    "at": "2026-10-25T13:49:21Z",
+   "hit": true
+  },
+  "ashby:miri": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:mirror-physics": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:miter": {
@@ -17271,6 +18555,10 @@
   "ashby:mithrl": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
+  },
+  "ashby:mitiga-solutions": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
   },
   "ashby:mitti": {
    "at": "2026-10-24T03:14:36Z",
@@ -17290,6 +18578,10 @@
   },
   "ashby:modernfi": {
    "at": "2026-10-25T13:49:21Z",
+   "hit": true
+  },
+  "ashby:modulate": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:moego": {
@@ -17332,6 +18624,14 @@
    "at": "2026-10-24T03:14:37Z",
    "hit": true
   },
+  "ashby:monk": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:monsters": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
   "ashby:montauk-capital": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
@@ -17346,6 +18646,10 @@
   },
   "ashby:monumental": {
    "at": "2026-10-24T03:14:37Z",
+   "hit": true
+  },
+  "ashby:moonactive": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:moonshot": {
@@ -17392,6 +18696,14 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": true
   },
+  "ashby:mparticle": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
+  "ashby:msquared": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:mubit": {
    "at": "2026-10-24T03:14:37Z",
    "hit": true
@@ -17402,6 +18714,10 @@
   },
   "ashby:mui": {
    "at": "2026-10-25T13:49:20Z",
+   "hit": true
+  },
+  "ashby:multiply": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:multiplymii": {
@@ -17416,8 +18732,16 @@
    "at": "2026-10-25T13:49:20Z",
    "hit": true
   },
+  "ashby:munich-electrification": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:mural": {
    "at": "2026-10-25T13:49:21Z",
+   "hit": true
+  },
+  "ashby:mycroft": {
+   "at": "2026-10-26T16:12:23Z",
    "hit": true
   },
   "ashby:myedspacecareers": {
@@ -17428,6 +18752,10 @@
    "at": "2026-10-25T13:49:20Z",
    "hit": true
   },
+  "ashby:myriad-ai": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:mystenlabs": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
@@ -17435,6 +18763,10 @@
   "ashby:mytomorrows": {
    "at": "2026-10-25T13:49:22Z",
    "hit": true
+  },
+  "ashby:n43-studio": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
   },
   "ashby:nabihealth": {
    "at": "2026-10-25T13:49:22Z",
@@ -17464,6 +18796,10 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": false
   },
+  "ashby:nativemarkets": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": false
+  },
   "ashby:natter": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
@@ -17475,6 +18811,14 @@
   "ashby:nava-benefits": {
    "at": "2026-10-25T13:49:20Z",
    "hit": false
+  },
+  "ashby:ncontracts": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
+  "ashby:ndeavour": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
   },
   "ashby:neara": {
    "at": "2026-10-24T03:14:37Z",
@@ -17568,6 +18912,10 @@
    "at": "2026-10-25T13:49:20Z",
    "hit": true
   },
+  "ashby:neura-robotics-gmbh": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:neural-earth": {
    "at": "2026-10-25T13:49:22Z",
    "hit": true
@@ -17588,6 +18936,26 @@
    "at": "2026-10-25T13:49:22Z",
    "hit": true
   },
+  "ashby:nevoya": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
+  "ashby:new story": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:new-culture": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": false
+  },
+  "ashby:new-story-schools-oh": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
+  "ashby:new-story-schools-pa": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:newfront": {
    "at": "2026-10-25T13:49:21Z",
    "hit": false
@@ -17600,6 +18968,10 @@
    "at": "2026-10-24T03:14:37Z",
    "hit": true
   },
+  "ashby:nexos-ai": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:nextdata": {
    "at": "2026-10-25T13:49:20Z",
    "hit": true
@@ -17608,12 +18980,24 @@
    "at": "2026-10-25T13:49:21Z",
    "hit": true
   },
+  "ashby:nextpatient": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:nexus-cognitive": {
    "at": "2026-10-25T13:49:20Z",
    "hit": true
   },
+  "ashby:nexus-intelligence": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:nexus-marketing": {
    "at": "2026-10-25T13:49:20Z",
+   "hit": true
+  },
+  "ashby:nexxa": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:nightfall-ai": {
@@ -17664,6 +19048,10 @@
    "at": "2026-10-24T03:14:37Z",
    "hit": true
   },
+  "ashby:noon-design": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:nord-security": {
    "at": "2026-10-25T13:49:21Z",
    "hit": true
@@ -17702,6 +19090,10 @@
   },
   "ashby:novo": {
    "at": "2026-10-24T03:14:37Z",
+   "hit": true
+  },
+  "ashby:novogaia": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:noya": {
@@ -17760,6 +19152,10 @@
    "at": "2026-10-25T13:49:22Z",
    "hit": true
   },
+  "ashby:oath": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:oboe": {
    "at": "2026-10-25T13:49:20Z",
    "hit": false
@@ -17792,6 +19188,10 @@
    "at": "2026-10-24T03:14:37Z",
    "hit": true
   },
+  "ashby:oh": {
+   "at": "2026-10-26T16:12:23Z",
+   "hit": true
+  },
   "ashby:ohr": {
    "at": "2026-10-24T03:14:37Z",
    "hit": true
@@ -17812,6 +19212,10 @@
    "at": "2026-10-24T03:14:37Z",
    "hit": true
   },
+  "ashby:omegga": {
+   "at": "2026-10-26T16:12:24Z",
+   "hit": true
+  },
   "ashby:omnea": {
    "at": "2026-10-24T03:14:37Z",
    "hit": true
@@ -17822,6 +19226,10 @@
   },
   "ashby:omnifold": {
    "at": "2026-10-25T13:49:21Z",
+   "hit": true
+  },
+  "ashby:omnilex": {
+   "at": "2026-10-26T16:12:24Z",
    "hit": true
   },
   "ashby:omniscient": {
@@ -42834,8 +44242,12 @@
    "name": "SpaceX"
   },
   "spade": {
+   "hq": "New York City, NY, USA",
    "name": "Spade",
-   "src": "common crawl"
+   "one_liner": "Spade is the data and AI platform for modern finance.",
+   "src": "common crawl",
+   "team_size": 30,
+   "yc": "Winter 2022"
   },
   "sparetech": {
    "name": "Sparetech",
@@ -44051,8 +45463,12 @@
    "name": "Waymark"
   },
   "webflow": {
+   "hq": "San Francisco, CA, USA",
    "name": "Webflow",
-   "src": "common crawl"
+   "one_liner": "Professional website design and publishing platform. ",
+   "src": "common crawl",
+   "team_size": 600,
+   "yc": "Summer 2013"
   },
   "webstacks": {
    "name": "Webstacks",
@@ -47254,7 +48670,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-10-25T13:49:26Z",
+ "updated": "2026-10-26T16:12:24Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -48686,10 +50102,11 @@
     "Cybersecurity"
    ],
    "name": "Adaptive Security",
-   "stage": "Growth",
+   "stage": "Venture",
    "team_size": 284,
    "vcs": [
-    "Bain Capital Ventures"
+    "Bain Capital Ventures",
+    "Andreessen Horowitz"
    ]
   },
   "addepar": {
@@ -49374,21 +50791,18 @@
   "agora": {
    "investors": [],
    "markets": [
-    "B2B",
-    "Business Intelligence",
-    "Data Management",
-    "Enterprise Software",
+    "Financial Exchanges",
     "Financial Services",
+    "Financial Software",
     "Fintech",
     "Information Technology",
-    "PropTech",
-    "Real Estate",
-    "Real Estate Investment",
+    "Lending and Investments",
+    "Other Financial Services",
     "SaaS",
     "Software"
    ],
    "name": "Agora",
-   "stage": "Series B",
+   "stage": "Series A",
    "vcs": [
     "General Catalyst",
     "Insight Partners"
@@ -52412,18 +53826,17 @@
   "arc": {
    "investors": [],
    "markets": [
-    "Application Software",
-    "Financial Management",
-    "Financial Services",
-    "Financial Software",
-    "Fintech",
-    "Funding Platform",
-    "Lending and Investments",
-    "Other Financial Services",
-    "Platform",
-    "SaaS",
-    "Software",
-    "Specialized Finance"
+    "Boating",
+    "Electric Vehicles",
+    "Industrial",
+    "Manufacturing",
+    "Manufacturing & Industrial",
+    "Marine",
+    "Marine Transportation",
+    "Sports",
+    "Transportation",
+    "Transportation, Logistics, Supply Chain and Storage",
+    "Water Transportation"
    ],
    "name": "Arc",
    "stage": "Growth",
@@ -53210,11 +54623,11 @@
     "Bessemer Ventures"
    ],
    "markets": [
-    "Fintech"
+    "Leisure, Travel & Tourism"
    ],
    "name": "Ascend",
    "stage": "Series A",
-   "team_size": 113,
+   "team_size": 25,
    "vcs": [
     "Felicis",
     "First Round Capital",
@@ -59443,12 +60856,11 @@
     "Bessemer Ventures"
    ],
    "markets": [
-    "Financial Services",
-    "Fintech"
+    "Computer & Network Security"
    ],
    "name": "Clarity",
    "stage": "Seed funded",
-   "team_size": 55,
+   "team_size": 44,
    "vcs": [
     "First Round Capital",
     "Bessemer Venture Partners"
@@ -61248,11 +62660,13 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Productivity"
+    "Enterprise Software",
+    "Marketing and Advertising",
+    "SaaS"
    ],
    "name": "Cortex",
    "stage": "Growth",
-   "team_size": 112,
+   "team_size": 17,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -62521,6 +63935,14 @@
     "Initialized Capital"
    ]
   },
+  "datasnipper": {
+   "investors": [],
+   "name": "DataSnipper",
+   "stage": "series_b",
+   "vcs": [
+    "Insight Partners"
+   ]
+  },
   "datastax": {
    "investors": [
     "Edbi",
@@ -62711,7 +64133,7 @@
     "AI"
    ],
    "name": "Decagon",
-   "stage": "Growth",
+   "stage": "other",
    "team_size": 646,
    "vcs": [
     "Bain Capital Ventures",
@@ -64071,12 +65493,11 @@
     "NEA"
    ],
    "markets": [
-    "Consumer",
-    "Design"
+    "Consumer Services"
    ],
    "name": "Drop",
    "stage": "Growth",
-   "team_size": 174,
+   "team_size": 77,
    "vcs": [
     "First Round Capital",
     "NEA"
@@ -66382,11 +67803,11 @@
     "StartX"
    ],
    "markets": [
-    "Hospital & Health Care"
+    "Biotech/Pharma"
    ],
    "name": "Fathom",
    "stage": "Growth",
-   "team_size": 73,
+   "team_size": 3,
    "vcs": [
     "Costanoa Ventures",
     "GV",
@@ -67744,11 +69165,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Fintech"
+    "Health, Wellness and Fitness"
    ],
    "name": "Found",
    "stage": "Growth",
-   "team_size": 119,
+   "team_size": 148,
    "vcs": [
     "GV",
     "Lightspeed",
@@ -69473,10 +70894,10 @@
     "GV"
    ],
    "markets": [
-    "Automotive",
-    "Mobility",
-    "Renewables & Environment",
-    "Transportation"
+    "Banking",
+    "Financial Services",
+    "Fintech",
+    "Payments"
    ],
    "name": "GRAVITY",
    "stage": "Seed funded",
@@ -72511,7 +73932,7 @@
    ],
    "name": "Iru",
    "stage": "Growth",
-   "team_size": 360,
+   "team_size": 412,
    "vcs": [
     "Felicis",
     "First Round Capital"
@@ -74387,13 +75808,13 @@
     "Union Square Ventures"
    ],
    "markets": [
-    "Climate",
-    "Energy Transition",
-    "Renewables & Environment"
+    "Enterprise Software",
+    "Retail",
+    "SaaS"
    ],
    "name": "Leap",
    "stage": "Growth",
-   "team_size": 111,
+   "team_size": 408,
    "vcs": [
     "Costanoa Ventures",
     "Union Square Ventures"
@@ -74833,9 +76254,11 @@
     "SaaS"
    ],
    "name": "Lightfield",
+   "stage": "Venture",
    "team_size": 44,
    "vcs": [
-    "Lightspeed"
+    "Lightspeed",
+    "Andreessen Horowitz"
    ]
   },
   "lightforce": {
@@ -74915,12 +76338,11 @@
     "Contrary"
    ],
    "markets": [
-    "Financial Services",
-    "Fintech"
+    "Telecommunications"
    ],
    "name": "Lightyear",
-   "stage": "Series A",
-   "team_size": 95,
+   "stage": "Growth",
+   "team_size": 75,
    "vcs": [
     "Lightspeed",
     "Contrary"
@@ -95039,13 +96461,11 @@
     "Lightspeed"
    ],
    "markets": [
-    "Enterprise Software",
-    "Fintech",
-    "Payments",
-    "SaaS"
+    "Entertainment",
+    "Video Games"
    ],
    "name": "Toast",
-   "team_size": 7864,
+   "team_size": 18,
    "vcs": [
     "GV",
     "Lightspeed"
@@ -98329,11 +99749,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Developer Tools"
+    "AI"
    ],
    "name": "Warp",
    "stage": "Growth",
-   "team_size": 102,
+   "team_size": 87,
    "vcs": [
     "Battery Ventures",
     "GV",
@@ -99107,8 +100527,8 @@
     "First Round Capital"
    ],
    "markets": [
-    "Delivery Services",
-    "Food & Beverages"
+    "Enterprise Software",
+    "Research"
    ],
    "name": "Wonder",
    "stage": "series_d",
@@ -103054,6 +104474,9 @@
   "interdigital.wd5.myworkdayjobs.com|interdigital|InterDigital_Intern": {
    "name": "Interdigital"
   },
+  "interface.wd1.myworkdayjobs.com|interface|interface": {
+   "name": "Interface"
+  },
   "interpublic.wd5.myworkdayjobs.com|interpublic|omc": {
    "name": "Omnicom Group"
   },
@@ -105224,6 +106647,9 @@
    "name": "Toyota"
   },
   "transamerica.wd5.myworkdayjobs.com|transamerica|AEGONAM": {
+   "name": "Aegon Asset Management"
+  },
+  "transamerica.wd5.myworkdayjobs.com|transamerica|AUK_JobSite": {
    "name": "Aegon Asset Management"
   },
   "transamerica.wd5.myworkdayjobs.com|transamerica|US": {
@@ -120658,6 +122084,10 @@
   "tesorio": {
    "at": "2026-10-23T23:56:18Z",
    "hit": "lever:tesorio"
+  },
+  "tesser": {
+   "at": "2026-10-26T16:07:15Z",
+   "hit": null
   },
   "tesseract": {
    "at": "2026-10-23T23:56:08Z",
