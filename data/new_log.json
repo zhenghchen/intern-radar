@@ -1,5 +1,20 @@
 [
  {
+  "backers": [],
+  "company": "Apple",
+  "first_seen": "2026-10-27T17:12:45Z",
+  "fit": 4,
+  "id": "url:go.vansh.nyc/W1",
+  "location": "United States",
+  "posted_at": null,
+  "score": 6,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineer Intern, Core OS",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/W1"
+ },
+ {
   "backers": [
    "Khosla Ventures"
   ],
