@@ -1,6 +1,21 @@
 [
  {
   "backers": [],
+  "company": "Amazon",
+  "first_seen": "2026-10-27T18:04:45Z",
+  "fit": 3,
+  "id": "amazon:10590290",
+  "location": "Seattle, Washington, USA",
+  "posted_at": "2026-10-27T00:00:00Z",
+  "score": 5,
+  "signal": 2,
+  "term": "Summer 2027",
+  "title": "Database Engineer Intern - Summer 2027",
+  "type": "bigtech",
+  "url": "https://www.amazon.jobs/en/jobs/10590290/database-engineer-intern-summer-2027"
+ },
+ {
+  "backers": [],
   "company": "Apple",
   "first_seen": "2026-10-27T17:12:45Z",
   "fit": 4,
