@@ -26,6 +26,7 @@ main{padding:8px 16px 40px;max-width:1100px;margin:0 auto}
 .title a{color:var(--accent);text-decoration:none;font-weight:500}
 .title a:hover{text-decoration:underline}
 .sub{color:var(--muted);font-size:12.5px;display:flex;flex-wrap:wrap;gap:4px 10px}
+.sub .pay{color:var(--fg);font-weight:600}
 .right{text-align:right;white-space:nowrap}
 .age{font-weight:600}
 .age.fresh{color:var(--new)}
@@ -61,7 +62,7 @@ main{padding:8px 16px 40px;max-width:1100px;margin:0 auto}
     <div class="seg" id="age">
       <button data-v="6">6h</button><button data-v="24">24h</button><button data-v="72">3d</button><button data-v="336">2w</button><button data-v="0" class="on">Any</button>
     </div>
-    <select id="sort"><option value="score">Best for me</option><option value="posted">Newest posted</option><option value="seen">First seen by radar</option></select>
+    <select id="sort"><option value="score">Best for me</option><option value="posted">Newest posted</option><option value="seen">First seen by radar</option><option value="pay">Highest pay</option></select>
     <input type="search" id="q" placeholder="Search company, title, location">
     <label class="tog"><input type="checkbox" id="usonly" checked> US / remote only</label>
     <label class="tog"><input type="checkbox" id="hideapplied"> Hide applied</label>
@@ -92,7 +93,7 @@ function render(){
     if(st.age){const d=posted(j)||t(j.first_seen);if(!d||(now-d)/36e5>st.age)return false}
     if(q&&!(j.company+' '+j.title+' '+j.location+' '+(j.term||'')).toLowerCase().includes(q))return false;
     return true});
-  const key={posted:j=>+(posted(j)||t(j.first_seen)),seen:j=>+t(j.first_seen),score:j=>j.score*1e13+ +(posted(j)||t(j.first_seen))}[st.sort];
+  const key={posted:j=>+(posted(j)||t(j.first_seen)),seen:j=>+t(j.first_seen),score:j=>j.score*1e13+ +(posted(j)||t(j.first_seen)),pay:j=>(j.pay_hr?j.pay_hr[1]:0)*1e13+ +(posted(j)||t(j.first_seen))}[st.sort];
   js.sort((a,b)=>key(b)-key(a));
   // one card per company; the same title posted for several locations becomes one role with a link per location
   const cos=new Map();
@@ -130,7 +131,7 @@ function roleRow(vs,now){
     :`<span>${esc(j.location||'Location not shown')}</span>`;
   return `<div class="row ${m==='applied'?'applied':''}">
     <div><div class="title"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>${vs.some(v=>v.is_new)?'<span class="badge new">NEW</span>':''}</div>
-    <div class="sub">${j.term?`<span>${esc(j.term)}</span>`:''}${where}${j.pay?`<span>${esc(j.pay)}</span>`:''}</div></div>
+    <div class="sub">${j.term?`<span>${esc(j.term)}</span>`:''}${where}${j.pay_label?`<span class="pay" title="${esc(j.pay||'')}">${esc(j.pay_label)}</span>`:j.pay?`<span>${esc(j.pay)}</span>`:''}</div></div>
     <div class="right"><div class="age ${fresh?'fresh':''}" title="${p?p.toLocaleString():''}">${j.posted_text?esc(j.posted_text.replace(/^posted /i,'')):ago(p)}</div>
     <div class="meta" title="Role fit (title match) + company signal (investors, YC, watchlist)">seen ${ago(seen)} · fit ${fit} · signal ${sig}${lead?`<span class="badge lead" title="Radar saw it before Simplify listed it">${lead.agg_lead_hours}h before Simplify</span>`:''}</div>
     <div class="acts"><button data-ids="${esc(ids.join(' '))}" data-m="applied">${m==='applied'?'Applied ✓':'Mark applied'}</button><button data-ids="${esc(ids.join(' '))}" data-m="hide">Hide</button></div></div></div>`}

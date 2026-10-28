@@ -7,6 +7,7 @@ from datetime import timedelta
 
 import yaml
 
+from . import pay as P
 from . import sources as S
 from .filters import Profile, term_of
 from .notify import notify
@@ -326,11 +327,32 @@ def run_once(args):
     cut = t0 - timedelta(days=60)
     state["jobs"] = {k: v for k, v in state["jobs"].items() if (parse_time(v.get("last_seen")) or t0) > cut}
 
+    # pay: read each role's own posting once, new roles first so their alerts carry it, then the best matches
+    pay_cfg = cfg.get("pay") or {}
+    pay_cache = state.setdefault("pay", {})
+    pay_lookups = 0
+    if pay_cfg.get("enabled", True):
+        order = new_jobs + sorted((r for r in merged.values() if not r.get("is_new")), key=lambda r: -r["score"])
+        domains = {h: d for h, d, _ in (cfg.get("custom") or {}).get("eightfold") or []}
+        domains["apply.careers.microsoft.com"] = "microsoft.com"
+
+        async def look():
+            http = Http(concurrency=args.concurrency, per_host=4)
+            try:
+                return await P.enrich(http, order, pay_cache, t0, pay_cfg.get("per_run", 400),
+                                      pay_cfg.get("recheck_days", 3), domains)
+            finally:
+                await http.close()
+        pay_lookups = asyncio.run(look())
+    for rec in merged.values():
+        P.apply(rec, pay_cache)
+    state["pay"] = {k: v for k, v in pay_cache.items() if k in state["jobs"]}
+
     def sort_key(r):
         return parse_time(r.get("posted_at")) or parse_time(r.get("agg_posted_at")) or parse_time(r.get("first_seen")) or t0
     out = sorted(merged.values(), key=sort_key, reverse=True)
     stats = {"boards_ok": len(ok_boards), "boards_failed": len(failed), "raw_postings": raw_count,
-             "matches": len(out), "new": len(new_jobs), "requests": hstats["requests"],
+             "matches": len(out), "new": len(new_jobs), "requests": hstats["requests"], "pay_lookups": pay_lookups,
              "seconds": round((now_utc() - t0).total_seconds(), 1), "bootstrap": bootstrap}
     feed = {"generated_at": iso(t0), "stats": stats, "jobs": out}
     save_json(path("data", "jobs.json"), feed)

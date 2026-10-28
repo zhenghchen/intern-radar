@@ -9,6 +9,7 @@ import pytest
 
 from radar import sources as S
 from radar import main as M
+from radar import pay as P
 from radar.filters import Profile
 from radar.util import canonical_key, parse_relative_posted, now_utc, iso, parse_time
 
@@ -221,6 +222,10 @@ def sandbox(tmp_path, monkeypatch):
     (root / "docs").mkdir()
     import radar.util as U
     monkeypatch.setattr(U, "ROOT", str(root))
+
+    async def no_pay(http, rec, domains):
+        return None
+    monkeypatch.setattr(P, "lookup", no_pay)   # pay lookups read live postings; tests stay offline
     return root
 
 
@@ -321,3 +326,39 @@ def test_company_signal_and_type():
     assert M.company_type(rec(backers=["Sequoia Capital"], team_size=300, open_roles=400), rules) == "startup"
     assert M.company_type(rec(backers=["Sequoia Capital"], team_size=2877), rules) == "other"   # Verkada-sized
     assert M.EXITED.search("Acquisition") and M.EXITED.search("Public") and not M.EXITED.search("Series B")
+
+
+def test_parse_pay():
+    # phrasings checked on live postings, Oct 28, 2026
+    cases = {
+        "Expected Compensation $42.00 - $58.00 + benefits": "$42–58/hr",                                   # Tesla
+        "The annual base pay for this role is expected to be between $100,000 and $110,000": "$48–53/hr",   # Schonfeld
+        "market range for Netflix Internships is typically $40/hour - $110/hour.": "$40–110/hr",
+        "East Palo Alto, CA, USA - 115,685.00 USD Annually<br/>Seattle, WA, USA - 100,640.00 USD Annually": "$48–56/hr",  # Amazon
+        "USD $5,690.00 - $11,210.00 per month": "$33–65/hr",                                                # Microsoft
+        "$1,925 per week": "$48/hr",
+        "We raised $50M from Sequoia. Pay: $45/hr": "$45/hr",
+        "Monthly housing stipend of $2,000. Hourly rate: $48": "$48/hr",
+    }
+    for text, want in cases.items():
+        assert P.label(P.parse_pay(text)) == want, text
+    for text in ("€1.2K per month", "Our customers save $2,000 per year", "We have raised $120M", "Join 5,000 USD-based clients"):
+        assert P.parse_pay(text) is None, text
+
+
+def test_pay_from_ats_and_cache():
+    lever = {"salaryRange": {"currency": "USD", "interval": "per-month-salary", "min": 10500, "max": 10500}}
+    gh = {"pay_input_ranges": [], "content": "&lt;p&gt;Pay: $40.00 per hour&lt;/p&gt;"}
+    http = FakeHttp({"api.lever.co/v0/postings/palantir/": lever, "boards-api.greenhouse.io/v1/boards/dvtrading/jobs/7": gh})
+    rec_l = {"id": "lever:palantir:x", "url": "https://jobs.lever.co/palantir/6ed76ce8-4156-4b60-b120-403538bd66cd", "boards": []}
+    rec_g = {"id": "gh:7", "url": "https://www.dvtrading.co/careers?gh_jid=7", "boards": ["greenhouse:dvtrading"]}
+    assert P.label(run(P.lookup(http, rec_l, {}))) == "$61/hr"
+    assert P.label(run(P.lookup(http, rec_g, {}))) == "$40/hr"
+    cache, t = {}, now_utc()
+    assert run(P.enrich(http, [rec_l, rec_g], cache, t, per_run=1)) == 1     # budget respected, best first
+    assert run(P.enrich(http, [rec_l, rec_g], cache, t)) == 1                 # found pay isn't looked up again
+    P.apply(rec_l, cache)
+    assert rec_l["pay_hr"] == [60.58, 60.58] and rec_l["pay_label"] == "$61/hr"
+    ashby = {"id": "a", "pay": "$30 – $40 per hour"}   # Ashby lists pay inline, no lookup needed
+    P.apply(ashby, {})
+    assert ashby["pay_label"] == "$30–40/hr"

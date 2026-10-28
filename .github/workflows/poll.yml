@@ -36,7 +36,7 @@ jobs:
           changed=$(python - <<'EOF'
           import json, subprocess
           old = subprocess.run(["git", "show", "HEAD:data/jobs.json"], capture_output=True, text=True).stdout
-          key = lambda f: sorted((j["id"], j.get("score"), j.get("posted_at")) for j in f["jobs"])
+          key = lambda f: sorted((j["id"], j.get("score"), j.get("posted_at"), j.get("pay_label") or "") for j in f["jobs"])
           print(int(not old or key(json.loads(old)) != key(json.load(open("data/jobs.json")))))
           EOF
           )

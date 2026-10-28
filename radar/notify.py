@@ -24,8 +24,8 @@ def line(j):
     # Workday only says "Posted Today"; show that rather than a precise-looking time
     when = (j.get("posted_text") or "").lower() or f"posted {ago(j.get('posted_at') or j.get('agg_posted_at'))}"
     bits = [j.get("term") or "", j.get("location") or "", when]
-    if j.get("pay"):
-        bits.append(j["pay"])
+    if j.get("pay_label") or j.get("pay"):
+        bits.append(j.get("pay_label") or j["pay"])
     if j.get("yc"):
         bits.append(f"YC {j['yc']}")
     backers = [b for b in (j.get("backers") or []) if b != "Y Combinator"][:2]

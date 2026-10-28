@@ -215,3 +215,10 @@ startup:
 
 # Aggregator lists (Simplify + others) as a backstop for companies with no API (Meta, Tesla, ...).
 aggregators: true
+
+# Pay: each matched role's own posting is read once and its stated range shown as $/hr on the board.
+# per_run caps lookups per poll (new roles first, then best matches); roles with no pay listed are rechecked after recheck_days.
+pay:
+  enabled: true
+  per_run: 400
+  recheck_days: 3
