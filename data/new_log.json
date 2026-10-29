@@ -1,6 +1,21 @@
 [
  {
   "backers": [],
+  "company": "Tesla",
+  "first_seen": "2026-10-29T10:36:15Z",
+  "fit": 1,
+  "id": "url:tesla.com/careers/search/job/287982",
+  "location": "Palo Alto, CA",
+  "posted_at": null,
+  "score": 3,
+  "signal": 2,
+  "term": "Spring 2027, Summer 2027",
+  "title": "Data Engineer Intern - Energy",
+  "type": "bigtech",
+  "url": "https://www.tesla.com/careers/search/job/287982"
+ },
+ {
+  "backers": [],
   "company": "HP Inc.",
   "first_seen": "2026-10-29T02:12:02Z",
   "fit": 1,
