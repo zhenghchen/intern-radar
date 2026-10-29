@@ -1,6 +1,36 @@
 [
  {
   "backers": [],
+  "company": "NVIDIA",
+  "first_seen": "2026-10-29T23:02:14Z",
+  "fit": 4,
+  "id": "wd:nvidia:jr2027170",
+  "location": "Austin, TX",
+  "posted_at": null,
+  "score": 6,
+  "signal": 2,
+  "term": "Summer 2027",
+  "title": "AI Systems Software Engineer Intern",
+  "type": "bigtech",
+  "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170"
+ },
+ {
+  "backers": [],
+  "company": "NVIDIA",
+  "first_seen": "2026-10-29T23:02:14Z",
+  "fit": 3,
+  "id": "wd:nvidia:jr2028607",
+  "location": "Redmond, WA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Summer 2027",
+  "title": "Compiler Software Engineer Intern",
+  "type": "bigtech",
+  "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Compiler-Software-Engineering-Intern---Summer-2027_JR2028607"
+ },
+ {
+  "backers": [],
   "company": "Amazon",
   "first_seen": "2026-10-29T21:16:50Z",
   "fit": 1,
