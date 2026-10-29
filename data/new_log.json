@@ -1,5 +1,59 @@
 [
  {
+  "backers": [
+   "Sequoia Capital"
+  ],
+  "company": "Domino Data Lab",
+  "first_seen": "2026-10-29T17:25:16Z",
+  "fit": 2,
+  "id": "url:app.careerpuck.com/job-board/domino-data-lab/job/7992534",
+  "location": "New York City, New York",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "2027",
+  "title": "Forward Deployed Engineer, Intern - Campus Recruiting 2027",
+  "type": "startup",
+  "url": "https://app.careerpuck.com/job-board/domino-data-lab/job/7992534"
+ },
+ {
+  "backers": [
+   "Sequoia Capital"
+  ],
+  "company": "Domino Data Lab",
+  "first_seen": "2026-10-29T17:25:16Z",
+  "fit": 2,
+  "id": "url:app.careerpuck.com/job-board/domino-data-lab/job/7992560",
+  "location": "New York City, New York",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "2027",
+  "title": "Software Engineer, Intern - Campus Recruiting 2027",
+  "type": "startup",
+  "url": "https://app.careerpuck.com/job-board/domino-data-lab/job/7992560"
+ },
+ {
+  "backers": [
+   "Andreessen Horowitz",
+   "Lightspeed",
+   "Thrive Capital",
+   "General Catalyst"
+  ],
+  "company": "Anduril Industries",
+  "first_seen": "2026-10-29T17:25:16Z",
+  "fit": 0,
+  "id": "gh:5278662007",
+  "location": "Santa Ana, California, United States",
+  "posted_at": "2026-10-28T20:44:48Z",
+  "score": 4,
+  "signal": 4,
+  "term": "Winter 2027",
+  "title": "Winter 2027 Library Science Co-op",
+  "type": "bigtech",
+  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5278662007?gh_jid=5278662007"
+ },
+ {
   "backers": [],
   "company": "Cisco",
   "first_seen": "2026-10-29T15:03:06Z",
