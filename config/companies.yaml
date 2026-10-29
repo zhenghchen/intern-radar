@@ -68,12 +68,19 @@ watchlist:
   - Two Sigma
   - TikTok
   - ByteDance
+  - Nintendo
 
 # Boards polled every run in addition to everything auto-discovered (data/companies.json).
 # Use these for companies Simplify doesn't list (or lists under a custom careers domain).
 boards:
   greenhouse:
     stripe: Stripe
+    nintendo: Nintendo        # careers.nintendo.com/?gh_jid=..., custom domain so discovery missed it
+    riotgames: Riot Games
+    jumptrading: Jump Trading
+    akunacapital: Akuna Capital
+    towerresearchcapital: Tower Research Capital
+    nuro: Nuro
     databricks: Databricks
     coinbase: Coinbase
     datadog: Datadog

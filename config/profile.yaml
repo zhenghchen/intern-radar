@@ -35,7 +35,7 @@ exclude_title_patterns:
   - 'physical design'
   - '\blayout\b'
   - 'hardware (?:design|engineer|development|test)'
-  - 'silicon'
+  - '^(?!.*\b(?:engineer|developer|software)\b).*(?<!non-)silicon'   # but keep "Applied AI Engineer - Silicon Engineering"
   - '\brf\b'
   - 'mechanical'
   - 'electrical'
@@ -44,21 +44,21 @@ exclude_title_patterns:
   - 'chemical'
   - 'ic design|characterization|design[- ]for[- ]test|signal integrity|power electronics|\bpcb\b|test technician'
   # non-engineering
-  - 'market(?:ing)?\b'
+  - '^(?!.*\b(?:engineer|developer|software)\b).*market(?:ing)?\b'   # but keep "Marketing Web Developer"
   - '\bsales\b'
   - 'account(?:ing|ant)'
   - 'finance intern|financial analyst|corporate finance|fp&a'
   - '\blegal\b|paralegal|counsel'
-  - 'recruit|talent acquisition|\bhr\b|people ops|human resources'
+  - '^(?!.*\b(?:engineer|developer|software)\b).*(?:recruit|talent acquisition|\bhr\b|people ops|human resources)'   # but keep "Forward Deployed Engineer - HR Technology"
   - 'product manag|program manag|project manag|\bpm intern'
-  - 'business (?:analyst|development|operations|intern)'
+  - '^(?!.*\b(?:engineer|developer|software)\b).*business (?:analyst|development|operations|intern)'
   - '(?:business|sales|marketing|people|revenue|field|retail|store|finance|hr|clinical) operations'
   - 'supply chain (?:analyst|intern|planning)|logistics (?:intern|analyst|coordinator)|procurement'
   - 'communications intern|\bpr intern|social media|content (?:creator|writer|marketing|strategy|moderat)|copywrit'
   - 'graphic design|ux research|visual design|brand design'
   - 'customer success|support specialist'
   - 'actuar|underwrit|\baudit|\btax\b|investment bank|equity research|trading assistant'
-  - 'civil|construction|environmental|geolog|biolog|clinical|lab tech|pharma'
+  - '^(?!.*\bsoftware\b).*(?:civil(?! liberties)|construction|environmental|geolog|biolog|clinical|lab tech|pharma)'
   - 'high school'
   - 'apprentice(?:ship)? - (?:digital|business)'
   # wrong cycle (it's fall 2026 now)
@@ -75,6 +75,7 @@ tech_patterns:
   - 'security|cyber|appsec'
   - 'technical staff|forward deployed|product engineer|research engineer|solutions engineer|founding engineer'
   - 'computer science|\bcs\b|linux|\bquant|game (?:dev|engineer|programm)|graphics|robotics|autonomy|autonomous|perception'
+  - 'python|librar(?:y|ies)|\bit (?:intern|co-?op)|tech execution'
 
 # Ambiguous words ("Engineering Intern", "Systems Engineer"): they could be civil, mechanical, aerospace...
 # A title with only these still counts (ranked lower) unless it names a non-CS discipline.
