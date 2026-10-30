@@ -1,5 +1,52 @@
 [
  {
+  "backers": [
+   "Accel"
+  ],
+  "company": "DocuSign",
+  "first_seen": "2026-10-30T15:43:07Z",
+  "fit": 2,
+  "id": "url:uscareers-docusign.icims.com/jobs/30597/software-engineer-intern/job",
+  "location": "Seattle, WA, USA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "",
+  "title": "Software Engineer Intern",
+  "type": "other",
+  "url": "https://uscareers-docusign.icims.com/jobs/30597/software-engineer-intern/job"
+ },
+ {
+  "backers": [],
+  "company": "Amazon",
+  "first_seen": "2026-10-30T15:43:07Z",
+  "fit": 3,
+  "id": "amazon:10593521",
+  "location": "Seattle, Washington, USA",
+  "posted_at": "2026-10-30T00:00:00Z",
+  "score": 5,
+  "signal": 2,
+  "term": "Summer 2027",
+  "title": "Software Development Engineer Intern, Machine Learning/Automated Reasoning- Summer 2027",
+  "type": "bigtech",
+  "url": "https://www.amazon.jobs/en/jobs/10593521/software-development-engineer-intern-machine-learning-automated-reasoning-summer-2027"
+ },
+ {
+  "backers": [],
+  "company": "Amazon",
+  "first_seen": "2026-10-30T15:43:07Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/10y",
+  "location": "Seattle, WA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Development Engineer Intern, Machine Learning/Automated Reasoning",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/10y"
+ },
+ {
   "backers": [],
   "company": "NVIDIA",
   "first_seen": "2026-10-30T03:08:00Z",
