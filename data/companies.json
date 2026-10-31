@@ -803,6 +803,9 @@
   "Nash": {
    "name": "Nash"
   },
+  "NationGraph": {
+   "name": "NationGraph"
+  },
   "Natter": {
    "name": "Natter",
    "src": "common crawl"
@@ -4143,7 +4146,7 @@
   "darwin": {
    "hq": "San Francisco, CA, USA",
    "name": "Darwin",
-   "one_liner": "Robots to build civilization",
+   "one_liner": "Robots technicians for AI infrastructure",
    "team_size": 4,
    "yc": "Fall 2025"
   },
@@ -4353,6 +4356,9 @@
    "name": "Depthfirst",
    "src": "common crawl"
   },
+  "designrulesco": {
+   "name": "The Design Rules Company"
+  },
   "designworkstalent": {
    "name": "Designworkstalent",
    "src": "common crawl"
@@ -4392,6 +4398,9 @@
   },
   "dipper": {
    "name": "Dipper"
+  },
+  "discernis": {
+   "name": "Discernis"
   },
   "dispatch": {
    "hq": "San Francisco, CA, USA",
@@ -7061,6 +7070,9 @@
    "name": "Ironcladhq",
    "src": "common crawl"
   },
+  "isembard": {
+   "name": "Isembard"
+  },
   "isometric": {
    "name": "Isometric",
    "src": "common crawl"
@@ -9134,6 +9146,9 @@
    "name": "Nextpatient",
    "src": "common crawl"
   },
+  "nexttoken": {
+   "name": "NextToken"
+  },
   "nexus-cognitive": {
    "name": "Nexus Cognitive",
    "src": "common crawl"
@@ -10474,6 +10489,9 @@
   "qlub": {
    "name": "Qlub",
    "src": "common crawl"
+  },
+  "qonto": {
+   "name": "Qonto"
   },
   "quadric": {
    "name": "Quadric"
@@ -37107,6 +37125,9 @@
    "name": "Cambiareducation",
    "src": "common crawl"
   },
+  "cambridgeconsultantslimited": {
+   "name": "Cambridge Consultants"
+  },
   "cambridgemobiletelematics": {
    "name": "Cambridgemobiletelematics",
    "src": "common crawl"
@@ -38471,6 +38492,9 @@
   "divergehealth": {
    "name": "Divergehealth",
    "src": "common crawl"
+  },
+  "divergent": {
+   "name": "Divergent Technologies"
   },
   "dkbcodefactory": {
    "name": "Dkbcodefactory",
@@ -40619,6 +40643,9 @@
    "name": "Ipfabric",
    "src": "common crawl"
   },
+  "isam": {
+   "name": "iSAM"
+  },
   "isaraerospace": {
    "name": "Isaraerospace",
    "src": "common crawl"
@@ -41967,6 +41994,9 @@
   "neo4j": {
    "name": "Neo4j"
   },
+  "neptunenorth": {
+   "name": "Neptune North"
+  },
   "nerostechnologies": {
    "name": "Neros Technologies"
   },
@@ -41981,6 +42011,9 @@
   "netskope": {
    "name": "Netskope",
    "src": "common crawl"
+  },
+  "networkbio": {
+   "name": "Network Bio"
   },
   "neumora": {
    "name": "Neumora",
@@ -42475,6 +42508,9 @@
   },
   "optoinvest": {
    "name": "Opto Investments"
+  },
+  "orbisoperations": {
+   "name": "Orbis Operations"
   },
   "orbitaloperations": {
    "hq": "Los Angeles, CA, USA",
@@ -43123,6 +43159,9 @@
    "name": "Pressable",
    "src": "common crawl"
   },
+  "pretiuminternships2027": {
+   "name": "Pretium"
+  },
   "primemedicine": {
    "name": "Primemedicine",
    "src": "common crawl"
@@ -43236,9 +43275,19 @@
    "name": "Prospectus",
    "src": "common crawl"
   },
+  "protagonist": {
+   "name": "Protagonist"
+  },
   "protillionbiosciences": {
    "name": "Protillionbiosciences",
    "src": "common crawl"
+  },
+  "proto": {
+   "hq": "San Francisco, CA, USA",
+   "name": "Proto",
+   "one_liner": "A design tool with the accuracy of Cursor & creative freedom of Figma",
+   "team_size": 2,
+   "yc": "Fall 2026"
   },
   "prove": {
    "name": "Prove",
@@ -44105,6 +44154,9 @@
    "name": "Sesai",
    "src": "common crawl"
   },
+  "sesco": {
+   "name": "SESCO"
+  },
   "sesolabor": {
    "name": "Sesolabor",
    "src": "common crawl"
@@ -44610,6 +44662,9 @@
    "name": "Starfaceworld",
    "src": "common crawl"
   },
+  "starmountaincapital": {
+   "name": "Star Mountain Capital"
+  },
   "startale": {
    "name": "Startale",
    "src": "common crawl"
@@ -44755,6 +44810,9 @@
    "team_size": 1037,
    "yc": "Winter 2018"
   },
+  "superapp": {
+   "name": "SuperApp"
+  },
   "superbet": {
    "name": "Superbet"
   },
@@ -44765,7 +44823,7 @@
   "superserve": {
    "hq": "San Francisco, CA, USA",
    "name": "Superserve",
-   "one_liner": "Virtual machines for autonomous agents",
+   "one_liner": "Virtual machines for long-running agents",
    "team_size": 3,
    "yc": "Fall 2026"
   },
@@ -45414,6 +45472,9 @@
    "name": "Unconventionalinc",
    "src": "common crawl"
   },
+  "undercontrolroboticsinc": {
+   "name": "Noble Machines"
+  },
   "underdog": {
    "name": "Underdog",
    "src": "common crawl"
@@ -45650,6 +45711,9 @@
   "vixxo": {
    "name": "Vixxo",
    "src": "common crawl"
+  },
+  "vmax": {
+   "name": "Vmax"
   },
   "voloridgeinvestmentmanagement": {
    "name": "Voloridge"
@@ -46772,6 +46836,9 @@
   },
   "firemon": {
    "name": "Firemon"
+  },
+  "fireworkhq": {
+   "name": "Firework"
   },
   "fiscalnote": {
    "name": "FiscalNote"
@@ -48651,6 +48718,9 @@
   "PureIntegration": {
    "name": "pureIntegration"
   },
+  "Pyrotek3": {
+   "name": "Pyrotek"
+  },
   "QANALYSTSLLC2": {
    "name": "QualityAI"
   },
@@ -48964,7 +49034,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-10-30T16:05:43Z",
+ "updated": "2026-10-31T15:41:11Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -49181,6 +49251,18 @@
    "vcs": [
     "Accel",
     "Lightspeed"
+   ]
+  },
+  "1sharpecapital": {
+   "investors": [],
+   "markets": [
+    "Finance",
+    "Investment Management"
+   ],
+   "name": "1Sharpe Capital",
+   "stage": "Other",
+   "vcs": [
+    "Khosla Ventures"
    ]
   },
   "1worldsync": {
@@ -50135,6 +50217,13 @@
     "Notable Capital"
    ]
   },
+  "accordance": {
+   "investors": [],
+   "name": "Accordance",
+   "vcs": [
+    "Menlo Ventures"
+   ]
+  },
   "accredible": {
    "investors": [],
    "markets": [
@@ -50425,7 +50514,7 @@
     "Cybersecurity"
    ],
    "name": "Adaptive Security",
-   "stage": "Growth",
+   "stage": "Venture",
    "team_size": 284,
    "vcs": [
     "Bain Capital Ventures",
@@ -52061,7 +52150,7 @@
    ],
    "name": "Alice",
    "stage": "Growth",
-   "team_size": 432,
+   "team_size": 15,
    "vcs": [
     "CRV",
     "Bain Capital Ventures"
@@ -52432,13 +52521,12 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Enterprise Software",
-    "Productivity",
-    "SaaS"
+    "Financial Services",
+    "Fintech"
    ],
    "name": "Alloy",
    "stage": "Growth",
-   "team_size": 7,
+   "team_size": 425,
    "vcs": [
     "Menlo Ventures",
     "Primary Venture Partners",
@@ -54753,6 +54841,24 @@
     "Contrary"
    ]
   },
+  "armadin": {
+   "investors": [],
+   "markets": [
+    "Artificial Intelligence (AI)",
+    "Cyber Security",
+    "Data & Analytics",
+    "Information Technology",
+    "Privacy and Security",
+    "Science and Engineering",
+    "Security",
+    "Software"
+   ],
+   "name": "Armadin",
+   "stage": "Series A",
+   "vcs": [
+    "Menlo Ventures"
+   ]
+  },
   "armadinsecurity": {
    "investors": [
     "Andreessen Horowitz",
@@ -54910,6 +55016,20 @@
     "Uncork Capital"
    ]
   },
+  "artemissecurity": {
+   "investors": [
+    "Felicis"
+   ],
+   "markets": [
+    "AI",
+    "Computer & Network Security"
+   ],
+   "name": "Artemis Security",
+   "team_size": 62,
+   "vcs": [
+    "Felicis"
+   ]
+  },
   "arteriaai": {
    "investors": [],
    "markets": [
@@ -55018,8 +55138,8 @@
     "Leisure, Travel & Tourism"
    ],
    "name": "Ascend",
-   "stage": "Series A",
-   "team_size": 25,
+   "stage": "Seed funded",
+   "team_size": 73,
    "vcs": [
     "Felicis",
     "First Round Capital",
@@ -58017,7 +58137,7 @@
    ],
    "name": "Bliq",
    "stage": "Series A",
-   "team_size": 43,
+   "team_size": 45,
    "vcs": [
     "NEA"
    ]
@@ -61286,11 +61406,12 @@
     "Bessemer Ventures"
    ],
    "markets": [
-    "Computer & Network Security"
+    "Financial Services",
+    "Fintech"
    ],
    "name": "Clarity",
    "stage": "Seed funded",
-   "team_size": 44,
+   "team_size": 55,
    "vcs": [
     "First Round Capital",
     "Bessemer Venture Partners"
@@ -64758,6 +64879,19 @@
     "GV"
    ]
   },
+  "deeptrace": {
+   "investors": [
+    "Felicis"
+   ],
+   "markets": [
+    "AI"
+   ],
+   "name": "Deeptrace",
+   "team_size": 4,
+   "vcs": [
+    "Felicis"
+   ]
+  },
   "deepvoodoo": {
    "investors": [
     "NEA"
@@ -66031,11 +66165,12 @@
     "NEA"
    ],
    "markets": [
-    "Consumer Services"
+    "Consumer",
+    "Design"
    ],
    "name": "Drop",
    "stage": "Growth",
-   "team_size": 77,
+   "team_size": 174,
    "vcs": [
     "First Round Capital",
     "NEA"
@@ -66342,6 +66477,14 @@
    "team_size": 595,
    "vcs": [
     "Felicis"
+   ]
+  },
+  "earnix": {
+   "investors": [],
+   "name": "Earnix",
+   "stage": "other",
+   "vcs": [
+    "Insight Partners"
    ]
   },
   "earnup": {
@@ -66845,7 +66988,7 @@
     "Consumer"
    ],
    "name": "ElevenLabs",
-   "stage": "Growth",
+   "stage": "Series A",
    "team_size": 1203,
    "vcs": [
     "Lightspeed",
@@ -67612,7 +67755,7 @@
    ],
    "name": "Eventual",
    "stage": "Series A",
-   "team_size": 36,
+   "team_size": 40,
    "vcs": [
     "Felicis",
     "CRV"
@@ -71806,6 +71949,14 @@
    "team_size": 523,
    "vcs": [
     "Bessemer Venture Partners"
+   ]
+  },
+  "growtherapy": {
+   "investors": [],
+   "name": "Grow Therapy",
+   "stage": "series_d",
+   "vcs": [
+    "Menlo Ventures"
    ]
   },
   "grubmarket": {
@@ -77116,11 +77267,12 @@
     "Contrary"
    ],
    "markets": [
-    "Telecommunications"
+    "Financial Services",
+    "Fintech"
    ],
    "name": "Lightyear",
-   "stage": "Growth",
-   "team_size": 75,
+   "stage": "Series A",
+   "team_size": 95,
    "vcs": [
     "Lightspeed",
     "Contrary"
@@ -77423,6 +77575,14 @@
    "team_size": 19,
    "vcs": [
     "Lightspeed"
+   ]
+  },
+  "litmusautomation": {
+   "investors": [],
+   "name": "Litmus Automation",
+   "stage": "series_b",
+   "vcs": [
+    "Insight Partners"
    ]
   },
   "littleotter": {
@@ -79323,7 +79483,8 @@
    "team_size": 8184,
    "vcs": [
     "Felicis",
-    "General Catalyst"
+    "General Catalyst",
+    "Menlo Ventures"
    ]
   },
   "mercury": {
@@ -79768,11 +79929,12 @@
     "Kleiner Perkins"
    ],
    "markets": [
-    "Fintech"
+    "Computer & Network Security",
+    "Developer Tools"
    ],
    "name": "Mine",
-   "stage": "Seed funded",
-   "team_size": 69,
+   "stage": "Growth",
+   "team_size": 111,
    "vcs": [
     "Battery Ventures",
     "Kleiner Perkins"
@@ -80143,7 +80305,8 @@
    "vcs": [
     "Bain Capital Ventures",
     "General Catalyst",
-    "Lux Capital"
+    "Lux Capital",
+    "Menlo Ventures"
    ]
   },
   "modaoperandi": {
@@ -81191,6 +81354,14 @@
    "team_size": 199,
    "vcs": [
     "Lightspeed"
+   ]
+  },
+  "nationgraph": {
+   "investors": [],
+   "name": "NationGraph",
+   "stage": "other",
+   "vcs": [
+    "Menlo Ventures"
    ]
   },
   "natter": {
@@ -83520,6 +83691,14 @@
    "team_size": 21,
    "vcs": [
     "Contrary"
+   ]
+  },
+  "onetrust": {
+   "investors": [],
+   "name": "OneTrust",
+   "stage": "other",
+   "vcs": [
+    "Insight Partners"
    ]
   },
   "ontic": {
@@ -87350,7 +87529,7 @@
    ],
    "name": "Preql",
    "stage": "Seed funded",
-   "team_size": 25,
+   "team_size": 24,
    "vcs": [
     "Felicis",
     "Bessemer Venture Partners"
@@ -88206,6 +88385,21 @@
    "stage": "other",
    "vcs": [
     "DCVC"
+   ]
+  },
+  "quarterzip": {
+   "investors": [
+    "Felicis"
+   ],
+   "markets": [
+    "AI",
+    "Enterprise Software",
+    "SaaS"
+   ],
+   "name": "Quarterzip",
+   "team_size": 29,
+   "vcs": [
+    "Felicis"
    ]
   },
   "qubit": {
@@ -89463,7 +89657,7 @@
   "replit": {
    "investors": [],
    "name": "Replit",
-   "stage": "other",
+   "stage": "Growth",
    "vcs": [
     "Khosla Ventures",
     "Craft Ventures",
@@ -91531,9 +91725,11 @@
     "Marketing and Advertising"
    ],
    "name": "Seismic",
+   "stage": "other",
    "team_size": 1562,
    "vcs": [
-    "Lightspeed"
+    "Lightspeed",
+    "Notable Capital"
    ]
   },
   "seismictherapeutic": {
@@ -92316,6 +92512,14 @@
     "Lightspeed"
    ]
   },
+  "showroomprivecom": {
+   "investors": [],
+   "name": "Showroomprive.com",
+   "stage": "ipo",
+   "vcs": [
+    "Accel"
+   ]
+  },
   "shriramfinancelimited": {
    "investors": [
     "Bessemer Ventures"
@@ -92727,6 +92931,20 @@
     "GV",
     "Insight Partners",
     "DCVC"
+   ]
+  },
+  "singularitydefense": {
+   "investors": [
+    "Felicis"
+   ],
+   "markets": [
+    "Defense & Space",
+    "Manufacturing"
+   ],
+   "name": "Singularity Defense",
+   "team_size": 62,
+   "vcs": [
+    "Felicis"
    ]
   },
   "siro": {
@@ -94239,7 +94457,7 @@
     "Hospital & Health Care"
    ],
    "name": "Sprinter Health",
-   "stage": "Venture",
+   "stage": "Growth",
    "team_size": 243,
    "vcs": [
     "GV",
@@ -97520,11 +97738,13 @@
     "Lightspeed"
    ],
    "markets": [
-    "Entertainment",
-    "Video Games"
+    "Enterprise Software",
+    "Fintech",
+    "Payments",
+    "SaaS"
    ],
    "name": "Toast",
-   "team_size": 18,
+   "team_size": 7864,
    "vcs": [
     "GV",
     "Lightspeed"
@@ -101265,7 +101485,7 @@
    ],
    "name": "Whop",
    "stage": "Series A",
-   "team_size": 521,
+   "team_size": 662,
    "vcs": [
     "Bain Capital Ventures"
    ]
@@ -102934,7 +103154,7 @@
     "Design"
    ],
    "name": "ZORA",
-   "team_size": 99,
+   "team_size": 67,
    "vcs": [
     "Union Square Ventures"
    ]
@@ -103824,6 +104044,9 @@
   },
   "bjswholesaleclub.wd1.myworkdayjobs.com|bjswholesaleclub|BJsCareers": {
    "name": "BJ's Wholesale Club"
+  },
+  "blackline.wd108.myworkdayjobs.com|blackline|BlackLineCareers": {
+   "name": "BlackLine"
   },
   "blackrock.wd1.myworkdayjobs.com|blackrock|BlackRock_Early_Careers_Program": {
    "name": "BlackRock"
@@ -105991,6 +106214,9 @@
   "lytx.wd1.myworkdayjobs.com|lytx|Lytx": {
    "name": "Lytx Careers"
   },
+  "macfound.wd1.myworkdayjobs.com|macfound|MAC_FOUND_EXT_CAREERS": {
+   "name": "John D. and Catherine T. MacArthur Foundation"
+  },
   "madixinc.wd12.myworkdayjobs.com|madixinc|Madix": {
    "name": "Madix "
   },
@@ -107286,6 +107512,9 @@
   },
   "sentryinsurance.wd1.myworkdayjobs.com|sentryinsurance|SentryCareers": {
    "name": "Sentry Insurance"
+  },
+  "servicetitan.wd1.myworkdayjobs.com|servicetitan|ServiceTitan": {
+   "name": "ServiceTitan"
   },
   "sglottery.wd5.myworkdayjobs.com|sglottery|ScientificGamesExternalCareers": {
    "name": "Scientific Games"
@@ -110104,6 +110333,10 @@
   },
   "baymachines": {
    "at": "2026-10-24T13:21:08Z",
+   "hit": null
+  },
+  "bayworks": {
+   "at": "2026-10-31T15:19:24Z",
    "hit": null
   },
   "bby": {
@@ -115466,6 +115699,10 @@
    "at": "2026-10-24T13:21:08Z",
    "hit": null
   },
+  "instabox": {
+   "at": "2026-10-31T15:19:24Z",
+   "hit": null
+  },
   "instacrops": {
    "at": "2026-10-23T23:56:41Z",
    "hit": null
@@ -116548,6 +116785,10 @@
   },
   "lilac": {
    "at": "2026-10-24T13:20:48Z",
+   "hit": null
+  },
+  "limnion": {
+   "at": "2026-10-31T15:19:24Z",
    "hit": null
   },
   "limrun": {
@@ -120117,6 +120358,10 @@
   "protex-ai": {
    "at": "2026-10-23T23:57:51Z",
    "hit": null
+  },
+  "proto": {
+   "at": "2026-10-31T15:19:24Z",
+   "hit": "greenhouse:proto"
   },
   "protocol-labs": {
    "at": "2026-10-23T23:57:48Z",
