@@ -4,6 +4,23 @@
    "NEA"
   ],
   "company": "ByteDance",
+  "first_seen": "2026-11-01T08:49:12Z",
+  "fit": 1,
+  "id": "url:joinbytedance.com/search/7625759034518128901",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 3,
+  "signal": 2,
+  "term": "Winter",
+  "title": "Security Engineering Project Intern, Watermark",
+  "type": "bigtech",
+  "url": "https://joinbytedance.com/search/7625759034518128901"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
   "first_seen": "2026-11-01T08:02:07Z",
   "fit": 3,
   "id": "url:go.vansh.nyc/14D",
