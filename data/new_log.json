@@ -1,5 +1,179 @@
 [
  {
+  "backers": [
+   "Andreessen Horowitz"
+  ],
+  "company": "Zus Health",
+  "first_seen": "2026-11-01T00:17:12Z",
+  "fit": 4,
+  "id": "url:go.vansh.nyc/13N",
+  "location": "Boston, MA",
+  "posted_at": null,
+  "score": 7,
+  "signal": 3,
+  "term": "Winter",
+  "title": "Platform Software Engineering Co-op",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/13N"
+ },
+ {
+  "backers": [
+   "Andreessen Horowitz"
+  ],
+  "company": "Zus Health",
+  "first_seen": "2026-11-01T00:17:12Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/13M",
+  "location": "Boston, MA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "Spring",
+  "title": "Data Acquisition Software Engineering Co-op",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/13M"
+ },
+ {
+  "backers": [
+   "Khosla Ventures"
+  ],
+  "company": "Rhoda AI",
+  "first_seen": "2026-11-01T00:17:12Z",
+  "fit": 4,
+  "id": "url:go.vansh.nyc/13n",
+  "location": "Mountain View, CA",
+  "posted_at": null,
+  "score": 7,
+  "signal": 3,
+  "term": "Summer",
+  "title": "Software Engineer Intern, Rhoda Platform",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/13n"
+ },
+ {
+  "backers": [
+   "Initialized",
+   "NEA"
+  ],
+  "company": "Patreon",
+  "first_seen": "2026-11-01T00:17:12Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/13j",
+  "location": "New York, NY",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "Summer",
+  "title": "Software Engineering Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/13j"
+ },
+ {
+  "backers": [
+   "Andreessen Horowitz",
+   "Felicis"
+  ],
+  "company": "Genesis Molecular AI",
+  "first_seen": "2026-11-01T00:17:12Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/12U",
+  "location": "San Mateo, CA",
+  "posted_at": null,
+  "score": 6,
+  "signal": 4,
+  "term": "Summer",
+  "title": "Software Engineer Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/12U"
+ },
+ {
+  "backers": [
+   "General Catalyst"
+  ],
+  "company": "Dryft",
+  "first_seen": "2026-11-01T00:17:12Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/12Q",
+  "location": "San Francisco, CA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "Summer",
+  "title": "Member of Technical Staff Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/12Q"
+ },
+ {
+  "backers": [
+   "Accel",
+   "Insight Partners"
+  ],
+  "company": "DriveWealth",
+  "first_seen": "2026-11-01T00:17:12Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/12P",
+  "location": "Chicago, IL",
+  "posted_at": null,
+  "score": 6,
+  "signal": 4,
+  "term": "Summer",
+  "title": "Product Owner Intern, AI Consulting Associate Program (AI CAP)",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/12P"
+ },
+ {
+  "backers": [
+   "Accel",
+   "Insight Partners"
+  ],
+  "company": "DriveWealth",
+  "first_seen": "2026-11-01T00:17:12Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/12O",
+  "location": "Chicago, IL",
+  "posted_at": null,
+  "score": 6,
+  "signal": 4,
+  "term": "Summer",
+  "title": "Engineering Intern, AI Consulting Associate Program (AI CAP)",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/12O"
+ },
+ {
+  "backers": [
+   "Andreessen Horowitz"
+  ],
+  "company": "Cowboy Space",
+  "first_seen": "2026-11-01T00:17:12Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/12L",
+  "location": "San Carlos, CA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "Summer",
+  "title": "Software Engineering Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/12L"
+ },
+ {
+  "backers": [
+   "Accel"
+  ],
+  "company": "Arista Networks",
+  "first_seen": "2026-11-01T00:17:12Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/12B",
+  "location": "Remote; United States",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "Summer",
+  "title": "Software Engineer Intern, C/C++",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/12B"
+ },
+ {
   "backers": [],
   "company": "Nintendo",
   "first_seen": "2026-10-31T20:16:48Z",
