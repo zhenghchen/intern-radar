@@ -1,5 +1,35 @@
 [
  {
+  "backers": [],
+  "company": "TikTok",
+  "first_seen": "2026-11-01T17:41:38Z",
+  "fit": 4,
+  "id": "url:lifeattiktok.com/search/7530513185797359880",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 6,
+  "signal": 2,
+  "term": "Winter",
+  "title": "Software Engineer Project Intern, Platform Efficiency",
+  "type": "bigtech",
+  "url": "https://lifeattiktok.com/search/7530513185797359880"
+ },
+ {
+  "backers": [],
+  "company": "TikTok",
+  "first_seen": "2026-11-01T17:41:38Z",
+  "fit": 4,
+  "id": "url:lifeattiktok.com/search/7624284785283746053",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 6,
+  "signal": 2,
+  "term": "Winter",
+  "title": "Software Engineer Project Intern, Model Infrastructure",
+  "type": "bigtech",
+  "url": "https://lifeattiktok.com/search/7624284785283746053"
+ },
+ {
   "backers": [
    "Lightspeed"
   ],
