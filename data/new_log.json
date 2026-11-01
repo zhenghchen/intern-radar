@@ -1,5 +1,583 @@
 [
  {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/14D",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Fall",
+  "title": "Site Reliability Engineer Intern, Data Infra",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14D"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/14C",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineer Project Intern, Security-Data",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14C"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/14B",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Security Software Engineer Project Intern, Network Security",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14B"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/14A",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Machine Learning Engineer Project Intern, Security-Data",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14A"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 4,
+  "id": "url:go.vansh.nyc/14z",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 6,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineer Intern, Global Payment Infra and SRE",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14z"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/14y",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Network Software Development Engineer Intern, Network Switch",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14y"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/14x",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Network Software Development Engineer Intern, Network Observation",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14x"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 1,
+  "id": "url:go.vansh.nyc/14w",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 3,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Self-Built Engineer Intern, CDN Platform",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14w"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/14v",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Fall",
+  "title": "Network Security Software Engineer Intern, Security Engineering",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14v"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/14t",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Site Reliability Engineer Intern, Data Infra",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14t"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 4,
+  "id": "url:go.vansh.nyc/14r",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 6,
+  "signal": 2,
+  "term": "Summer",
+  "title": "AI Infrastructure Engineer Intern, Compute Efficiency & Scheduling",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14r"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/14q",
+  "location": "Seattle, WA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Multi-Cloud CDN Scheduling Platform Engineer Intern, CDN Platform",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14q"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/14p",
+  "location": "Seattle, WA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Fall",
+  "title": "Site Reliability Engineer Intern, Data Infra",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14p"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 4,
+  "id": "url:go.vansh.nyc/14o",
+  "location": "Seattle, WA",
+  "posted_at": null,
+  "score": 6,
+  "signal": 2,
+  "term": "Summer",
+  "title": "AI Infrastructure Engineer Intern, Compute Efficiency & Scheduling",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14o"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/14n",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineer Intern, Global Payment",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14n"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/14m",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern, AML-Ark-US",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14m"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/14l",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Fall",
+  "title": "Software Engineer Intern, CIS Knowledge Bank",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14l"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/14k",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineer Intern, Global Payment - Risk & Compliance",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14k"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/14j",
+  "location": "New York, NY",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Production System Engineer Project Intern, Server DevOps",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14j"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/14i",
+  "location": "Seattle, WA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineer Intern, AML-Engine-Orchestration",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14i"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/14h",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Data Lake Infrastructure & Data Analytics Research Engineer Intern, AML-Ark-US",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14h"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/14g",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineer Intern, AML-Engine-Orchestration",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14g"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/14f",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Agent Evaluation & Evolution Machine Learning Engineer Intern, AML-Ark-US",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14f"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/14e",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Production System Engineer Project Intern, Server DevOps",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14e"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 4,
+  "id": "url:go.vansh.nyc/14d",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 6,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineer Intern, Relational Database",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14d"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/14c",
+  "location": "Seattle, WA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Data Lake Infrastructure & Data Analytics Research Engineer Intern, AML-Ark-US",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14c"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/14b",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Fall",
+  "title": "Multi-Cloud CDN Data Platform Engineer Intern, Global Engineering CDN",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14b"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 4,
+  "id": "url:go.vansh.nyc/14a",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 6,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineer Project Intern, Developer Infrastructure",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/14a"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/149",
+  "location": "Seattle, WA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Agent Evaluation & Evolution Machine Learning Engineer Intern, AML-Ark-US",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/149"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/147",
+  "location": "Seattle, WA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern, AML-Ark-US",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/147"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 4,
+  "id": "url:go.vansh.nyc/146",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 6,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineer Intern, Traffic Infrastructure",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/146"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/145",
+  "location": "Seattle, WA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Site Reliability Engineer Intern, Data Infra",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/145"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/144",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Machine Learning Engineer Intern, AML-Engine-Orchestration",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/144"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T08:02:07Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/143",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineer Intern, Global Traffic Architecture",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/143"
+ },
+ {
   "backers": [],
   "company": "Microsoft",
   "first_seen": "2026-11-01T07:08:19Z",
