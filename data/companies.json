@@ -4146,7 +4146,7 @@
   "darwin": {
    "hq": "San Francisco, CA, USA",
    "name": "Darwin",
-   "one_liner": "Robots technicians for AI infrastructure",
+   "one_liner": "Robot technicians for AI infrastructure",
    "team_size": 4,
    "yc": "Fall 2025"
   },
@@ -6566,7 +6566,7 @@
    "yc": "Summer 2023"
   },
   "homebase": {
-   "hq": "Ho Chi Minh City, Ho Chi Minh City, Vietnam; Ho Chi Minh City, Vietnam",
+   "hq": "Singapore, Singapore; Ho Chi Minh City, Vietnam",
    "name": "Homebase",
    "one_liner": "Personalized rent-to-own real estate financing using technology in SEA",
    "team_size": 20,
@@ -7279,6 +7279,9 @@
    "one_liner": "1st federally regulated exchange where people can trade on events",
    "team_size": 125,
    "yc": "Winter 2019"
+  },
+  "kaluza": {
+   "name": "Kaluza"
   },
   "kandou-ai": {
    "name": "Kandou Ai",
@@ -49034,7 +49037,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-10-31T15:41:11Z",
+ "updated": "2026-11-01T16:11:02Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -51215,18 +51218,21 @@
   "agora": {
    "investors": [],
    "markets": [
-    "Financial Exchanges",
+    "B2B",
+    "Business Intelligence",
+    "Data Management",
+    "Enterprise Software",
     "Financial Services",
-    "Financial Software",
     "Fintech",
     "Information Technology",
-    "Lending and Investments",
-    "Other Financial Services",
+    "PropTech",
+    "Real Estate",
+    "Real Estate Investment",
     "SaaS",
     "Software"
    ],
    "name": "Agora",
-   "stage": "Series A",
+   "stage": "Series B",
    "vcs": [
     "General Catalyst",
     "Insight Partners"
@@ -52150,7 +52156,7 @@
    ],
    "name": "Alice",
    "stage": "Growth",
-   "team_size": 15,
+   "team_size": 432,
    "vcs": [
     "CRV",
     "Bain Capital Ventures"
@@ -52521,12 +52527,13 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Financial Services",
-    "Fintech"
+    "Enterprise Software",
+    "Productivity",
+    "SaaS"
    ],
    "name": "Alloy",
    "stage": "Growth",
-   "team_size": 425,
+   "team_size": 7,
    "vcs": [
     "Menlo Ventures",
     "Primary Venture Partners",
@@ -54290,18 +54297,17 @@
   "arc": {
    "investors": [],
    "markets": [
-    "Application Software",
-    "Financial Management",
-    "Financial Services",
-    "Financial Software",
-    "Fintech",
-    "Funding Platform",
-    "Lending and Investments",
-    "Other Financial Services",
-    "Platform",
-    "SaaS",
-    "Software",
-    "Specialized Finance"
+    "Boating",
+    "Electric Vehicles",
+    "Industrial",
+    "Manufacturing",
+    "Manufacturing & Industrial",
+    "Marine",
+    "Marine Transportation",
+    "Sports",
+    "Transportation",
+    "Transportation, Logistics, Supply Chain and Storage",
+    "Water Transportation"
    ],
    "name": "Arc",
    "stage": "Growth",
@@ -55025,6 +55031,7 @@
     "Computer & Network Security"
    ],
    "name": "Artemis Security",
+   "stage": "Seed funded",
    "team_size": 62,
    "vcs": [
     "Felicis"
@@ -55560,6 +55567,19 @@
    "name": "Astronomica",
    "vcs": [
     "NFX"
+   ]
+  },
+  "atalanta": {
+   "investors": [
+    "Felicis"
+   ],
+   "markets": [
+    "AI"
+   ],
+   "name": "Atalanta",
+   "team_size": 15,
+   "vcs": [
+    "Felicis"
    ]
   },
   "atbay": {
@@ -62349,7 +62369,8 @@
    "team_size": 628,
    "vcs": [
     "Bain Capital Ventures",
-    "Battery Ventures"
+    "Battery Ventures",
+    "Andreessen Horowitz"
    ]
   },
   "cognosys": {
@@ -63242,11 +63263,13 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Productivity"
+    "Enterprise Software",
+    "Marketing and Advertising",
+    "SaaS"
    ],
    "name": "Cortex",
    "stage": "Growth",
-   "team_size": 112,
+   "team_size": 17,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -64887,6 +64910,7 @@
     "AI"
    ],
    "name": "Deeptrace",
+   "stage": "Seed funded",
    "team_size": 4,
    "vcs": [
     "Felicis"
@@ -65493,11 +65517,12 @@
     "Union Square Ventures"
    ],
    "markets": [
-    "AI"
+    "E-Learning",
+    "Education Management"
    ],
    "name": "Disco",
    "stage": "Series A",
-   "team_size": 65,
+   "team_size": 5,
    "vcs": [
     "Felicis",
     "Union Square Ventures"
@@ -66165,12 +66190,11 @@
     "NEA"
    ],
    "markets": [
-    "Consumer",
-    "Design"
+    "Consumer Services"
    ],
    "name": "Drop",
    "stage": "Growth",
-   "team_size": 174,
+   "team_size": 77,
    "vcs": [
     "First Round Capital",
     "NEA"
@@ -66988,7 +67012,7 @@
     "Consumer"
    ],
    "name": "ElevenLabs",
-   "stage": "Series A",
+   "stage": "Growth",
    "team_size": 1203,
    "vcs": [
     "Lightspeed",
@@ -67710,7 +67734,7 @@
     "SaaS"
    ],
    "name": "Eve",
-   "stage": "Venture",
+   "stage": "Series A",
    "team_size": 405,
    "vcs": [
     "Lightspeed",
@@ -68529,11 +68553,11 @@
     "StartX"
    ],
    "markets": [
-    "Hospital & Health Care"
+    "Biotech/Pharma"
    ],
    "name": "Fathom",
    "stage": "Growth",
-   "team_size": 73,
+   "team_size": 3,
    "vcs": [
     "Costanoa Ventures",
     "GV",
@@ -69946,11 +69970,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Health, Wellness and Fitness"
+    "Fintech"
    ],
    "name": "Found",
    "stage": "Growth",
-   "team_size": 148,
+   "team_size": 119,
    "vcs": [
     "GV",
     "Lightspeed",
@@ -70719,10 +70743,11 @@
     "Biotech/Pharma"
    ],
    "name": "Genesis Molecular AI",
-   "stage": "Growth",
+   "stage": "Venture",
    "team_size": 161,
    "vcs": [
-    "Felicis"
+    "Felicis",
+    "Andreessen Horowitz"
    ]
   },
   "genesistherapeutics": {
@@ -71711,10 +71736,10 @@
     "GV"
    ],
    "markets": [
-    "Automotive",
-    "Mobility",
-    "Renewables & Environment",
-    "Transportation"
+    "Banking",
+    "Financial Services",
+    "Fintech",
+    "Payments"
    ],
    "name": "GRAVITY",
    "stage": "Seed funded",
@@ -73367,6 +73392,14 @@
    "vcs": [
     "Bessemer Venture Partners",
     "First Round Capital"
+   ]
+  },
+  "housetrip": {
+   "investors": [],
+   "name": "Housetrip",
+   "stage": "acquisition",
+   "vcs": [
+    "Accel"
    ]
   },
   "housewarming": {
@@ -85805,7 +85838,7 @@
    ],
    "name": "Pendulum Therapeutics",
    "stage": "Growth",
-   "team_size": 113,
+   "team_size": 106,
    "vcs": [
     "Felicis",
     "Sequoia Capital"
@@ -89657,7 +89690,7 @@
   "replit": {
    "investors": [],
    "name": "Replit",
-   "stage": "Growth",
+   "stage": "other",
    "vcs": [
     "Khosla Ventures",
     "Craft Ventures",
@@ -92942,6 +92975,7 @@
     "Manufacturing"
    ],
    "name": "Singularity Defense",
+   "stage": "Series A",
    "team_size": 62,
    "vcs": [
     "Felicis"
@@ -95654,11 +95688,12 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Renewables & Environment"
+    "AI",
+    "Automation & Robotics"
    ],
    "name": "Sunday",
    "stage": "Growth",
-   "team_size": 105,
+   "team_size": 93,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -97738,13 +97773,11 @@
     "Lightspeed"
    ],
    "markets": [
-    "Enterprise Software",
-    "Fintech",
-    "Payments",
-    "SaaS"
+    "Entertainment",
+    "Video Games"
    ],
    "name": "Toast",
-   "team_size": 7864,
+   "team_size": 18,
    "vcs": [
     "GV",
     "Lightspeed"
@@ -111903,6 +111936,10 @@
    "at": "2026-10-23T23:57:49Z",
    "hit": null
   },
+  "colony": {
+   "at": "2026-11-01T16:00:57Z",
+   "hit": null
+  },
   "coloop": {
    "at": "2026-10-23T23:56:44Z",
    "hit": null
@@ -112141,6 +112178,10 @@
   },
   "corgea": {
    "at": "2026-10-23T23:57:26Z",
+   "hit": null
+  },
+  "corgi": {
+   "at": "2026-11-01T16:00:57Z",
    "hit": null
   },
   "corgi-insurance": {
@@ -113373,6 +113414,10 @@
   },
   "enerjazz": {
    "at": "2026-10-23T23:56:41Z",
+   "hit": null
+  },
+  "enhanced-radar": {
+   "at": "2026-11-01T16:00:58Z",
    "hit": null
   },
   "enjamb-labs": {
@@ -123275,6 +123320,10 @@
    "at": "2026-10-23T23:57:49Z",
    "hit": null
   },
+  "taanai": {
+   "at": "2026-11-01T16:00:57Z",
+   "hit": null
+  },
   "tab": {
    "at": "2026-10-23T23:56:17Z",
    "hit": null
@@ -125185,6 +125234,10 @@
   },
   "well-principled": {
    "at": "2026-10-23T23:57:49Z",
+   "hit": null
+  },
+  "wereno": {
+   "at": "2026-11-01T16:00:57Z",
    "hit": null
   },
   "westgate": {
