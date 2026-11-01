@@ -4,6 +4,40 @@
    "NEA"
   ],
   "company": "ByteDance",
+  "first_seen": "2026-11-01T09:08:36Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/15G",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Multi-Cloud CDN Scheduling Platform Engineer Intern, CDN Platform",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/15G"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-01T09:08:36Z",
+  "fit": 1,
+  "id": "url:go.vansh.nyc/15F",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 3,
+  "signal": 2,
+  "term": "Winter",
+  "title": "Security Engineering Project Intern, Watermark",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/15F"
+ },
+ {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
   "first_seen": "2026-11-01T08:49:12Z",
   "fit": 1,
   "id": "url:joinbytedance.com/search/7625759034518128901",
