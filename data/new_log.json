@@ -1,5 +1,22 @@
 [
  {
+  "backers": [
+   "Lightspeed"
+  ],
+  "company": "Sycamore",
+  "first_seen": "2026-11-01T13:16:27Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/18S",
+  "location": "Palo Alto, CA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "Summer",
+  "title": "Member of Technical Staff Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/18S"
+ },
+ {
   "backers": [],
   "company": "TikTok",
   "first_seen": "2026-11-01T09:56:32Z",
