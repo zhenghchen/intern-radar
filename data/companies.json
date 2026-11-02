@@ -38751,7 +38751,7 @@
    "name": "Elevations Credit Union"
   },
   "elite": {
-   "hq": "New York City, NY, USA",
+   "hq": "San Francisco, CA, USA",
    "name": "Elite",
    "one_liner": "Healthcare AI",
    "team_size": 2,
@@ -42720,6 +42720,9 @@
    "name": "Parallellearning",
    "src": "common crawl"
   },
+  "paretocaptiveservicesllc": {
+   "name": "ParetoHealth"
+  },
   "parloa": {
    "name": "Parloa"
   },
@@ -45193,6 +45196,9 @@
   "thetradedesk": {
    "name": "The Trade Desk"
   },
+  "thgingenuity": {
+   "name": "THG Ingenuity"
+  },
   "think-cell": {
    "name": "think-cell"
   },
@@ -46748,6 +46754,9 @@
   },
   "ekohealth": {
    "name": "Eko Health"
+  },
+  "elementsolutions": {
+   "name": "Element Solutions"
   },
   "eliyan": {
    "name": "Eliyan"
@@ -49037,7 +49046,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-01T16:11:02Z",
+ "updated": "2026-11-02T20:01:04Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -52151,8 +52160,7 @@
     "Notation Capital"
    ],
    "markets": [
-    "Financial Services",
-    "Fintech"
+    "Computer & Network Security"
    ],
    "name": "Alice",
    "stage": "Growth",
@@ -52527,13 +52535,12 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Enterprise Software",
-    "Productivity",
-    "SaaS"
+    "Financial Services",
+    "Fintech"
    ],
    "name": "Alloy",
    "stage": "Growth",
-   "team_size": 7,
+   "team_size": 425,
    "vcs": [
     "Menlo Ventures",
     "Primary Venture Partners",
@@ -54297,17 +54304,18 @@
   "arc": {
    "investors": [],
    "markets": [
-    "Boating",
-    "Electric Vehicles",
-    "Industrial",
-    "Manufacturing",
-    "Manufacturing & Industrial",
-    "Marine",
-    "Marine Transportation",
-    "Sports",
-    "Transportation",
-    "Transportation, Logistics, Supply Chain and Storage",
-    "Water Transportation"
+    "Application Software",
+    "Financial Management",
+    "Financial Services",
+    "Financial Software",
+    "Fintech",
+    "Funding Platform",
+    "Lending and Investments",
+    "Other Financial Services",
+    "Platform",
+    "SaaS",
+    "Software",
+    "Specialized Finance"
    ],
    "name": "Arc",
    "stage": "Growth",
@@ -56872,7 +56880,7 @@
    ],
    "name": "Base Power Company",
    "stage": "Growth",
-   "team_size": 431,
+   "team_size": 512,
    "vcs": [
     "Thrive Capital",
     "Lightspeed",
@@ -58820,7 +58828,7 @@
    ],
    "name": "Boulder Care",
    "stage": "Growth",
-   "team_size": 178,
+   "team_size": 219,
    "vcs": [
     "First Round Capital"
    ]
@@ -60310,7 +60318,9 @@
    "team_size": 2082,
    "vcs": [
     "Union Square Ventures",
-    "Lightspeed"
+    "Lightspeed",
+    "Menlo Ventures",
+    "Andreessen Horowitz"
    ]
   },
   "cartesia": {
@@ -63244,12 +63254,11 @@
     "Bain Ventures"
    ],
    "markets": [
-    "AI",
-    "Insurance"
+    "AI"
    ],
    "name": "Corridor",
-   "stage": "Seed funded",
-   "team_size": 13,
+   "stage": "Series A",
+   "team_size": 35,
    "vcs": [
     "Felicis",
     "Bain Capital Ventures"
@@ -65517,12 +65526,11 @@
     "Union Square Ventures"
    ],
    "markets": [
-    "E-Learning",
-    "Education Management"
+    "AI"
    ],
    "name": "Disco",
    "stage": "Series A",
-   "team_size": 5,
+   "team_size": 65,
    "vcs": [
     "Felicis",
     "Union Square Ventures"
@@ -67012,7 +67020,7 @@
     "Consumer"
    ],
    "name": "ElevenLabs",
-   "stage": "Growth",
+   "stage": "Series A",
    "team_size": 1203,
    "vcs": [
     "Lightspeed",
@@ -68553,11 +68561,11 @@
     "StartX"
    ],
    "markets": [
-    "Biotech/Pharma"
+    "Hospital & Health Care"
    ],
    "name": "Fathom",
    "stage": "Growth",
-   "team_size": 3,
+   "team_size": 73,
    "vcs": [
     "Costanoa Ventures",
     "GV",
@@ -76770,13 +76778,13 @@
     "Union Square Ventures"
    ],
    "markets": [
-    "Enterprise Software",
-    "Retail",
-    "SaaS"
+    "Climate",
+    "Energy Transition",
+    "Renewables & Environment"
    ],
    "name": "Leap",
    "stage": "Growth",
-   "team_size": 408,
+   "team_size": 111,
    "vcs": [
     "Costanoa Ventures",
     "Union Square Ventures"
@@ -79336,6 +79344,14 @@
     "GV"
    ]
   },
+  "medra": {
+   "investors": [],
+   "name": "Medra",
+   "stage": "series_a",
+   "vcs": [
+    "Menlo Ventures"
+   ]
+  },
   "meeno": {
    "investors": [
     "AI Fund",
@@ -79962,12 +79978,11 @@
     "Kleiner Perkins"
    ],
    "markets": [
-    "Computer & Network Security",
-    "Developer Tools"
+    "Fintech"
    ],
    "name": "Mine",
-   "stage": "Growth",
-   "team_size": 111,
+   "stage": "Seed funded",
+   "team_size": 69,
    "vcs": [
     "Battery Ventures",
     "Kleiner Perkins"
@@ -85594,7 +85609,7 @@
    ],
    "name": "Pave",
    "stage": "Growth",
-   "team_size": 286,
+   "team_size": 304,
    "vcs": [
     "Bessemer Venture Partners",
     "Contrary"
@@ -88007,11 +88022,12 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Social Networking"
+    "AI",
+    "Developer Tools"
    ],
    "name": "Protege",
-   "stage": "Seed funded",
-   "team_size": 500,
+   "stage": "Series A",
+   "team_size": 72,
    "vcs": [
     "CRV",
     "Sequoia Capital"
@@ -94491,7 +94507,7 @@
     "Hospital & Health Care"
    ],
    "name": "Sprinter Health",
-   "stage": "Growth",
+   "stage": "Venture",
    "team_size": 243,
    "vcs": [
     "GV",
@@ -95688,12 +95704,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "AI",
-    "Automation & Robotics"
+    "Renewables & Environment"
    ],
    "name": "Sunday",
    "stage": "Growth",
-   "team_size": 93,
+   "team_size": 105,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -101870,8 +101885,8 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Delivery Services",
-    "Food & Beverages"
+    "Enterprise Software",
+    "Research"
    ],
    "name": "Wonder",
    "stage": "series_d",
@@ -106294,6 +106309,9 @@
   },
   "mars.wd3.myworkdayjobs.com|mars|external": {
    "name": "Mars"
+  },
+  "martin.wd1.myworkdayjobs.com|martin|mphc": {
+   "name": "Martin's Point Health Care"
   },
   "marvell.wd1.myworkdayjobs.com|marvell|MarvellCareers": {
    "name": "Marvell"
@@ -111070,6 +111088,10 @@
   },
   "cajal-technologies": {
    "at": "2026-10-24T13:21:23Z",
+   "hit": null
+  },
+  "caladh": {
+   "at": "2026-11-02T19:28:35Z",
    "hit": null
   },
   "calii": {
@@ -116154,6 +116176,10 @@
   },
   "kanda": {
    "at": "2026-10-23T23:56:38Z",
+   "hit": null
+  },
+  "kanopy": {
+   "at": "2026-11-02T19:28:38Z",
    "hit": null
   },
   "kapa-ai": {
@@ -121542,6 +121568,10 @@
   },
   "ruvo": {
    "at": "2026-10-24T13:20:50Z",
+   "hit": null
+  },
+  "ryhla": {
+   "at": "2026-11-02T19:28:51Z",
    "hit": null
   },
   "ryse": {
