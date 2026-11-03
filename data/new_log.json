@@ -1,6 +1,36 @@
 [
  {
   "backers": [],
+  "company": "Microsoft",
+  "first_seen": "2026-11-03T19:21:10Z",
+  "fit": 2,
+  "id": "ef:apply.careers.microsoft.com:1970393557037859",
+  "location": "United States, Washington, Redmond",
+  "posted_at": "2026-11-03T19:07:53Z",
+  "score": 4,
+  "signal": 2,
+  "term": "",
+  "title": "Software Engineer, Teamwork Experiences Internship Opportunities",
+  "type": "bigtech",
+  "url": "https://apply.careers.microsoft.com/careers/job/1970393557037859"
+ },
+ {
+  "backers": [],
+  "company": "Microsoft",
+  "first_seen": "2026-11-03T19:21:10Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1dY",
+  "location": "Redmond, WA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineer Intern, Teamwork Experiences",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/1dY"
+ },
+ {
+  "backers": [],
   "company": "HP",
   "first_seen": "2026-11-03T19:15:42Z",
   "fit": 4,
