@@ -1910,6 +1910,9 @@
    "name": "Argon Ai",
    "src": "common crawl"
   },
+  "ariesglobal": {
+   "name": "Aries Global"
+  },
   "arini": {
    "hq": "San Francisco, CA, USA",
    "name": "Arini",
@@ -3130,7 +3133,7 @@
   "cardboard": {
    "hq": "Bengaluru, KA, India",
    "name": "Cardboard",
-   "one_liner": "Agentic video editor",
+   "one_liner": "AI video editor (raw footage into finished videos)",
    "src": "common crawl",
    "team_size": 8,
    "yc": "Winter 2026"
@@ -5605,6 +5608,13 @@
   "foundry-robotics": {
    "name": "Foundry Robotics",
    "src": "common crawl"
+  },
+  "fours": {
+   "hq": "San Francisco, CA, USA",
+   "name": "Fours",
+   "one_liner": "Infrastructure for indirect revenue channels",
+   "team_size": 76,
+   "yc": "Winter 2023"
   },
   "fourth-power": {
    "name": "Fourth Power",
@@ -10239,6 +10249,9 @@
    "name": "Plotlineso",
    "src": "common crawl"
   },
+  "plsn": {
+   "name": "Polished Snow"
+  },
   "pluralis-research": {
    "name": "Pluralis Research"
   },
@@ -12733,6 +12746,9 @@
   "zefir": {
    "name": "Zefir",
    "src": "common crawl"
+  },
+  "zefr": {
+   "name": "Zefr"
   },
   "zeit-ai": {
    "hq": "Munich, BY, Germany",
@@ -43087,7 +43103,7 @@
   "postscript": {
    "hq": "Remote",
    "name": "Postscript",
-   "one_liner": "The SMS revenue platform for e-commerce merchants",
+   "one_liner": "The AI Retention Platform for Brands & Retailers",
    "team_size": 180,
    "yc": "Winter 2019"
   },
@@ -43832,6 +43848,9 @@
   "rootstocklabsltd": {
    "name": "Rootstocklabsltd",
    "src": "common crawl"
+  },
+  "rotheramarketsllc": {
+   "name": "Rothera"
   },
   "rothesaygraduates": {
    "name": "Rothesay"
@@ -46613,6 +46632,9 @@
    "name": "Connext Network",
    "src": "common crawl"
   },
+  "contentsquare": {
+   "name": "Heap"
+  },
   "convelio": {
    "name": "Convelio",
    "src": "common crawl"
@@ -48862,6 +48884,9 @@
   "Sportradar": {
    "name": "Sportradar"
   },
+  "SpringVentureGroup1": {
+   "name": "Spring Venture Group"
+  },
   "SpruceInfotechInc": {
    "name": "Spruce InfoTech"
   },
@@ -49046,7 +49071,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-02T20:01:04Z",
+ "updated": "2026-11-03T17:22:06Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -49338,7 +49363,7 @@
    ],
    "name": "[24]7.ai",
    "stage": "Seed funded",
-   "team_size": 11284,
+   "team_size": 11791,
    "vcs": [
     "Sequoia Capital"
    ]
@@ -50526,7 +50551,7 @@
     "Cybersecurity"
    ],
    "name": "Adaptive Security",
-   "stage": "Venture",
+   "stage": "Growth",
    "team_size": 284,
    "vcs": [
     "Bain Capital Ventures",
@@ -51227,21 +51252,18 @@
   "agora": {
    "investors": [],
    "markets": [
-    "B2B",
-    "Business Intelligence",
-    "Data Management",
-    "Enterprise Software",
+    "Financial Exchanges",
     "Financial Services",
+    "Financial Software",
     "Fintech",
     "Information Technology",
-    "PropTech",
-    "Real Estate",
-    "Real Estate Investment",
+    "Lending and Investments",
+    "Other Financial Services",
     "SaaS",
     "Software"
    ],
    "name": "Agora",
-   "stage": "Series B",
+   "stage": "Series A",
    "vcs": [
     "General Catalyst",
     "Insight Partners"
@@ -52160,11 +52182,12 @@
     "Notation Capital"
    ],
    "markets": [
-    "Computer & Network Security"
+    "Financial Services",
+    "Fintech"
    ],
    "name": "Alice",
    "stage": "Growth",
-   "team_size": 432,
+   "team_size": 15,
    "vcs": [
     "CRV",
     "Bain Capital Ventures"
@@ -53342,7 +53365,7 @@
    ],
    "name": "Andrenam",
    "stage": "Seed funded",
-   "team_size": 19,
+   "team_size": 25,
    "vcs": [
     "First Round Capital"
    ]
@@ -55150,11 +55173,11 @@
     "Bessemer Ventures"
    ],
    "markets": [
-    "Leisure, Travel & Tourism"
+    "Fintech"
    ],
    "name": "Ascend",
-   "stage": "Seed funded",
-   "team_size": 73,
+   "stage": "Series A",
+   "team_size": 25,
    "vcs": [
     "Felicis",
     "First Round Capital",
@@ -55553,6 +55576,14 @@
    "team_size": 1973,
    "vcs": [
     "Lightspeed"
+   ]
+  },
+  "astromechanica": {
+   "investors": [],
+   "name": "Astro Mechanica",
+   "stage": "Seed",
+   "vcs": [
+    "Andreessen Horowitz"
    ]
   },
   "astronomer": {
@@ -56685,7 +56716,7 @@
     "Security"
    ],
    "name": "Axonius",
-   "stage": "Growth",
+   "stage": "series_e",
    "team_size": 706,
    "vcs": [
     "Bessemer Venture Partners",
@@ -57261,7 +57292,8 @@
    "investors": [
     "Andreessen Horowitz",
     "MIT Alumni Startups",
-    "Sequoia Capital"
+    "Sequoia Capital",
+    "Homeworld Collective"
    ],
    "markets": [
     "Biotech/Pharma"
@@ -57623,7 +57655,7 @@
    ],
    "name": "Bigeye",
    "stage": "Growth",
-   "team_size": 73,
+   "team_size": 60,
    "vcs": [
     "Costanoa Ventures",
     "Sequoia Capital"
@@ -58489,7 +58521,7 @@
    ],
    "name": "Blue Water Autonomy",
    "stage": "Series A",
-   "team_size": 50,
+   "team_size": 53,
    "vcs": [
     "GV"
    ]
@@ -62017,10 +62049,12 @@
     "Consumer Services"
    ],
    "name": "Clutter",
+   "stage": "acquisition",
    "team_size": 333,
    "vcs": [
     "GV",
-    "Sequoia Capital"
+    "Sequoia Capital",
+    "8VC"
    ]
   },
   "coactive": {
@@ -63349,7 +63383,7 @@
    ],
    "name": "Cosmos",
    "stage": "Series A",
-   "team_size": 208,
+   "team_size": 242,
    "vcs": [
     "GV"
    ]
@@ -64688,11 +64722,12 @@
     "GV"
    ],
    "markets": [
-    "AI"
+    "Enterprise Software",
+    "SaaS"
    ],
    "name": "daydream",
-   "stage": "Seed funded",
-   "team_size": 59,
+   "stage": "Series A",
+   "team_size": 24,
    "vcs": [
     "First Round Capital",
     "GV"
@@ -66198,11 +66233,12 @@
     "NEA"
    ],
    "markets": [
-    "Consumer Services"
+    "Consumer",
+    "Design"
    ],
    "name": "Drop",
    "stage": "Growth",
-   "team_size": 77,
+   "team_size": 174,
    "vcs": [
     "First Round Capital",
     "NEA"
@@ -67742,7 +67778,7 @@
     "SaaS"
    ],
    "name": "Eve",
-   "stage": "Series A",
+   "stage": "Venture",
    "team_size": 405,
    "vcs": [
     "Lightspeed",
@@ -72264,7 +72300,7 @@
    ],
    "name": "HalloApp",
    "stage": "Seed funded",
-   "team_size": 5,
+   "team_size": 1,
    "vcs": [
     "Sequoia Capital"
    ]
@@ -72663,6 +72699,14 @@
    "team_size": 20,
    "vcs": [
     "Kleiner Perkins"
+   ]
+  },
+  "heap": {
+   "investors": [],
+   "name": "Heap",
+   "stage": "acquisition",
+   "vcs": [
+    "Menlo Ventures"
    ]
   },
   "heavisideindustries": {
@@ -73396,7 +73440,7 @@
    ],
    "name": "House Rx",
    "stage": "Series A",
-   "team_size": 356,
+   "team_size": 308,
    "vcs": [
     "Bessemer Venture Partners",
     "First Round Capital"
@@ -74041,7 +74085,7 @@
   "illumio": {
    "investors": [],
    "name": "Illumio",
-   "stage": "Growth",
+   "stage": "series_f",
    "vcs": [
     "General Catalyst",
     "Accel",
@@ -75039,6 +75083,14 @@
    "team_size": 1035,
    "vcs": [
     "Bessemer Venture Partners"
+   ]
+  },
+  "jedox": {
+   "investors": [],
+   "name": "Jedox",
+   "stage": "private_equity",
+   "vcs": [
+    "Insight Partners"
    ]
   },
   "jeeves": {
@@ -76778,13 +76830,13 @@
     "Union Square Ventures"
    ],
    "markets": [
-    "Climate",
-    "Energy Transition",
-    "Renewables & Environment"
+    "Enterprise Software",
+    "Retail",
+    "SaaS"
    ],
    "name": "Leap",
    "stage": "Growth",
-   "team_size": 111,
+   "team_size": 408,
    "vcs": [
     "Costanoa Ventures",
     "Union Square Ventures"
@@ -77674,7 +77726,8 @@
   "livingcarbon": {
    "investors": [
     "Felicis",
-    "MCJ"
+    "MCJ",
+    "Homeworld Collective"
    ],
    "markets": [
     "Environmental Services"
@@ -81452,9 +81505,11 @@
     "Leisure, Travel & Tourism"
    ],
    "name": "Navan",
+   "stage": "Growth",
    "team_size": 3953,
    "vcs": [
-    "Lightspeed"
+    "Lightspeed",
+    "Andreessen Horowitz"
    ]
   },
   "navatherapeutics": {
@@ -85501,7 +85556,8 @@
     "Bain Capital",
     "Bain Ventures",
     "Biocom",
-    "Gigascale"
+    "Gigascale",
+    "Homeworld Collective"
    ],
    "markets": [
     "Biotech/Pharma"
@@ -88022,12 +88078,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "AI",
-    "Developer Tools"
+    "Social Networking"
    ],
    "name": "Protege",
-   "stage": "Series A",
-   "team_size": 72,
+   "stage": "Seed funded",
+   "team_size": 500,
    "vcs": [
     "CRV",
     "Sequoia Capital"
@@ -88059,7 +88114,7 @@
     "Telecommunications"
    ],
    "name": "Protocol Labs",
-   "team_size": 114,
+   "team_size": 99,
    "vcs": [
     "Union Square Ventures",
     "Sequoia Capital"
@@ -88243,7 +88298,7 @@
    ],
    "name": "Pydantic",
    "stage": "Series A",
-   "team_size": 31,
+   "team_size": 42,
    "vcs": [
     "Sequoia Capital"
    ]
@@ -88470,7 +88525,7 @@
    ],
    "name": "QueryPal",
    "stage": "Seed funded",
-   "team_size": 8,
+   "team_size": 12,
    "vcs": [
     "Sequoia Capital"
    ]
@@ -89426,7 +89481,7 @@
    ],
    "name": "Release",
    "stage": "Series A",
-   "team_size": 17,
+   "team_size": 18,
    "vcs": [
     "Sequoia Capital"
    ]
@@ -94507,7 +94562,7 @@
     "Hospital & Health Care"
    ],
    "name": "Sprinter Health",
-   "stage": "Venture",
+   "stage": "Growth",
    "team_size": 243,
    "vcs": [
     "GV",
@@ -94794,6 +94849,14 @@
    "team_size": 30,
    "vcs": [
     "Union Square Ventures"
+   ]
+  },
+  "staffbase": {
+   "investors": [],
+   "name": "Staffbase",
+   "stage": "series_e",
+   "vcs": [
+    "Insight Partners"
    ]
   },
   "stag": {
@@ -95704,11 +95767,12 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Renewables & Environment"
+    "AI",
+    "Automation & Robotics"
    ],
    "name": "Sunday",
    "stage": "Growth",
-   "team_size": 105,
+   "team_size": 93,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -103223,6 +103287,20 @@
     "Felicis"
    ]
   },
+  "zum": {
+   "investors": [
+    "Sequoia Capital"
+   ],
+   "markets": [
+    "Transportation"
+   ],
+   "name": "Zum",
+   "stage": "Growth",
+   "team_size": 509,
+   "vcs": [
+    "Sequoia Capital"
+   ]
+  },
   "zumper": {
    "investors": [
     "Goodwater Capital",
@@ -109330,6 +109408,10 @@
    "at": "2026-10-23T23:57:53Z",
    "hit": null
   },
+  "alrighty": {
+   "at": "2026-11-03T17:01:09Z",
+   "hit": null
+  },
   "alt-tex": {
    "at": "2026-10-23T23:57:53Z",
    "hit": null
@@ -113250,6 +113332,10 @@
    "at": "2026-10-24T13:19:30Z",
    "hit": "ashby:efference"
   },
+  "efficient-computation-inc": {
+   "at": "2026-11-03T17:01:17Z",
+   "hit": null
+  },
   "effigov": {
    "at": "2026-10-24T13:20:48Z",
    "hit": null
@@ -114297,6 +114383,10 @@
   "four-growers": {
    "at": "2026-10-23T23:57:49Z",
    "hit": null
+  },
+  "fours": {
+   "at": "2026-11-03T17:01:09Z",
+   "hit": "ashby:fours"
   },
   "fractal-labs": {
    "at": "2026-10-23T23:57:54Z",
