@@ -5,6 +5,24 @@
    "Primary Venture Partners"
   ],
   "company": "Etched",
+  "first_seen": "2026-11-04T03:11:54Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/1fS",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 6,
+  "signal": 3,
+  "term": "Spring",
+  "title": "IA Research Engineer Intern, Kernels",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1fS"
+ },
+ {
+  "backers": [
+   "Andreessen Horowitz",
+   "Primary Venture Partners"
+  ],
+  "company": "Etched",
   "first_seen": "2026-11-04T02:42:23Z",
   "fit": 3,
   "id": "ashby:etched:05d67dff-a7a4-4ece-a809-3200d95e7440",
