@@ -10609,6 +10609,9 @@
    "name": "Rainfallhealth",
    "src": "common crawl"
   },
+  "rainforest-pay": {
+   "name": "Rainforest"
+  },
   "rainmaker": {
    "name": "Rainmaker",
    "src": "common crawl"
@@ -12395,8 +12398,8 @@
   "verahealth": {
    "hq": "San Francisco, CA, USA",
    "name": "Vera Health",
-   "one_liner": "AI-powered clinical decision support for healthcare providers",
-   "team_size": 6,
+   "one_liner": "Medical search engine built to reason like a clinician.",
+   "team_size": 12,
    "yc": "Summer 2024"
   },
   "veritus": {
@@ -39627,6 +39630,9 @@
    "name": "Ghost",
    "src": "common crawl"
   },
+  "gigfinesse": {
+   "name": "GigFinesse"
+  },
   "gigs": {
    "hq": "San Francisco, CA, USA",
    "name": "Gigs",
@@ -40741,6 +40747,9 @@
   "joinaffect": {
    "name": "Joinaffect",
    "src": "common crawl"
+  },
+  "jomboymedia": {
+   "name": "Jomboy Media"
   },
   "jordanparkgroup": {
    "name": "Jordanparkgroup",
@@ -45616,6 +45625,9 @@
   "vast": {
    "name": "VAST"
   },
+  "vaticlabs": {
+   "name": "Vatic Investments"
+  },
   "vaxcyte": {
    "name": "Vaxcyte"
   },
@@ -49071,7 +49083,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-03T17:22:06Z",
+ "updated": "2026-11-04T17:55:52Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -49751,7 +49763,7 @@
    ],
    "name": "Aalto",
    "stage": "Growth",
-   "team_size": 20,
+   "team_size": 17,
    "vcs": [
     "Sequoia Capital"
    ]
@@ -50300,7 +50312,7 @@
    ],
    "name": "Acelerate",
    "stage": "Series A",
-   "team_size": 9,
+   "team_size": 8,
    "vcs": [
     "Sequoia Capital"
    ]
@@ -50551,7 +50563,7 @@
     "Cybersecurity"
    ],
    "name": "Adaptive Security",
-   "stage": "Growth",
+   "stage": "Venture",
    "team_size": 284,
    "vcs": [
     "Bain Capital Ventures",
@@ -51252,18 +51264,21 @@
   "agora": {
    "investors": [],
    "markets": [
-    "Financial Exchanges",
+    "B2B",
+    "Business Intelligence",
+    "Data Management",
+    "Enterprise Software",
     "Financial Services",
-    "Financial Software",
     "Fintech",
     "Information Technology",
-    "Lending and Investments",
-    "Other Financial Services",
+    "PropTech",
+    "Real Estate",
+    "Real Estate Investment",
     "SaaS",
     "Software"
    ],
    "name": "Agora",
-   "stage": "Series A",
+   "stage": "Series B",
    "vcs": [
     "General Catalyst",
     "Insight Partners"
@@ -54584,7 +54599,7 @@
    ],
    "name": "Arcwise",
    "stage": "Seed funded",
-   "team_size": 6,
+   "team_size": 8,
    "vcs": [
     "NEA",
     "Sequoia Capital"
@@ -55173,11 +55188,11 @@
     "Bessemer Ventures"
    ],
    "markets": [
-    "Fintech"
+    "Leisure, Travel & Tourism"
    ],
    "name": "Ascend",
-   "stage": "Series A",
-   "team_size": 25,
+   "stage": "Seed funded",
+   "team_size": 73,
    "vcs": [
     "Felicis",
     "First Round Capital",
@@ -58347,7 +58362,7 @@
    ],
    "name": "Bloom",
    "stage": "Seed funded",
-   "team_size": 23,
+   "team_size": 24,
    "vcs": [
     "Contrary"
    ]
@@ -58476,7 +58491,7 @@
    ],
    "name": "Blues",
    "stage": "Series A",
-   "team_size": 67,
+   "team_size": 68,
    "vcs": [
     "Sequoia Capital"
    ]
@@ -58734,7 +58749,7 @@
    ],
    "name": "Bolt",
    "stage": "Growth",
-   "team_size": 15991,
+   "team_size": 16357,
    "vcs": [
     "Union Square Ventures",
     "Sequoia Capital"
@@ -63306,13 +63321,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Enterprise Software",
-    "Marketing and Advertising",
-    "SaaS"
+    "Productivity"
    ],
    "name": "Cortex",
    "stage": "Growth",
-   "team_size": 17,
+   "team_size": 112,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -64455,7 +64468,7 @@
    ],
    "name": "Databricks",
    "stage": "Growth",
-   "team_size": 16235,
+   "team_size": 14167,
    "vcs": [
     "NEA",
     "Battery Ventures",
@@ -64722,12 +64735,11 @@
     "GV"
    ],
    "markets": [
-    "Enterprise Software",
-    "SaaS"
+    "AI"
    ],
    "name": "daydream",
-   "stage": "Series A",
-   "team_size": 24,
+   "stage": "Seed funded",
+   "team_size": 59,
    "vcs": [
     "First Round Capital",
     "GV"
@@ -66233,12 +66245,11 @@
     "NEA"
    ],
    "markets": [
-    "Consumer",
-    "Design"
+    "Consumer Services"
    ],
    "name": "Drop",
    "stage": "Growth",
-   "team_size": 174,
+   "team_size": 77,
    "vcs": [
     "First Round Capital",
     "NEA"
@@ -68597,11 +68608,11 @@
     "StartX"
    ],
    "markets": [
-    "Hospital & Health Care"
+    "Biotech/Pharma"
    ],
    "name": "Fathom",
    "stage": "Growth",
-   "team_size": 73,
+   "team_size": 3,
    "vcs": [
     "Costanoa Ventures",
     "GV",
@@ -69120,7 +69131,7 @@
    ],
    "name": "Fireworks AI",
    "stage": "Growth",
-   "team_size": 355,
+   "team_size": 446,
    "vcs": [
     "Bessemer Venture Partners",
     "Lightspeed",
@@ -70014,11 +70025,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Fintech"
+    "Health, Wellness and Fitness"
    ],
    "name": "Found",
    "stage": "Growth",
-   "team_size": 119,
+   "team_size": 148,
    "vcs": [
     "GV",
     "Lightspeed",
@@ -76604,7 +76615,7 @@
    ],
    "name": "LangChain",
    "stage": "Growth",
-   "team_size": 425,
+   "team_size": 469,
    "vcs": [
     "Sequoia Capital"
    ]
@@ -77360,12 +77371,11 @@
     "Contrary"
    ],
    "markets": [
-    "Financial Services",
-    "Fintech"
+    "Telecommunications"
    ],
    "name": "Lightyear",
-   "stage": "Series A",
-   "team_size": 95,
+   "stage": "Growth",
+   "team_size": 75,
    "vcs": [
     "Lightspeed",
     "Contrary"
@@ -79840,7 +79850,7 @@
     "SaaS"
    ],
    "name": "Middesk",
-   "stage": "series_b",
+   "stage": "Growth",
    "team_size": 163,
    "vcs": [
     "Sequoia Capital",
@@ -79864,6 +79874,14 @@
    "vcs": [
     "Felicis",
     "GV"
+   ]
+  },
+  "mihup": {
+   "investors": [],
+   "name": "Mihup",
+   "stage": "series_unknown",
+   "vcs": [
+    "Accel"
    ]
   },
   "miim": {
@@ -80680,7 +80698,7 @@
    ],
    "name": "Monad",
    "stage": "Series A",
-   "team_size": 39,
+   "team_size": 55,
    "vcs": [
     "Sequoia Capital"
    ]
@@ -84611,7 +84629,7 @@
    ],
    "name": "Otto Finance",
    "stage": "Seed funded",
-   "team_size": 31,
+   "team_size": 29,
    "vcs": [
     "Sequoia Capital"
    ]
@@ -87828,7 +87846,8 @@
    "name": "Prodigal",
    "stage": "series_a",
    "vcs": [
-    "Menlo Ventures"
+    "Menlo Ventures",
+    "Accel"
    ]
   },
   "productboard": {
@@ -88646,7 +88665,8 @@
     "Hardware"
    ],
    "name": "R2 Semiconductor",
-   "team_size": 16,
+   "stage": "Growth",
+   "team_size": 15,
    "vcs": [
     "Sequoia Capital"
    ]
@@ -88789,6 +88809,14 @@
    "team_size": 10,
    "vcs": [
     "Lightspeed"
+   ]
+  },
+  "rainforest": {
+   "investors": [],
+   "name": "Rainforest",
+   "stage": "series_b",
+   "vcs": [
+    "Accel"
    ]
   },
   "rainforestqa": {
@@ -89527,7 +89555,7 @@
    ],
    "name": "Remedio",
    "stage": "Series A",
-   "team_size": 125,
+   "team_size": 141,
    "vcs": [
     "Bessemer Venture Partners"
    ]
@@ -90980,7 +91008,7 @@
    ],
    "name": "Runlayer",
    "stage": "Seed funded",
-   "team_size": 37,
+   "team_size": 64,
    "vcs": [
     "Felicis"
    ]
@@ -94915,7 +94943,7 @@
    ],
    "name": "Stairwell",
    "stage": "Growth",
-   "team_size": 54,
+   "team_size": 59,
    "vcs": [
     "Sequoia Capital"
    ]
@@ -95767,12 +95795,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "AI",
-    "Automation & Robotics"
+    "Renewables & Environment"
    ],
    "name": "Sunday",
    "stage": "Growth",
-   "team_size": 93,
+   "team_size": 105,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -97852,11 +97879,13 @@
     "Lightspeed"
    ],
    "markets": [
-    "Entertainment",
-    "Video Games"
+    "Enterprise Software",
+    "Fintech",
+    "Payments",
+    "SaaS"
    ],
    "name": "Toast",
-   "team_size": 18,
+   "team_size": 7864,
    "vcs": [
     "GV",
     "Lightspeed"
@@ -98968,7 +98997,8 @@
   "tutorintelligence": {
    "investors": [
     "E14 Fund",
-    "Union Square Ventures"
+    "Union Square Ventures",
+    "Andreessen Horowitz"
    ],
    "markets": [
     "Automation & Robotics",
@@ -99304,7 +99334,7 @@
    ],
    "name": "Unify",
    "stage": "Growth",
-   "team_size": 140,
+   "team_size": 136,
    "vcs": [
     "Battery Ventures"
    ]
@@ -101949,8 +101979,8 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Enterprise Software",
-    "Research"
+    "Delivery Services",
+    "Food & Beverages"
    ],
    "name": "Wonder",
    "stage": "series_d",
@@ -103754,6 +103784,9 @@
   "aoins.wd5.myworkdayjobs.com|aoins|concord": {
    "name": "Auto-Owners Insurance"
   },
+  "apacheip.wd1.myworkdayjobs.com|apacheip|apache_careers": {
+   "name": "Apache Industrial"
+  },
   "applebank.wd5.myworkdayjobs.com|applebank|applebankcareers": {
    "name": "Apple Bank"
   },
@@ -105256,6 +105289,9 @@
   },
   "fhlbtopeka.wd1.myworkdayjobs.com|fhlbtopeka|FHLBT": {
    "name": "FHLBank Topeka"
+  },
+  "fico.wd1.myworkdayjobs.com|fico|external": {
+   "name": "FICO"
   },
   "fifththird.wd5.myworkdayjobs.com|fifththird|53careers": {
    "name": "Fifth Third Bank"
@@ -109166,6 +109202,10 @@
   },
   "aikido-technologies": {
    "at": "2026-10-28T16:00:47Z",
+   "hit": null
+  },
+  "ailit": {
+   "at": "2026-11-04T17:13:34Z",
    "hit": null
   },
   "aios": {
@@ -113240,6 +113280,10 @@
    "at": "2026-10-23T23:56:17Z",
    "hit": null
   },
+  "e2e": {
+   "at": "2026-11-04T17:13:34Z",
+   "hit": null
+  },
   "earendil-robotics": {
    "at": "2026-10-24T13:21:25Z",
    "hit": null
@@ -113666,6 +113710,10 @@
   },
   "eugit-therapeutics": {
    "at": "2026-10-23T23:57:53Z",
+   "hit": null
+  },
+  "evardi": {
+   "at": "2026-11-04T17:13:36Z",
    "hit": null
   },
   "event-horizon-labs": {
@@ -124946,6 +124994,10 @@
   },
   "vesence": {
    "at": "2026-10-24T13:20:39Z",
+   "hit": null
+  },
+  "vespin": {
+   "at": "2026-11-04T17:13:34Z",
    "hit": null
   },
   "vespper": {
