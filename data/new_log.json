@@ -1,6 +1,24 @@
 [
  {
   "backers": [
+   "Andreessen Horowitz",
+   "Primary Venture Partners"
+  ],
+  "company": "Etched",
+  "first_seen": "2026-11-04T02:42:23Z",
+  "fit": 3,
+  "id": "ashby:etched:05d67dff-a7a4-4ece-a809-3200d95e7440",
+  "location": "San Jose",
+  "posted_at": "2026-11-04T02:39:25Z",
+  "score": 6,
+  "signal": 3,
+  "term": "",
+  "title": "IA Research Engineer (Kernels) Intern",
+  "type": "startup",
+  "url": "https://jobs.ashbyhq.com/Etched/05d67dff-a7a4-4ece-a809-3200d95e7440"
+ },
+ {
+  "backers": [
    "Lightspeed"
   ],
   "company": "Intel",
