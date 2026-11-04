@@ -1,6 +1,23 @@
 [
  {
   "backers": [
+   "Lightspeed"
+  ],
+  "company": "Intel",
+  "first_seen": "2026-11-04T01:00:35Z",
+  "fit": 0,
+  "id": "wd:intel:jr0287833",
+  "location": "Costa Rica, San Jose; Costa Rica",
+  "posted_at": null,
+  "score": 3,
+  "signal": 3,
+  "term": "",
+  "title": "Student Intern, Collaboration Services System Programmer",
+  "type": "bigtech",
+  "url": "https://intel.wd1.myworkdayjobs.com/External/job/Costa-Rica-San-Jose/Student-Intern--Collaboration-Services-System-Programmer_JR0287833"
+ },
+ {
+  "backers": [
    "Accel"
   ],
   "company": "Scale AI",
