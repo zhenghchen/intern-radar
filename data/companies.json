@@ -4392,6 +4392,9 @@
    "name": "Dialo",
    "src": "common crawl"
   },
+  "didero": {
+   "name": "Didero"
+  },
   "diligencesquared": {
    "hq": "New York City, NY, USA",
    "name": "DiligenceSquared",
@@ -4483,7 +4486,7 @@
    "hq": "San Francisco, CA, USA",
    "name": "Dodo",
    "one_liner": "AI agents that handle communications for clinics",
-   "team_size": 6,
+   "team_size": 10,
    "yc": "Summer 2024"
   },
   "doinstruct": {
@@ -8010,6 +8013,9 @@
    "name": "Long Lake",
    "src": "common crawl"
   },
+  "longitudelabs": {
+   "name": "Longitude Labs"
+  },
   "loopio": {
    "name": "Loopio",
    "src": "common crawl"
@@ -11443,7 +11449,7 @@
    "hq": "London, England, United Kingdom",
    "name": "Solve Intelligence",
    "one_liner": "AI patent drafting, prosecution, litigation and more for legal teams.",
-   "team_size": 50,
+   "team_size": 70,
    "yc": "Summer 2023"
   },
   "sorare": {
@@ -36083,6 +36089,9 @@
    "name": "Barich",
    "src": "common crawl"
   },
+  "baringa": {
+   "name": "Baringa"
+  },
   "bark": {
    "name": "Bark",
    "src": "common crawl"
@@ -39406,8 +39415,8 @@
   "forward": {
    "hq": "San Francisco, CA, USA",
    "name": "Forward",
-   "one_liner": "Unifying Global Private Credit",
-   "team_size": 4,
+   "one_liner": "Origination network for private credit funds",
+   "team_size": 7,
    "yc": "Fall 2026"
   },
   "forwardnetworks": {
@@ -40456,6 +40465,9 @@
    "name": "Imbue",
    "src": "common crawl"
   },
+  "imbueunlisted": {
+   "name": "Imbue"
+  },
   "imc": {
    "name": "IMC Trading"
   },
@@ -41289,6 +41301,9 @@
   },
   "loop": {
    "name": "Loop"
+  },
+  "lovelytics": {
+   "name": "Lovelytics"
   },
   "lpl": {
    "name": "Lpl",
@@ -43503,7 +43518,7 @@
   "raven": {
    "hq": "BY, Germany",
    "name": "Raven",
-   "one_liner": "An agentic phone that does your busywork",
+   "one_liner": "A new phone rebuilt around agents: more done, less time on screen.",
    "team_size": 1,
    "yc": "Fall 2026"
   },
@@ -48327,6 +48342,9 @@
   "coretechsecurity": {
    "name": "CoreTech Security Services"
   },
+  "markt-pilot": {
+   "name": "Markt Pilot"
+  },
   "prima": {
    "name": "Prima"
   },
@@ -49083,7 +49101,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-04T17:55:52Z",
+ "updated": "2026-11-05T17:39:29Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -50563,7 +50581,7 @@
     "Cybersecurity"
    ],
    "name": "Adaptive Security",
-   "stage": "Venture",
+   "stage": "Growth",
    "team_size": 284,
    "vcs": [
     "Bain Capital Ventures",
@@ -51264,21 +51282,18 @@
   "agora": {
    "investors": [],
    "markets": [
-    "B2B",
-    "Business Intelligence",
-    "Data Management",
-    "Enterprise Software",
+    "Financial Exchanges",
     "Financial Services",
+    "Financial Software",
     "Fintech",
     "Information Technology",
-    "PropTech",
-    "Real Estate",
-    "Real Estate Investment",
+    "Lending and Investments",
+    "Other Financial Services",
     "SaaS",
     "Software"
    ],
    "name": "Agora",
-   "stage": "Series B",
+   "stage": "Series A",
    "vcs": [
     "General Catalyst",
     "Insight Partners"
@@ -53614,7 +53629,7 @@
    ],
    "name": "Anthropic",
    "stage": "Growth",
-   "team_size": 5681,
+   "team_size": 6243,
    "vcs": [
     "Menlo Ventures",
     "Bessemer Venture Partners"
@@ -55057,6 +55072,13 @@
     "Kleiner Perkins"
    ]
   },
+  "artcraft": {
+   "investors": [],
+   "name": "Artcraft",
+   "vcs": [
+    "NFX"
+   ]
+  },
   "artemisai": {
    "investors": [],
    "markets": [
@@ -55188,11 +55210,11 @@
     "Bessemer Ventures"
    ],
    "markets": [
-    "Leisure, Travel & Tourism"
+    "Fintech"
    ],
    "name": "Ascend",
-   "stage": "Seed funded",
-   "team_size": 73,
+   "stage": "Series A",
+   "team_size": 25,
    "vcs": [
     "Felicis",
     "First Round Capital",
@@ -56221,7 +56243,7 @@
    ],
    "name": "Aurora Innovation",
    "stage": "Public",
-   "team_size": 2611,
+   "team_size": 2630,
    "vcs": [
     "Sequoia Capital"
    ]
@@ -56737,6 +56759,14 @@
     "Bessemer Venture Partners",
     "Lightspeed",
     "Accel"
+   ]
+  },
+  "ayarlabs": {
+   "investors": [],
+   "name": "Ayar Labs",
+   "stage": "series_e",
+   "vcs": [
+    "Insight Partners"
    ]
   },
   "azumio": {
@@ -63321,11 +63351,13 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Productivity"
+    "Enterprise Software",
+    "Marketing and Advertising",
+    "SaaS"
    ],
    "name": "Cortex",
    "stage": "Growth",
-   "team_size": 112,
+   "team_size": 17,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -64224,7 +64256,8 @@
     "CRV",
     "Lightspeed",
     "Prospect",
-    "Sequoia Capital"
+    "Sequoia Capital",
+    "TechAviv"
    ],
    "markets": [
     "Computer & Network Security"
@@ -66245,11 +66278,12 @@
     "NEA"
    ],
    "markets": [
-    "Consumer Services"
+    "Consumer",
+    "Design"
    ],
    "name": "Drop",
    "stage": "Growth",
-   "team_size": 77,
+   "team_size": 174,
    "vcs": [
     "First Round Capital",
     "NEA"
@@ -67662,7 +67696,7 @@
    ],
    "name": "EquityBee",
    "stage": "Growth",
-   "team_size": 53,
+   "team_size": 54,
    "vcs": [
     "Battery Ventures"
    ]
@@ -68316,6 +68350,14 @@
     "NEA"
    ]
   },
+  "fabhotels": {
+   "investors": [],
+   "name": "FabHotels",
+   "stage": "series_unknown",
+   "vcs": [
+    "Accel"
+   ]
+  },
   "fabric": {
    "investors": [
     "GV"
@@ -68608,11 +68650,11 @@
     "StartX"
    ],
    "markets": [
-    "Biotech/Pharma"
+    "Hospital & Health Care"
    ],
    "name": "Fathom",
    "stage": "Growth",
-   "team_size": 3,
+   "team_size": 73,
    "vcs": [
     "Costanoa Ventures",
     "GV",
@@ -70141,7 +70183,7 @@
    ],
    "name": "Fractional",
    "stage": "Series A",
-   "team_size": 33,
+   "team_size": 42,
    "vcs": [
     "Contrary"
    ]
@@ -71347,9 +71389,11 @@
     "Data & Analytics"
    ],
    "name": "Golden Analytics",
-   "stage": "Seed funded",
+   "stage": "seed",
    "vcs": [
-    "NEA"
+    "NEA",
+    "Insight Partners",
+    "Madrona Venture Group"
    ]
   },
   "goldsky": {
@@ -71572,7 +71616,7 @@
     "SaaS"
    ],
    "name": "Gradle",
-   "stage": "series_c",
+   "stage": "Growth",
    "team_size": 150,
    "vcs": [
     "Bain Capital Ventures",
@@ -71791,10 +71835,10 @@
     "GV"
    ],
    "markets": [
-    "Banking",
-    "Financial Services",
-    "Fintech",
-    "Payments"
+    "Automotive",
+    "Mobility",
+    "Renewables & Environment",
+    "Transportation"
    ],
    "name": "GRAVITY",
    "stage": "Seed funded",
@@ -75313,7 +75357,7 @@
    ],
    "name": "Jump",
    "stage": "Growth",
-   "team_size": 254,
+   "team_size": 257,
    "vcs": [
     "Battery Ventures"
    ]
@@ -77371,11 +77415,12 @@
     "Contrary"
    ],
    "markets": [
-    "Telecommunications"
+    "Financial Services",
+    "Fintech"
    ],
    "name": "Lightyear",
-   "stage": "Growth",
-   "team_size": 75,
+   "stage": "Series A",
+   "team_size": 95,
    "vcs": [
     "Lightspeed",
     "Contrary"
@@ -78256,7 +78301,7 @@
     "Marketing and Advertising"
    ],
    "name": "Luxury Presence",
-   "team_size": 859,
+   "team_size": 906,
    "vcs": [
     "Bessemer Venture Partners"
    ]
@@ -78810,6 +78855,14 @@
    "team_size": 26,
    "vcs": [
     "NEA"
+   ]
+  },
+  "marktpilot": {
+   "investors": [],
+   "name": "Markt Pilot",
+   "stage": "series_a",
+   "vcs": [
+    "Insight Partners"
    ]
   },
   "marleyspoon": {
@@ -80049,11 +80102,12 @@
     "Kleiner Perkins"
    ],
    "markets": [
-    "Fintech"
+    "Computer & Network Security",
+    "Developer Tools"
    ],
    "name": "Mine",
-   "stage": "Seed funded",
-   "team_size": 69,
+   "stage": "Growth",
+   "team_size": 111,
    "vcs": [
     "Battery Ventures",
     "Kleiner Perkins"
@@ -82430,6 +82484,14 @@
    "team_size": 147,
    "vcs": [
     "NEA"
+   ]
+  },
+  "nmi": {
+   "investors": [],
+   "name": "NMI",
+   "stage": "other",
+   "vcs": [
+    "Insight Partners"
    ]
   },
   "nobl9": {
@@ -87049,6 +87111,14 @@
     "Bessemer Venture Partners"
    ]
   },
+  "plusonerobotics": {
+   "investors": [],
+   "name": "Plus One Robotics",
+   "stage": "series_c",
+   "vcs": [
+    "Lerer Hippeau"
+   ]
+  },
   "pmcsierra": {
    "investors": [
     "Lightspeed"
@@ -90429,10 +90499,11 @@
     "Food & Beverages"
    ],
    "name": "Ripple Foods",
-   "stage": "Growth",
+   "stage": "series_unknown",
    "team_size": 57,
    "vcs": [
-    "GV"
+    "GV",
+    "Khosla Ventures"
    ]
   },
   "rippling": {
@@ -95795,11 +95866,12 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Renewables & Environment"
+    "AI",
+    "Automation & Robotics"
    ],
    "name": "Sunday",
    "stage": "Growth",
-   "team_size": 105,
+   "team_size": 93,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -96937,11 +97009,12 @@
     "AI-Powered Applications"
    ],
    "name": "Tecton",
-   "stage": "Growth",
+   "stage": "acquisition",
    "team_size": 97,
    "vcs": [
     "Sequoia Capital",
-    "Kleiner Perkins"
+    "Kleiner Perkins",
+    "Lux Capital"
    ]
   },
   "teladochealth": {
@@ -97879,13 +97952,11 @@
     "Lightspeed"
    ],
    "markets": [
-    "Enterprise Software",
-    "Fintech",
-    "Payments",
-    "SaaS"
+    "Entertainment",
+    "Video Games"
    ],
    "name": "Toast",
-   "team_size": 7864,
+   "team_size": 18,
    "vcs": [
     "GV",
     "Lightspeed"
@@ -99110,7 +99181,7 @@
     "SaaS"
    ],
    "name": "Typeface",
-   "team_size": 307,
+   "team_size": 304,
    "vcs": [
     "GV",
     "Lightspeed"
@@ -99709,7 +99780,8 @@
   "upwindsecurity": {
    "investors": [
     "Bessemer Ventures",
-    "Greylock Partners"
+    "Greylock Partners",
+    "TechAviv"
    ],
    "markets": [
     "Computer & Network Security",
@@ -100633,7 +100705,7 @@
     "Peer to Peer Marketplace"
    ],
    "name": "Vinted",
-   "stage": "Growth",
+   "stage": "other",
    "team_size": 4398,
    "vcs": [
     "Lightspeed",
@@ -103714,6 +103786,9 @@
   },
   "amcor.wd5.myworkdayjobs.com|amcor|amcor_external_career_site": {
    "name": "Amcor"
+  },
+  "amerch.wd1.myworkdayjobs.com|amerch|amerchcareers": {
+   "name": "Anderson Merchandisers"
   },
   "ameren.wd1.myworkdayjobs.com|ameren|External": {
    "name": "Ameren"
@@ -109220,6 +109295,10 @@
    "at": "2026-10-24T13:20:50Z",
    "hit": null
   },
+  "aircaps-ai": {
+   "at": "2026-11-05T17:23:04Z",
+   "hit": null
+  },
   "airfordable": {
    "at": "2026-10-23T23:56:19Z",
    "hit": null
@@ -109662,6 +109741,10 @@
   },
   "anythingllm": {
    "at": "2026-10-23T23:57:20Z",
+   "hit": null
+  },
+  "anywhere": {
+   "at": "2026-11-05T17:23:02Z",
    "hit": null
   },
   "aoa-dx-inc": {
@@ -110378,6 +110461,10 @@
   },
   "axiom-ai": {
    "at": "2026-10-23T23:57:50Z",
+   "hit": null
+  },
+  "axiomat": {
+   "at": "2026-11-05T17:23:02Z",
    "hit": null
   },
   "axionorbital-space": {
@@ -119124,6 +119211,10 @@
    "at": "2026-10-24T13:20:37Z",
    "hit": null
   },
+  "openlake-technologies": {
+   "at": "2026-11-05T17:23:02Z",
+   "hit": null
+  },
   "openlayer": {
    "at": "2026-10-23T23:56:41Z",
    "hit": null
@@ -119278,6 +119369,10 @@
   },
   "orderli": {
    "at": "2026-10-23T23:56:43Z",
+   "hit": null
+  },
+  "organizely": {
+   "at": "2026-11-05T17:23:05Z",
    "hit": null
   },
   "orgo": {
@@ -124318,6 +124413,10 @@
   },
   "trendex-connect-with-stars": {
    "at": "2026-10-23T23:57:54Z",
+   "hit": null
+  },
+  "trepo": {
+   "at": "2026-11-05T17:23:02Z",
    "hit": null
   },
   "trestle-biotherapeutics": {
