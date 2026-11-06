@@ -1,5 +1,45 @@
 [
  {
+  "backers": [
+   "Sequoia Capital",
+   "Thrive Capital",
+   "Felicis",
+   "First Round Capital"
+  ],
+  "company": "Notion",
+  "first_seen": "2026-11-06T19:13:01Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1kQ",
+  "location": "New York, NY",
+  "posted_at": null,
+  "score": 6,
+  "signal": 4,
+  "term": "Summer",
+  "title": "Software Engineering Intern, iOS",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/1kQ"
+ },
+ {
+  "backers": [
+   "Sequoia Capital",
+   "Thrive Capital",
+   "Felicis",
+   "First Round Capital"
+  ],
+  "company": "Notion",
+  "first_seen": "2026-11-06T19:13:01Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1kP",
+  "location": "New York, NY",
+  "posted_at": null,
+  "score": 6,
+  "signal": 4,
+  "term": "Summer",
+  "title": "Software Engineering Intern, Frontend",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/1kP"
+ },
+ {
   "backers": [],
   "company": "Salesforce",
   "first_seen": "2026-11-06T19:02:31Z",
