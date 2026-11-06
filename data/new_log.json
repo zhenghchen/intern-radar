@@ -1,6 +1,23 @@
 [
  {
   "backers": [
+   "General Catalyst"
+  ],
+  "company": "Samsara",
+  "first_seen": "2026-11-06T16:30:42Z",
+  "fit": 2,
+  "id": "gh:8358786",
+  "location": "San Francisco - SF9",
+  "posted_at": "2026-11-06T16:29:49Z",
+  "score": 5,
+  "signal": 3,
+  "term": "",
+  "title": "Software Engineering Internship - San Francisco",
+  "type": "bigtech",
+  "url": "https://www.samsara.com/company/careers/roles/8358786?gh_jid=8358786"
+ },
+ {
+  "backers": [
    "Accel"
   ],
   "company": "DocuSign",
