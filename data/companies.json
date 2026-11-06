@@ -1392,7 +1392,7 @@
   "airbyte": {
    "hq": "San Francisco, CA, USA",
    "name": "Airbyte",
-   "one_liner": "Context layer for production-grade AI agents",
+   "one_liner": "The open standard in data connectivity for AI and analytics.",
    "team_size": 90,
    "yc": "Winter 2020"
   },
@@ -6649,6 +6649,9 @@
    "name": "Hoxhunt",
    "src": "common crawl"
   },
+  "hoyoverse": {
+   "name": "HoYoverse"
+  },
   "httpie": {
    "name": "Httpie",
    "src": "common crawl"
@@ -10107,7 +10110,7 @@
    "hq": "San Francisco, CA, USA",
    "name": "Pharos",
    "one_liner": "Helping hospitals identify and prevent avoidable harm using AI",
-   "team_size": 5,
+   "team_size": 10,
    "yc": "Summer 2024"
   },
   "phasebiolabs": {
@@ -12108,6 +12111,9 @@
   },
   "trainline": {
    "name": "Trainline"
+  },
+  "trajectory": {
+   "name": "Trajectory"
   },
   "transgrid-energy": {
    "name": "Transgrid Energy",
@@ -39415,7 +39421,7 @@
   "forward": {
    "hq": "San Francisco, CA, USA",
    "name": "Forward",
-   "one_liner": "Origination network for private credit funds",
+   "one_liner": "The private credit network for leading debt advisors",
    "team_size": 7,
    "yc": "Fall 2026"
   },
@@ -41341,6 +41347,9 @@
   },
   "ludorobotics": {
    "name": "Ludo Robotics"
+  },
+  "lumbermens": {
+   "name": "Lumbermen's"
   },
   "luminate": {
    "hq": "Galway, County Galway, Ireland",
@@ -48815,6 +48824,9 @@
   "RedBull": {
    "name": "Red Bull"
   },
+  "RedWingShoeCompany": {
+   "name": "Red Wing Shoe Company"
+  },
   "RegDeskInc": {
    "name": "RegDesk"
   },
@@ -49101,7 +49113,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-05T17:39:29Z",
+ "updated": "2026-11-06T16:59:56Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -51282,18 +51294,21 @@
   "agora": {
    "investors": [],
    "markets": [
-    "Financial Exchanges",
+    "B2B",
+    "Business Intelligence",
+    "Data Management",
+    "Enterprise Software",
     "Financial Services",
-    "Financial Software",
     "Fintech",
     "Information Technology",
-    "Lending and Investments",
-    "Other Financial Services",
+    "PropTech",
+    "Real Estate",
+    "Real Estate Investment",
     "SaaS",
     "Software"
    ],
    "name": "Agora",
-   "stage": "Series A",
+   "stage": "Series B",
    "vcs": [
     "General Catalyst",
     "Insight Partners"
@@ -55210,11 +55225,11 @@
     "Bessemer Ventures"
    ],
    "markets": [
-    "Fintech"
+    "Leisure, Travel & Tourism"
    ],
    "name": "Ascend",
-   "stage": "Series A",
-   "team_size": 25,
+   "stage": "Seed funded",
+   "team_size": 73,
    "vcs": [
     "Felicis",
     "First Round Capital",
@@ -56332,6 +56347,28 @@
     "Initialized Capital"
    ]
   },
+  "automaticsystems": {
+   "investors": [],
+   "markets": [
+    "Automation",
+    "Automotive",
+    "Business And Industrial",
+    "Distribution",
+    "EMS",
+    "Logistics",
+    "Machinery",
+    "Machinery (B2B)",
+    "Manufacturing",
+    "Manufacturing & Industrial",
+    "Transportation",
+    "Warehouse"
+   ],
+   "name": "Automatic Systems, Inc.",
+   "stage": "Other",
+   "vcs": [
+    "Craft Ventures"
+   ]
+  },
   "automationanywhere": {
    "investors": [
     "NEA",
@@ -56996,7 +57033,7 @@
    ],
    "name": "Basis",
    "stage": "Growth",
-   "team_size": 208,
+   "team_size": 214,
    "vcs": [
     "GV"
    ]
@@ -63351,13 +63388,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Enterprise Software",
-    "Marketing and Advertising",
-    "SaaS"
+    "Productivity"
    ],
    "name": "Cortex",
    "stage": "Growth",
-   "team_size": 17,
+   "team_size": 112,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -68650,11 +68685,11 @@
     "StartX"
    ],
    "markets": [
-    "Hospital & Health Care"
+    "Biotech/Pharma"
    ],
    "name": "Fathom",
    "stage": "Growth",
-   "team_size": 73,
+   "team_size": 3,
    "vcs": [
     "Costanoa Ventures",
     "GV",
@@ -69987,6 +70022,14 @@
     "Battery Ventures"
    ]
   },
+  "fortemtechnologies": {
+   "investors": [],
+   "name": "Fortem Technologies",
+   "stage": "series_b",
+   "vcs": [
+    "DCVC"
+   ]
+  },
   "forter": {
    "investors": [
     "Bessemer Ventures",
@@ -70067,11 +70110,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Health, Wellness and Fitness"
+    "Fintech"
    ],
    "name": "Found",
    "stage": "Growth",
-   "team_size": 148,
+   "team_size": 119,
    "vcs": [
     "GV",
     "Lightspeed",
@@ -71835,10 +71878,10 @@
     "GV"
    ],
    "markets": [
-    "Automotive",
-    "Mobility",
-    "Renewables & Environment",
-    "Transportation"
+    "Banking",
+    "Financial Services",
+    "Fintech",
+    "Payments"
    ],
    "name": "GRAVITY",
    "stage": "Seed funded",
@@ -72281,6 +72324,14 @@
    "team_size": 23,
    "vcs": [
     "Lightspeed"
+   ]
+  },
+  "h": {
+   "investors": [],
+   "name": "H Company",
+   "stage": "seed",
+   "vcs": [
+    "Accel"
    ]
   },
   "h2": {
@@ -80102,12 +80153,11 @@
     "Kleiner Perkins"
    ],
    "markets": [
-    "Computer & Network Security",
-    "Developer Tools"
+    "Fintech"
    ],
    "name": "Mine",
-   "stage": "Growth",
-   "team_size": 111,
+   "stage": "Seed funded",
+   "team_size": 69,
    "vcs": [
     "Battery Ventures",
     "Kleiner Perkins"
@@ -92306,12 +92356,11 @@
     "GV"
    ],
    "markets": [
-    "Consumer Services",
-    "Health, Wellness and Fitness"
+    "Consumer"
    ],
    "name": "Sesame",
    "stage": "Growth",
-   "team_size": 160,
+   "team_size": 120,
    "vcs": [
     "Sequoia Capital",
     "GV"
@@ -92980,6 +93029,14 @@
     "Bain Capital Ventures"
    ]
   },
+  "similityapaypalservice": {
+   "investors": [],
+   "name": "Simility, a Paypal Service",
+   "stage": "acquisition",
+   "vcs": [
+    "Accel"
+   ]
+  },
   "simplehabit": {
    "investors": [
     "NEA"
@@ -93532,11 +93589,13 @@
     "NEA"
    ],
    "markets": [
-    "Biotech/Pharma"
+    "ECommerce",
+    "Financial Services",
+    "Fintech"
    ],
    "name": "Slope",
    "stage": "Series A",
-   "team_size": 48,
+   "team_size": 41,
    "vcs": [
     "Union Square Ventures",
     "NEA"
@@ -95866,12 +95925,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "AI",
-    "Automation & Robotics"
+    "Renewables & Environment"
    ],
    "name": "Sunday",
    "stage": "Growth",
-   "team_size": 93,
+   "team_size": 105,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -99287,7 +99345,7 @@
     "Life Sciences"
    ],
    "name": "Ultima Genomics",
-   "stage": "series_unknown",
+   "stage": "Growth",
    "team_size": 303,
    "vcs": [
     "Lightspeed",
@@ -100400,6 +100458,14 @@
    "vcs": [
     "Bessemer Venture Partners",
     "GV"
+   ]
+  },
+  "verta": {
+   "investors": [],
+   "name": "Verta",
+   "stage": "acquisition",
+   "vcs": [
+    "General Catalyst"
    ]
   },
   "vertice": {
@@ -102051,8 +102117,8 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Delivery Services",
-    "Food & Beverages"
+    "Enterprise Software",
+    "Research"
    ],
    "name": "Wonder",
    "stage": "series_d",
@@ -104531,6 +104597,9 @@
   "capgroup.wd1.myworkdayjobs.com|capgroup|capitalgroupcareers": {
    "name": "Capital Group"
   },
+  "capitalauto.wd3.myworkdayjobs.com|capitalauto|capitalautogroupcareers": {
+   "name": "Capital Automotive Group"
+  },
   "capitalhealth.wd1.myworkdayjobs.com|capitalhealth|CapitalHealthCareers": {
    "name": "Capital Health"
   },
@@ -104749,6 +104818,9 @@
   },
   "clorox.wd1.myworkdayjobs.com|clorox|InviteClorox": {
    "name": "Clorox"
+  },
+  "cloudera.wd5.myworkdayjobs.com|cloudera|External_Career": {
+   "name": "Verta"
   },
   "clr.wd5.myworkdayjobs.com|clr|CLR_Careers": {
    "name": "Continental Resources"
@@ -109055,6 +109127,10 @@
    "at": "2026-10-23T23:57:53Z",
    "hit": null
   },
+  "adalat-ai": {
+   "at": "2026-11-06T16:45:18Z",
+   "hit": null
+  },
   "adam": {
    "at": "2026-10-23T23:57:41Z",
    "hit": null
@@ -111689,6 +111765,10 @@
   },
   "champ": {
    "at": "2026-10-23T23:57:13Z",
+   "hit": null
+  },
+  "championeffect-inc": {
+   "at": "2026-11-06T16:45:18Z",
    "hit": null
   },
   "channel3": {
@@ -114767,6 +114847,10 @@
    "at": "2026-10-23T23:56:44Z",
    "hit": null
   },
+  "gentle-health": {
+   "at": "2026-11-06T16:45:18Z",
+   "hit": null
+  },
   "genuity": {
    "at": "2026-10-23T23:56:42Z",
    "hit": null
@@ -115097,6 +115181,10 @@
   },
   "growthbook": {
    "at": "2026-10-23T23:56:44Z",
+   "hit": null
+  },
+  "gru-space": {
+   "at": "2026-11-06T16:45:21Z",
    "hit": null
   },
   "grubmarket": {
@@ -120227,6 +120315,10 @@
    "at": "2026-10-24T13:21:15Z",
    "hit": null
   },
+  "plover-labs": {
+   "at": "2026-11-06T16:45:18Z",
+   "hit": null
+  },
   "ploy": {
    "at": "2026-10-24T13:20:58Z",
    "hit": null
@@ -125073,6 +125165,10 @@
   },
   "versable": {
    "at": "2026-10-23T23:56:46Z",
+   "hit": null
+  },
+  "versine": {
+   "at": "2026-11-06T16:45:18Z",
    "hit": null
   },
   "version-story-compare": {
