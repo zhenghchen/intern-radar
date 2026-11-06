@@ -1,6 +1,26 @@
 [
  {
   "backers": [
+   "Sequoia Capital",
+   "Thrive Capital",
+   "Felicis",
+   "First Round Capital"
+  ],
+  "company": "Notion",
+  "first_seen": "2026-11-06T18:42:25Z",
+  "fit": 2,
+  "id": "ashby:notion:27090d0f-07d3-419b-adaa-837b5e22f947",
+  "location": "New York, New York; New York, New York",
+  "posted_at": "2026-11-06T18:41:27Z",
+  "score": 6,
+  "signal": 4,
+  "term": "Summer 2027",
+  "title": "Software Engineering Intern, iOS (Summer 2027)",
+  "type": "bigtech",
+  "url": "https://jobs.ashbyhq.com/notion/27090d0f-07d3-419b-adaa-837b5e22f947"
+ },
+ {
+  "backers": [
    "General Catalyst"
   ],
   "company": "Samsara",
