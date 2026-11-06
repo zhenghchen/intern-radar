@@ -1,6 +1,25 @@
 [
  {
   "backers": [
+   "General Catalyst",
+   "Khosla Ventures",
+   "Lux Capital"
+  ],
+  "company": "Varda Space Industries",
+  "first_seen": "2026-11-06T23:26:20Z",
+  "fit": 3,
+  "id": "gh:8198267003",
+  "location": "El Segundo, California, United States",
+  "posted_at": "2026-11-06T23:24:30Z",
+  "score": 7,
+  "signal": 4,
+  "term": "Summer 2027",
+  "title": "Site Reliability Internship - Summer 2027",
+  "type": "startup",
+  "url": "https://job-boards.greenhouse.io/vardaspace/jobs/8198267003"
+ },
+ {
+  "backers": [
    "Andreessen Horowitz",
    "Felicis",
    "Lux Capital"
