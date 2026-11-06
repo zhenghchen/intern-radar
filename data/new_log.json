@@ -1,5 +1,25 @@
 [
  {
+  "backers": [
+   "Andreessen Horowitz",
+   "Felicis",
+   "Lux Capital",
+   "Y Combinator"
+  ],
+  "company": "Astranis",
+  "first_seen": "2026-11-06T22:30:23Z",
+  "fit": 3,
+  "id": "gh:4704571006",
+  "location": "San Francisco",
+  "posted_at": "2026-11-06T22:30:11Z",
+  "score": 7,
+  "signal": 4,
+  "term": "Winter 2027",
+  "title": "Embedded Software Developer, Network/Payload Intern (Winter 2027)",
+  "type": "startup",
+  "url": "https://job-boards.greenhouse.io/astranis/jobs/4704571006"
+ },
+ {
   "backers": [],
   "company": "Cisco",
   "first_seen": "2026-11-06T22:11:12Z",
