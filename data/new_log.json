@@ -6,6 +6,40 @@
    "Lux Capital"
   ],
   "company": "Varda Space Industries",
+  "first_seen": "2026-11-07T02:57:03Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/1lP",
+  "location": "El Segundo, CA",
+  "posted_at": null,
+  "score": 7,
+  "signal": 4,
+  "term": "Summer",
+  "title": "Site Reliability Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1lP"
+ },
+ {
+  "backers": [],
+  "company": "Tesla",
+  "first_seen": "2026-11-07T02:57:03Z",
+  "fit": 2,
+  "id": "url:tesla.com/careers/search/job/289240",
+  "location": "Palo Alto, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Winter 2027, Spring 2027",
+  "title": "Software Engineer Intern - SI Reinforcement Learning",
+  "type": "bigtech",
+  "url": "https://www.tesla.com/careers/search/job/289240"
+ },
+ {
+  "backers": [
+   "General Catalyst",
+   "Khosla Ventures",
+   "Lux Capital"
+  ],
+  "company": "Varda Space Industries",
   "first_seen": "2026-11-06T23:26:20Z",
   "fit": 3,
   "id": "gh:8198267003",
