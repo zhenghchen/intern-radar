@@ -1,5 +1,20 @@
 [
  {
+  "backers": [],
+  "company": "Tesla",
+  "first_seen": "2026-11-07T11:33:49Z",
+  "fit": 2,
+  "id": "url:tesla.com/careers/search/job/289241",
+  "location": "Palo Alto, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer 2027",
+  "title": "Software Engineer Intern - SI Reinforcement Learning",
+  "type": "bigtech",
+  "url": "https://www.tesla.com/careers/search/job/289241"
+ },
+ {
   "backers": [
    "General Catalyst",
    "Khosla Ventures",
