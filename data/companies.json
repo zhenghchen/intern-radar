@@ -5589,6 +5589,9 @@
    "name": "Formula",
    "src": "common crawl"
   },
+  "formulary": {
+   "name": "Formulary Financial"
+  },
   "fortell": {
    "name": "Fortell"
   },
@@ -6657,7 +6660,7 @@
   "hopper": {
    "hq": "San Francisco, CA, USA",
    "name": "Hopper",
-   "one_liner": "Inference and post-training for realtime agents",
+   "one_liner": "Fast, open-source inference for voice",
    "src": "common crawl",
    "team_size": 2,
    "yc": "Fall 2026"
@@ -8344,7 +8347,7 @@
    "hq": "New York City, NY, USA",
    "name": "Marble",
    "one_liner": "The autonomous back-of-house for restaurants.",
-   "team_size": 2,
+   "team_size": 3,
    "yc": "Summer 2026"
   },
   "marblehealth": {
@@ -9143,6 +9146,9 @@
   "nethermind": {
    "name": "Nethermind",
    "src": "common crawl"
+  },
+  "netholabs": {
+   "name": "Netholabs"
   },
   "netic": {
    "name": "Cybernetic Labs"
@@ -11123,7 +11129,7 @@
    "name": "SandboxAQ"
   },
   "sapien": {
-   "hq": "San Francisco, CA, USA",
+   "hq": "Cairo, Cairo Governorate, Egypt",
    "name": "Sapien",
    "one_liner": "Synthetic populations for decisions",
    "team_size": 2,
@@ -12608,7 +12614,7 @@
    "hq": "San Francisco, CA, USA",
    "name": "Wafer",
    "one_liner": "AI that makes AI fast",
-   "team_size": 15,
+   "team_size": 21,
    "yc": "Summer 2025"
   },
   "wallbit": {
@@ -49189,7 +49195,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-08T16:09:53Z",
+ "updated": "2026-11-09T20:12:38Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -50148,12 +50154,32 @@
     "Pantera Capital"
    ],
    "markets": [
-    "Consumer",
+    "Altcoins",
+    "Banks",
+    "Bitcoin",
+    "Blockchain",
+    "Blockchain and Cryptocurrency",
+    "Brokerage",
+    "Cryptocurrency",
+    "Ethereum",
+    "Finance",
+    "Financial Services",
+    "Financial Software",
     "Fintech",
-    "Wallet"
+    "High Yield",
+    "Investing",
+    "Investments",
+    "Lending",
+    "Money Transfer",
+    "Other Financial Services",
+    "Payments",
+    "Peer To Peer",
+    "Software",
+    "Staking",
+    "Transaction Processing"
    ],
    "name": "Abra",
-   "stage": "Growth",
+   "stage": "Acquisition",
    "team_size": 200,
    "vcs": [
     "Lerer Hippeau",
@@ -51370,18 +51396,21 @@
   "agora": {
    "investors": [],
    "markets": [
-    "Financial Exchanges",
+    "B2B",
+    "Business Intelligence",
+    "Data Management",
+    "Enterprise Software",
     "Financial Services",
-    "Financial Software",
     "Fintech",
     "Information Technology",
-    "Lending and Investments",
-    "Other Financial Services",
+    "PropTech",
+    "Real Estate",
+    "Real Estate Investment",
     "SaaS",
     "Software"
    ],
    "name": "Agora",
-   "stage": "Series A",
+   "stage": "Series B",
    "vcs": [
     "General Catalyst",
     "Insight Partners"
@@ -51876,10 +51905,37 @@
     "Webb Investment Network"
    ],
    "markets": [
-    "Enterprise Software"
+    "Agentic AI",
+    "Apps",
+    "Artificial Intelligence (AI)",
+    "Automation",
+    "Automation/Workflow Software",
+    "Business And Industrial",
+    "Business/Productivity Software",
+    "Cloud Data Services",
+    "Compliance",
+    "Data & Analytics",
+    "Enterprise Applications",
+    "Enterprise Software",
+    "Generative AI",
+    "Information Technology",
+    "Information Technology and Services",
+    "Internet",
+    "Internet Services",
+    "Machine Learning",
+    "Media and Information Services (B2B)",
+    "Natural Language Processing",
+    "Platform",
+    "Sales & Marketing",
+    "Sales Automation",
+    "Science and Engineering",
+    "Software",
+    "Software Development",
+    "Supply Chain Management",
+    "Technology"
    ],
    "name": "Aisera",
-   "stage": "Growth",
+   "stage": "Acquisition",
    "team_size": 211,
    "vcs": [
     "Menlo Ventures",
@@ -52726,10 +52782,17 @@
     "First Round Capital"
    ],
    "markets": [
-    "Healthcare"
+    "Enterprise Software",
+    "Fitness",
+    "Health Care",
+    "Medical",
+    "Mental Health",
+    "Personal Health",
+    "Therapeutics",
+    "Wellness"
    ],
    "name": "Alma",
-   "stage": "Growth",
+   "stage": "Acquisition",
    "team_size": 1435,
    "vcs": [
     "Primary Venture Partners",
@@ -52809,10 +52872,28 @@
     "NV"
    ],
    "markets": [
-    "Fintech"
+    "Application Software",
+    "Asset Management",
+    "Collectibles",
+    "Commerce and Shopping",
+    "Finance",
+    "Financial Services",
+    "Financial Software",
+    "Fintech",
+    "Gambling",
+    "Lending",
+    "Lending and Investments",
+    "Marketplace",
+    "Other Financial Services",
+    "P2P",
+    "Platform",
+    "Software",
+    "Sports",
+    "Technology",
+    "Trading Platform"
    ],
    "name": "Alt",
-   "stage": "Growth",
+   "stage": "Other",
    "team_size": 179,
    "vcs": [
     "SV Angel",
@@ -55669,9 +55750,11 @@
     "Developer Tools"
    ],
    "name": "Astro",
+   "stage": "series_c",
    "team_size": 12,
    "vcs": [
-    "Lightspeed"
+    "Lightspeed",
+    "Accel"
    ]
   },
   "astroforge": {
@@ -63480,13 +63563,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Enterprise Software",
-    "Marketing and Advertising",
-    "SaaS"
+    "Productivity"
    ],
    "name": "Cortex",
    "stage": "Growth",
-   "team_size": 17,
+   "team_size": 112,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -70111,6 +70192,14 @@
     "NEA"
    ]
   },
+  "formularyfinancial": {
+   "investors": [],
+   "name": "Formulary Financial",
+   "stage": "seed",
+   "vcs": [
+    "Khosla Ventures"
+   ]
+  },
   "forte": {
    "investors": [
     "Andreessen Horowitz",
@@ -70215,11 +70304,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Fintech"
+    "Health, Wellness and Fitness"
    ],
    "name": "Found",
    "stage": "Growth",
-   "team_size": 119,
+   "team_size": 148,
    "vcs": [
     "GV",
     "Lightspeed",
@@ -71984,10 +72073,10 @@
     "GV"
    ],
    "markets": [
-    "Banking",
-    "Financial Services",
-    "Fintech",
-    "Payments"
+    "Automotive",
+    "Mobility",
+    "Renewables & Environment",
+    "Transportation"
    ],
    "name": "GRAVITY",
    "stage": "Seed funded",
@@ -76095,7 +76184,7 @@
     "Fintech"
    ],
    "name": "Kikoff",
-   "stage": "series_b",
+   "stage": "Growth",
    "team_size": 257,
    "vcs": [
     "Lightspeed",
@@ -101459,6 +101548,14 @@
     "Felicis"
    ]
   },
+  "wandelbots": {
+   "investors": [],
+   "name": "Wandelbots",
+   "stage": "series_c",
+   "vcs": [
+    "Insight Partners"
+   ]
+  },
   "warbyparker": {
    "investors": [],
    "name": "Warby Parker",
@@ -102272,8 +102369,8 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Enterprise Software",
-    "Research"
+    "Delivery Services",
+    "Food & Beverages"
    ],
    "name": "Wonder",
    "stage": "series_d",
@@ -111019,6 +111116,10 @@
    "at": "2026-11-07T15:42:49Z",
    "hit": null
   },
+  "biodelivera": {
+   "at": "2026-11-09T19:46:49Z",
+   "hit": null
+  },
   "biodock": {
    "at": "2026-11-07T15:42:26Z",
    "hit": null
@@ -113794,6 +113895,10 @@
   "elite": {
    "at": "2026-10-24T13:20:36Z",
    "hit": "greenhouse:elite"
+  },
+  "elithia": {
+   "at": "2026-11-09T19:46:49Z",
+   "hit": null
   },
   "ellipsis": {
    "at": "2026-11-07T15:42:46Z",
@@ -118202,6 +118307,10 @@
   "metal-2": {
    "at": "2026-10-23T23:56:04Z",
    "hit": "ashby:metal"
+  },
+  "metalcraft": {
+   "at": "2026-11-09T19:46:49Z",
+   "hit": null
   },
   "metalware": {
    "at": "2026-11-07T15:42:44Z",
@@ -124164,7 +124273,7 @@
    "hit": "lever:tesorio"
   },
   "tesser": {
-   "at": "2026-10-26T16:07:15Z",
+   "at": "2026-11-09T19:46:49Z",
    "hit": null
   },
   "tesseract": {
@@ -125993,6 +126102,10 @@
   },
   "xtraffic": {
    "at": "2026-11-07T15:42:50Z",
+   "hit": null
+  },
+  "xulux": {
+   "at": "2026-11-09T19:46:49Z",
    "hit": null
   },
   "y-combinator": {
