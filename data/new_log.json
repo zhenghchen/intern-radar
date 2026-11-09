@@ -1,5 +1,22 @@
 [
  {
+  "backers": [
+   "Kleiner Perkins"
+  ],
+  "company": "CesiumAstro",
+  "first_seen": "2026-11-09T16:15:40Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/1ov",
+  "location": "Melbourne, FL",
+  "posted_at": null,
+  "score": 6,
+  "signal": 3,
+  "term": "Summer",
+  "title": "Embedded Software Engineer Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1ov"
+ },
+ {
   "backers": [],
   "company": "Cisco",
   "first_seen": "2026-11-09T15:08:21Z",
