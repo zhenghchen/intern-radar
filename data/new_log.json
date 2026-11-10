@@ -1,6 +1,24 @@
 [
  {
   "backers": [
+   "Lightspeed",
+   "Khosla Ventures"
+  ],
+  "company": "Hook",
+  "first_seen": "2026-11-10T22:15:46Z",
+  "fit": 4,
+  "id": "ashby:hookmusic:d95c6fa3-68b3-4ad4-b228-f44228a4f2c6",
+  "location": "Remote; Remote",
+  "posted_at": "2026-11-10T22:13:03Z",
+  "score": 8,
+  "signal": 4,
+  "term": "",
+  "title": "Machine Learning Engineering Intern, Recommendation Systems",
+  "type": "startup",
+  "url": "https://jobs.ashbyhq.com/hookmusic/d95c6fa3-68b3-4ad4-b228-f44228a4f2c6"
+ },
+ {
+  "backers": [
    "NEA"
   ],
   "company": "ByteDance",
