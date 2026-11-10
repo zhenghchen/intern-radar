@@ -1,5 +1,54 @@
 [
  {
+  "backers": [
+   "Lightspeed"
+  ],
+  "company": "Mason",
+  "first_seen": "2026-11-10T17:11:36Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1rz",
+  "location": "New York, NY",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "Summer",
+  "title": "AI Engineer Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1rz"
+ },
+ {
+  "backers": [
+   "Lightspeed"
+  ],
+  "company": "Substrate",
+  "first_seen": "2026-11-10T17:11:36Z",
+  "fit": 4,
+  "id": "url:go.vansh.nyc/1rx",
+  "location": "San Francisco, CA",
+  "posted_at": null,
+  "score": 7,
+  "signal": 3,
+  "term": "Summer",
+  "title": "Systems Software Engineer Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1rx"
+ },
+ {
+  "backers": [],
+  "company": "Palantir Technologies",
+  "first_seen": "2026-11-10T17:11:36Z",
+  "fit": 4,
+  "id": "url:go.vansh.nyc/1rs",
+  "location": "Denver, CO",
+  "posted_at": null,
+  "score": 6,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineer Intern, Connectivity Platform and Product",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/1rs"
+ },
+ {
   "backers": [],
   "company": "Palantir",
   "first_seen": "2026-11-10T16:44:12Z",
