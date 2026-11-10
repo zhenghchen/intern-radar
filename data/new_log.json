@@ -1,6 +1,24 @@
 [
  {
   "backers": [
+   "Accel",
+   "Andreessen Horowitz"
+  ],
+  "company": "Skydio",
+  "first_seen": "2026-11-10T18:07:34Z",
+  "fit": 2,
+  "id": "ashby:skydio:add7fd86-78e6-483e-98cd-cdfc1029fded",
+  "location": "San Mateo, California, United States; Remote",
+  "posted_at": "2026-11-10T18:03:40Z",
+  "score": 6,
+  "signal": 4,
+  "term": "Winter 2027",
+  "title": "Hardware In Loop (HIL) Software Engineer Intern - Winter 2027",
+  "type": "bigtech",
+  "url": "https://jobs.ashbyhq.com/skydio/add7fd86-78e6-483e-98cd-cdfc1029fded"
+ },
+ {
+  "backers": [
    "Lightspeed"
   ],
   "company": "Mason",
