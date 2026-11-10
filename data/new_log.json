@@ -1,6 +1,132 @@
 [
  {
   "backers": [
+   "Lightspeed"
+  ],
+  "company": "Epic Games",
+  "first_seen": "2026-11-10T00:06:29Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1pv",
+  "location": "Cary, NC",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "Summer",
+  "title": "AI Programmer Intern",
+  "type": "other",
+  "url": "https://go.vansh.nyc/1pv"
+ },
+ {
+  "backers": [
+   "General Catalyst",
+   "Accel",
+   "Andreessen Horowitz",
+   "8VC"
+  ],
+  "company": "Illumio",
+  "first_seen": "2026-11-10T00:06:29Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/1pl",
+  "location": "Sunnyvale, CA",
+  "posted_at": null,
+  "score": 7,
+  "signal": 4,
+  "term": "Summer",
+  "title": "Engineering Intern, SRE",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1pl"
+ },
+ {
+  "backers": [
+   "General Catalyst"
+  ],
+  "company": "Lila Sciences",
+  "first_seen": "2026-11-10T00:06:29Z",
+  "fit": 4,
+  "id": "url:go.vansh.nyc/1oY",
+  "location": "San Francisco, CA",
+  "posted_at": null,
+  "score": 7,
+  "signal": 3,
+  "term": "Winter",
+  "title": "Applied AI Platform Engineer Co-op, Software",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1oY"
+ },
+ {
+  "backers": [
+   "General Catalyst"
+  ],
+  "company": "Lila Sciences",
+  "first_seen": "2026-11-10T00:06:29Z",
+  "fit": 4,
+  "id": "gh:4472540009",
+  "location": "San Francisco, CA USA",
+  "posted_at": "2026-11-09T18:29:55Z",
+  "score": 7,
+  "signal": 3,
+  "term": "Co-op",
+  "title": "Co-op, Software, Applied AI Platform Engineer",
+  "type": "startup",
+  "url": "https://job-boards.greenhouse.io/lilasciences/jobs/4472540009"
+ },
+ {
+  "backers": [
+   "Lightspeed"
+  ],
+  "company": "Epic Games",
+  "first_seen": "2026-11-10T00:06:29Z",
+  "fit": 2,
+  "id": "gh:6251540004",
+  "location": "Cary,North Carolina,United States",
+  "posted_at": "2026-11-09T23:08:01Z",
+  "score": 5,
+  "signal": 3,
+  "term": "",
+  "title": "AI Programmer Intern",
+  "type": "other",
+  "url": "https://epicgames.com/careers/jobs/6251540004?gh_jid=6251540004"
+ },
+ {
+  "backers": [
+   "General Catalyst",
+   "Accel",
+   "Andreessen Horowitz",
+   "8VC"
+  ],
+  "company": "Illumio",
+  "first_seen": "2026-11-10T00:06:29Z",
+  "fit": 3,
+  "id": "ashby:illumio:2bcba5c3-c6e7-407c-92b2-73027594789e",
+  "location": "Sunnyvale, California - HQ",
+  "posted_at": "2026-11-09T22:38:59Z",
+  "score": 7,
+  "signal": 4,
+  "term": "",
+  "title": "Engineering Intern, SRE",
+  "type": "startup",
+  "url": "https://jobs.ashbyhq.com/illumio/2bcba5c3-c6e7-407c-92b2-73027594789e"
+ },
+ {
+  "backers": [
+   "Accel",
+   "Andreessen Horowitz"
+  ],
+  "company": "Skydio",
+  "first_seen": "2026-11-10T00:06:29Z",
+  "fit": 1,
+  "id": "ashby:skydio:33f1f123-8cec-4e6a-b125-e8831603a62a",
+  "location": "San Mateo, California, United States; Remote",
+  "posted_at": "2026-11-09T19:53:20Z",
+  "score": 5,
+  "signal": 4,
+  "term": "Summer 2027",
+  "title": "Systems Engineering Intern - Summer 2027",
+  "type": "bigtech",
+  "url": "https://jobs.ashbyhq.com/skydio/33f1f123-8cec-4e6a-b125-e8831603a62a"
+ },
+ {
+  "backers": [
    "Kleiner Perkins"
   ],
   "company": "CesiumAstro",
