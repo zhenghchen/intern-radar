@@ -1,6 +1,42 @@
 [
  {
   "backers": [
+   "8VC",
+   "Craft Ventures"
+  ],
+  "company": "Addepar",
+  "first_seen": "2026-11-10T19:40:45Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1rX",
+  "location": "New York, NY",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "Summer",
+  "title": "AI Engineering Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1rX"
+ },
+ {
+  "backers": [
+   "8VC",
+   "Craft Ventures"
+  ],
+  "company": "Addepar",
+  "first_seen": "2026-11-10T19:40:45Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1rW",
+  "location": "New York, NY",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "Summer",
+  "title": "Software Engineering Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1rW"
+ },
+ {
+  "backers": [
    "Accel",
    "Andreessen Horowitz"
   ],
