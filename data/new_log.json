@@ -1,5 +1,22 @@
 [
  {
+  "backers": [
+   "NEA"
+  ],
+  "company": "ByteDance",
+  "first_seen": "2026-11-10T22:11:51Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/1s7",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Site Reliability Engineer Intern, Data Platform, Computer Platform",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/1s7"
+ },
+ {
   "backers": [],
   "company": "Western Digital",
   "first_seen": "2026-11-10T21:54:39Z",
