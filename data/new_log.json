@@ -1,5 +1,41 @@
 [
  {
+  "backers": [
+   "8VC",
+   "Craft Ventures"
+  ],
+  "company": "Addepar",
+  "first_seen": "2026-11-10T16:21:08Z",
+  "fit": 2,
+  "id": "gh:8927531002",
+  "location": "New York, NY",
+  "posted_at": "2026-11-10T16:17:30Z",
+  "score": 5,
+  "signal": 3,
+  "term": "Summer 2027",
+  "title": "Software Engineering Intern - Summer 2027",
+  "type": "startup",
+  "url": "https://job-boards.greenhouse.io/addepar1/jobs/8927531002"
+ },
+ {
+  "backers": [
+   "8VC",
+   "Craft Ventures"
+  ],
+  "company": "Addepar",
+  "first_seen": "2026-11-10T16:21:08Z",
+  "fit": 2,
+  "id": "gh:8927543002",
+  "location": "New York, NY",
+  "posted_at": "2026-11-10T16:18:09Z",
+  "score": 5,
+  "signal": 3,
+  "term": "Summer 2027",
+  "title": "AI Engineering Intern - Summer 2027",
+  "type": "startup",
+  "url": "https://job-boards.greenhouse.io/addepar1/jobs/8927543002"
+ },
+ {
   "backers": [],
   "company": "NVIDIA",
   "first_seen": "2026-11-10T16:00:09Z",
