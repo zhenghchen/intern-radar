@@ -1,5 +1,53 @@
 [
  {
+  "backers": [],
+  "company": "Cisco",
+  "first_seen": "2026-11-10T22:42:12Z",
+  "fit": 4,
+  "id": "wd:cisco:2024641",
+  "location": "3 Locations",
+  "posted_at": "2026-11-10T22:42:12Z",
+  "score": 6,
+  "signal": 2,
+  "term": "",
+  "title": "Software Engineer Embedded Systems I (Intern) - United States",
+  "type": "bigtech",
+  "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-I--Intern----United-States_2024641-1"
+ },
+ {
+  "backers": [
+   "Accel",
+   "Andreessen Horowitz"
+  ],
+  "company": "Skydio",
+  "first_seen": "2026-11-10T22:42:12Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1s9",
+  "location": "San Mateo, CA",
+  "posted_at": null,
+  "score": 6,
+  "signal": 4,
+  "term": "Summer",
+  "title": "Middleware Software Engineer Intern",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/1s9"
+ },
+ {
+  "backers": [],
+  "company": "Western Digital",
+  "first_seen": "2026-11-10T22:42:12Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1s8",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineering Intern",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/1s8"
+ },
+ {
   "backers": [
    "Lightspeed",
    "Khosla Ventures"
