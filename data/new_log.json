@@ -1,6 +1,21 @@
 [
  {
   "backers": [],
+  "company": "Tesla",
+  "first_seen": "2026-11-11T02:35:33Z",
+  "fit": 2,
+  "id": "url:tesla.com/careers/search/job/289683",
+  "location": "Fremont, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer 2027",
+  "title": "Software Developer Intern - IT Apps",
+  "type": "bigtech",
+  "url": "https://www.tesla.com/careers/search/job/289683"
+ },
+ {
+  "backers": [],
   "company": "TikTok",
   "first_seen": "2026-11-11T01:14:10Z",
   "fit": 2,
