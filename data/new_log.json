@@ -1,6 +1,36 @@
 [
  {
   "backers": [],
+  "company": "TikTok",
+  "first_seen": "2026-11-11T01:14:10Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1sI",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Machine Learning Engineer Intern, E-Commerce Recommendation Mall",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/1sI"
+ },
+ {
+  "backers": [],
+  "company": "Cisco",
+  "first_seen": "2026-11-11T01:14:10Z",
+  "fit": 4,
+  "id": "url:go.vansh.nyc/1sE",
+  "location": "San Jose, CA; Austin, TX; Research Triangle Park, NC",
+  "posted_at": null,
+  "score": 6,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineer Embedded Systems I Intern",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/1sE"
+ },
+ {
+  "backers": [],
   "company": "NVIDIA",
   "first_seen": "2026-11-11T00:07:40Z",
   "fit": 2,
