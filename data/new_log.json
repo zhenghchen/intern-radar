@@ -1,6 +1,25 @@
 [
  {
   "backers": [
+   "Lux Capital",
+   "8VC",
+   "SV Angel"
+  ],
+  "company": "Octant Bio",
+  "first_seen": "2026-11-12T22:58:43Z",
+  "fit": 2,
+  "id": "gh:6260895004",
+  "location": "Emeryville, California, United States",
+  "posted_at": "2026-11-12T22:54:47Z",
+  "score": 5,
+  "signal": 3,
+  "term": "",
+  "title": "Software Engineer - Internship",
+  "type": "startup",
+  "url": "https://www.octant.bio/jobs?gh_jid=6260895004"
+ },
+ {
+  "backers": [
    "General Catalyst"
   ],
   "company": "Vital Lyfe",
