@@ -7475,7 +7475,7 @@
    "src": "common crawl"
   },
   "kivo-health": {
-   "hq": "San Francisco, CA, USA",
+   "hq": "Seattle, WA, USA",
    "name": "Kivo Health",
    "one_liner": "AI-powered care for seniors with chronic disease",
    "team_size": 40,
@@ -7693,7 +7693,7 @@
   "langdock": {
    "hq": "Berlin, Berlin, Germany",
    "name": "Langdock",
-   "one_liner": "The all-in-one AI platform for companies.",
+   "one_liner": "The Platform for AI Adoption",
    "team_size": 65,
    "yc": "Summer 2023"
   },
@@ -7723,7 +7723,7 @@
   "latent": {
    "hq": "San Francisco, CA, USA",
    "name": "Latent",
-   "one_liner": "Catch wrong LLM answers before your customers do",
+   "one_liner": "Stop AI agent mistakes by reading the model’s mind",
    "team_size": 1,
    "yc": "Fall 2026"
   },
@@ -8128,8 +8128,8 @@
   "lucidbots": {
    "hq": "Charlotte, NC, USA",
    "name": "Lucid Bots",
-   "one_liner": "We build robots for dull, dirty, and dangerous jobs.",
-   "team_size": 26,
+   "one_liner": "Drones that clean and paint up to 8x faster",
+   "team_size": 77,
    "yc": "Summer 2019"
   },
   "lucidcomputing": {
@@ -11301,6 +11301,9 @@
    "name": "Sfcompute",
    "src": "common crawl"
   },
+  "sfdata": {
+   "name": "San Francisco Data"
+  },
   "shadeform": {
    "hq": null,
    "name": "Shadeform",
@@ -11659,6 +11662,9 @@
    "team_size": 4,
    "yc": "Summer 2020"
   },
+  "stackfuel": {
+   "name": "Multiverse IO"
+  },
   "stacks": {
    "name": "Stacks",
    "src": "common crawl"
@@ -11787,7 +11793,7 @@
    "yc": "Fall 2024"
   },
   "supabase": {
-   "hq": "San Francisco, CA, USA; Remote",
+   "hq": "Singapore, Singapore; Remote",
    "name": "Supabase",
    "one_liner": "Build in a weekend. Scale to millions.",
    "team_size": 120,
@@ -35981,6 +35987,9 @@
    "name": "Autotradercanada",
    "src": "common crawl"
   },
+  "avante": {
+   "name": "Avante"
+  },
   "avantium": {
    "name": "Avantium",
    "src": "common crawl"
@@ -37463,6 +37472,9 @@
    "name": "Cargomatic",
    "src": "common crawl"
   },
+  "cariadinc": {
+   "name": "CARIAD"
+  },
   "caribou": {
    "hq": "Lisbon, Lisbon, Portugal",
    "name": "Caribou",
@@ -38616,6 +38628,9 @@
   },
   "diligentrobotics": {
    "name": "Diligent Robotics"
+  },
+  "dillards": {
+   "name": "Dillards"
   },
   "dimagi": {
    "name": "Dimagi",
@@ -42134,6 +42149,9 @@
    "name": "Narvar",
    "src": "common crawl"
   },
+  "nasdaq": {
+   "name": "Nasdaq"
+  },
   "nasstudios": {
    "name": "Nasstudios",
    "src": "common crawl"
@@ -42391,6 +42409,9 @@
   "nuitee": {
    "name": "Nuitee",
    "src": "common crawl"
+  },
+  "numa": {
+   "name": "Numa"
   },
   "numattechnologies": {
    "name": "Numattechnologies",
@@ -49258,7 +49279,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-11T17:43:28Z",
+ "updated": "2026-11-12T17:57:40Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -50286,6 +50307,24 @@
    "vcs": [
     "8VC",
     "Craft Ventures"
+   ]
+  },
+  "absurd": {
+   "investors": [],
+   "markets": [
+    "Advertising",
+    "Artificial Intelligence (AI)",
+    "Data & Analytics",
+    "Media & Entertainment",
+    "Sales & Marketing",
+    "Science and Engineering",
+    "Software",
+    "Video"
+   ],
+   "name": "Absurd",
+   "stage": "Seed",
+   "vcs": [
+    "SV Angel"
    ]
   },
   "absurdycf25": {
@@ -51439,18 +51478,21 @@
   "agora": {
    "investors": [],
    "markets": [
-    "Financial Exchanges",
+    "B2B",
+    "Business Intelligence",
+    "Data Management",
+    "Enterprise Software",
     "Financial Services",
-    "Financial Software",
     "Fintech",
     "Information Technology",
-    "Lending and Investments",
-    "Other Financial Services",
+    "PropTech",
+    "Real Estate",
+    "Real Estate Investment",
     "SaaS",
     "Software"
    ],
    "name": "Agora",
-   "stage": "Series A",
+   "stage": "Series B",
    "vcs": [
     "General Catalyst",
     "Insight Partners"
@@ -51845,38 +51887,10 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Advertising",
-    "Aerospace",
-    "Application Software",
-    "Biometrics",
-    "Biotechnology",
-    "Business/Productivity Software",
-    "Data & Analytics",
-    "Digital Identity",
-    "E-Commerce",
-    "Enterprise Software",
-    "Hospitality",
-    "Identity Management",
-    "Information Security",
-    "Information Technology",
-    "IT Services and IT Consulting",
-    "Mobile",
-    "Payments",
-    "Privacy",
-    "Privacy and Security",
-    "Retail",
-    "Science and Engineering",
-    "Security",
-    "Software",
-    "Technology",
-    "Technology And Computing",
-    "Transportation",
-    "Travel",
-    "Travel & Leisure",
-    "Travel & Tourism"
+    "Security"
    ],
    "name": "Airside",
-   "stage": "Series B",
+   "stage": "Growth",
    "team_size": 12,
    "vcs": [
     "8VC",
@@ -52301,25 +52315,10 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Artificial Intelligence (AI)",
-    "Cloud Data Services",
-    "Communication & Sales",
-    "Data & Analytics",
-    "Enterprise Software",
-    "Financial Services",
-    "Financial Software",
-    "Fintech",
-    "Information Technology",
-    "Internet Services",
-    "Media and Information Services (B2B)",
-    "Other Financial Services",
-    "Science and Engineering",
-    "Software",
-    "Software Development",
-    "Technology"
+    "Fintech"
    ],
    "name": "Aleph",
-   "stage": "Series B",
+   "stage": "Growth",
    "team_size": 107,
    "vcs": [
     "Khosla Ventures",
@@ -54558,18 +54557,17 @@
   "arc": {
    "investors": [],
    "markets": [
-    "Application Software",
-    "Financial Management",
-    "Financial Services",
-    "Financial Software",
-    "Fintech",
-    "Funding Platform",
-    "Lending and Investments",
-    "Other Financial Services",
-    "Platform",
-    "SaaS",
-    "Software",
-    "Specialized Finance"
+    "Boating",
+    "Electric Vehicles",
+    "Industrial",
+    "Manufacturing",
+    "Manufacturing & Industrial",
+    "Marine",
+    "Marine Transportation",
+    "Sports",
+    "Transportation",
+    "Transportation, Logistics, Supply Chain and Storage",
+    "Water Transportation"
    ],
    "name": "Arc",
    "stage": "Growth",
@@ -54654,7 +54652,7 @@
    ],
    "name": "Archil",
    "stage": "Series A",
-   "team_size": 13,
+   "team_size": 17,
    "vcs": [
     "Felicis"
    ]
@@ -54981,8 +54979,11 @@
   "arist": {
    "investors": [],
    "markets": [
+    "Artificial Intelligence (AI)",
+    "Data & Analytics",
     "E-Learning",
     "E-Learning Providers",
+    "EdTech",
     "Education",
     "Education and Training Services (B2B)",
     "Educational Software",
@@ -54992,6 +54993,8 @@
     "Messaging and Telecommunications",
     "Platform",
     "Professional Education",
+    "SaaS",
+    "Science and Engineering",
     "Skill Assessment",
     "Software",
     "Technology"
@@ -55414,8 +55417,8 @@
     "Leisure, Travel & Tourism"
    ],
    "name": "Ascend",
-   "stage": "Seed funded",
-   "team_size": 73,
+   "stage": "Series A",
+   "team_size": 25,
    "vcs": [
     "Felicis",
     "First Round Capital",
@@ -56238,21 +56241,20 @@
     "Business And Industrial",
     "Commerce and Shopping",
     "Construction",
-    "Ecommerce",
     "E-Commerce",
+    "Ecommerce",
     "Enterprise Software",
     "Farming",
     "Industrial",
     "Industrial Supplies and Parts",
     "Internet Marketplace Platforms",
-    "Internet Services",
     "Liquidations",
     "Manufacturing",
     "Marketing",
     "Marketplace",
     "Media and Information Services (B2B)",
     "Mining",
-    "Oil & Gas",
+    "Oil and Gas",
     "Online Auctions",
     "Platform",
     "Specialty Retail",
@@ -58123,39 +58125,9 @@
     "Pantera Capital"
    ],
    "markets": [
-    "Asset Management",
-    "Bitcoin",
-    "Blockchain",
-    "Blockchain and Cryptocurrency",
-    "Cryptocurrency",
-    "Custody",
-    "Cybersecurity",
-    "Data Storage",
-    "Digital Assets",
-    "Digital Currency",
-    "Digital Wallet",
-    "Enterprise Software",
-    "Finance",
     "Financial Services",
-    "Financial Software",
-    "Financing",
     "Fintech",
-    "Information Security",
-    "Lending",
-    "Other Financial Services",
-    "Payments",
-    "Physical Security",
-    "Portfolio",
-    "Security",
-    "Settlement",
-    "Software",
-    "Staking",
-    "Storage",
-    "Tax",
-    "Technology",
-    "Trading",
-    "Virtual Currency",
-    "Wealth Management"
+    "Security"
    ],
    "name": "BitGo",
    "stage": "Ipo",
@@ -61155,7 +61127,7 @@
    ],
    "name": "Ceramic",
    "stage": "Seed funded",
-   "team_size": 84,
+   "team_size": 86,
    "vcs": [
     "NEA"
    ]
@@ -61400,13 +61372,9 @@
     "South Park Commons"
    ],
    "markets": [
-    "Artificial Intelligence (AI)",
-    "Data & Analytics",
-    "Enterprise Systems (Healthcare)",
-    "Health Care",
-    "Hospital",
-    "Science and Engineering",
-    "Software"
+    "AI",
+    "Digital Health",
+    "Hospital & Health Care"
    ],
    "name": "Charta Health",
    "stage": "series_a",
@@ -65916,12 +65884,11 @@
     "Union Square Ventures"
    ],
    "markets": [
-    "E-Learning",
-    "Education Management"
+    "AI"
    ],
    "name": "Disco",
    "stage": "Series A",
-   "team_size": 5,
+   "team_size": 65,
    "vcs": [
     "Felicis",
     "Union Square Ventures"
@@ -66589,12 +66556,11 @@
     "NEA"
    ],
    "markets": [
-    "Consumer",
-    "Design"
+    "Consumer Services"
    ],
    "name": "Drop",
    "stage": "Growth",
-   "team_size": 174,
+   "team_size": 77,
    "vcs": [
     "First Round Capital",
     "NEA"
@@ -70421,11 +70387,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Health, Wellness and Fitness"
+    "Fintech"
    ],
    "name": "Found",
    "stage": "Growth",
-   "team_size": 148,
+   "team_size": 119,
    "vcs": [
     "GV",
     "Lightspeed",
@@ -72546,7 +72512,7 @@
     "Workforce and Employment"
    ],
    "name": "Guild Education",
-   "team_size": 1195,
+   "team_size": 1185,
    "vcs": [
     "Felicis",
     "Bessemer Venture Partners"
@@ -77266,7 +77232,7 @@
     "Payments"
    ],
    "name": "Lean Technologies",
-   "stage": "series_b",
+   "stage": "Growth",
    "team_size": 138,
    "vcs": [
     "Bain Capital Ventures",
@@ -77283,13 +77249,13 @@
     "Union Square Ventures"
    ],
    "markets": [
-    "Enterprise Software",
-    "Retail",
-    "SaaS"
+    "Climate",
+    "Energy Transition",
+    "Renewables & Environment"
    ],
    "name": "Leap",
    "stage": "Growth",
-   "team_size": 408,
+   "team_size": 111,
    "vcs": [
     "Costanoa Ventures",
     "Union Square Ventures"
@@ -79092,6 +79058,18 @@
     "Bessemer Venture Partners"
    ]
   },
+  "mandl": {
+   "investors": [
+    "Lightspeed"
+   ],
+   "markets": [
+    "AI"
+   ],
+   "name": "Mandl",
+   "vcs": [
+    "Lightspeed"
+   ]
+  },
   "manexai": {
    "investors": [
     "Lightspeed"
@@ -79214,7 +79192,8 @@
    "name": "Mariana Minerals",
    "stage": "Venture",
    "vcs": [
-    "Andreessen Horowitz"
+    "Andreessen Horowitz",
+    "Khosla Ventures"
    ]
   },
   "marigoldhealth": {
@@ -80640,6 +80619,14 @@
    "team_size": 897,
    "vcs": [
     "Bain Capital Ventures"
+   ]
+  },
+  "miranatoys": {
+   "investors": [],
+   "name": "Mirana Toys",
+   "stage": "series_a",
+   "vcs": [
+    "Accel"
    ]
   },
   "mirantis": {
@@ -85775,6 +85762,14 @@
     "GV"
    ]
   },
+  "parabola": {
+   "investors": [],
+   "name": "Parabola",
+   "stage": "series_b",
+   "vcs": [
+    "Thrive Capital"
+   ]
+  },
   "paradigm": {
    "investors": [
     "GV",
@@ -86806,10 +86801,11 @@
     "HR and Recruiting"
    ],
    "name": "Personio",
-   "stage": "Growth",
+   "stage": "series_e",
    "team_size": 1743,
    "vcs": [
-    "Lightspeed"
+    "Lightspeed",
+    "8VC"
    ]
   },
   "phantom": {
@@ -90239,10 +90235,11 @@
     "Real Estate"
    ],
    "name": "RentoMojo",
-   "stage": "Growth",
+   "stage": "ipo",
    "team_size": 732,
    "vcs": [
-    "Bain Capital Ventures"
+    "Bain Capital Ventures",
+    "Accel"
    ]
   },
   "rentrunway": {
@@ -92795,12 +92792,11 @@
     "GV"
    ],
    "markets": [
-    "Consumer Services",
-    "Health, Wellness and Fitness"
+    "Consumer"
    ],
    "name": "Sesame",
    "stage": "Growth",
-   "team_size": 160,
+   "team_size": 120,
    "vcs": [
     "Sequoia Capital",
     "GV"
@@ -95176,7 +95172,7 @@
     "Hospital & Health Care"
    ],
    "name": "Sprinter Health",
-   "stage": "Growth",
+   "stage": "Venture",
    "team_size": 243,
    "vcs": [
     "GV",
@@ -97523,7 +97519,7 @@
     "AI-Powered Applications"
    ],
    "name": "Tecton",
-   "stage": "Growth",
+   "stage": "acquisition",
    "team_size": 97,
    "vcs": [
     "Sequoia Capital",
@@ -97794,13 +97790,11 @@
     "Lightspeed"
    ],
    "markets": [
-    "Enterprise Software",
-    "Logistics and Supply Chain",
-    "SaaS"
+    "HR and Recruiting"
    ],
    "name": "Terminal",
-   "stage": "Series A",
-   "team_size": 57,
+   "stage": "Growth",
+   "team_size": 161,
    "vcs": [
     "Battery Ventures",
     "Lightspeed"
@@ -98468,13 +98462,11 @@
     "Lightspeed"
    ],
    "markets": [
-    "Enterprise Software",
-    "Fintech",
-    "Payments",
-    "SaaS"
+    "Entertainment",
+    "Video Games"
    ],
    "name": "Toast",
-   "team_size": 7864,
+   "team_size": 18,
    "vcs": [
     "GV",
     "Lightspeed"
@@ -101839,11 +101831,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "AI"
+    "Developer Tools"
    ],
    "name": "Warp",
    "stage": "Growth",
-   "team_size": 87,
+   "team_size": 102,
    "vcs": [
     "Battery Ventures",
     "GV",
@@ -102643,7 +102635,7 @@
    ],
    "name": "Wonderful",
    "stage": "Growth",
-   "team_size": 668,
+   "team_size": 790,
    "vcs": [
     "Bessemer Venture Partners"
    ]
@@ -105227,6 +105219,9 @@
   "chartermfg.wd5.myworkdayjobs.com|chartermfg|Charter_Careers": {
    "name": "Charter Manufacturing"
   },
+  "chathamfinancial.wd501.myworkdayjobs.com|chathamfinancial|ChathamFinancial": {
+   "name": "Chatham Financial"
+  },
   "chaucergroup.wd3.myworkdayjobs.com|chaucergroup|chaucer_group_careers": {
    "name": "Chaucer Group"
   },
@@ -105655,6 +105650,9 @@
   },
   "doterra.wd1.myworkdayjobs.com|doterra|doTERRACareers": {
    "name": "doTERRA"
+  },
+  "dover.wd103.myworkdayjobs.com|dover|Dover": {
+   "name": "Dover"
   },
   "dow.wd1.myworkdayjobs.com|dow|ExternalCareers": {
    "name": "Dow Chemical Company"
@@ -106265,6 +106263,9 @@
   "gresearch.wd103.myworkdayjobs.com|gresearch|G-Research": {
    "name": "G-Research"
   },
+  "greyco.wd108.myworkdayjobs.com|greyco|GTI": {
+   "name": "Greystone"
+  },
   "greystar.wd1.myworkdayjobs.com|greystar|International_Career_Site": {
    "name": "Greystar Worldwide"
   },
@@ -106700,6 +106701,9 @@
   "itron.wd5.myworkdayjobs.com|itron|Itron": {
    "name": "Itron"
   },
+  "itw.wd5.myworkdayjobs.com|itw|external": {
+   "name": "Illinois Tool Works"
+  },
   "ivytech.wd1.myworkdayjobs.com|ivytech|ivy_tech_careers": {
    "name": "Ivy Tech Community College"
   },
@@ -106723,6 +106727,9 @@
   },
   "jainglobal.wd5.myworkdayjobs.com|jainglobal|ExternalSite": {
    "name": "Jain Global"
+  },
+  "jbtm.wd108.myworkdayjobs.com|jbtm|jbt_marel_career_site": {
+   "name": "JBT Marel"
   },
   "jcdecaux.wd3.myworkdayjobs.com|jcdecaux|ExternalSiteJCDUK": {
    "name": "JCDecaux"
@@ -106844,6 +106851,9 @@
   "kiongroup.wd3.myworkdayjobs.com|kiongroup|kiongroup": {
    "name": "KION Group"
   },
+  "kissusa.wd12.myworkdayjobs.com|kissusa|KISS_Careers_External": {
+   "name": "Kiss Products"
+  },
   "kith.wd1.myworkdayjobs.com|kith|kith_external_careers": {
    "name": "Kith"
   },
@@ -106900,6 +106910,9 @@
   },
   "laticrete.wd1.myworkdayjobs.com|laticrete|laticreteinternational": {
    "name": "Laticrete"
+  },
+  "latticesemi.wd5.myworkdayjobs.com|latticesemi|latticesemiconductorscareers": {
+   "name": "Lattice Semiconductor"
   },
   "lazboy.wd1.myworkdayjobs.com|lazboy|lzbcareers": {
    "name": "La-Z-Boy"
@@ -107095,6 +107108,9 @@
   },
   "martin.wd1.myworkdayjobs.com|martin|mphc": {
    "name": "Martin's Point Health Care"
+  },
+  "martinmarietta.wd5.myworkdayjobs.com|martinmarietta|Martin_Marietta_Careers": {
+   "name": "Martin Marietta"
   },
   "marvell.wd1.myworkdayjobs.com|marvell|MarvellCareers": {
    "name": "Marvell"
@@ -107294,6 +107310,9 @@
   "mmc.wd1.myworkdayjobs.com|mmc|mmc": {
    "name": "Marsh"
   },
+  "mobility.wd503.myworkdayjobs.com|mobility|Mobility": {
+   "name": "Mobility Global"
+  },
   "modernatx.wd1.myworkdayjobs.com|modernatx|M_tx": {
    "name": "Moderna"
   },
@@ -107398,6 +107417,9 @@
   },
   "multicare.wd1.myworkdayjobs.com|multicare|multicare": {
    "name": "MultiCare Health System"
+  },
+  "multimatic.wd10.myworkdayjobs.com|multimatic|MMEC": {
+   "name": "Multimatic"
   },
   "munters.wd3.myworkdayjobs.com|munters|external_careers": {
    "name": "Munters"
@@ -107521,6 +107543,9 @@
   },
   "nexstar.wd5.myworkdayjobs.com|nexstar|nexstar": {
    "name": "Nexstar"
+  },
+  "nextracker.wd5.myworkdayjobs.com|nextracker|nextpower_careers": {
+   "name": "Nextpower"
   },
   "ngc.wd1.myworkdayjobs.com|ngc|Northrop_Grumman_External_Site": {
    "name": "Northrop Grumman"
@@ -107654,6 +107679,9 @@
   "omers.wd3.myworkdayjobs.com|omers|omers_external": {
    "name": "OMERS"
   },
+  "omya.wd3.myworkdayjobs.com|omya|Omya": {
+   "name": "Omya"
+  },
   "onedigital.wd5.myworkdayjobs.com|onedigital|onedigital": {
    "name": "OneDigital"
   },
@@ -107695,6 +107723,9 @@
   },
   "orthoclinical.wd1.myworkdayjobs.com|orthoclinical|Search": {
    "name": "QuidelOrtho"
+  },
+  "osc.wd3.myworkdayjobs.com|osc|OSCCareers": {
+   "name": "Ontario Securities Commission"
   },
   "oshkoshcorporation.wd5.myworkdayjobs.com|oshkoshcorporation|Oshkosh": {
    "name": "Oshkosh"
@@ -107782,6 +107813,9 @@
   },
   "paloaltonetworks.wd5.myworkdayjobs.com|paloaltonetworks|panwexternalcareers": {
    "name": "Palo Alto Networks"
+  },
+  "panerabread.wd5.myworkdayjobs.com|panerabread|panera_careers": {
+   "name": "Panera Bread"
   },
   "papajohns.wd1.myworkdayjobs.com|papajohns|papajohnscareers": {
    "name": "Papa John's"
@@ -107873,6 +107907,9 @@
   "pluralsight.wd1.myworkdayjobs.com|pluralsight|Careers": {
    "name": "Pluralsight"
   },
+  "plusgrade.wd10.myworkdayjobs.com|plusgrade|Plusgrade_External_Site": {
+   "name": "Plusgrade"
+  },
   "pmpediatrics.wd5.myworkdayjobs.com|pmpediatrics|PMPeds": {
    "name": "PM Pediatric Care"
   },
@@ -107914,6 +107951,9 @@
   },
   "priceline.wd1.myworkdayjobs.com|priceline|Priceline": {
    "name": "Priceline"
+  },
+  "prim.wd108.myworkdayjobs.com|prim|Primoris": {
+   "name": "Primoris Services"
   },
   "primerica.wd1.myworkdayjobs.com|primerica|pri": {
    "name": "Primerica"
@@ -108106,6 +108146,9 @@
   },
   "remitly.wd5.myworkdayjobs.com|remitly|Remitly_Careers": {
    "name": "Remitly"
+  },
+  "renishaw.wd3.myworkdayjobs.com|renishaw|Renishaw": {
+   "name": "Renishaw"
   },
   "repligen.wd108.myworkdayjobs.com|repligen|Repligen_Careers": {
    "name": "Repligen"
@@ -108376,6 +108419,9 @@
   },
   "shi.wd12.myworkdayjobs.com|shi|shicareers": {
    "name": "SHI International "
+  },
+  "sidley.wd501.myworkdayjobs.com|sidley|US": {
+   "name": "Sidley Austin"
   },
   "sierraspace.wd1.myworkdayjobs.com|sierraspace|Sierra_Space_External_Career_Site": {
    "name": "Sierra Space"
@@ -108812,6 +108858,9 @@
   "tibco.wd5.myworkdayjobs.com|tibco|cloud_software_group": {
    "name": "TIBCO Software"
   },
+  "tidalwaveautospa.wd1.myworkdayjobs.com|tidalwaveautospa|TWAS": {
+   "name": "Tidal Wave Auto Spa"
+  },
   "tjx.wd1.myworkdayjobs.com|tjx|tjx_external": {
    "name": "TJX"
   },
@@ -108844,6 +108893,9 @@
   },
   "toyota.wd503.myworkdayjobs.com|toyota|tmna": {
    "name": "Toyota"
+  },
+  "tplink.wd503.myworkdayjobs.com|tplink|External": {
+   "name": "TP-Link Systems"
   },
   "transamerica.wd5.myworkdayjobs.com|transamerica|AEGONAM": {
    "name": "Aegon Asset Management"
@@ -108883,6 +108935,9 @@
   },
   "trimedx.wd1.myworkdayjobs.com|trimedx|TMX": {
    "name": "TRIMEDX"
+  },
+  "trinitylifesciences.wd108.myworkdayjobs.com|trinitylifesciences|Trinity": {
+   "name": "Trinity Life Sciences"
   },
   "triumf.wd10.myworkdayjobs.com|triumf|careers-at-triumf-job-postings": {
    "name": "TRIUMF"
@@ -109094,6 +109149,9 @@
   "vareximaging.wd103.myworkdayjobs.com|vareximaging|External_Career_Site": {
    "name": "Varex Imaging Corporation"
   },
+  "varsitybrands.wd503.myworkdayjobs.com|varsitybrands|externalcareersite": {
+   "name": "Varsity Brands"
+  },
   "vca.wd1.myworkdayjobs.com|vca|antechcareers": {
    "name": "Antech Diagnostics"
   },
@@ -109258,6 +109316,9 @@
   },
   "wd1.myworkdaysite.com|imeg|Imeg_Careers": {
    "name": "IMEG"
+  },
+  "wd1.myworkdaysite.com|octa|OCTA_Careers": {
+   "name": "Orange County Transportation Authority"
   },
   "wd1.myworkdaysite.com|parexel|Parexel_External_Careers": {
    "name": "Parexel"
@@ -113984,7 +114045,7 @@
    "hit": null
   },
   "dynamite": {
-   "at": "2026-10-29T16:06:33Z",
+   "at": "2026-11-12T17:34:22Z",
    "hit": null
   },
   "dynamo-ai": {
@@ -115331,6 +115392,10 @@
    "at": "2026-10-23T23:56:10Z",
    "hit": "greenhouse:gather"
   },
+  "gatherhq": {
+   "at": "2026-11-12T17:34:27Z",
+   "hit": null
+  },
   "gauge": {
    "at": "2026-11-07T15:42:49Z",
    "hit": null
@@ -116136,7 +116201,7 @@
    "hit": "ashby:hillclimb"
   },
   "hillstar": {
-   "at": "2026-10-29T16:06:35Z",
+   "at": "2026-11-12T17:34:27Z",
    "hit": null
   },
   "hilstart": {
@@ -116525,6 +116590,10 @@
   },
   "inden": {
    "at": "2026-10-23T23:57:02Z",
+   "hit": null
+  },
+  "index-law": {
+   "at": "2026-11-12T17:34:22Z",
    "hit": null
   },
   "indinero": {
@@ -118871,6 +118940,10 @@
    "at": "2026-11-07T15:42:53Z",
    "hit": null
   },
+  "mnemonic-labs": {
+   "at": "2026-11-12T17:34:22Z",
+   "hit": null
+  },
   "mobileboost": {
    "at": "2026-11-07T15:42:29Z",
    "hit": null
@@ -119373,6 +119446,10 @@
   },
   "nine-fives": {
    "at": "2026-11-08T15:58:11Z",
+   "hit": null
+  },
+  "nines": {
+   "at": "2026-11-12T17:34:22Z",
    "hit": null
   },
   "ninite": {
@@ -122400,7 +122477,7 @@
    "hit": null
   },
   "routerplus": {
-   "at": "2026-10-29T16:06:33Z",
+   "at": "2026-11-12T17:34:22Z",
    "hit": null
   },
   "rove": {
@@ -125853,6 +125930,10 @@
   },
   "vibe-kanban": {
    "at": "2026-11-07T15:43:58Z",
+   "hit": null
+  },
+  "vibe-robotics": {
+   "at": "2026-11-12T17:34:22Z",
    "hit": null
   },
   "vibeflow": {
