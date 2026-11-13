@@ -1,5 +1,20 @@
 [
  {
+  "backers": [],
+  "company": "Amazon",
+  "first_seen": "2026-11-13T19:31:50Z",
+  "fit": 2,
+  "id": "amazon:10604778",
+  "location": "North Reading, Massachusetts, USA",
+  "posted_at": "2026-11-13T00:00:00Z",
+  "score": 4,
+  "signal": 2,
+  "term": "2027",
+  "title": "2027 Applied Science Internship - Robotics - United States",
+  "type": "bigtech",
+  "url": "https://www.amazon.jobs/en/jobs/10604778/2027-applied-science-internship-robotics-united-states"
+ },
+ {
   "backers": [
    "Lightspeed"
   ],
