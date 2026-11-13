@@ -1,5 +1,39 @@
 [
  {
+  "backers": [],
+  "company": "TikTok",
+  "first_seen": "2026-11-13T00:40:59Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1ym",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Machine Learning Engineer Intern, Data-Global E-Commerce-Search",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/1ym"
+ },
+ {
+  "backers": [
+   "Lux Capital",
+   "8VC",
+   "SV Angel"
+  ],
+  "company": "Octant Bio",
+  "first_seen": "2026-11-13T00:40:59Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1yg",
+  "location": "Emeryville, CA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "Summer",
+  "title": "Software Engineering Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1yg"
+ },
+ {
   "backers": [
    "General Catalyst"
   ],
