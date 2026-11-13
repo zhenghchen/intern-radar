@@ -1,5 +1,20 @@
 [
  {
+  "backers": [],
+  "company": "Tesla",
+  "first_seen": "2026-11-13T07:32:51Z",
+  "fit": 2,
+  "id": "url:tesla.com/careers/search/job/289796",
+  "location": "Palo Alto, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Spring 2027, Summer 2027",
+  "title": "Software Engineer Intern - Energy Engineering",
+  "type": "bigtech",
+  "url": "https://www.tesla.com/careers/search/job/289796"
+ },
+ {
   "backers": [
    "Andreessen Horowitz",
    "Lightspeed",
