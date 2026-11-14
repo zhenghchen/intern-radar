@@ -9412,7 +9412,7 @@
    "hq": "Detroit, MI, USA",
    "name": "NOX METALS",
    "one_liner": "Supplying America's Industrial Base",
-   "team_size": 52,
+   "team_size": 64,
    "yc": "Summer 2025"
   },
   "noyo": {
@@ -10131,7 +10131,7 @@
   "perceptuallabs": {
    "hq": "San Francisco, CA, USA",
    "name": "Perceptual Labs",
-   "one_liner": "Building the next generation of visual intelligence",
+   "one_liner": "Building intelligence that can understand and rewrite itself",
    "team_size": 2,
    "yc": "Fall 2026"
   },
@@ -38354,6 +38354,13 @@
    "name": "Curiebiooperationsllc",
    "src": "common crawl"
   },
+  "current": {
+   "hq": "New York City, NY, USA",
+   "name": "Current",
+   "one_liner": "Run hundreds of coding agents and stay in control",
+   "team_size": 1,
+   "yc": "Spring 2026"
+  },
   "current81": {
    "name": "Current81",
    "src": "common crawl"
@@ -40792,6 +40799,9 @@
   "integrainterns": {
    "name": "Integra FEC"
   },
+  "integratedbiosciencesinc": {
+   "name": "Integrated Biosciences"
+  },
   "inter": {
    "name": "Inter",
    "src": "common crawl"
@@ -41718,6 +41728,9 @@
   },
   "mcadams": {
    "name": "McAdams"
+  },
+  "mcmaster-carr-systems": {
+   "name": "McMaster-Carr"
   },
   "mcmastercarr": {
    "name": "McMaster-Carr"
@@ -43514,7 +43527,7 @@
   "proto": {
    "hq": "San Francisco, CA, USA",
    "name": "Proto",
-   "one_liner": "A design tool with the accuracy of Cursor & creative freedom of Figma",
+   "one_liner": "The product designer's coding agent",
    "team_size": 2,
    "yc": "Fall 2026"
   },
@@ -47042,6 +47055,9 @@
   "espace": {
    "name": "E-Space"
   },
+  "esrtreit": {
+   "name": "Empire State Realty Trust"
+  },
   "evr": {
    "name": "Elk Valley Resources"
   },
@@ -48782,6 +48798,9 @@
   "FortuneBrands": {
    "name": "Fortune Brands"
   },
+  "FrasersGroup": {
+   "name": "Frasers Group"
+  },
   "Freshworks": {
    "name": "Freshworks"
   },
@@ -49055,6 +49074,9 @@
   "STCU1": {
    "name": "STCU"
   },
+  "SWIGGY": {
+   "name": "Swiggy"
+  },
   "SajixSoftwareSolutionPrivateLimited": {
    "name": "Sajix"
   },
@@ -49308,7 +49330,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-13T17:30:28Z",
+ "updated": "2026-11-14T16:13:57Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -49520,7 +49542,7 @@
     "Computer & Network Security"
    ],
    "name": "1Password",
-   "stage": "other",
+   "stage": "Growth",
    "team_size": 3150,
    "vcs": [
     "Accel",
@@ -50005,6 +50027,22 @@
    "team_size": 87,
    "vcs": [
     "Battery Ventures"
+   ]
+  },
+  "aaru": {
+   "investors": [
+    "Abstract Ventures",
+    "Felicis",
+    "Link Ventures"
+   ],
+   "markets": [
+    "Data & Analytics"
+   ],
+   "name": "Aaru",
+   "stage": "Series A",
+   "team_size": 70,
+   "vcs": [
+    "Felicis"
    ]
   },
   "aatmunn": {
@@ -50781,7 +50819,8 @@
   "adaptiveinnovations": {
    "investors": [
     "Bain Capital",
-    "Bain Ventures"
+    "Bain Ventures",
+    "Felicis"
    ],
    "markets": [
     "AI"
@@ -50790,7 +50829,8 @@
    "stage": "Series A",
    "team_size": 85,
    "vcs": [
-    "Bain Capital Ventures"
+    "Bain Capital Ventures",
+    "Felicis"
    ]
   },
   "adaptivesecurity": {
@@ -51916,38 +51956,10 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Advertising",
-    "Aerospace",
-    "Application Software",
-    "Biometrics",
-    "Biotechnology",
-    "Business/Productivity Software",
-    "Data & Analytics",
-    "Digital Identity",
-    "E-Commerce",
-    "Enterprise Software",
-    "Hospitality",
-    "Identity Management",
-    "Information Security",
-    "Information Technology",
-    "IT Services and IT Consulting",
-    "Mobile",
-    "Payments",
-    "Privacy",
-    "Privacy and Security",
-    "Retail",
-    "Science and Engineering",
-    "Security",
-    "Software",
-    "Technology",
-    "Technology And Computing",
-    "Transportation",
-    "Travel",
-    "Travel & Leisure",
-    "Travel & Tourism"
+    "Security"
    ],
    "name": "Airside",
-   "stage": "Series B",
+   "stage": "Growth",
    "team_size": 12,
    "vcs": [
     "8VC",
@@ -52372,25 +52384,10 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Artificial Intelligence (AI)",
-    "Cloud Data Services",
-    "Communication & Sales",
-    "Data & Analytics",
-    "Enterprise Software",
-    "Financial Services",
-    "Financial Software",
-    "Fintech",
-    "Information Technology",
-    "Internet Services",
-    "Media and Information Services (B2B)",
-    "Other Financial Services",
-    "Science and Engineering",
-    "Software",
-    "Software Development",
-    "Technology"
+    "Fintech"
    ],
    "name": "Aleph",
-   "stage": "Series B",
+   "stage": "Growth",
    "team_size": 107,
    "vcs": [
     "Khosla Ventures",
@@ -54063,7 +54060,7 @@
     "Software Engineering"
    ],
    "name": "Anysphere",
-   "stage": "acquisition",
+   "stage": "Acquisition",
    "vcs": [
     "Thrive Capital"
    ]
@@ -54628,17 +54625,18 @@
   "arc": {
    "investors": [],
    "markets": [
-    "Boating",
-    "Electric Vehicles",
-    "Industrial",
-    "Manufacturing",
-    "Manufacturing & Industrial",
-    "Marine",
-    "Marine Transportation",
-    "Sports",
-    "Transportation",
-    "Transportation, Logistics, Supply Chain and Storage",
-    "Water Transportation"
+    "Application Software",
+    "Financial Management",
+    "Financial Services",
+    "Financial Software",
+    "Fintech",
+    "Funding Platform",
+    "Lending and Investments",
+    "Other Financial Services",
+    "Platform",
+    "SaaS",
+    "Software",
+    "Specialized Finance"
    ],
    "name": "Arc",
    "stage": "Growth",
@@ -54976,14 +54974,15 @@
     "Research"
    ],
    "name": "Arena",
-   "stage": "Series A",
+   "stage": "Venture",
    "team_size": 80,
    "vcs": [
     "Craft Ventures",
     "Felicis",
     "Initialized Capital",
     "CRV",
-    "Lightspeed"
+    "Lightspeed",
+    "Andreessen Horowitz"
    ]
   },
   "areteiatherapeutics": {
@@ -57105,13 +57104,18 @@
   "bacca": {
    "investors": [],
    "markets": [
+    "AI Agent",
     "Artificial Intelligence (AI)",
     "Business/Productivity Software",
     "Communication Software",
     "Data & Analytics",
     "Generative AI",
+    "Incident Response",
+    "LLM",
+    "Observability",
     "Science and Engineering",
-    "Software"
+    "Software",
+    "SRE"
    ],
    "name": "Bacca",
    "stage": "Seed",
@@ -58199,39 +58203,9 @@
     "Pantera Capital"
    ],
    "markets": [
-    "Asset Management",
-    "Bitcoin",
-    "Blockchain",
-    "Blockchain and Cryptocurrency",
-    "Cryptocurrency",
-    "Custody",
-    "Cybersecurity",
-    "Data Storage",
-    "Digital Assets",
-    "Digital Currency",
-    "Digital Wallet",
-    "Enterprise Software",
-    "Finance",
     "Financial Services",
-    "Financial Software",
-    "Financing",
     "Fintech",
-    "Information Security",
-    "Lending",
-    "Other Financial Services",
-    "Payments",
-    "Physical Security",
-    "Portfolio",
-    "Security",
-    "Settlement",
-    "Software",
-    "Staking",
-    "Storage",
-    "Tax",
-    "Technology",
-    "Trading",
-    "Virtual Currency",
-    "Wealth Management"
+    "Security"
    ],
    "name": "BitGo",
    "stage": "Ipo",
@@ -58723,6 +58697,7 @@
     "Retail"
    ],
    "name": "Blomma",
+   "team_size": 9,
    "vcs": [
     "Felicis"
    ]
@@ -59574,6 +59549,25 @@
     "Lux Capital"
    ]
   },
+  "brightmoney": {
+   "investors": [
+    "Felicis",
+    "Gaingels",
+    "Sequoia Capital",
+    "Sequoia Capital India",
+    "Surge Ahead"
+   ],
+   "markets": [
+    "Financial Services",
+    "Fintech"
+   ],
+   "name": "Brightmoney",
+   "stage": "Growth",
+   "team_size": 307,
+   "vcs": [
+    "Felicis"
+   ]
+  },
   "brightwheel": {
    "investors": [
     "Bessemer Ventures",
@@ -59803,6 +59797,22 @@
    "vcs": [
     "Costanoa Ventures",
     "NEA"
+   ]
+  },
+  "buildforever": {
+   "investors": [
+    "Abstract Ventures",
+    "Felicis"
+   ],
+   "markets": [
+    "Enterprise Software",
+    "SaaS"
+   ],
+   "name": "BuildForever",
+   "stage": "Seed funded",
+   "team_size": 8,
+   "vcs": [
+    "Felicis"
    ]
   },
   "buildots": {
@@ -61477,13 +61487,9 @@
     "South Park Commons"
    ],
    "markets": [
-    "Artificial Intelligence (AI)",
-    "Data & Analytics",
-    "Enterprise Systems (Healthcare)",
-    "Health Care",
-    "Hospital",
-    "Science and Engineering",
-    "Software"
+    "AI",
+    "Digital Health",
+    "Hospital & Health Care"
    ],
    "name": "Charta Health",
    "stage": "series_a",
@@ -62388,6 +62394,14 @@
     "Madrona Venture Group"
    ]
   },
+  "clubbi": {
+   "investors": [],
+   "name": "Clubbi",
+   "stage": "series_a",
+   "vcs": [
+    "NFX"
+   ]
+  },
   "clubessentialholdings": {
    "investors": [
     "Battery Ventures",
@@ -62540,7 +62554,7 @@
    ],
    "name": "Cockroach Labs",
    "stage": "Growth",
-   "team_size": 694,
+   "team_size": 693,
    "vcs": [
     "GV"
    ]
@@ -63736,11 +63750,13 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Productivity"
+    "Enterprise Software",
+    "Marketing and Advertising",
+    "SaaS"
    ],
    "name": "Cortex",
    "stage": "Growth",
-   "team_size": 112,
+   "team_size": 17,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -67461,6 +67477,21 @@
     "Lightspeed"
    ]
   },
+  "elemy": {
+   "investors": [
+    "Felicis",
+    "Goodwater Capital"
+   ],
+   "markets": [
+    "Health, Wellness and Fitness"
+   ],
+   "name": "Elemy",
+   "stage": "Growth",
+   "team_size": 207,
+   "vcs": [
+    "Felicis"
+   ]
+  },
   "elevatelabs": {
    "investors": [
     "Felicis"
@@ -67765,7 +67796,8 @@
   "enduranceenergy": {
    "investors": [
     "First Round Capital",
-    "Voyager Ventures"
+    "Voyager Ventures",
+    "Felicis"
    ],
    "markets": [
     "Energy",
@@ -67775,7 +67807,8 @@
    "stage": "Series A",
    "team_size": 44,
    "vcs": [
-    "First Round Capital"
+    "First Round Capital",
+    "Felicis"
    ]
   },
   "endurosat": {
@@ -68529,7 +68562,8 @@
   "exa": {
    "investors": [
     "Andreessen Horowitz",
-    "Lightspeed"
+    "Lightspeed",
+    "Felicis"
    ],
    "markets": [
     "AI",
@@ -68540,7 +68574,8 @@
    "team_size": 212,
    "vcs": [
     "Lightspeed",
-    "Andreessen Horowitz"
+    "Andreessen Horowitz",
+    "Felicis"
    ]
   },
   "exabeam": {
@@ -69568,10 +69603,11 @@
     "Manufacturing"
    ],
    "name": "Firestorm",
-   "stage": "Growth",
+   "stage": "series_b",
    "team_size": 192,
    "vcs": [
-    "NEA"
+    "NEA",
+    "Craft Ventures"
    ]
   },
   "fireworksai": {
@@ -70496,11 +70532,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Health, Wellness and Fitness"
+    "Fintech"
    ],
    "name": "Found",
    "stage": "Growth",
-   "team_size": 148,
+   "team_size": 119,
    "vcs": [
     "GV",
     "Lightspeed",
@@ -70589,7 +70625,8 @@
     "01 Advisors",
     "Bain Capital",
     "Bain Ventures",
-    "Gigascale"
+    "Gigascale",
+    "Felicis"
    ],
    "markets": [
     "AI"
@@ -70598,7 +70635,8 @@
    "stage": "Growth",
    "team_size": 126,
    "vcs": [
-    "Bain Capital Ventures"
+    "Bain Capital Ventures",
+    "Felicis"
    ]
   },
   "fractional": {
@@ -73669,7 +73707,7 @@
    ],
    "name": "Homebase",
    "stage": "Growth",
-   "team_size": 1962,
+   "team_size": 1975,
    "vcs": [
     "Bain Capital Ventures"
    ]
@@ -73873,10 +73911,11 @@
     "Computer & Network Security"
    ],
    "name": "Horizon3.ai",
-   "stage": "Growth",
+   "stage": "series_e",
    "team_size": 645,
    "vcs": [
-    "NEA"
+    "NEA",
+    "Craft Ventures"
    ]
   },
   "hos": {
@@ -74291,8 +74330,10 @@
     "SaaS"
    ],
    "name": "Hyde",
+   "stage": "other",
    "vcs": [
-    "Bain Capital Ventures"
+    "Bain Capital Ventures",
+    "General Catalyst"
    ]
   },
   "hydrabiosciences": {
@@ -76328,6 +76369,22 @@
     "First Round Capital"
    ]
   },
+  "kick": {
+   "investors": [
+    "Felicis",
+    "GTMfund"
+   ],
+   "markets": [
+    "Enterprise Software",
+    "SaaS"
+   ],
+   "name": "Kick",
+   "stage": "Growth",
+   "team_size": 56,
+   "vcs": [
+    "Felicis"
+   ]
+  },
   "kickstarter": {
    "investors": [
     "Gaingels",
@@ -77333,7 +77390,8 @@
   "leantechnologies": {
    "investors": [
     "Bain Capital",
-    "Bain Ventures"
+    "Bain Ventures",
+    "HOF Capital"
    ],
    "markets": [
     "Financial Services",
@@ -77358,13 +77416,13 @@
     "Union Square Ventures"
    ],
    "markets": [
-    "Enterprise Software",
-    "Retail",
-    "SaaS"
+    "Climate",
+    "Energy Transition",
+    "Renewables & Environment"
    ],
    "name": "Leap",
    "stage": "Growth",
-   "team_size": 408,
+   "team_size": 111,
    "vcs": [
     "Costanoa Ventures",
     "Union Square Ventures"
@@ -79002,7 +79060,8 @@
   },
   "magentic": {
    "investors": [
-    "Sequoia Capital"
+    "Sequoia Capital",
+    "Felicis"
    ],
    "markets": [
     "AI",
@@ -79012,7 +79071,8 @@
    "stage": "Seed funded",
    "team_size": 15,
    "vcs": [
-    "Sequoia Capital"
+    "Sequoia Capital",
+    "Felicis"
    ]
   },
   "magical": {
@@ -79134,6 +79194,19 @@
    "team_size": 78,
    "vcs": [
     "NEA"
+   ]
+  },
+  "major": {
+   "investors": [
+    "Felicis"
+   ],
+   "markets": [
+    "AI"
+   ],
+   "name": "Major",
+   "team_size": 8,
+   "vcs": [
+    "Felicis"
    ]
   },
   "malga": {
@@ -80114,6 +80187,14 @@
     "Lightspeed"
    ]
   },
+  "menlosecurity": {
+   "investors": [],
+   "name": "Menlo Security",
+   "stage": "series_e",
+   "vcs": [
+    "General Catalyst"
+   ]
+  },
   "mercantile": {
    "investors": [
     "First Round Capital"
@@ -80596,12 +80677,11 @@
     "Kleiner Perkins"
    ],
    "markets": [
-    "Computer & Network Security",
-    "Developer Tools"
+    "Fintech"
    ],
    "name": "Mine",
-   "stage": "Growth",
-   "team_size": 111,
+   "stage": "Seed funded",
+   "team_size": 69,
    "vcs": [
     "Battery Ventures",
     "Kleiner Perkins"
@@ -80675,7 +80755,7 @@
     "SaaS"
    ],
    "name": "Mintlify",
-   "stage": "Venture",
+   "stage": "Growth",
    "team_size": 85,
    "vcs": [
     "Bain Capital Ventures",
@@ -82762,6 +82842,14 @@
    "team_size": 269,
    "vcs": [
     "Lightspeed"
+   ]
+  },
+  "nexuscognitive": {
+   "investors": [],
+   "name": "Nexus Cognitive",
+   "stage": "series_unknown",
+   "vcs": [
+    "Insight Partners"
    ]
   },
   "neynar": {
@@ -88118,10 +88206,11 @@
     "Developer Tools"
    ],
    "name": "Postman",
-   "stage": "Growth",
+   "stage": "undisclosed",
    "team_size": 3591,
    "vcs": [
-    "Battery Ventures"
+    "Battery Ventures",
+    "Insight Partners"
    ]
   },
   "power": {
@@ -92014,7 +92103,7 @@
    ],
    "name": "Sardine",
    "stage": "Growth",
-   "team_size": 379,
+   "team_size": 395,
    "vcs": [
     "GV",
     "Andreessen Horowitz"
@@ -94170,7 +94259,8 @@
   },
   "smacktechnologies": {
    "investors": [
-    "Costanoa Ventures"
+    "Costanoa Ventures",
+    "Felicis"
    ],
    "markets": [
     "AI",
@@ -94180,7 +94270,8 @@
    "stage": "Series A",
    "team_size": 25,
    "vcs": [
-    "Costanoa Ventures"
+    "Costanoa Ventures",
+    "Felicis"
    ]
   },
   "smallstep": {
@@ -94579,7 +94670,8 @@
    "investors": [
     "Bain Capital",
     "Bain Ventures",
-    "Gigascale"
+    "Gigascale",
+    "Felicis"
    ],
    "markets": [
     "Energy Transition"
@@ -94587,7 +94679,8 @@
    "name": "Solcoa Industries",
    "team_size": 6,
    "vcs": [
-    "Bain Capital Ventures"
+    "Bain Capital Ventures",
+    "Felicis"
    ]
   },
   "soldo": {
@@ -95146,6 +95239,14 @@
    "team_size": 10,
    "vcs": [
     "NEA"
+   ]
+  },
+  "splash": {
+   "investors": [],
+   "name": "Splash",
+   "stage": "acquisition",
+   "vcs": [
+    "Lerer Hippeau"
    ]
   },
   "splice": {
@@ -96511,11 +96612,12 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Renewables & Environment"
+    "AI",
+    "Automation & Robotics"
    ],
    "name": "Sunday",
    "stage": "Growth",
-   "team_size": 105,
+   "team_size": 93,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -96844,6 +96946,14 @@
     "Felicis",
     "NEA",
     "First Round Capital"
+   ]
+  },
+  "swiggy": {
+   "investors": [],
+   "name": "Swiggy",
+   "stage": "other",
+   "vcs": [
+    "Accel"
    ]
   },
   "swingeducation": {
@@ -97661,7 +97771,7 @@
     "AI-Powered Applications"
    ],
    "name": "Tecton",
-   "stage": "acquisition",
+   "stage": "Growth",
    "team_size": 97,
    "vcs": [
     "Sequoia Capital",
@@ -100018,7 +100128,8 @@
     "DataPower Ventures",
     "E14 Fund",
     "Lightspeed",
-    "Playground Global"
+    "Playground Global",
+    "Felicis"
    ],
    "markets": [
     "AI"
@@ -100026,7 +100137,8 @@
    "name": "Unconventional AI",
    "team_size": 61,
    "vcs": [
-    "Lightspeed"
+    "Lightspeed",
+    "Felicis"
    ]
   },
   "uncountable": {
@@ -100984,7 +101096,7 @@
     "Computer Software"
    ],
    "name": "Vercel",
-   "stage": "series_f",
+   "stage": "Growth",
    "team_size": 1029,
    "vcs": [
     "GV",
@@ -102753,8 +102865,8 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Enterprise Software",
-    "Research"
+    "Delivery Services",
+    "Food & Beverages"
    ],
    "name": "Wonder",
    "stage": "series_d",
@@ -105484,6 +105596,9 @@
   "cmegroup.wd1.myworkdayjobs.com|cmegroup|cme_careers": {
    "name": "CME Group"
   },
+  "cmu.wd115.myworkdayjobs.com|cmu|SEI": {
+   "name": "Carnegie Mellon University"
+  },
   "cmu.wd5.myworkdayjobs.com|cmu|cmu": {
    "name": "Carnegie Mellon University"
   },
@@ -107041,6 +107156,9 @@
   "koppers.wd5.myworkdayjobs.com|koppers|Koppers": {
    "name": "Koppers"
   },
+  "ksb.wd3.myworkdayjobs.com|ksb|KSB_ExternalCareerSite": {
+   "name": "KSB"
+  },
   "kslaw.wd1.myworkdayjobs.com|kslaw|careers": {
    "name": "King & Spalding"
   },
@@ -107196,6 +107314,9 @@
   },
   "lsu.wd1.myworkdayjobs.com|lsu|lsuwaiver": {
    "name": "Louisiana State University (LSU)"
+  },
+  "lthc.wd1.myworkdayjobs.com|lthc|CDPHPCareers": {
+   "name": "CDPHP"
   },
   "lthc.wd1.myworkdayjobs.com|lthc|ExcellusBCBSCareers": {
    "name": "Excellus BCBS"
@@ -108090,6 +108211,9 @@
   },
   "polarsemi.wd501.myworkdayjobs.com|polarsemi|Polar": {
    "name": "Polar Semiconductor"
+  },
+  "postman.wd108.myworkdayjobs.com|postman|careers": {
+   "name": "Postman"
   },
   "powerdesigninc.wd5.myworkdayjobs.com|powerdesigninc|PDI": {
    "name": "Power Design, Inc"
@@ -111438,7 +111562,7 @@
    "hit": null
   },
   "bayworks": {
-   "at": "2026-10-31T15:19:24Z",
+   "at": "2026-11-14T15:47:39Z",
    "hit": null
   },
   "bby": {
@@ -113485,6 +113609,10 @@
    "at": "2026-11-07T15:42:20Z",
    "hit": null
   },
+  "current": {
+   "at": "2026-11-14T15:47:39Z",
+   "hit": "greenhouse:current"
+  },
   "curri": {
    "at": "2026-10-23T23:55:58Z",
    "hit": "ashby:curri"
@@ -114189,8 +114317,16 @@
    "at": "2026-11-07T15:42:45Z",
    "hit": null
   },
+  "dualizer": {
+   "at": "2026-11-14T15:47:39Z",
+   "hit": null
+  },
   "duckie": {
    "at": "2026-11-07T15:42:45Z",
+   "hit": null
+  },
+  "duet-machines": {
+   "at": "2026-11-14T15:47:40Z",
    "hit": null
   },
   "duffel": {
@@ -116906,7 +117042,7 @@
    "hit": null
   },
   "instabox": {
-   "at": "2026-10-31T15:19:24Z",
+   "at": "2026-11-14T15:47:39Z",
    "hit": null
   },
   "instacrops": {
@@ -118002,7 +118138,7 @@
    "hit": null
   },
   "limnion": {
-   "at": "2026-10-31T15:19:24Z",
+   "at": "2026-11-14T15:47:39Z",
    "hit": null
   },
   "limrun": {
@@ -120361,6 +120497,10 @@
    "at": "2026-11-07T15:44:01Z",
    "hit": null
   },
+  "osmaura": {
+   "at": "2026-11-14T15:47:39Z",
+   "hit": null
+  },
   "osmind": {
    "at": "2026-11-07T15:42:24Z",
    "hit": null
@@ -122287,6 +122427,10 @@
   },
   "repool": {
    "at": "2026-11-07T15:42:30Z",
+   "hit": null
+  },
+  "repovive": {
+   "at": "2026-11-14T15:47:40Z",
    "hit": null
   },
   "reprompt": {
