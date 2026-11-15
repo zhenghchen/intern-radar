@@ -10544,7 +10544,7 @@
    "hq": "Toronto, ON, Canada",
    "name": "Provision",
    "one_liner": "Ironclad for construction",
-   "team_size": 15,
+   "team_size": 19,
    "yc": "Summer 2022"
   },
   "proxima": {
@@ -11167,7 +11167,7 @@
    "name": "SandboxAQ"
   },
   "sapien": {
-   "hq": "Cairo, Cairo Governorate, Egypt",
+   "hq": "San Francisco, CA, USA",
    "name": "Sapien",
    "one_liner": "Synthetic populations for decisions",
    "team_size": 2,
@@ -43383,7 +43383,7 @@
   "preload": {
    "hq": "San Francisco, CA, USA",
    "name": "Preload",
-   "one_liner": "Sensorimotor context for physical AI",
+   "one_liner": "Multisensory systems (EMG+tactile+video) for training physical AI",
    "team_size": 3,
    "yc": "Fall 2026"
   },
@@ -49330,7 +49330,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-14T16:13:57Z",
+ "updated": "2026-11-15T16:54:05Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -50389,7 +50389,7 @@
     "Video"
    ],
    "name": "Absurd",
-   "stage": "Seed",
+   "stage": "Pre Seed",
    "vcs": [
     "SV Angel"
    ]
@@ -51547,21 +51547,18 @@
   "agora": {
    "investors": [],
    "markets": [
-    "B2B",
-    "Business Intelligence",
-    "Data Management",
-    "Enterprise Software",
+    "Financial Exchanges",
     "Financial Services",
+    "Financial Software",
     "Fintech",
     "Information Technology",
-    "PropTech",
-    "Real Estate",
-    "Real Estate Investment",
+    "Lending and Investments",
+    "Other Financial Services",
     "SaaS",
     "Software"
    ],
    "name": "Agora",
-   "stage": "Series B",
+   "stage": "Series A",
    "vcs": [
     "General Catalyst",
     "Insight Partners"
@@ -54625,18 +54622,17 @@
   "arc": {
    "investors": [],
    "markets": [
-    "Application Software",
-    "Financial Management",
-    "Financial Services",
-    "Financial Software",
-    "Fintech",
-    "Funding Platform",
-    "Lending and Investments",
-    "Other Financial Services",
-    "Platform",
-    "SaaS",
-    "Software",
-    "Specialized Finance"
+    "Boating",
+    "Electric Vehicles",
+    "Industrial",
+    "Manufacturing",
+    "Manufacturing & Industrial",
+    "Marine",
+    "Marine Transportation",
+    "Sports",
+    "Transportation",
+    "Transportation, Logistics, Supply Chain and Storage",
+    "Water Transportation"
    ],
    "name": "Arc",
    "stage": "Growth",
@@ -56884,6 +56880,14 @@
    "stage": "Seed",
    "vcs": [
     "SV Angel"
+   ]
+  },
+  "avito": {
+   "investors": [],
+   "name": "Avito",
+   "stage": "acquisition",
+   "vcs": [
+    "Accel"
    ]
   },
   "avo": {
@@ -63732,11 +63736,12 @@
     "Bain Ventures"
    ],
    "markets": [
-    "AI"
+    "AI",
+    "Insurance"
    ],
    "name": "Corridor",
-   "stage": "Series A",
-   "team_size": 35,
+   "stage": "Seed funded",
+   "team_size": 13,
    "vcs": [
     "Felicis",
     "Bain Capital Ventures"
@@ -63750,13 +63755,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Enterprise Software",
-    "Marketing and Advertising",
-    "SaaS"
+    "Productivity"
    ],
    "name": "Cortex",
    "stage": "Growth",
-   "team_size": 17,
+   "team_size": 112,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -72688,7 +72691,7 @@
    ],
    "name": "Gumroad",
    "stage": "Series A",
-   "team_size": 538,
+   "team_size": 570,
    "vcs": [
     "First Round Capital"
    ]
@@ -75682,6 +75685,14 @@
     "First Round Capital"
    ]
   },
+  "jifflenow": {
+   "investors": [],
+   "name": "Jifflenow",
+   "stage": "acquisition",
+   "vcs": [
+    "Accel"
+   ]
+  },
   "jingle": {
    "investors": [
     "Bessemer Ventures"
@@ -77938,6 +77949,14 @@
    "vcs": [
     "Bain Capital Ventures",
     "Lightspeed"
+   ]
+  },
+  "lightspeed": {
+   "investors": [],
+   "name": "Lightspeed",
+   "stage": "other",
+   "vcs": [
+    "Accel"
    ]
   },
   "lighttable": {
@@ -96612,12 +96631,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "AI",
-    "Automation & Robotics"
+    "Renewables & Environment"
    ],
    "name": "Sunday",
    "stage": "Growth",
-   "team_size": 93,
+   "team_size": 105,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -102085,11 +102103,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Developer Tools"
+    "AI"
    ],
    "name": "Warp",
    "stage": "Growth",
-   "team_size": 102,
+   "team_size": 87,
    "vcs": [
     "Battery Ventures",
     "GV",
@@ -102869,7 +102887,7 @@
     "Food & Beverages"
    ],
    "name": "Wonder",
-   "stage": "series_d",
+   "stage": "Growth",
    "team_size": 10266,
    "vcs": [
     "NEA",
@@ -105599,6 +105617,9 @@
   "cmu.wd115.myworkdayjobs.com|cmu|SEI": {
    "name": "Carnegie Mellon University"
   },
+  "cmu.wd115.myworkdayjobs.com|cmu|cmu": {
+   "name": "Carnegie Mellon University"
+  },
   "cmu.wd5.myworkdayjobs.com|cmu|cmu": {
    "name": "Carnegie Mellon University"
   },
@@ -106301,6 +106322,9 @@
   "formulaone.wd3.myworkdayjobs.com|formulaone|F1": {
    "name": "Formula 1"
   },
+  "fortbendcountytx.wd5.myworkdayjobs.com|fortbendcountytx|externalcareers": {
+   "name": "Fort Bend County"
+  },
   "fortrea.wd1.myworkdayjobs.com|fortrea|Fortrea": {
    "name": "Fortrea"
   },
@@ -106412,6 +106436,9 @@
   "generalmotors.wd5.myworkdayjobs.com|generalmotors|careers_gm": {
    "name": "General Motors"
   },
+  "genesys.wd1.myworkdayjobs.com|genesys|2_genesys_jobs": {
+   "name": "Genesys"
+  },
   "genesys.wd1.myworkdayjobs.com|genesys|Genesys": {
    "name": "Genesys"
   },
@@ -106486,6 +106513,9 @@
   },
   "gnw.wd1.myworkdayjobs.com|gnw|enact_mi": {
    "name": "Enact Mortgage Insurance"
+  },
+  "gobeacon.wd1.myworkdayjobs.com|gobeacon|beaconmobilitycareers": {
+   "name": "Beacon Mobility"
   },
   "godirect.wd5.myworkdayjobs.com|godirect|voya_jobs": {
    "name": "Voya Financial"
@@ -106771,6 +106801,9 @@
   },
   "ia.wd3.myworkdayjobs.com|ia|Professional_US": {
    "name": "iA American"
+  },
+  "iagloyalty.wd3.myworkdayjobs.com|iagloyalty|iagloyalty": {
+   "name": "IAG Loyalty"
   },
   "iatinsurancegroup.wd1.myworkdayjobs.com|iatinsurancegroup|iat": {
    "name": "IAT Insurance Group"
@@ -107221,6 +107254,12 @@
   },
   "liberty.wd5.myworkdayjobs.com|liberty|lu_job_board_staff": {
    "name": "Liberty University"
+  },
+  "libertyglobal.wd3.myworkdayjobs.com|libertyglobal|Liberty_Global_Blume": {
+   "name": "Liberty Blume"
+  },
+  "libertyglobal.wd3.myworkdayjobs.com|libertyglobal|Liberty_Global_Careers": {
+   "name": "Liberty Global"
   },
   "lifefitness.wd1.myworkdayjobs.com|lifefitness|searchLFN": {
    "name": "Life Fitness"
@@ -107777,6 +107816,9 @@
   "ncratleos.wd1.myworkdayjobs.com|ncratleos|ext_intern": {
    "name": "NCR Atleos"
   },
+  "ncratleos.wd1.myworkdayjobs.com|ncratleos|ext_non_usalteos": {
+   "name": "NCR Atleos"
+  },
   "ncsecu.wd1.myworkdayjobs.com|ncsecu|secu": {
    "name": "State Employees' Credit Union (SECU)"
   },
@@ -107995,6 +108037,9 @@
   },
   "oregon.wd5.myworkdayjobs.com|oregon|sor_external_career_site": {
    "name": "Oregon State Government"
+  },
+  "oregonstate.wd501.myworkdayjobs.com|oregonstate|OSU_Careers_Site": {
+   "name": "Oregon State University"
   },
   "oreillyauto.wd1.myworkdayjobs.com|oreillyauto|oreilly": {
    "name": "O'Reilly Auto Parts"
@@ -108377,6 +108422,9 @@
   "rbc.wd3.myworkdayjobs.com|rbc|rbcglobal1": {
    "name": "Royal Bank of Canada"
   },
+  "rbfcu.wd503.myworkdayjobs.com|rbfcu|RegionalJobsSanAntonio": {
+   "name": "RBFCU"
+  },
   "rbi.wd3.myworkdayjobs.com|rbi|RBI_External_Career_Site": {
    "name": "RBI"
   },
@@ -108544,6 +108592,9 @@
   },
   "rsm.wd1.myworkdayjobs.com|rsm|RSMCareers": {
    "name": "RSM"
+  },
+  "russell.wd5.myworkdayjobs.com|russell|russellinvestments": {
+   "name": "Russell Investments"
   },
   "rxo.wd501.myworkdayjobs.com|rxo|rxojobs": {
    "name": "RXO"
@@ -109280,6 +109331,9 @@
   "tysonfoods.wd5.myworkdayjobs.com|tysonfoods|TSN": {
    "name": "Tyson Foods"
   },
+  "tysonfoods.wd5.myworkdayjobs.com|tysonfoods|TYIT": {
+   "name": "Tyson Foods"
+  },
   "uasys.wd5.myworkdayjobs.com|uasys|UAF_External_Career_Site": {
    "name": "University of Arkansas"
   },
@@ -109436,6 +109490,9 @@
   "vantagedc.wd1.myworkdayjobs.com|vantagedc|Vantage": {
    "name": "Vantage Data Centers"
   },
+  "vantive.wd108.myworkdayjobs.com|vantive|Vantive": {
+   "name": "Vantive"
+  },
   "vareximaging.wd103.myworkdayjobs.com|vareximaging|External_Career_Site": {
    "name": "Varex Imaging Corporation"
   },
@@ -109456,6 +109513,9 @@
   },
   "veralto.wd1.myworkdayjobs.com|veralto|hachjobs": {
    "name": "Veralto"
+  },
+  "veralto.wd1.myworkdayjobs.com|veralto|videojetjobs": {
+   "name": "Videojet"
   },
   "verawholehealth.wd1.myworkdayjobs.com|verawholehealth|MPG": {
    "name": "Millennium Physician Group"
@@ -109786,6 +109846,9 @@
   },
   "wwwinc.wd1.myworkdayjobs.com|wwwinc|WWW": {
    "name": "Wolverine World Wide"
+  },
+  "xboxgaming.wd1.myworkdayjobs.com|xboxgaming|Blizzard_External_Careers": {
+   "name": "Blizzard Entertainment"
   },
   "xcelenergy.wd1.myworkdayjobs.com|xcelenergy|External": {
    "name": "Xcel Energy"
@@ -110195,6 +110258,10 @@
   },
   "agi-deploy-co": {
    "at": "2026-11-08T15:58:11Z",
+   "hit": null
+  },
+  "agi-deployment-company": {
+   "at": "2026-11-15T16:19:47Z",
    "hit": null
   },
   "agilemd": {
@@ -111749,6 +111816,10 @@
    "at": "2026-11-07T15:42:26Z",
    "hit": null
   },
+  "biomes": {
+   "at": "2026-11-15T16:19:47Z",
+   "hit": null
+  },
   "biorender": {
    "at": "2026-10-23T23:56:22Z",
    "hit": "lever:biorender"
@@ -113146,7 +113217,7 @@
    "hit": null
   },
   "colony": {
-   "at": "2026-11-01T16:00:57Z",
+   "at": "2026-11-15T16:19:47Z",
    "hit": null
   },
   "coloop": {
@@ -113394,7 +113465,7 @@
    "hit": null
   },
   "corgi": {
-   "at": "2026-11-01T16:00:57Z",
+   "at": "2026-11-15T16:19:47Z",
    "hit": null
   },
   "corgi-insurance": {
@@ -114666,7 +114737,7 @@
    "hit": null
   },
   "enhanced-radar": {
-   "at": "2026-11-01T16:00:58Z",
+   "at": "2026-11-15T16:19:47Z",
    "hit": null
   },
   "enjamb-labs": {
@@ -124137,6 +124208,10 @@
    "at": "2026-11-07T15:43:53Z",
    "hit": null
   },
+  "standard-gaussian": {
+   "at": "2026-11-15T16:19:47Z",
+   "hit": null
+  },
   "standard-machines": {
    "at": "2026-11-08T15:58:13Z",
    "hit": null
@@ -124698,7 +124773,7 @@
    "hit": null
   },
   "taanai": {
-   "at": "2026-11-01T16:00:57Z",
+   "at": "2026-11-15T16:19:47Z",
    "hit": null
   },
   "tab": {
