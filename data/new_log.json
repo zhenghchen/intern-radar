@@ -1,6 +1,44 @@
 [
  {
   "backers": [
+   "Lightspeed",
+   "General Catalyst",
+   "DCVC"
+  ],
+  "company": "Pacific Fusion",
+  "first_seen": "2026-11-16T20:02:23Z",
+  "fit": 3,
+  "id": "gh:4505556009",
+  "location": "San Leandro, CA",
+  "posted_at": "2026-11-16T19:41:38Z",
+  "score": 7,
+  "signal": 4,
+  "term": "Summer 2027",
+  "title": "Summer 2027 Vacuum Systems Engineering Internship",
+  "type": "startup",
+  "url": "https://job-boards.greenhouse.io/pacificfusion/jobs/4505556009"
+ },
+ {
+  "backers": [
+   "Lightspeed",
+   "General Catalyst",
+   "DCVC"
+  ],
+  "company": "Pacific Fusion",
+  "first_seen": "2026-11-16T20:02:23Z",
+  "fit": 3,
+  "id": "gh:4505668009",
+  "location": "San Leandro, CA",
+  "posted_at": "2026-11-16T19:40:27Z",
+  "score": 7,
+  "signal": 4,
+  "term": "Summer 2027",
+  "title": "Summer 2027 HPC/DevOps Engineering Intern",
+  "type": "startup",
+  "url": "https://job-boards.greenhouse.io/pacificfusion/jobs/4505668009"
+ },
+ {
+  "backers": [
    "Battery Ventures",
    "Insight Partners"
   ],
