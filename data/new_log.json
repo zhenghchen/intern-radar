@@ -1,6 +1,25 @@
 [
  {
   "backers": [
+   "Andreessen Horowitz",
+   "Lightspeed",
+   "Contrary"
+  ],
+  "company": "Anduril Industries",
+  "first_seen": "2026-11-16T23:42:20Z",
+  "fit": -2,
+  "id": "gh:5297134007",
+  "location": "Honolulu, Hawaii, United States; Washington, District of Columbia, United States",
+  "posted_at": "2026-11-16T23:37:28Z",
+  "score": 2,
+  "signal": 4,
+  "term": "2027",
+  "title": "2027 Mission Operations Engineer Intern",
+  "type": "bigtech",
+  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5297134007?gh_jid=5297134007"
+ },
+ {
+  "backers": [
    "Lightspeed",
    "General Catalyst",
    "DCVC"
