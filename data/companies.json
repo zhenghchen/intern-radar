@@ -5579,10 +5579,10 @@
    "src": "common crawl"
   },
   "formal": {
-   "hq": "San Francisco, CA, USA; New York, NY, USA; Remote",
+   "hq": "San Francisco, CA, USA; New York, NY, USA",
    "name": "Formal",
-   "one_liner": "Take control of your data in real-time.",
-   "team_size": 10,
+   "one_liner": "Least privilege for agents and humans",
+   "team_size": 25,
    "yc": "Summer 2020"
   },
   "formance": {
@@ -6750,7 +6750,7 @@
   "humanarchive": {
    "hq": "San Francisco, CA, USA",
    "name": "Human Archive",
-   "one_liner": "Physical AI data lab",
+   "one_liner": "Infrastructure for Training, Evaluating, and Deploying Physical AI",
    "team_size": 100,
    "yc": "Winter 2026"
   },
@@ -7374,8 +7374,8 @@
   "kastle": {
    "hq": "San Francisco, CA, USA",
    "name": "Kastle AI",
-   "one_liner": "AI employee for consumer lending",
-   "team_size": 15,
+   "one_liner": "AI FTE for regulated finance",
+   "team_size": 17,
    "yc": "Summer 2024"
   },
   "katana": {
@@ -39587,7 +39587,7 @@
   "forward": {
    "hq": "San Francisco, CA, USA",
    "name": "Forward",
-   "one_liner": "The private credit network for leading debt advisors",
+   "one_liner": "Origination infrastructure for private credit.",
    "team_size": 7,
    "yc": "Fall 2026"
   },
@@ -45852,7 +45852,7 @@
   "vaya": {
    "hq": "San Francisco, CA, USA",
    "name": "Vaya",
-   "one_liner": "Discover your next vacation for less.",
+   "one_liner": "Rank, Log, & Share Places",
    "team_size": 2,
    "yc": "Fall 2024"
   },
@@ -49330,7 +49330,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-15T16:54:05Z",
+ "updated": "2026-11-16T19:48:58Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -55483,8 +55483,8 @@
     "Leisure, Travel & Tourism"
    ],
    "name": "Ascend",
-   "stage": "Seed funded",
-   "team_size": 73,
+   "stage": "Series A",
+   "team_size": 25,
    "vcs": [
     "Felicis",
     "First Round Capital",
@@ -56004,7 +56004,7 @@
     "Biotech/Pharma"
    ],
    "name": "Athelas",
-   "stage": "acquisition",
+   "stage": "series_unknown",
    "team_size": 390,
    "vcs": [
     "Sequoia Capital",
@@ -57016,10 +57016,21 @@
   },
   "axiommath": {
    "investors": [],
+   "markets": [
+    "Artificial Intelligence (AI)",
+    "Data & Analytics",
+    "Education",
+    "Foundational AI",
+    "Generative AI",
+    "Information Technology",
+    "Science and Engineering",
+    "Software"
+   ],
    "name": "Axiom Math",
    "stage": "series_a",
    "vcs": [
-    "Menlo Ventures"
+    "Menlo Ventures",
+    "Madrona Venture Group"
    ]
   },
   "axiomtrust": {
@@ -58212,7 +58223,7 @@
     "Security"
    ],
    "name": "BitGo",
-   "stage": "Ipo",
+   "stage": "ipo",
    "team_size": 128,
    "vcs": [
     "Craft Ventures",
@@ -59098,13 +59109,12 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Consumer",
-    "Delivery Services",
-    "Transportation"
+    "Automotive",
+    "Climate"
    ],
    "name": "Bolt",
-   "stage": "Growth",
-   "team_size": 16357,
+   "stage": "Series A",
+   "team_size": 243,
    "vcs": [
     "Union Square Ventures",
     "Sequoia Capital"
@@ -63736,12 +63746,11 @@
     "Bain Ventures"
    ],
    "markets": [
-    "AI",
-    "Insurance"
+    "AI"
    ],
    "name": "Corridor",
-   "stage": "Seed funded",
-   "team_size": 13,
+   "stage": "Series A",
+   "team_size": 35,
    "vcs": [
     "Felicis",
     "Bain Capital Ventures"
@@ -70535,11 +70544,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Fintech"
+    "Health, Wellness and Fitness"
    ],
    "name": "Found",
    "stage": "Growth",
-   "team_size": 119,
+   "team_size": 148,
    "vcs": [
     "GV",
     "Lightspeed",
@@ -72313,10 +72322,10 @@
     "GV"
    ],
    "markets": [
-    "Banking",
-    "Financial Services",
-    "Fintech",
-    "Payments"
+    "Automotive",
+    "Mobility",
+    "Renewables & Environment",
+    "Transportation"
    ],
    "name": "GRAVITY",
    "stage": "Seed funded",
@@ -84096,7 +84105,7 @@
    ],
    "name": "Odyssey",
    "stage": "series_b",
-   "team_size": 58,
+   "team_size": 91,
    "vcs": [
     "GV",
     "DCVC"
@@ -94266,11 +94275,13 @@
     "NEA"
    ],
    "markets": [
-    "Biotech/Pharma"
+    "ECommerce",
+    "Financial Services",
+    "Fintech"
    ],
    "name": "Slope",
    "stage": "Series A",
-   "team_size": 48,
+   "team_size": 41,
    "vcs": [
     "Union Square Ventures",
     "NEA"
@@ -96900,6 +96911,14 @@
     "Sequoia Capital"
    ]
   },
+  "swan": {
+   "investors": [],
+   "name": "Swan",
+   "stage": "series_b",
+   "vcs": [
+    "Accel"
+   ]
+  },
   "swarmaero": {
    "investors": [],
    "name": "Swarm Aero",
@@ -98732,11 +98751,13 @@
     "Lightspeed"
    ],
    "markets": [
-    "Entertainment",
-    "Video Games"
+    "Enterprise Software",
+    "Fintech",
+    "Payments",
+    "SaaS"
    ],
    "name": "Toast",
-   "team_size": 18,
+   "team_size": 7864,
    "vcs": [
     "GV",
     "Lightspeed"
@@ -102103,11 +102124,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "AI"
+    "Developer Tools"
    ],
    "name": "Warp",
    "stage": "Growth",
-   "team_size": 87,
+   "team_size": 102,
    "vcs": [
     "Battery Ventures",
     "GV",
@@ -104558,6 +104579,9 @@
   "alfalaval.wd3.myworkdayjobs.com|alfalaval|Alfa_Laval_jobs": {
    "name": "ALFA LAVAL"
   },
+  "aliaxis.wd3.myworkdayjobs.com|aliaxis|IPEX": {
+   "name": "IPEX"
+  },
   "aliaxis.wd3.myworkdayjobs.com|aliaxis|aliaxis": {
    "name": "Alliaxis"
   },
@@ -106903,6 +106927,9 @@
   },
   "insperity.wd12.myworkdayjobs.com|insperity|NSP": {
    "name": "Insperity"
+  },
+  "inspirebrands.wd5.myworkdayjobs.com|inspirebrands|InspireCareers": {
+   "name": "Inspire Brands"
   },
   "insulet.wd5.myworkdayjobs.com|insulet|insuletcareers": {
    "name": "Insulet Corporation"
@@ -111168,6 +111195,10 @@
    "at": "2026-11-08T15:58:11Z",
    "hit": null
   },
+  "asterline": {
+   "at": "2026-11-16T19:34:03Z",
+   "hit": null
+  },
   "asteroid": {
    "at": "2026-11-07T15:42:51Z",
    "hit": null
@@ -112341,7 +112372,7 @@
    "hit": null
   },
   "caladh": {
-   "at": "2026-11-02T19:28:35Z",
+   "at": "2026-11-16T19:34:03Z",
    "hit": null
   },
   "calii": {
@@ -112678,6 +112709,10 @@
   },
   "centauri-ai": {
    "at": "2026-11-07T15:44:01Z",
+   "hit": null
+  },
+  "central-blue": {
+   "at": "2026-11-16T19:34:03Z",
    "hit": null
   },
   "centralcoms": {
@@ -113390,6 +113425,10 @@
   },
   "contour": {
    "at": "2026-11-07T15:42:43Z",
+   "hit": null
+  },
+  "contourholdings": {
+   "at": "2026-11-16T19:34:03Z",
    "hit": null
   },
   "contraforce": {
@@ -117525,7 +117564,7 @@
    "hit": null
   },
   "kanopy": {
-   "at": "2026-11-02T19:28:38Z",
+   "at": "2026-11-16T19:34:04Z",
    "hit": null
   },
   "kapa-ai": {
@@ -122981,7 +123020,7 @@
    "hit": null
   },
   "ryhla": {
-   "at": "2026-11-02T19:28:51Z",
+   "at": "2026-11-16T19:34:03Z",
    "hit": null
   },
   "ryse": {
