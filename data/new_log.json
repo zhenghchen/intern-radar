@@ -6,6 +6,25 @@
    "DCVC"
   ],
   "company": "Pacific Fusion",
+  "first_seen": "2026-11-16T20:08:34Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/1Ao",
+  "location": "San Leandro, CA",
+  "posted_at": null,
+  "score": 7,
+  "signal": 4,
+  "term": "Summer",
+  "title": "HPC/DevOps Engineering Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1Ao"
+ },
+ {
+  "backers": [
+   "Lightspeed",
+   "General Catalyst",
+   "DCVC"
+  ],
+  "company": "Pacific Fusion",
   "first_seen": "2026-11-16T20:02:23Z",
   "fit": 3,
   "id": "gh:4505556009",
