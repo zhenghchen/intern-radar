@@ -1,6 +1,43 @@
 [
  {
   "backers": [
+   "Andreessen Horowitz",
+   "Felicis"
+  ],
+  "company": "Exowatt",
+  "first_seen": "2026-11-17T19:29:00Z",
+  "fit": 2,
+  "id": "lever:exowatt:ec23e694-6716-450d-bfbb-276ca8da3d1c",
+  "location": "Miami, FL",
+  "posted_at": "2026-11-17T18:00:15Z",
+  "score": 6,
+  "signal": 4,
+  "term": "",
+  "title": "Robotics & Physical AI Spring Intern (Miami)",
+  "type": "startup",
+  "url": "https://jobs.lever.co/exowatt/ec23e694-6716-450d-bfbb-276ca8da3d1c"
+ },
+ {
+  "backers": [
+   "Andreessen Horowitz",
+   "Lightspeed",
+   "Contrary"
+  ],
+  "company": "Anduril Industries",
+  "first_seen": "2026-11-17T19:29:00Z",
+  "fit": 2,
+  "id": "gh:5274037007",
+  "location": "Santa Ana, California, United States",
+  "posted_at": "2026-11-17T19:17:45Z",
+  "score": 6,
+  "signal": 4,
+  "term": "2027",
+  "title": "2027 Machine Learning Engineer Intern",
+  "type": "bigtech",
+  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5274037007?gh_jid=5274037007"
+ },
+ {
+  "backers": [
    "Lightspeed"
   ],
   "company": "Reliable Robotics Corporation",
