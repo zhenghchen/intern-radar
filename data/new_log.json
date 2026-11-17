@@ -1,6 +1,24 @@
 [
  {
   "backers": [
+   "Andreessen Horowitz",
+   "Felicis"
+  ],
+  "company": "Exowatt",
+  "first_seen": "2026-11-17T20:46:23Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1Bq",
+  "location": "Miami, FL",
+  "posted_at": null,
+  "score": 6,
+  "signal": 4,
+  "term": "Spring",
+  "title": "Robotics & Physical AI Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1Bq"
+ },
+ {
+  "backers": [
    "NEA"
   ],
   "company": "Cloudflare",
