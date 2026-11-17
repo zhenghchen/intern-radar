@@ -1,5 +1,20 @@
 [
  {
+  "backers": [],
+  "company": "Garmin",
+  "first_seen": "2026-11-17T21:18:07Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1Bs",
+  "location": "Chanhassen, MN",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineer Intern, Real Time Aviation Data",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/1Bs"
+ },
+ {
   "backers": [
    "Andreessen Horowitz",
    "Felicis"
