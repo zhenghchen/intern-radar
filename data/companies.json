@@ -1320,7 +1320,7 @@
   "affinity": {
    "hq": "New York City, NY, USA; Remote",
    "name": "Affinity",
-   "one_liner": "A compliance training platform built for regulated industries.",
+   "one_liner": "The AI-powered internal compliance platform for regulated companies",
    "team_size": 2,
    "yc": "Summer 2023"
   },
@@ -3203,9 +3203,9 @@
    "src": "common crawl"
   },
   "caribou": {
-   "hq": "Lisbon, Lisbon, Portugal",
+   "hq": "London, England, United Kingdom",
    "name": "Caribou",
-   "one_liner": "The autonomous tax firm",
+   "one_liner": "Transfer pricing software with the experts built in",
    "team_size": 10,
    "yc": "Winter 2019"
   },
@@ -6432,7 +6432,7 @@
    "hq": "London, England, United Kingdom",
    "name": "Healthtech 1",
    "one_liner": "Navigating patients to the right place, first time.",
-   "team_size": 40,
+   "team_size": 50,
    "yc": "Summer 2023"
   },
   "hebbia-ai": {
@@ -6798,7 +6798,7 @@
    "hq": "San Francisco, CA, USA",
    "name": "Hypercubic",
    "one_liner": "Agentic AI for Mainframe Operations and Modernization",
-   "team_size": 3,
+   "team_size": 7,
    "yc": "Fall 2025"
   },
   "hyperexponential": {
@@ -8566,7 +8566,7 @@
    "hq": "BY, Germany",
    "name": "Mercura",
    "one_liner": "AI quote & order processing for technical distributors & manufacturers",
-   "team_size": 20,
+   "team_size": 25,
    "yc": "Winter 2025"
   },
   "mercury": {
@@ -10976,7 +10976,7 @@
   "revyl": {
    "hq": "San Francisco, CA, USA",
    "name": "Revyl",
-   "one_liner": "The Mobile Development Platform",
+   "one_liner": "Verification infrastructure for cloud agents",
    "team_size": 16,
    "yc": "Fall 2024"
   },
@@ -11003,9 +11003,9 @@
   "river": {
    "hq": "San Francisco, CA, USA",
    "name": "River",
-   "one_liner": "The AI computer.",
+   "one_liner": "AI that works everywhere you do.",
    "src": "common crawl",
-   "team_size": 2,
+   "team_size": 1,
    "yc": "Fall 2026"
   },
   "riveron": {
@@ -12079,7 +12079,7 @@
    "hq": "San Francisco, CA, USA",
    "name": "The Token Company",
    "one_liner": "Compression middleware that improves LLM outputs",
-   "team_size": 2,
+   "team_size": 3,
    "yc": "Winter 2026"
   },
   "thebotcompany": {
@@ -12692,6 +12692,9 @@
    "one_liner": "AI-native Employee Management Platform for High-Growth Companies",
    "team_size": 80,
    "yc": "Winter 2023"
+  },
+  "warp-sciences": {
+   "name": "Warp Sciences"
   },
   "watney": {
    "name": "Watney"
@@ -37502,9 +37505,9 @@
    "name": "CARIAD"
   },
   "caribou": {
-   "hq": "Lisbon, Lisbon, Portugal",
+   "hq": "London, England, United Kingdom",
    "name": "Caribou",
-   "one_liner": "The autonomous tax firm",
+   "one_liner": "Transfer pricing software with the experts built in",
    "src": "common crawl",
    "team_size": 10,
    "yc": "Winter 2019"
@@ -46699,6 +46702,9 @@
    "team_size": 250,
    "yc": "Winter 2018"
   },
+  "bis": {
+   "name": "BIS Safety Software"
+  },
   "bisnow": {
    "name": "Bisnow"
   },
@@ -48738,6 +48744,9 @@
   "CityAndCountyOfSanFrancisco1": {
    "name": "City and County of San Francisco"
   },
+  "CityOfCampbellRiver": {
+   "name": "City of Campbell River"
+  },
   "CityOfMission": {
    "name": "City of Mission"
   },
@@ -49354,7 +49363,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-17T18:55:25Z",
+ "updated": "2026-11-18T18:25:05Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -54642,17 +54651,18 @@
   "arc": {
    "investors": [],
    "markets": [
-    "Boating",
-    "Electric Vehicles",
-    "Industrial",
-    "Manufacturing",
-    "Manufacturing & Industrial",
-    "Marine",
-    "Marine Transportation",
-    "Sports",
-    "Transportation",
-    "Transportation, Logistics, Supply Chain and Storage",
-    "Water Transportation"
+    "Application Software",
+    "Financial Management",
+    "Financial Services",
+    "Financial Software",
+    "Fintech",
+    "Funding Platform",
+    "Lending and Investments",
+    "Other Financial Services",
+    "Platform",
+    "SaaS",
+    "Software",
+    "Specialized Finance"
    ],
    "name": "Arc",
    "stage": "Growth",
@@ -55500,11 +55510,11 @@
     "Bessemer Ventures"
    ],
    "markets": [
-    "Leisure, Travel & Tourism"
+    "Fintech"
    ],
    "name": "Ascend",
-   "stage": "Seed funded",
-   "team_size": 73,
+   "stage": "Series A",
+   "team_size": 113,
    "vcs": [
     "Felicis",
     "First Round Capital",
@@ -58563,6 +58573,14 @@
     "Fifth Wall"
    ]
   },
+  "blidz": {
+   "investors": [],
+   "name": "Blidz",
+   "stage": "seed",
+   "vcs": [
+    "General Catalyst"
+   ]
+  },
   "blinkhealth": {
    "investors": [],
    "name": "Blink Health",
@@ -61375,7 +61393,7 @@
    ],
    "name": "CesiumAstro",
    "stage": "Growth",
-   "team_size": 452,
+   "team_size": 587,
    "vcs": [
     "Kleiner Perkins"
    ]
@@ -63810,12 +63828,11 @@
     "Bain Ventures"
    ],
    "markets": [
-    "AI",
-    "Insurance"
+    "AI"
    ],
    "name": "Corridor",
-   "stage": "Seed funded",
-   "team_size": 13,
+   "stage": "Series A",
+   "team_size": 35,
    "vcs": [
     "Felicis",
     "Bain Capital Ventures"
@@ -63829,13 +63846,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Enterprise Software",
-    "Marketing and Advertising",
-    "SaaS"
+    "Productivity"
    ],
    "name": "Cortex",
    "stage": "Growth",
-   "team_size": 17,
+   "team_size": 112,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -64980,7 +64995,7 @@
    ],
    "name": "Databricks",
    "stage": "Growth",
-   "team_size": 14167,
+   "team_size": 14165,
    "vcs": [
     "NEA",
     "Battery Ventures",
@@ -65249,11 +65264,12 @@
     "GV"
    ],
    "markets": [
-    "AI"
+    "Enterprise Software",
+    "SaaS"
    ],
    "name": "daydream",
-   "stage": "Seed funded",
-   "team_size": 59,
+   "stage": "Series A",
+   "team_size": 24,
    "vcs": [
     "First Round Capital",
     "GV"
@@ -66088,12 +66104,11 @@
     "Union Square Ventures"
    ],
    "markets": [
-    "E-Learning",
-    "Education Management"
+    "AI"
    ],
    "name": "Disco",
    "stage": "Series A",
-   "team_size": 5,
+   "team_size": 65,
    "vcs": [
     "Felicis",
     "Union Square Ventures"
@@ -69162,11 +69177,11 @@
     "StartX"
    ],
    "markets": [
-    "Hospital & Health Care"
+    "Biotech/Pharma"
    ],
    "name": "Fathom",
    "stage": "Growth",
-   "team_size": 73,
+   "team_size": 3,
    "vcs": [
     "Costanoa Ventures",
     "GV",
@@ -69909,7 +69924,7 @@
    ],
    "name": "Flex",
    "stage": "Growth",
-   "team_size": 897,
+   "team_size": 901,
    "vcs": [
     "Lightspeed"
    ]
@@ -72391,10 +72406,10 @@
     "GV"
    ],
    "markets": [
-    "Automotive",
-    "Mobility",
-    "Renewables & Environment",
-    "Transportation"
+    "Banking",
+    "Financial Services",
+    "Fintech",
+    "Payments"
    ],
    "name": "GRAVITY",
    "stage": "Seed funded",
@@ -75216,7 +75231,7 @@
    ],
    "name": "Insitro",
    "stage": "Growth",
-   "team_size": 254,
+   "team_size": 260,
    "vcs": [
     "GV"
    ]
@@ -75672,7 +75687,7 @@
    ],
    "name": "Ivo",
    "stage": "Growth",
-   "team_size": 189,
+   "team_size": 188,
    "vcs": [
     "Costanoa Ventures"
    ]
@@ -76517,10 +76532,11 @@
     "Video Games"
    ],
    "name": "k-ID",
-   "stage": "Series A",
+   "stage": "Venture",
    "team_size": 50,
    "vcs": [
-    "Lightspeed"
+    "Lightspeed",
+    "Andreessen Horowitz"
    ]
   },
   "kikmessenger": {
@@ -77803,7 +77819,7 @@
    ],
    "name": "Letta",
    "stage": "Seed funded",
-   "team_size": 18,
+   "team_size": 17,
    "vcs": [
     "Felicis"
    ]
@@ -78635,6 +78651,14 @@
     "CRV"
    ]
   },
+  "loophealth": {
+   "investors": [],
+   "name": "Loop Health",
+   "stage": "series_b",
+   "vcs": [
+    "General Catalyst"
+   ]
+  },
   "loops": {
    "investors": [],
    "name": "Loops",
@@ -78811,6 +78835,20 @@
    "team_size": 156,
    "vcs": [
     "Kleiner Perkins"
+   ]
+  },
+  "lumaril": {
+   "investors": [
+    "Felicis"
+   ],
+   "markets": [
+    "AI"
+   ],
+   "name": "Lumaril",
+   "stage": "Series A",
+   "team_size": 16,
+   "vcs": [
+    "Felicis"
    ]
   },
   "lumber": {
@@ -80477,7 +80515,7 @@
     "Wireless"
    ],
    "name": "Meter",
-   "stage": "series_c",
+   "stage": "Growth",
    "team_size": 283,
    "vcs": [
     "Sequoia Capital",
@@ -80790,11 +80828,12 @@
     "Kleiner Perkins"
    ],
    "markets": [
-    "Fintech"
+    "Computer & Network Security",
+    "Developer Tools"
    ],
    "name": "Mine",
-   "stage": "Seed funded",
-   "team_size": 69,
+   "stage": "Growth",
+   "team_size": 111,
    "vcs": [
     "Battery Ventures",
     "Kleiner Perkins"
@@ -94655,7 +94694,8 @@
    "name": "Socket",
    "stage": "Growth",
    "vcs": [
-    "Andreessen Horowitz"
+    "Andreessen Horowitz",
+    "Thrive Capital"
    ]
   },
   "socure": {
@@ -102219,7 +102259,7 @@
    ],
    "name": "Warp",
    "stage": "Growth",
-   "team_size": 102,
+   "team_size": 98,
    "vcs": [
     "Battery Ventures",
     "GV",
@@ -102386,6 +102426,14 @@
    "team_size": 41,
    "vcs": [
     "Union Square Ventures"
+   ]
+  },
+  "webroot": {
+   "investors": [],
+   "name": "Webroot",
+   "stage": "acquisition",
+   "vcs": [
+    "Accel"
    ]
   },
   "webshield": {
@@ -102995,12 +103043,12 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Delivery Services",
-    "Food & Beverages"
+    "Enterprise Software",
+    "Research"
    ],
    "name": "Wonder",
-   "stage": "Growth",
-   "team_size": 10266,
+   "stage": "Series A",
+   "team_size": 236,
    "vcs": [
     "NEA",
     "GV",
@@ -104007,7 +104055,7 @@
    ],
    "name": "Zelis",
    "stage": "Growth",
-   "team_size": 3060,
+   "team_size": 3106,
    "vcs": [
     "Bain Capital Ventures"
    ]
@@ -106371,6 +106419,9 @@
   "finra.wd1.myworkdayjobs.com|finra|FINRA": {
    "name": "Finra"
   },
+  "fireflyspace.wd115.myworkdayjobs.com|fireflyspace|firefly": {
+   "name": "Firefly Aerospace"
+  },
   "firstam.wd1.myworkdayjobs.com|firstam|firstamericancareers": {
    "name": "First American"
   },
@@ -106598,6 +106649,9 @@
   },
   "gilead.wd1.myworkdayjobs.com|gilead|kitepharmacareers": {
    "name": "Kite Pharma"
+  },
+  "giro.wd10.myworkdayjobs.com|giro|GIRO": {
+   "name": "GIRO"
   },
   "gladstone.wd503.myworkdayjobs.com|gladstone|careers": {
    "name": "Gladstone Institutes"
@@ -107087,6 +107141,9 @@
   },
   "investquebec.wd10.myworkdayjobs.com|investquebec|ext": {
    "name": "Investissement Québec"
+  },
+  "invitationhomes.wd503.myworkdayjobs.com|invitationhomes|INVH": {
+   "name": "Invitation Homes"
   },
   "iqvia.wd1.myworkdayjobs.com|iqvia|IQVIA": {
    "name": "IQVIA"
@@ -109821,6 +109878,9 @@
   "wd12.myworkdaysite.com|carislifesciences|CLS": {
    "name": "Caris"
   },
+  "wd12.myworkdaysite.com|parklandhospital|Parkland_Careers": {
+   "name": "Parkland Health"
+  },
   "wd3.myworkdaysite.com|brevanhoward|BH_ExternalCareers": {
    "name": "Brevan Howard"
   },
@@ -110436,7 +110496,7 @@
    "hit": null
   },
   "ailit": {
-   "at": "2026-11-04T17:13:34Z",
+   "at": "2026-11-18T18:01:27Z",
    "hit": null
   },
   "aios": {
@@ -114584,7 +114644,7 @@
    "hit": null
   },
   "e2e": {
-   "at": "2026-11-04T17:13:34Z",
+   "at": "2026-11-18T18:01:47Z",
    "hit": null
   },
   "earendil-robotics": {
@@ -114701,6 +114761,10 @@
   },
   "eigenpal": {
    "at": "2026-11-07T15:42:59Z",
+   "hit": null
+  },
+  "eightsend": {
+   "at": "2026-11-18T18:01:33Z",
    "hit": null
   },
   "ekho-labs": {
@@ -115020,7 +115084,7 @@
    "hit": null
   },
   "evardi": {
-   "at": "2026-11-04T17:13:36Z",
+   "at": "2026-11-18T18:01:16Z",
    "hit": null
   },
   "event-horizon-labs": {
@@ -115033,6 +115097,10 @@
   },
   "ever-loved": {
    "at": "2026-11-07T15:43:55Z",
+   "hit": null
+  },
+  "everest": {
+   "at": "2026-11-18T18:01:16Z",
    "hit": null
   },
   "evergrove": {
@@ -115449,6 +115517,10 @@
   },
   "flair-labs": {
    "at": "2026-11-07T15:43:59Z",
+   "hit": null
+  },
+  "flashdrive": {
+   "at": "2026-11-18T18:01:29Z",
    "hit": null
   },
   "flatx": {
@@ -117095,6 +117167,10 @@
    "at": "2026-11-07T15:42:43Z",
    "hit": null
   },
+  "incandor": {
+   "at": "2026-11-18T18:01:29Z",
+   "hit": null
+  },
   "inconvo": {
    "at": "2026-11-07T15:42:45Z",
    "hit": null
@@ -117737,6 +117813,10 @@
   },
   "keet": {
    "at": "2026-11-07T15:42:49Z",
+   "hit": null
+  },
+  "keiki": {
+   "at": "2026-11-18T18:01:17Z",
    "hit": null
   },
   "kelai": {
@@ -121722,6 +121802,10 @@
   "posthog": {
    "at": "2026-10-23T23:55:59Z",
    "hit": "ashby:posthog"
+  },
+  "postlet": {
+   "at": "2026-11-18T18:01:35Z",
+   "hit": null
   },
   "posturehealth-inc": {
    "at": "2026-11-07T15:43:58Z",
@@ -126448,7 +126532,7 @@
    "hit": null
   },
   "vespin": {
-   "at": "2026-11-04T17:13:34Z",
+   "at": "2026-11-18T18:01:18Z",
    "hit": null
   },
   "vespper": {
