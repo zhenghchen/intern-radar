@@ -2,6 +2,21 @@
  {
   "backers": [],
   "company": "Airbnb",
+  "first_seen": "2026-11-18T06:21:01Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1C6",
+  "location": "San Francisco, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineering Intern",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/1C6"
+ },
+ {
+  "backers": [],
+  "company": "Airbnb",
   "first_seen": "2026-11-18T05:04:17Z",
   "fit": 2,
   "id": "gh:8360478",
