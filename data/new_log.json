@@ -1,5 +1,39 @@
 [
  {
+  "backers": [],
+  "company": "Western Digital",
+  "first_seen": "2026-11-18T16:51:32Z",
+  "fit": 2,
+  "id": "sr:744000162353069",
+  "location": "Irvine, CA, US",
+  "posted_at": "2026-11-18T16:47:38Z",
+  "score": 4,
+  "signal": 2,
+  "term": "Spring 2027",
+  "title": "Spring 2027 Intern - Software Engineering",
+  "type": "bigtech",
+  "url": "https://jobs.smartrecruiters.com/WesternDigital/744000162353069"
+ },
+ {
+  "backers": [
+   "Andreessen Horowitz",
+   "Lightspeed",
+   "Contrary"
+  ],
+  "company": "Anduril Industries",
+  "first_seen": "2026-11-18T16:51:32Z",
+  "fit": 1,
+  "id": "gh:5300647007",
+  "location": "Costa Mesa, California, United States",
+  "posted_at": "2026-11-18T16:45:29Z",
+  "score": 5,
+  "signal": 4,
+  "term": "2027",
+  "title": "2027 Business Systems Engineer Intern",
+  "type": "bigtech",
+  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5300647007?gh_jid=5300647007"
+ },
+ {
   "backers": [
    "Accel",
    "Insight Partners"
