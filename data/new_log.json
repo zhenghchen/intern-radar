@@ -1,5 +1,50 @@
 [
  {
+  "backers": [],
+  "company": "Genentech",
+  "first_seen": "2026-11-19T21:36:32Z",
+  "fit": 2,
+  "id": "wd:roche:202611-129550",
+  "location": "New York City",
+  "posted_at": "2026-11-19T21:36:33Z",
+  "score": 4,
+  "signal": 2,
+  "term": "2027",
+  "title": "2027 Summer Intern - AI for Drug Discovery (AIDD)",
+  "type": "bigtech",
+  "url": "https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/New-York-City/XMLNAME-2027-Summer-Intern---AI-for-Drug-Discovery--AIDD-_202611-129550-1"
+ },
+ {
+  "backers": [],
+  "company": "Snowflake",
+  "first_seen": "2026-11-19T21:36:32Z",
+  "fit": 4,
+  "id": "ashby:snowflake:e194759e-3a20-47c9-868d-f47179613897",
+  "location": "US-CA-Menlo Park; US-WA-Bellevue",
+  "posted_at": "2026-11-19T21:36:05Z",
+  "score": 6,
+  "signal": 2,
+  "term": "Summer 2027",
+  "title": "Software Engineer Intern (Core, Infrastructure & Security) — Summer 2027",
+  "type": "bigtech",
+  "url": "https://jobs.ashbyhq.com/snowflake/e194759e-3a20-47c9-868d-f47179613897"
+ },
+ {
+  "backers": [],
+  "company": "Snowflake",
+  "first_seen": "2026-11-19T21:36:32Z",
+  "fit": 3,
+  "id": "ashby:snowflake:185d165c-09c7-4b57-9281-ff7c2c541907",
+  "location": "US-CA-Menlo Park; US-WA-Bellevue",
+  "posted_at": "2026-11-19T21:34:53Z",
+  "score": 5,
+  "signal": 2,
+  "term": "Summer 2027",
+  "title": "Software Engineer Intern (AI / ML) - Summer 2027",
+  "type": "bigtech",
+  "url": "https://jobs.ashbyhq.com/snowflake/185d165c-09c7-4b57-9281-ff7c2c541907"
+ },
+ {
   "backers": [
    "Andreessen Horowitz",
    "Lightspeed",
