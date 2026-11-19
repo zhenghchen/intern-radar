@@ -1,6 +1,21 @@
 [
  {
   "backers": [],
+  "company": "Garmin",
+  "first_seen": "2026-11-19T14:47:55Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1CN",
+  "location": "Manhattan, KS",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Summer",
+  "title": "Software Engineering Intern",
+  "type": "bigtech",
+  "url": "https://go.vansh.nyc/1CN"
+ },
+ {
+  "backers": [],
   "company": "MongoDB",
   "first_seen": "2026-11-19T14:07:14Z",
   "fit": 2,
