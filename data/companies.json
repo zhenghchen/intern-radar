@@ -97,6 +97,9 @@
   "Abound": {
    "name": "Abound"
   },
+  "Abridge": {
+   "name": "Abridge"
+  },
   "Acorns": {
    "name": "Acorns"
   },
@@ -7496,7 +7499,7 @@
    "src": "common crawl"
   },
   "klarify": {
-   "hq": "Toronto, ON, Canada",
+   "hq": "San Francisco, CA, USA",
    "name": "Klarify",
    "one_liner": "AI Agent for Therapists",
    "src": "common crawl",
@@ -8301,6 +8304,9 @@
   },
   "makai-labs": {
    "name": "Makai Labs"
+  },
+  "makermaker.ai": {
+   "name": "MakerMaker"
   },
   "maki": {
    "name": "Maki",
@@ -11888,7 +11894,7 @@
   "syntheticfi": {
    "hq": "San Francisco, CA, USA",
    "name": "SyntheticFi",
-   "one_liner": "The cheapest way to borrow money",
+   "one_liner": "Financing platform for anyone with a brokerage account",
    "team_size": 25,
    "yc": "Summer 2023"
   },
@@ -40883,6 +40889,9 @@
    "name": "Isaraerospace",
    "src": "common crawl"
   },
+  "island": {
+   "name": "Island"
+  },
   "isomorphiclabs": {
    "name": "Isomorphiclabs",
    "src": "common crawl"
@@ -47791,7 +47800,7 @@
   "pillar": {
    "hq": "New York City, NY, USA; Remote",
    "name": "Pillar",
-   "one_liner": "A white-label care enablement platform",
+   "one_liner": "Integrating health coaching into everyday care",
    "team_size": 5,
    "yc": "Summer 2021"
   },
@@ -49326,6 +49335,9 @@
   "WestgateResorts": {
    "name": "Westgate Resorts"
   },
+  "WilliamJessupUniversityBayAreaCampus": {
+   "name": "Jessup University"
+  },
   "WilliamsRacing": {
    "name": "Williams Racing"
   },
@@ -49363,7 +49375,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-18T18:25:05Z",
+ "updated": "2026-11-19T18:40:29Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -52346,9 +52358,11 @@
   "alchemabtherapeutics": {
    "investors": [],
    "markets": [
+    "Artificial Intelligence (AI)",
     "Biotech",
     "Biotechnology",
     "Biotechnology Research",
+    "Data & Analytics",
     "Drug Development",
     "Drug Discovery",
     "Health Care",
@@ -52359,7 +52373,8 @@
     "Pharma",
     "Pharmaceutical",
     "Platform",
-    "Science and Engineering"
+    "Science and Engineering",
+    "Software"
    ],
    "name": "Alchemab Therapeutics",
    "stage": "Series A",
@@ -53742,7 +53757,7 @@
    ],
    "name": "Anduril Industries",
    "stage": "Growth",
-   "team_size": 10152,
+   "team_size": 10148,
    "vcs": [
     "Lightspeed"
    ]
@@ -56191,7 +56206,8 @@
     "Abstract Ventures",
     "Andreessen Horowitz",
     "Bain Capital",
-    "Bain Ventures"
+    "Bain Ventures",
+    "MVP Ventures"
    ],
    "markets": [
     "Automation & Robotics",
@@ -57334,7 +57350,7 @@
    ],
    "name": "Baseten",
    "stage": "Growth",
-   "team_size": 440,
+   "team_size": 487,
    "vcs": [
     "Battery Ventures"
    ]
@@ -59720,6 +59736,13 @@
    "team_size": 107,
    "vcs": [
     "Bessemer Venture Partners"
+   ]
+  },
+  "brndmein": {
+   "investors": [],
+   "name": "brndme.in",
+   "vcs": [
+    "Accel"
    ]
   },
   "brocadecommunicationssystems": {
@@ -63846,11 +63869,13 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Productivity"
+    "Enterprise Software",
+    "Marketing and Advertising",
+    "SaaS"
    ],
    "name": "Cortex",
    "stage": "Growth",
-   "team_size": 112,
+   "team_size": 17,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -63950,7 +63975,7 @@
     "Hospital & Health Care"
    ],
    "name": "Counsel Health",
-   "stage": "Growth",
+   "stage": "Series A",
    "team_size": 74,
    "vcs": [
     "GV",
@@ -64032,6 +64057,18 @@
    "team_size": 30,
    "vcs": [
     "Felicis"
+   ]
+  },
+  "covenant": {
+   "investors": [
+    "Andreessen Horowitz",
+    "Lightspeed"
+   ],
+   "name": "Covenant",
+   "stage": "Series A",
+   "team_size": 1,
+   "vcs": [
+    "Lightspeed"
    ]
   },
   "cowboyspace": {
@@ -65264,12 +65301,11 @@
     "GV"
    ],
    "markets": [
-    "Enterprise Software",
-    "SaaS"
+    "AI"
    ],
    "name": "daydream",
-   "stage": "Series A",
-   "team_size": 24,
+   "stage": "Seed funded",
+   "team_size": 59,
    "vcs": [
     "First Round Capital",
     "GV"
@@ -66104,11 +66140,12 @@
     "Union Square Ventures"
    ],
    "markets": [
-    "AI"
+    "E-Learning",
+    "Education Management"
    ],
    "name": "Disco",
    "stage": "Series A",
-   "team_size": 65,
+   "team_size": 5,
    "vcs": [
     "Felicis",
     "Union Square Ventures"
@@ -69177,11 +69214,11 @@
     "StartX"
    ],
    "markets": [
-    "Biotech/Pharma"
+    "Hospital & Health Care"
    ],
    "name": "Fathom",
    "stage": "Growth",
-   "team_size": 3,
+   "team_size": 73,
    "vcs": [
     "Costanoa Ventures",
     "GV",
@@ -70212,7 +70249,7 @@
    ],
    "name": "FlutterFlow",
    "stage": "Series A",
-   "team_size": 179,
+   "team_size": 151,
    "vcs": [
     "GV"
    ]
@@ -70628,11 +70665,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Fintech"
+    "Health, Wellness and Fitness"
    ],
    "name": "Found",
    "stage": "Growth",
-   "team_size": 119,
+   "team_size": 148,
    "vcs": [
     "GV",
     "Lightspeed",
@@ -70722,7 +70759,9 @@
     "Bain Capital",
     "Bain Ventures",
     "Gigascale",
-    "Felicis"
+    "Felicis",
+    "Balderton Capital",
+    "Lightspeed"
    ],
    "markets": [
     "AI"
@@ -70732,7 +70771,8 @@
    "team_size": 126,
    "vcs": [
     "Bain Capital Ventures",
-    "Felicis"
+    "Felicis",
+    "Lightspeed"
    ]
   },
   "fractional": {
@@ -72406,10 +72446,10 @@
     "GV"
    ],
    "markets": [
-    "Banking",
-    "Financial Services",
-    "Fintech",
-    "Payments"
+    "Automotive",
+    "Mobility",
+    "Renewables & Environment",
+    "Transportation"
    ],
    "name": "GRAVITY",
    "stage": "Seed funded",
@@ -73353,7 +73393,8 @@
   },
   "heavisideindustries": {
    "investors": [
-    "Felicis"
+    "Felicis",
+    "MVP Ventures"
    ],
    "markets": [
     "Defense & Space",
@@ -77537,13 +77578,13 @@
     "Union Square Ventures"
    ],
    "markets": [
-    "Enterprise Software",
-    "Retail",
-    "SaaS"
+    "Climate",
+    "Energy Transition",
+    "Renewables & Environment"
    ],
    "name": "Leap",
    "stage": "Growth",
-   "team_size": 408,
+   "team_size": 111,
    "vcs": [
     "Costanoa Ventures",
     "Union Square Ventures"
@@ -78878,7 +78919,8 @@
     "Bain Capital",
     "Bain Ventures",
     "Edbi",
-    "MVP Ventures"
+    "MVP Ventures",
+    "Thomvest"
    ],
    "markets": [
     "AI",
@@ -81667,6 +81709,14 @@
    "team_size": 212,
    "vcs": [
     "Bain Capital Ventures"
+   ]
+  },
+  "mopub": {
+   "investors": [],
+   "name": "Mopub",
+   "stage": "acquisition",
+   "vcs": [
+    "Accel"
    ]
   },
   "morehealth": {
@@ -85303,6 +85353,7 @@
     "SaaS"
    ],
    "name": "ORTEC",
+   "stage": "Growth",
    "team_size": 1104,
    "vcs": [
     "Battery Ventures"
@@ -85831,6 +85882,14 @@
    "team_size": 36,
    "vcs": [
     "NEA"
+   ]
+  },
+  "pace": {
+   "investors": [],
+   "name": "Pace",
+   "stage": "series_b",
+   "vcs": [
+    "Thrive Capital"
    ]
   },
   "pacificfusion": {
@@ -90600,7 +90659,7 @@
     "Real Estate"
    ],
    "name": "RentoMojo",
-   "stage": "ipo",
+   "stage": "Growth",
    "team_size": 732,
    "vcs": [
     "Bain Capital Ventures",
@@ -95658,7 +95717,7 @@
    ],
    "name": "Squint",
    "stage": "Growth",
-   "team_size": 95,
+   "team_size": 79,
    "vcs": [
     "Sequoia Capital"
    ]
@@ -98884,11 +98943,13 @@
     "Lightspeed"
    ],
    "markets": [
-    "Entertainment",
-    "Video Games"
+    "Enterprise Software",
+    "Fintech",
+    "Payments",
+    "SaaS"
    ],
    "name": "Toast",
-   "team_size": 18,
+   "team_size": 7864,
    "vcs": [
     "GV",
     "Lightspeed"
@@ -100529,6 +100590,18 @@
     "Bessemer Venture Partners"
    ]
   },
+  "unsiloedai": {
+   "investors": [
+    "Felicis"
+   ],
+   "markets": [
+    "Data & Analytics"
+   ],
+   "name": "Unsiloed AI",
+   "vcs": [
+    "Felicis"
+   ]
+  },
   "unslothai": {
    "investors": [
     "Lightspeed"
@@ -101437,7 +101510,7 @@
    ],
    "name": "Vesta",
    "stage": "Growth",
-   "team_size": 114,
+   "team_size": 120,
    "vcs": [
     "Bain Capital Ventures"
    ]
@@ -103043,12 +103116,12 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Enterprise Software",
-    "Research"
+    "Delivery Services",
+    "Food & Beverages"
    ],
    "name": "Wonder",
-   "stage": "Series A",
-   "team_size": 236,
+   "stage": "Growth",
+   "team_size": 10266,
    "vcs": [
     "NEA",
     "GV",
@@ -106247,6 +106320,9 @@
   },
   "envista.wd1.myworkdayjobs.com|envista|envistacareers": {
    "name": "Envista"
+  },
+  "eonnext.wd3.myworkdayjobs.com|eonnext|EON_Next_Careers": {
+   "name": "E.ON Next"
   },
   "eosenergystorage.wd1.myworkdayjobs.com|eosenergystorage|eos": {
    "name": "Eos Energy Storage"
@@ -109899,6 +109975,9 @@
   "wd3.myworkdaysite.com|mdlz|External": {
    "name": "Mondelez International"
   },
+  "wd3.myworkdaysite.com|southernwater|SouthernWater": {
+   "name": "Southern Water"
+  },
   "wd5.myworkdaysite.com|angc|ANGC": {
    "name": "Augusta National Golf Club"
   },
@@ -110512,7 +110591,7 @@
    "hit": null
   },
   "aircaps-ai": {
-   "at": "2026-11-05T17:23:04Z",
+   "at": "2026-11-19T18:14:56Z",
    "hit": null
   },
   "airfordable": {
@@ -110964,7 +111043,7 @@
    "hit": null
   },
   "anywhere": {
-   "at": "2026-11-05T17:23:02Z",
+   "at": "2026-11-19T18:14:55Z",
    "hit": null
   },
   "aoa-dx-inc": {
@@ -111647,6 +111726,10 @@
    "at": "2026-11-07T15:42:50Z",
    "hit": null
   },
+  "avout": {
+   "at": "2026-11-19T18:14:55Z",
+   "hit": null
+  },
   "avro-life-science": {
    "at": "2026-11-07T15:43:54Z",
    "hit": null
@@ -111688,7 +111771,7 @@
    "hit": null
   },
   "axiomat": {
-   "at": "2026-11-05T17:23:02Z",
+   "at": "2026-11-19T18:14:57Z",
    "hit": null
   },
   "axionorbital-space": {
@@ -115127,6 +115210,10 @@
    "at": "2026-11-07T15:43:58Z",
    "hit": null
   },
+  "evie": {
+   "at": "2026-11-19T18:14:55Z",
+   "hit": null
+  },
   "evolve-makers-of-podcast-app-and-rest": {
    "at": "2026-11-07T15:44:10Z",
    "hit": null
@@ -116838,6 +116925,10 @@
   "hiro": {
    "at": "2026-10-23T23:56:13Z",
    "hit": "greenhouse:hiro"
+  },
+  "hiro-industries": {
+   "at": "2026-11-19T18:14:55Z",
+   "hit": null
   },
   "histowiz": {
    "at": "2026-11-07T15:42:19Z",
@@ -120572,7 +120663,7 @@
    "hit": null
   },
   "openlake-technologies": {
-   "at": "2026-11-05T17:23:02Z",
+   "at": "2026-11-19T18:14:55Z",
    "hit": null
   },
   "openlayer": {
@@ -120736,7 +120827,7 @@
    "hit": null
   },
   "organizely": {
-   "at": "2026-11-05T17:23:05Z",
+   "at": "2026-11-19T18:14:55Z",
    "hit": null
   },
   "orgo": {
@@ -125840,7 +125931,7 @@
    "hit": null
   },
   "trepo": {
-   "at": "2026-11-05T17:23:02Z",
+   "at": "2026-11-19T18:14:55Z",
    "hit": null
   },
   "trestle-biotherapeutics": {
