@@ -1,6 +1,21 @@
 [
  {
   "backers": [],
+  "company": "Garmin",
+  "first_seen": "2026-11-20T23:34:35Z",
+  "fit": 2,
+  "id": "url:careers.garmin.com/jobs/22650",
+  "location": "Yarmouth, ME",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "",
+  "title": "Software Engineer Intern - Web/Mobile",
+  "type": "bigtech",
+  "url": "https://careers.garmin.com/jobs/22650?icims=1&lang=en-us"
+ },
+ {
+  "backers": [],
   "company": "Amazon",
   "first_seen": "2026-11-20T23:14:01Z",
   "fit": -2,
