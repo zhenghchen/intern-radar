@@ -1,5 +1,23 @@
 [
  {
+  "backers": [
+   "Bessemer Ventures",
+   "Bessemer Venture Partners"
+  ],
+  "company": "Smule",
+  "first_seen": "2026-11-20T11:22:55Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1En",
+  "location": "Salt Lake City, UT",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "Summer",
+  "title": "Machine Learning Engineer Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1En"
+ },
+ {
   "backers": [],
   "company": "NVIDIA",
   "first_seen": "2026-11-20T09:22:33Z",
