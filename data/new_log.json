@@ -1,5 +1,39 @@
 [
  {
+  "backers": [
+   "Lightspeed"
+  ],
+  "company": "Texas Instruments",
+  "first_seen": "2026-11-20T07:19:02Z",
+  "fit": 4,
+  "id": "url:edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016336",
+  "location": "Dallas, TX, United States; 12500 T I Blvd, Dallas, TX, US",
+  "posted_at": null,
+  "score": 7,
+  "signal": 3,
+  "term": "",
+  "title": "Systems Engineering Intern (Robotics and AI) at Kilby Labs",
+  "type": "other",
+  "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016336/"
+ },
+ {
+  "backers": [
+   "Lightspeed"
+  ],
+  "company": "Texas Instruments",
+  "first_seen": "2026-11-20T07:19:02Z",
+  "fit": 2,
+  "id": "url:edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016339",
+  "location": "Dallas, TX, United States; 12500 T I Blvd, Dallas, TX, US",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "",
+  "title": "Synthetic Data for Edge AI System Engineer Intern",
+  "type": "other",
+  "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016339/"
+ },
+ {
   "backers": [],
   "company": "Cisco",
   "first_seen": "2026-11-20T00:20:21Z",
