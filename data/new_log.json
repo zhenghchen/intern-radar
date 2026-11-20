@@ -1,6 +1,21 @@
 [
  {
   "backers": [],
+  "company": "Amazon",
+  "first_seen": "2026-11-20T23:14:01Z",
+  "fit": -2,
+  "id": "amazon:10610836",
+  "location": "Seattle, Washington, USA",
+  "posted_at": "2026-11-20T00:00:00Z",
+  "score": 0,
+  "signal": 2,
+  "term": "",
+  "title": "Design Technologist Intern FY2027 (Summer)",
+  "type": "bigtech",
+  "url": "https://www.amazon.jobs/en/jobs/10610836/design-technologist-intern-fy2027-summer"
+ },
+ {
+  "backers": [],
   "company": "Cisco",
   "first_seen": "2026-11-20T23:08:45Z",
   "fit": 3,
