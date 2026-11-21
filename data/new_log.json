@@ -1,6 +1,21 @@
 [
  {
   "backers": [],
+  "company": "Tesla",
+  "first_seen": "2026-11-21T00:04:50Z",
+  "fit": 2,
+  "id": "url:tesla.com/careers/search/job/290756",
+  "location": "Palo Alto, CA",
+  "posted_at": null,
+  "score": 4,
+  "signal": 2,
+  "term": "Spring 2027",
+  "title": "Software Engineer Intern - SI Hardware Architecture Simulation",
+  "type": "bigtech",
+  "url": "https://www.tesla.com/careers/search/job/290756"
+ },
+ {
+  "backers": [],
   "company": "Garmin",
   "first_seen": "2026-11-20T23:55:26Z",
   "fit": 2,
