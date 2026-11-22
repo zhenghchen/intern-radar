@@ -3459,6 +3459,13 @@
    "name": "Choco",
    "src": "common crawl"
   },
+  "chronicle-labs": {
+   "hq": "San Francisco, CA, USA",
+   "name": "Chronicle Labs",
+   "one_liner": "Staging Environments for Enterprise AI Agents",
+   "team_size": 2,
+   "yc": "Spring 2026"
+  },
   "cinder": {
    "hq": "New York City, NY, USA",
    "name": "Cinder",
@@ -10024,6 +10031,9 @@
   "parker": {
    "name": "Parker"
   },
+  "parloa": {
+   "name": "Parloa"
+  },
   "parspec": {
    "name": "Parspec"
   },
@@ -10478,6 +10488,13 @@
   "pramaana-labs": {
    "name": "Pramaana Labs",
    "src": "common crawl"
+  },
+  "praxisrobotics": {
+   "hq": "San Francisco, CA, USA",
+   "name": "Praxis Robotics",
+   "one_liner": "Turns real businesses into robotics data vendors",
+   "team_size": 3,
+   "yc": "Summer 2026"
   },
   "predikt": {
    "name": "Predikt",
@@ -49416,7 +49433,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-21T17:32:10Z",
+ "updated": "2026-11-22T17:56:57Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -54711,17 +54728,18 @@
   "arc": {
    "investors": [],
    "markets": [
-    "Boating",
-    "Electric Vehicles",
-    "Industrial",
-    "Manufacturing",
-    "Manufacturing & Industrial",
-    "Marine",
-    "Marine Transportation",
-    "Sports",
-    "Transportation",
-    "Transportation, Logistics, Supply Chain and Storage",
-    "Water Transportation"
+    "Application Software",
+    "Financial Management",
+    "Financial Services",
+    "Financial Software",
+    "Fintech",
+    "Funding Platform",
+    "Lending and Investments",
+    "Other Financial Services",
+    "Platform",
+    "SaaS",
+    "Software",
+    "Specialized Finance"
    ],
    "name": "Arc",
    "stage": "Growth",
@@ -63903,11 +63921,12 @@
     "Bain Ventures"
    ],
    "markets": [
-    "AI"
+    "AI",
+    "Insurance"
    ],
    "name": "Corridor",
-   "stage": "Series A",
-   "team_size": 35,
+   "stage": "Seed funded",
+   "team_size": 13,
    "vcs": [
     "Felicis",
     "Bain Capital Ventures"
@@ -69271,11 +69290,11 @@
     "StartX"
    ],
    "markets": [
-    "Hospital & Health Care"
+    "Biotech/Pharma"
    ],
    "name": "Fathom",
    "stage": "Growth",
-   "team_size": 73,
+   "team_size": 3,
    "vcs": [
     "Costanoa Ventures",
     "GV",
@@ -70722,11 +70741,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Health, Wellness and Fitness"
+    "Fintech"
    ],
    "name": "Found",
    "stage": "Growth",
-   "team_size": 148,
+   "team_size": 119,
    "vcs": [
     "GV",
     "Lightspeed",
@@ -72503,10 +72522,10 @@
     "GV"
    ],
    "markets": [
-    "Automotive",
-    "Mobility",
-    "Renewables & Environment",
-    "Transportation"
+    "Banking",
+    "Financial Services",
+    "Fintech",
+    "Payments"
    ],
    "name": "GRAVITY",
    "stage": "Seed funded",
@@ -77635,13 +77654,13 @@
     "Union Square Ventures"
    ],
    "markets": [
-    "Climate",
-    "Energy Transition",
-    "Renewables & Environment"
+    "Enterprise Software",
+    "Retail",
+    "SaaS"
    ],
    "name": "Leap",
    "stage": "Growth",
-   "team_size": 111,
+   "team_size": 408,
    "vcs": [
     "Costanoa Ventures",
     "Union Square Ventures"
@@ -78183,12 +78202,11 @@
     "Contrary"
    ],
    "markets": [
-    "Financial Services",
-    "Fintech"
+    "Telecommunications"
    ],
    "name": "Lightyear",
-   "stage": "Series A",
-   "team_size": 95,
+   "stage": "Growth",
+   "team_size": 75,
    "vcs": [
     "Lightspeed",
     "Contrary"
@@ -81895,7 +81913,7 @@
     "SaaS"
    ],
    "name": "Moveworks",
-   "team_size": 635,
+   "team_size": 623,
    "vcs": [
     "Bain Capital Ventures",
     "Lightspeed",
@@ -93282,12 +93300,11 @@
     "GV"
    ],
    "markets": [
-    "Consumer Services",
-    "Health, Wellness and Fitness"
+    "Consumer"
    ],
    "name": "Sesame",
    "stage": "Growth",
-   "team_size": 160,
+   "team_size": 120,
    "vcs": [
     "Sequoia Capital",
     "GV"
@@ -104892,6 +104909,9 @@
   "alkegen.wd5.myworkdayjobs.com|alkegen|alkegen": {
    "name": "Alkegen"
   },
+  "allegion.wd5.myworkdayjobs.com|allegion|EarlyTalent_Careers": {
+   "name": "Allegion"
+  },
   "allegion.wd5.myworkdayjobs.com|allegion|careers": {
    "name": "Allegion"
   },
@@ -106613,6 +106633,9 @@
   },
   "fiserv.wd5.myworkdayjobs.com|fiserv|ext": {
    "name": "Fiserv"
+  },
+  "fiskars.wd3.myworkdayjobs.com|fiskars|FiskarsGroup": {
+   "name": "Fiskars Group"
   },
   "flexerasoftware.wd1.myworkdayjobs.com|flexerasoftware|FlexeraSoftware": {
    "name": "Flexera"
@@ -109230,6 +109253,9 @@
   "spe.wd1.myworkdayjobs.com|spe|SonyPicturesEntertainment": {
    "name": "Sony Pictures Entertainment"
   },
+  "specialized.wd5.myworkdayjobs.com|specialized|Specialized_External_Career_Site": {
+   "name": "Specialized"
+  },
   "spectris.wd3.myworkdayjobs.com|spectris|HBK_Careers": {
    "name": "Hottinger Brüel & Kjaer (HBK)"
   },
@@ -110181,6 +110207,9 @@
   "wmeimg.wd1.myworkdayjobs.com|wmeimg|WME": {
    "name": "William Morris Endeavor Entertainment (WME)"
   },
+  "wmg.wd1.myworkdayjobs.com|wmg|WMGUS": {
+   "name": "Warner Music"
+  },
   "wonder.wd1.myworkdayjobs.com|wonder|WG": {
    "name": "Wonder"
   },
@@ -110322,7 +110351,7 @@
    "hit": null
   },
   "6thsense": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "7cups": {
@@ -110334,7 +110363,7 @@
    "hit": "ashby:80000hours"
   },
   "83-sciences": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "99minutos": {
@@ -110378,7 +110407,7 @@
    "hit": null
   },
   "abinitio-bio": {
-   "at": "2026-11-08T15:58:12Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "abstra": {
@@ -110442,7 +110471,7 @@
    "hit": null
   },
   "acyclic": {
-   "at": "2026-11-08T15:58:18Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "ad-army": {
@@ -110478,7 +110507,7 @@
    "hit": null
   },
   "adialante": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:57Z",
    "hit": null
   },
   "adni": {
@@ -110494,7 +110523,7 @@
    "hit": null
   },
   "adsideai": {
-   "at": "2026-11-08T15:58:28Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "advanced-metal-research": {
@@ -110530,11 +110559,11 @@
    "hit": null
   },
   "aernata": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:02Z",
    "hit": null
   },
   "aerogen-systems": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "aerones": {
@@ -110582,7 +110611,7 @@
    "hit": "ashby:agave"
   },
   "agency-tool-company": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "agendapro": {
@@ -110590,15 +110619,15 @@
    "hit": null
   },
   "agent-37": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "agent-relay": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "agentcard": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "agentcollect": {
@@ -110622,11 +110651,11 @@
    "hit": null
   },
   "agentphone": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
   "ageospatial": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "agi-deploy-co": {
@@ -110646,7 +110675,7 @@
    "hit": null
   },
   "agnost-ai": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "ahazou": {
@@ -110658,7 +110687,7 @@
    "hit": null
   },
   "ai-coach": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "ai-insurance": {
@@ -110670,7 +110699,7 @@
    "hit": null
   },
   "aice": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
   "aidy": {
@@ -110754,15 +110783,15 @@
    "hit": null
   },
   "akkari": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:03Z",
    "hit": null
   },
   "akon-labs": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "aktoria-robotics": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "akute-health": {
@@ -110794,7 +110823,7 @@
    "hit": null
   },
   "alchemize": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:07:57Z",
    "hit": null
   },
   "alchemy": {
@@ -110878,19 +110907,19 @@
    "hit": null
   },
   "alkera-ai": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "allia-health": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "alloovium": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:11Z",
    "hit": null
   },
   "allowance": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:57Z",
    "hit": null
   },
   "alloy": {
@@ -110906,7 +110935,7 @@
    "hit": null
   },
   "almanac": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "almond-2": {
@@ -110942,7 +110971,7 @@
    "hit": null
   },
   "altair-health": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "altay-therapeutics": {
@@ -110982,7 +111011,7 @@
    "hit": "ashby:ambition"
   },
   "amboras": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:07:59Z",
    "hit": null
   },
   "amby-health": {
@@ -111006,7 +111035,7 @@
    "hit": null
   },
   "amorphic-labs": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "ample-computer": {
@@ -111046,11 +111075,11 @@
    "hit": null
   },
   "anchorhead": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "andco": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "andi": {
@@ -111106,7 +111135,7 @@
    "hit": null
   },
   "anoria": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:59Z",
    "hit": null
   },
   "ansa-biotechnologies": {
@@ -111122,11 +111151,11 @@
    "hit": null
   },
   "antimattr": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "antinuous": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "anto-biosciences": {
@@ -111134,11 +111163,11 @@
    "hit": null
   },
   "antropi-robotics": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "anyalpha": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "anylist": {
@@ -111178,7 +111207,7 @@
    "hit": "greenhouse:apollo"
   },
   "apollo-atomics-inc": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "apollo-io": {
@@ -111198,11 +111227,11 @@
    "hit": null
   },
   "applied-electrodynamics-inc": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "applied-kinetics": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "apply-design": {
@@ -111238,7 +111267,7 @@
    "hit": "ashby:aqua-voice"
   },
   "aquashield": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:08:00Z",
    "hit": null
   },
   "aqueduct": {
@@ -111254,7 +111283,7 @@
    "hit": null
   },
   "arbital": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "arc-prize-foundation": {
@@ -111266,7 +111295,7 @@
    "hit": null
   },
   "archangel-health": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "archbee": {
@@ -111298,15 +111327,15 @@
    "hit": null
   },
   "arctic-health": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "arden": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:02Z",
    "hit": null
   },
   "ardent": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:59Z",
    "hit": null
   },
   "aren": {
@@ -111318,7 +111347,7 @@
    "hit": null
   },
   "arga-labs": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "argil": {
@@ -111362,11 +111391,11 @@
    "hit": "ashby:arketa"
   },
   "arlo-industries": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "armature": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "armilla-ai": {
@@ -111374,7 +111403,7 @@
    "hit": null
   },
   "armorer-labs": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "arnata": {
@@ -111438,11 +111467,11 @@
    "hit": null
   },
   "arzana": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
   "asakana": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "asayer": {
@@ -111450,15 +111479,15 @@
    "hit": null
   },
   "ascenix": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "asendia-ai": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "aseon-labs": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "asha-health": {
@@ -111482,7 +111511,7 @@
    "hit": null
   },
   "asim-group": {
-   "at": "2026-11-08T15:58:16Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "askmyclass-now-soundkins": {
@@ -111538,7 +111567,7 @@
    "hit": null
   },
   "asterlab": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "asterline": {
@@ -111554,7 +111583,7 @@
    "hit": null
   },
   "astraea": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:02Z",
    "hit": null
   },
   "astrix-health": {
@@ -111590,7 +111619,7 @@
    "hit": "ashby:atlas"
   },
   "atlas-discovery": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "atlasgrid": {
@@ -111598,7 +111627,7 @@
    "hit": null
   },
   "atlia": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "atlog": {
@@ -111622,7 +111651,7 @@
    "hit": "ashby:atob"
   },
   "atomarine": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "atomic": {
@@ -111642,7 +111671,7 @@
    "hit": "ashby:atrato"
   },
   "atrisa": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "attack-capital": {
@@ -111670,15 +111699,15 @@
    "hit": "ashby:atumworks"
   },
   "aucert": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "audora": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "audun": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:10Z",
    "hit": null
   },
   "augment-inc": {
@@ -111698,7 +111727,7 @@
    "hit": null
   },
   "aurorin-cad": {
-   "at": "2026-11-08T15:58:10Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "autarc": {
@@ -111738,7 +111767,7 @@
    "hit": null
   },
   "autoresearch-inc": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "autosana": {
@@ -111762,7 +111791,7 @@
    "hit": null
   },
   "auxos": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "avallon-ai": {
@@ -111790,7 +111819,7 @@
    "hit": null
   },
   "aviern": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "avina": {
@@ -111814,7 +111843,7 @@
    "hit": null
   },
   "avoca-systems": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "avocademy": {
@@ -111862,7 +111891,7 @@
    "hit": null
   },
   "axelrod": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "axial": {
@@ -112006,7 +112035,7 @@
    "hit": null
   },
   "baymachines": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "bayworks": {
@@ -112050,7 +112079,7 @@
    "hit": null
   },
   "beesafe-ai": {
-   "at": "2026-11-08T15:58:10Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "beglaubigtde": {
@@ -112070,7 +112099,7 @@
    "hit": null
   },
   "belvedir": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:07Z",
    "hit": null
   },
   "belvo": {
@@ -112166,7 +112195,7 @@
    "hit": null
   },
   "billow-ai-labs": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "bimaplan": {
@@ -112210,7 +112239,7 @@
    "hit": null
   },
   "biostack-platforms": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "birch-biosciences": {
@@ -112262,7 +112291,7 @@
    "hit": "ashby:bitstack"
   },
   "bizmark": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:08Z",
    "hit": null
   },
   "blacksmith": {
@@ -112326,7 +112355,7 @@
    "hit": null
   },
   "bloomy": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "blue": {
@@ -112390,7 +112419,7 @@
    "hit": null
   },
   "boat": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "bobidi": {
@@ -112422,7 +112451,7 @@
    "hit": null
   },
   "booko": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "boom": {
@@ -112474,7 +112503,7 @@
    "hit": null
   },
   "boxesdev": {
-   "at": "2026-11-08T15:58:17Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "boya": {
@@ -112678,7 +112707,7 @@
    "hit": null
   },
   "byteask": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "byteport": {
@@ -112730,7 +112759,7 @@
    "hit": null
   },
   "callab-ai": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "callback": {
@@ -112738,7 +112767,7 @@
    "hit": null
   },
   "callbook-ai": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "calltree": {
@@ -112774,7 +112803,7 @@
    "hit": "ashby:campfire"
   },
   "canary": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "canary-technologies": {
@@ -112810,7 +112839,7 @@
    "hit": null
   },
   "canos": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "canvas": {
@@ -112842,7 +112871,7 @@
    "hit": "ashby:captivateiq"
   },
   "capto": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "capuchin": {
@@ -112850,7 +112879,7 @@
    "hit": null
   },
   "capveon": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "carbic": {
@@ -112882,7 +112911,7 @@
    "hit": null
   },
   "care-gp": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "care-weather": {
@@ -112938,11 +112967,11 @@
    "hit": "greenhouse:carrotfertility"
   },
   "carrot-labs": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "carsignal": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "cartage": {
@@ -113006,11 +113035,11 @@
    "hit": null
   },
   "caution": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "caveman": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "cb-therapeutics": {
@@ -113102,7 +113131,7 @@
    "hit": null
   },
   "cesara": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "chaldal": {
@@ -113130,7 +113159,7 @@
    "hit": null
   },
   "characterquilt": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:02Z",
    "hit": null
   },
   "charge-robotics": {
@@ -113150,7 +113179,7 @@
    "hit": null
   },
   "chasi": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "chatfuel": {
@@ -113178,11 +113207,11 @@
    "hit": null
   },
   "chempilotai": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "chert": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "chestnut": {
@@ -113218,8 +113247,8 @@
    "hit": null
   },
   "chronicle-labs": {
-   "at": "2026-11-08T15:58:11Z",
-   "hit": null
+   "at": "2026-11-22T17:07:51Z",
+   "hit": "ashby:chronicle-labs"
   },
   "chrt": {
    "at": "2026-11-21T16:49:43Z",
@@ -113290,7 +113319,7 @@
    "hit": null
   },
   "claimkit": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:08:12Z",
    "hit": null
   },
   "clara-2": {
@@ -113322,7 +113351,7 @@
    "hit": null
   },
   "clean": {
-   "at": "2026-11-08T15:57:54Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "cleanly": {
@@ -113362,7 +113391,7 @@
    "hit": null
   },
   "click": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "clickpad": {
@@ -113438,7 +113467,7 @@
    "hit": null
   },
   "coarena": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "coast": {
@@ -113474,7 +113503,7 @@
    "hit": null
   },
   "codag": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:11Z",
    "hit": null
   },
   "code-four": {
@@ -113558,7 +113587,7 @@
    "hit": null
   },
   "cohesion": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:03Z",
    "hit": null
   },
   "cohesive": {
@@ -113586,7 +113615,7 @@
    "hit": null
   },
   "collar": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:08:12Z",
    "hit": null
   },
   "collectly": {
@@ -113654,7 +113683,7 @@
    "hit": null
   },
   "composal": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "compose-ai": {
@@ -113678,7 +113707,7 @@
    "hit": null
   },
   "computable": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "compyle": {
@@ -113690,7 +113719,7 @@
    "hit": null
   },
   "condor-energy": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "conductor": {
@@ -113734,7 +113763,7 @@
    "hit": null
   },
   "conifer": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "conntour": {
@@ -113746,7 +113775,7 @@
    "hit": null
   },
   "constor": {
-   "at": "2026-11-08T15:57:54Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "constructable": {
@@ -113766,7 +113795,7 @@
    "hit": null
   },
   "contextdev": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "contextfort": {
@@ -113790,11 +113819,11 @@
    "hit": null
   },
   "control-seat": {
-   "at": "2026-11-08T15:58:10Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "conus": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:04Z",
    "hit": null
   },
   "conveo": {
@@ -113830,7 +113859,7 @@
    "hit": null
   },
   "copperlane": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "copycat-ai": {
@@ -113846,7 +113875,7 @@
    "hit": null
   },
   "corelayer": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "corgea": {
@@ -113926,7 +113955,7 @@
    "hit": null
   },
   "cova": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "coval": {
@@ -113934,7 +113963,7 @@
    "hit": null
   },
   "covera": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "coverage-cat": {
@@ -114042,7 +114071,7 @@
    "hit": null
   },
   "cuebench": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "culdesac": {
@@ -114102,7 +114131,7 @@
    "hit": null
   },
   "cyclon": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "d-id": {
@@ -114130,7 +114159,7 @@
    "hit": null
   },
   "daivin": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "dalus": {
@@ -114138,7 +114167,7 @@
    "hit": null
   },
   "daqstra": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "daridev": {
@@ -114186,7 +114215,7 @@
    "hit": null
   },
   "databuddy": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "datacurve": {
@@ -114246,7 +114275,7 @@
    "hit": "ashby:david-ai"
   },
   "dawn-industries": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "daybreak-health": {
@@ -114258,7 +114287,7 @@
    "hit": null
   },
   "dayjob": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "dayra": {
@@ -114274,11 +114303,11 @@
    "hit": null
   },
   "decawork": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "decent-com": {
-   "at": "2026-11-08T15:58:16Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "decentro": {
@@ -114302,7 +114331,7 @@
    "hit": null
   },
   "decuff": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:58Z",
    "hit": null
   },
   "deel": {
@@ -114310,7 +114339,7 @@
    "hit": "ashby:deel"
   },
   "deep-interactions": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "deep-meditate": {
@@ -114330,7 +114359,7 @@
    "hit": null
   },
   "deepmark": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "deepnight": {
@@ -114342,7 +114371,7 @@
    "hit": "ashby:deepnote"
   },
   "deepreach-inc": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "deepsim-inc": {
@@ -114354,11 +114383,11 @@
    "hit": null
   },
   "definite": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:11Z",
    "hit": null
   },
   "degla-inc": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "delee": {
@@ -114406,7 +114435,7 @@
    "hit": null
   },
   "denta": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "depict": {
@@ -114414,7 +114443,7 @@
    "hit": null
   },
   "deploy": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "deployparagon": {
@@ -114426,7 +114455,7 @@
    "hit": "ashby:depot"
   },
   "derya": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "design-arena": {
@@ -114550,7 +114579,7 @@
    "hit": null
   },
   "dipole-labs": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "directed-edge": {
@@ -114566,7 +114595,7 @@
    "hit": null
   },
   "discovered-materials": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "dispatch": {
@@ -114594,7 +114623,7 @@
    "hit": null
   },
   "dock": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "docker": {
@@ -114638,7 +114667,7 @@
    "hit": null
   },
   "donkey": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:10Z",
    "hit": null
   },
   "doola": {
@@ -114726,11 +114755,11 @@
    "hit": null
   },
   "dreach": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "dream": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "dream3d": {
@@ -114746,7 +114775,7 @@
    "hit": null
   },
   "dreamscale-labs": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "dreamworld": {
@@ -114814,7 +114843,7 @@
    "hit": null
   },
   "dydema": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "dynamite": {
@@ -114838,7 +114867,7 @@
    "hit": null
   },
   "earendil-robotics": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "earth-ai": {
@@ -114886,7 +114915,7 @@
    "hit": null
   },
   "eden-robotics": {
-   "at": "2026-11-08T15:58:12Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "edexia": {
@@ -114898,7 +114927,7 @@
    "hit": null
   },
   "edgerun": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:03Z",
    "hit": null
   },
   "edgetrace": {
@@ -114906,7 +114935,7 @@
    "hit": null
   },
   "edotenv": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "educato": {
@@ -114918,7 +114947,7 @@
    "hit": null
   },
   "edviro": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "edyst": {
@@ -114946,7 +114975,7 @@
    "hit": null
   },
   "egoist-machines": {
-   "at": "2026-11-08T15:58:12Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "eigenpal": {
@@ -114958,11 +114987,11 @@
    "hit": null
   },
   "ekho-labs": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "ekpa": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "elayne": {
@@ -115002,7 +115031,7 @@
    "hit": null
   },
   "elimentary": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "elip-ai": {
@@ -115038,7 +115067,7 @@
    "hit": null
   },
   "elyra": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "elythea": {
@@ -115098,7 +115127,7 @@
    "hit": null
   },
   "enact": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:07Z",
    "hit": null
   },
   "encarte": {
@@ -115134,7 +115163,7 @@
    "hit": null
   },
   "enjamb-labs": {
-   "at": "2026-11-08T15:58:12Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "enlightra": {
@@ -115198,7 +115227,7 @@
    "hit": null
   },
   "epsilab-com": {
-   "at": "2026-11-08T15:58:18Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "epsilon": {
@@ -115226,7 +115255,7 @@
    "hit": null
   },
   "erinys": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:07Z",
    "hit": null
   },
   "eris-biotech": {
@@ -115258,7 +115287,7 @@
    "hit": null
   },
   "ethos-space-resources": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "ethosx": {
@@ -115346,7 +115375,7 @@
    "hit": null
   },
   "executor": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "exin-therapeutics": {
@@ -115366,7 +115395,7 @@
    "hit": null
   },
   "exosat": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:11Z",
    "hit": null
   },
   "expand-ai": {
@@ -115374,7 +115403,7 @@
    "hit": null
   },
   "expanse": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:02Z",
    "hit": null
   },
   "expected-parrot": {
@@ -115386,7 +115415,7 @@
    "hit": null
   },
   "experiential-labs": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "experiment": {
@@ -115430,7 +115459,7 @@
    "hit": null
   },
   "fabraix": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "facio": {
@@ -115446,7 +115475,7 @@
    "hit": "lever:fampay"
   },
   "faraday": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "farcast": {
@@ -115494,7 +115523,7 @@
    "hit": null
   },
   "fed10": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "feldy": {
@@ -115574,7 +115603,7 @@
    "hit": null
   },
   "financial-datasets": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "finary-com": {
@@ -115650,7 +115679,7 @@
    "hit": "lever:fintual"
   },
   "fire-wallet": {
-   "at": "2026-11-08T15:58:12Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "firebender": {
@@ -115698,7 +115727,7 @@
    "hit": null
   },
   "fixture": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "flagright": {
@@ -115806,11 +115835,11 @@
    "hit": null
   },
   "floracene": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:09Z",
    "hit": null
   },
   "florin": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "flott-hq": {
@@ -115846,7 +115875,7 @@
    "hit": null
   },
   "flowmanual": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "floworks": {
@@ -115854,7 +115883,7 @@
    "hit": null
   },
   "flowscope": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:02Z",
    "hit": null
   },
   "flowspace": {
@@ -115914,7 +115943,7 @@
    "hit": null
   },
   "foaster": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
   "fogbender": {
@@ -115946,7 +115975,7 @@
    "hit": null
   },
   "foreman": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "foreshadow-industries": {
@@ -115990,7 +116019,7 @@
    "hit": null
   },
   "fort": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "forum": {
@@ -116026,7 +116055,7 @@
    "hit": null
   },
   "framewise-health": {
-   "at": "2026-11-08T15:58:12Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "freebuff": {
@@ -116094,7 +116123,7 @@
    "hit": null
   },
   "frontrunner": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "fuchsia": {
@@ -116174,7 +116203,7 @@
    "hit": null
   },
   "gamgee": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "garage-2": {
@@ -116206,7 +116235,7 @@
    "hit": null
   },
   "gbrain": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:03Z",
    "hit": null
   },
   "gecko-security": {
@@ -116234,11 +116263,11 @@
    "hit": null
   },
   "general-context-labs": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "general-instinct": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "general-learning": {
@@ -116246,7 +116275,7 @@
    "hit": null
   },
   "general-legal": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "general-proximity": {
@@ -116294,7 +116323,7 @@
    "hit": null
   },
   "getbalance": {
-   "at": "2026-11-08T15:58:10Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "getcho": {
@@ -116338,7 +116367,7 @@
    "hit": null
   },
   "gitcafe": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:04Z",
    "hit": null
   },
   "gitstart": {
@@ -116382,7 +116411,7 @@
    "hit": null
   },
   "glen": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:10Z",
    "hit": null
   },
   "glep": {
@@ -116426,11 +116455,11 @@
    "hit": null
   },
   "godhands": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "godpack": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "gogograndparent": {
@@ -116438,7 +116467,7 @@
    "hit": null
   },
   "gojiberry-ai": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "gojom": {
@@ -116502,7 +116531,7 @@
    "hit": null
   },
   "govguard": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "govly": {
@@ -116514,7 +116543,7 @@
    "hit": "greenhouse:nexus"
   },
   "grade": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "gradia-health": {
@@ -116522,7 +116551,7 @@
    "hit": null
   },
   "gradon": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "grain": {
@@ -116534,19 +116563,19 @@
    "hit": null
   },
   "graphide": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "graphify-labs": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "gravy": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:02Z",
    "hit": null
   },
   "graypass": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "greaseboss": {
@@ -116562,7 +116591,7 @@
    "hit": null
   },
   "grep-ai": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "greptile": {
@@ -116574,7 +116603,7 @@
    "hit": "greenhouse:grey"
   },
   "greypoint-industries": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "greywing": {
@@ -116586,11 +116615,11 @@
    "hit": "lever:gridware"
   },
   "grip": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "grocalo": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:09Z",
    "hit": null
   },
   "gromo": {
@@ -116654,7 +116683,7 @@
    "hit": "greenhouse:gusto"
   },
   "gutgutgoose": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:11Z",
    "hit": null
   },
   "gym-class": {
@@ -116666,7 +116695,7 @@
    "hit": null
   },
   "habu": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "hackerrank": {
@@ -116690,7 +116719,7 @@
    "hit": "ashby:halluminate"
   },
   "halmos-labs": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "hamming-ai": {
@@ -116750,7 +116779,7 @@
    "hit": null
   },
   "hardware-intelligence": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "harmonic-discovery": {
@@ -116822,7 +116851,7 @@
    "hit": null
   },
   "hebbian-robotics": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "hedge": {
@@ -116886,7 +116915,7 @@
    "hit": null
   },
   "hemlock": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "hemut": {
@@ -116918,7 +116947,7 @@
    "hit": null
   },
   "herdr": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "hermes-robotics": {
@@ -116942,11 +116971,11 @@
    "hit": null
   },
   "hesper-ai": {
-   "at": "2026-11-08T15:58:16Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "hessian": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
   "hestus-inc": {
@@ -116954,7 +116983,7 @@
    "hit": null
   },
   "hevn-inc": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "hexa": {
@@ -116974,7 +117003,7 @@
    "hit": null
   },
   "heyclicky": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:04Z",
    "hit": null
   },
   "heyfood": {
@@ -116986,7 +117015,7 @@
    "hit": null
   },
   "hickory-and-company": {
-   "at": "2026-11-08T15:58:18Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "hightouch": {
@@ -117002,7 +117031,7 @@
    "hit": null
   },
   "hilstart": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "hindsight": {
@@ -117098,15 +117127,15 @@
    "hit": null
   },
   "hop-aero": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "hoplite": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:07Z",
    "hit": null
   },
   "horizontal": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "hotglue": {
@@ -117142,7 +117171,7 @@
    "hit": "ashby:lightdash"
   },
   "hubble-ai": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "hubble-network": {
@@ -117166,7 +117195,7 @@
    "hit": "ashby:hudu"
   },
   "hue": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "humaans": {
@@ -117218,11 +117247,11 @@
    "hit": null
   },
   "hundred": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "huscarl": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:03Z",
    "hit": null
   },
   "hybrd": {
@@ -117242,7 +117271,7 @@
    "hit": null
   },
   "hyper-4": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "hyperbeam": {
@@ -117274,7 +117303,7 @@
    "hit": null
   },
   "hyperprobe": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "hyperspell": {
@@ -117314,7 +117343,7 @@
    "hit": null
   },
   "ignition-benefits": {
-   "at": "2026-11-08T15:58:29Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "ilabservice": {
@@ -117322,7 +117351,7 @@
    "hit": null
   },
   "illume-labs": {
-   "at": "2026-11-08T15:58:10Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "illuminant-surgical": {
@@ -117342,7 +117371,7 @@
    "hit": null
   },
   "impact-drones": {
-   "at": "2026-11-08T15:58:28Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "imperfect": {
@@ -117462,7 +117491,7 @@
    "hit": null
   },
   "inflection-space-systems": {
-   "at": "2026-11-08T15:58:16Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "influxdata": {
@@ -117482,7 +117511,7 @@
    "hit": null
   },
   "inkbox": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "inkeep": {
@@ -117494,7 +117523,7 @@
    "hit": null
   },
   "inloop-robotics": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "innate": {
@@ -117530,7 +117559,7 @@
    "hit": null
   },
   "instaagent": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "instabox": {
@@ -117574,7 +117603,7 @@
    "hit": null
   },
   "insurf": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:11Z",
    "hit": null
   },
   "intact-therapeutics": {
@@ -117594,7 +117623,7 @@
    "hit": null
   },
   "intelligence-factory": {
-   "at": "2026-11-08T15:58:12Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "intelline": {
@@ -117602,7 +117631,7 @@
    "hit": null
   },
   "interfaze": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "interfere": {
@@ -117610,7 +117639,7 @@
    "hit": "ashby:interfere"
   },
   "inth": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "intryc": {
@@ -117638,7 +117667,7 @@
    "hit": "ashby:invert"
   },
   "invertix": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "invision-medical-technology": {
@@ -117698,7 +117727,7 @@
    "hit": null
   },
   "isengard-industries-inc": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "isono-health": {
@@ -117706,7 +117735,7 @@
    "hit": null
   },
   "isoquant": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "issen": {
@@ -117742,7 +117771,7 @@
    "hit": null
   },
   "jcode": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:08Z",
    "hit": null
   },
   "jeeves": {
@@ -117894,7 +117923,7 @@
    "hit": null
   },
   "kailash-labs": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "kaipod-learning": {
@@ -117906,11 +117935,11 @@
    "hit": null
   },
   "kairos-health": {
-   "at": "2026-11-08T15:58:16Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "kairox-systems": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "kaiten": {
@@ -117958,7 +117987,7 @@
    "hit": null
   },
   "kara": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:08Z",
    "hit": null
   },
   "karat-financial": {
@@ -118010,7 +118039,7 @@
    "hit": null
   },
   "kebra": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:04Z",
    "hit": null
   },
   "keeper-2": {
@@ -118026,7 +118055,7 @@
    "hit": null
   },
   "kelai": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "kemnet": {
@@ -118042,7 +118071,7 @@
    "hit": null
   },
   "keres": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "kern-systems": {
@@ -118078,7 +118107,7 @@
    "hit": null
   },
   "keyframe-labs": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "keylika": {
@@ -118102,7 +118131,7 @@
    "hit": null
   },
   "khotan": {
-   "at": "2026-11-08T15:58:18Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "kidato": {
@@ -118118,11 +118147,11 @@
    "hit": null
   },
   "kimpton": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:57Z",
    "hit": null
   },
   "kinect": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:02Z",
    "hit": null
   },
   "kingdom": {
@@ -118134,7 +118163,7 @@
    "hit": null
   },
   "kinro": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "kinter": {
@@ -118170,7 +118199,7 @@
    "hit": null
   },
   "klaimee": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:04Z",
    "hit": null
   },
   "klavis-ai": {
@@ -118226,7 +118255,7 @@
    "hit": null
   },
   "korso": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "kosh": {
@@ -118254,7 +118283,7 @@
    "hit": null
   },
   "kugelaudio": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:03Z",
    "hit": null
   },
   "kular": {
@@ -118262,7 +118291,7 @@
    "hit": null
   },
   "kuli": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:59Z",
    "hit": null
   },
   "kunduz": {
@@ -118278,7 +118307,7 @@
    "hit": null
   },
   "lab0": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "labdoor": {
@@ -118310,7 +118339,7 @@
    "hit": null
   },
   "lamb-labs": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "lamin": {
@@ -118318,7 +118347,7 @@
    "hit": null
   },
   "lamina-labs": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "laminar": {
@@ -118354,7 +118383,7 @@
    "hit": "ashby:langdock"
   },
   "lantern-ai": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "lapis": {
@@ -118390,7 +118419,7 @@
    "hit": null
   },
   "lato": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "latted": {
@@ -118402,7 +118431,7 @@
    "hit": "greenhouse:lattice"
   },
   "lattice-health": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "launchflow": {
@@ -118498,7 +118527,7 @@
    "hit": null
   },
   "lemonlime": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:08Z",
    "hit": null
   },
   "lemonslice": {
@@ -118550,7 +118579,7 @@
    "hit": null
   },
   "levocred-ai": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "levro": {
@@ -118590,7 +118619,7 @@
    "hit": null
   },
   "light-anchor": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "lightberry": {
@@ -118618,7 +118647,7 @@
    "hit": null
   },
   "lightsprint": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "lighttwist": {
@@ -118670,7 +118699,7 @@
    "hit": null
   },
   "linklane": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:12Z",
    "hit": null
   },
   "linum": {
@@ -118694,7 +118723,7 @@
    "hit": null
   },
   "liquid-energy": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "listia": {
@@ -118758,7 +118787,7 @@
    "hit": null
   },
   "locke": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "locus": {
@@ -118846,11 +118875,11 @@
    "hit": null
   },
   "luca-iq": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "lucebox": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "lucent": {
@@ -118898,7 +118927,7 @@
    "hit": null
   },
   "lumeria": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "lumina": {
@@ -118914,7 +118943,7 @@
    "hit": "greenhouse:luminate"
   },
   "lumius": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
   "lunabill": {
@@ -118938,7 +118967,7 @@
    "hit": null
   },
   "lux-foods": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "lygg": {
@@ -118954,7 +118983,7 @@
    "hit": null
   },
   "lyon": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:08Z",
    "hit": null
   },
   "lyra": {
@@ -118966,7 +118995,7 @@
    "hit": null
   },
   "machine0": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "machine26": {
@@ -119018,7 +119047,7 @@
    "hit": null
   },
   "magma": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "magnaplay": {
@@ -119050,7 +119079,7 @@
    "hit": null
   },
   "maingen": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:08Z",
    "hit": null
   },
   "maintouch": {
@@ -119102,11 +119131,11 @@
    "hit": "ashby:mangodesk"
   },
   "manicule": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:02Z",
    "hit": null
   },
   "manifold-2": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "manifold-freight": {
@@ -119134,7 +119163,7 @@
    "hit": null
   },
   "manufacturingintelligence": {
-   "at": "2026-11-08T15:58:12Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "maple-materials": {
@@ -119142,7 +119171,7 @@
    "hit": null
   },
   "maquoketa-research": {
-   "at": "2026-11-08T15:58:12Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "marblism": {
@@ -119150,7 +119179,7 @@
    "hit": null
   },
   "marengo": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "margin": {
@@ -119158,7 +119187,7 @@
    "hit": null
   },
   "maritime": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "maritime-fusion": {
@@ -119174,7 +119203,7 @@
    "hit": null
   },
   "marker": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "marketfeed": {
@@ -119194,7 +119223,7 @@
    "hit": null
   },
   "markov": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "marqvision": {
@@ -119210,7 +119239,7 @@
    "hit": null
   },
   "martini": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "mashgin": {
@@ -119222,7 +119251,7 @@
    "hit": null
   },
   "mass-magnetics": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "massdriver": {
@@ -119230,7 +119259,7 @@
    "hit": null
   },
   "masterpiece": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:58Z",
    "hit": null
   },
   "mastra": {
@@ -119394,7 +119423,7 @@
    "hit": null
   },
   "melty-gg": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "mem0": {
@@ -119406,15 +119435,15 @@
    "hit": null
   },
   "memoir": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "memorable": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "memory-store": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "mendel": {
@@ -119502,7 +119531,7 @@
    "hit": null
   },
   "meteoric": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "meter-feeder": {
@@ -119550,7 +119579,7 @@
    "hit": null
   },
   "micora": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "microhealth": {
@@ -119650,7 +119679,7 @@
    "hit": "ashby:minerva"
   },
   "minicor": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:57Z",
    "hit": null
   },
   "miniloop": {
@@ -119694,7 +119723,7 @@
    "hit": null
   },
   "mireye": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "mirror-ai": {
@@ -119702,7 +119731,7 @@
    "hit": null
   },
   "mirrors": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "miru-ml": {
@@ -119774,19 +119803,19 @@
    "hit": null
   },
   "mochacare": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "mochatrade": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:02Z",
    "hit": null
   },
   "mochi": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:08Z",
    "hit": null
   },
   "moda": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "model-ml": {
@@ -119798,7 +119827,7 @@
    "hit": null
   },
   "modern": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:03Z",
    "hit": null
   },
   "modern-health": {
@@ -119830,7 +119859,7 @@
    "hit": null
   },
   "molagri": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:12Z",
    "hit": null
   },
   "momentic": {
@@ -119930,7 +119959,7 @@
    "hit": null
   },
   "most-robotic": {
-   "at": "2026-11-08T15:58:10Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "motives": {
@@ -119950,7 +119979,7 @@
    "hit": null
   },
   "moving-atoms": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "movinglake": {
@@ -119994,7 +120023,7 @@
    "hit": null
   },
   "multiplier": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "mundo-ai": {
@@ -120010,11 +120039,11 @@
    "hit": null
   },
   "munito-ai": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "musicarena": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:08Z",
    "hit": null
   },
   "mutiny": {
@@ -120098,7 +120127,7 @@
    "hit": null
   },
   "native": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "naturall-club": {
@@ -120134,7 +120163,7 @@
    "hit": null
   },
   "nebusec": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:04Z",
    "hit": null
   },
   "nectar": {
@@ -120150,7 +120179,7 @@
    "hit": null
   },
   "neomatter": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "neoncoral": {
@@ -120198,11 +120227,11 @@
    "hit": null
   },
   "neuromorphic": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "neuron-industries": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "new-incentives": {
@@ -120258,7 +120287,7 @@
    "hit": "lever:nimblerx"
   },
   "nine-fives": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "nines": {
@@ -120282,7 +120311,7 @@
    "hit": null
   },
   "nitroduck": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "nixo": {
@@ -120302,7 +120331,7 @@
    "hit": null
   },
   "nodus-compute": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "noloco": {
@@ -120334,7 +120363,7 @@
    "hit": null
   },
   "noril1": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "normal": {
@@ -120462,7 +120491,7 @@
    "hit": null
   },
   "nxtcure-labs": {
-   "at": "2026-11-08T15:58:12Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "nyckel": {
@@ -120470,11 +120499,11 @@
    "hit": null
   },
   "o11": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:57Z",
    "hit": null
   },
   "oasive": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "obento-health": {
@@ -120482,7 +120511,7 @@
    "hit": null
   },
   "obia": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "observant-ai": {
@@ -120494,7 +120523,7 @@
    "hit": "greenhouse:observeai"
   },
   "obsessiondb": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "ochre-bio": {
@@ -120534,7 +120563,7 @@
    "hit": null
   },
   "odin-robotics": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "odo": {
@@ -120594,7 +120623,7 @@
    "hit": null
   },
   "olam-labs": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "olark": {
@@ -120622,7 +120651,7 @@
    "hit": null
   },
   "omanta": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "omg-digital": {
@@ -120670,7 +120699,7 @@
    "hit": "ashby:onechronos"
   },
   "onecli": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "onefin": {
@@ -120726,7 +120755,7 @@
    "hit": null
   },
   "ontora": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "ontra-mobility": {
@@ -120734,7 +120763,7 @@
    "hit": null
   },
   "ooak-data": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "opalite-health": {
@@ -120746,7 +120775,7 @@
    "hit": null
   },
   "open-actuation": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "openbenchmarks": {
@@ -120774,7 +120803,7 @@
    "hit": null
   },
   "openhack": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "openintake": {
@@ -120798,7 +120827,7 @@
    "hit": null
   },
   "openrelay": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "openroll": {
@@ -120806,7 +120835,7 @@
    "hit": null
   },
   "openscaffold": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "openscale": {
@@ -120830,7 +120859,7 @@
    "hit": null
   },
   "opentag": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "opentools": {
@@ -120846,7 +120875,7 @@
    "hit": null
   },
   "openvector": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "openwork": {
@@ -120858,7 +120887,7 @@
    "hit": null
   },
   "opera": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "operand": {
@@ -120870,7 +120899,7 @@
    "hit": null
   },
   "operon": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "ophelia": {
@@ -120918,7 +120947,7 @@
    "hit": "ashby:orca"
   },
   "orca-aerospace": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "orca-client": {
@@ -120950,7 +120979,7 @@
    "hit": null
   },
   "orgo": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "orgorg": {
@@ -120962,7 +120991,7 @@
    "hit": null
   },
   "origami-robotics": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "origami-therapeutics-inc": {
@@ -120978,11 +121007,11 @@
    "hit": null
   },
   "ornadyne": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:00Z",
    "hit": null
   },
   "oro-ai": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "orthogonal": {
@@ -121010,11 +121039,11 @@
    "hit": "greenhouse:osmosis"
   },
   "osseus": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "ossus": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "oto": {
@@ -121142,7 +121171,7 @@
    "hit": null
   },
   "pacific": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "padlet": {
@@ -121166,7 +121195,7 @@
    "hit": "greenhouse:pairteam"
   },
   "pairio": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:57Z",
    "hit": null
   },
   "paladin": {
@@ -121174,7 +121203,7 @@
    "hit": null
   },
   "palette-2": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "palettehq": {
@@ -121182,11 +121211,11 @@
    "hit": null
   },
   "palisade": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:07Z",
    "hit": null
   },
   "palisade-2": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "palitronica-inc": {
@@ -121250,7 +121279,7 @@
    "hit": null
   },
   "pango": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:07Z",
    "hit": null
   },
   "pangolin": {
@@ -121278,7 +121307,7 @@
    "hit": "greenhouse:papa"
   },
   "papaya": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "paper-instruments": {
@@ -121286,7 +121315,7 @@
    "hit": null
   },
   "paper-star": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "paradedb": {
@@ -121326,7 +121355,7 @@
    "hit": null
   },
   "parasma": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:05Z",
    "hit": null
   },
   "paratus-health": {
@@ -121374,7 +121403,7 @@
    "hit": null
   },
   "particularity": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "partna": {
@@ -121426,7 +121455,7 @@
    "hit": "ashby:pave-robotics"
   },
   "pavoot": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "pax": {
@@ -121478,7 +121507,7 @@
    "hit": null
   },
   "peer": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "pelago": {
@@ -121494,7 +121523,7 @@
    "hit": null
   },
   "pennant": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "people-ai": {
@@ -121526,7 +121555,7 @@
    "hit": null
   },
   "perceptron-ml": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "perceptual-labs": {
@@ -121534,7 +121563,7 @@
    "hit": "ashby:perceptuallabs"
   },
   "perfectbit-inc": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "perfectly": {
@@ -121542,7 +121571,7 @@
    "hit": null
   },
   "peritai": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "perl-street": {
@@ -121594,11 +121623,11 @@
    "hit": null
   },
   "petrarch": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "petrichor": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "pgdog": {
@@ -121626,7 +121655,7 @@
    "hit": "ashby:phoenix"
   },
   "phone-harness": {
-   "at": "2026-11-08T15:58:16Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "photonium": {
@@ -121754,7 +121783,7 @@
    "hit": null
   },
   "plan0-ai": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "planbase": {
@@ -121794,7 +121823,7 @@
    "hit": null
   },
   "plena-health": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "pleom": {
@@ -121814,7 +121843,7 @@
    "hit": "lever:plivo"
   },
   "ploid": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "plover-labs": {
@@ -121862,7 +121891,7 @@
    "hit": null
   },
   "plyxl": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "pnoe": {
@@ -121906,7 +121935,7 @@
    "hit": "ashby:polar"
   },
   "polemos-industries": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "policyfly": {
@@ -121946,7 +121975,7 @@
    "hit": null
   },
   "polymorph": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "polytomic": {
@@ -121954,7 +121983,7 @@
    "hit": "ashby:polytomic"
   },
   "pomerado": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "pools-fka-withfriends": {
@@ -122022,7 +122051,7 @@
    "hit": null
   },
   "poth-labs": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "potion": {
@@ -122070,8 +122099,8 @@
    "hit": "greenhouse:praxis"
   },
   "praxis-robotics": {
-   "at": "2026-11-08T15:58:14Z",
-   "hit": null
+   "at": "2026-11-22T17:08:18Z",
+   "hit": "ashby:praxisrobotics"
   },
   "praxos": {
    "at": "2026-11-21T16:49:37Z",
@@ -122130,19 +122159,19 @@
    "hit": null
   },
   "primitive": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "primordiant": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "princeps": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "prized": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:08Z",
    "hit": null
   },
   "probably-genetic": {
@@ -122150,7 +122179,7 @@
    "hit": "ashby:probablygenetic"
   },
   "probe": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
   "probo": {
@@ -122170,7 +122199,7 @@
    "hit": "greenhouse:prodigal"
   },
   "prodigy-research": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "proglix": {
@@ -122182,7 +122211,7 @@
    "hit": null
   },
   "projectx": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
   "proliferate": {
@@ -122246,7 +122275,7 @@
    "hit": null
   },
   "proprio-robotics": {
-   "at": "2026-11-08T15:58:12Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "proprise": {
@@ -122282,7 +122311,7 @@
    "hit": null
   },
   "provenmetal": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "provision": {
@@ -122322,7 +122351,7 @@
    "hit": null
   },
   "pumpgtm": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:02Z",
    "hit": null
   },
   "punchcard": {
@@ -122358,7 +122387,7 @@
    "hit": null
   },
   "qlo": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "quadrant-health": {
@@ -122442,7 +122471,7 @@
    "hit": "ashby:quippy"
   },
   "quivly-ai": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "quotabook": {
@@ -122478,7 +122507,7 @@
    "hit": null
   },
   "radley": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "rainbow": {
@@ -122486,7 +122515,7 @@
    "hit": null
   },
   "rainbrand": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "raindrop": {
@@ -122562,7 +122591,7 @@
    "hit": null
   },
   "raspire": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
   "rastro": {
@@ -122570,15 +122599,15 @@
    "hit": null
   },
   "rasyn": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:11Z",
    "hit": null
   },
   "rational": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "ratlog": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "raven": {
@@ -122646,7 +122675,7 @@
    "hit": "ashby:realitydefender"
   },
   "realpact": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:09Z",
    "hit": null
   },
   "realroots": {
@@ -122654,11 +122683,11 @@
    "hit": null
   },
   "reason-machines": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "reasonblocks": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:04Z",
    "hit": null
   },
   "rebellyous-foods": {
@@ -122694,7 +122723,7 @@
    "hit": null
   },
   "reconero": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "recordbook": {
@@ -122750,7 +122779,7 @@
    "hit": null
   },
   "redoubt-insurance": {
-   "at": "2026-11-08T15:58:16Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "reducto": {
@@ -122798,7 +122827,7 @@
    "hit": null
   },
   "regbase": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "regent": {
@@ -122806,7 +122835,7 @@
    "hit": "ashby:regent"
   },
   "reific": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "rejot": {
@@ -122822,7 +122851,7 @@
    "hit": null
   },
   "rekursivai": {
-   "at": "2026-11-08T15:58:12Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "relace": {
@@ -122882,7 +122911,7 @@
    "hit": "greenhouse:remi"
   },
   "remix-3": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "remora": {
@@ -122890,7 +122919,7 @@
    "hit": null
   },
   "remy-ai": {
-   "at": "2026-11-08T15:58:10Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "rendalomaq": {
@@ -122902,7 +122931,7 @@
    "hit": null
   },
   "rentahuman": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "rentflow": {
@@ -122922,7 +122951,7 @@
    "hit": null
   },
   "replicas": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
   "replika": {
@@ -122974,7 +123003,7 @@
    "hit": null
   },
   "resin-technologies": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "resolve": {
@@ -122998,7 +123027,7 @@
    "hit": null
   },
   "result": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:57Z",
    "hit": null
   },
   "retailready": {
@@ -123062,7 +123091,7 @@
    "hit": null
   },
   "revnu": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
   "revolve-surgical": {
@@ -123090,7 +123119,7 @@
    "hit": null
   },
   "rex-inc": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "rezi": {
@@ -123098,7 +123127,7 @@
    "hit": "ashby:rezi"
   },
   "rezora-io": {
-   "at": "2026-11-08T15:58:16Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "rgi-labs": {
@@ -123106,7 +123135,7 @@
    "hit": null
   },
   "rhem-labs": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "rhizome-ai": {
@@ -123118,11 +123147,11 @@
    "hit": null
   },
   "riften": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:11Z",
    "hit": null
   },
   "rightnow": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:04Z",
    "hit": null
   },
   "rima-ai": {
@@ -123138,7 +123167,7 @@
    "hit": null
   },
   "rindler": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:03Z",
    "hit": null
   },
   "ringmd": {
@@ -123166,7 +123195,7 @@
    "hit": null
   },
   "rise-reforming": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "risely-ai": {
@@ -123178,7 +123207,7 @@
    "hit": null
   },
   "risklytics": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "risotto": {
@@ -123186,7 +123215,7 @@
    "hit": null
   },
   "river-markets": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "riverbank": {
@@ -123222,7 +123251,7 @@
    "hit": null
   },
   "robocurve": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "robodock": {
@@ -123246,7 +123275,7 @@
    "hit": null
   },
   "rodeo-robotics": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "roe": {
@@ -123266,7 +123295,7 @@
    "hit": "ashby:rollstack"
   },
   "roma": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:04Z",
    "hit": null
   },
   "rome-ai": {
@@ -123274,7 +123303,7 @@
    "hit": null
   },
   "ronanrx-inc": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "roofr": {
@@ -123306,7 +123335,7 @@
    "hit": null
   },
   "rote": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:08Z",
    "hit": null
   },
   "roundabout-technologies": {
@@ -123354,7 +123383,7 @@
    "hit": null
   },
   "rubric-ai": {
-   "at": "2026-11-08T15:58:10Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "ruby-card": {
@@ -123362,7 +123391,7 @@
    "hit": null
   },
   "rudus": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "rulebase": {
@@ -123398,11 +123427,11 @@
    "hit": null
   },
   "runtime": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
   "runtimesi": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "runway": {
@@ -123430,7 +123459,7 @@
    "hit": null
   },
   "rystic": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "ryvn": {
@@ -123442,7 +123471,7 @@
    "hit": null
   },
   "saccade": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "safebeat": {
@@ -123470,7 +123499,7 @@
    "hit": null
   },
   "saffron": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "saga-ai": {
@@ -123510,7 +123539,7 @@
    "hit": null
   },
   "salem-robotics-inc": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "salesform": {
@@ -123590,7 +123619,7 @@
    "hit": null
   },
   "saudara-ai": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "sava-trust-company": {
@@ -123598,7 +123627,7 @@
    "hit": null
   },
   "savant": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:07:57Z",
    "hit": null
   },
   "savein": {
@@ -123650,7 +123679,7 @@
    "hit": null
   },
   "scope": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "scott-ai": {
@@ -123670,7 +123699,7 @@
    "hit": null
   },
   "screenpipe": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:11Z",
    "hit": null
   },
   "scribd": {
@@ -123786,7 +123815,7 @@
    "hit": null
   },
   "sentient-os": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "sentiyen": {
@@ -123890,7 +123919,7 @@
    "hit": null
   },
   "shepherd-robotics": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "sherloq": {
@@ -123898,7 +123927,7 @@
    "hit": null
   },
   "sherpa": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
   "sherpa-labs": {
@@ -123910,7 +123939,7 @@
    "hit": null
   },
   "shielded": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:04Z",
    "hit": null
   },
   "shift-health": {
@@ -123942,11 +123971,11 @@
    "hit": null
   },
   "shiraz-ai": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "shire-intelligence": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "shiru": {
@@ -123954,7 +123983,7 @@
    "hit": "lever:shiru"
   },
   "shofo": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "shogun": {
@@ -123990,7 +124019,7 @@
    "hit": null
   },
   "shotwellai": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "shred-video": {
@@ -124058,7 +124087,7 @@
    "hit": "lever:sila"
   },
   "silica": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "silimate": {
@@ -124070,7 +124099,7 @@
    "hit": null
   },
   "silmaril": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
   "silogy": {
@@ -124082,7 +124111,7 @@
    "hit": null
   },
   "simantic": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "simbie-ai": {
@@ -124114,7 +124143,7 @@
    "hit": null
   },
   "simulithic": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "sinai": {
@@ -124134,11 +124163,11 @@
    "hit": null
   },
   "sinter-systems": {
-   "at": "2026-11-08T15:58:16Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "sintropix": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "siphox-health": {
@@ -124202,7 +124231,7 @@
    "hit": null
   },
   "skymerse": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "skypher": {
@@ -124262,7 +124291,7 @@
    "hit": null
   },
   "smol-machines": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "smooth": {
@@ -124298,7 +124327,7 @@
    "hit": null
   },
   "snowstone": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "socksoho": {
@@ -124350,7 +124379,7 @@
    "hit": null
   },
   "sona8": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "sonatoria": {
@@ -124386,7 +124415,7 @@
    "hit": null
   },
   "soria": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:59Z",
    "hit": null
   },
   "sorting-robotics": {
@@ -124418,7 +124447,7 @@
    "hit": null
   },
   "spaceflow-technologies-inc": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "spaceium-inc": {
@@ -124426,7 +124455,7 @@
    "hit": null
   },
   "spacesheep": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "spade": {
@@ -124470,7 +124499,7 @@
    "hit": null
   },
   "spectre-intelligence": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "speedscale": {
@@ -124482,7 +124511,7 @@
    "hit": null
   },
   "speko": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:08Z",
    "hit": null
   },
   "spellbrush": {
@@ -124518,7 +124547,7 @@
    "hit": null
   },
   "spine": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "spine-ai": {
@@ -124562,7 +124591,7 @@
    "hit": null
   },
   "spotpay": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "spott": {
@@ -124582,7 +124611,7 @@
    "hit": "ashby:spur"
   },
   "squid": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "squire-technologies": {
@@ -124598,7 +124627,7 @@
    "hit": "ashby:stable"
   },
   "stablebrowse": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "stably-ai-orca": {
@@ -124614,7 +124643,7 @@
    "hit": null
   },
   "stacktrace": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "stackup": {
@@ -124654,7 +124683,7 @@
    "hit": null
   },
   "standard-machines": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "standard-physics": {
@@ -124662,11 +124691,11 @@
    "hit": null
   },
   "standard-signal": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "standout": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "star": {
@@ -124702,7 +124731,7 @@
    "hit": null
   },
   "stasis": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "statiq": {
@@ -124762,7 +124791,7 @@
    "hit": null
   },
   "stoa": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:12Z",
    "hit": null
   },
   "stock-unlock": {
@@ -124842,7 +124871,7 @@
    "hit": null
   },
   "streamline-systems": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "strideq": {
@@ -124878,7 +124907,7 @@
    "hit": null
   },
   "studio": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:12Z",
    "hit": null
   },
   "studystream": {
@@ -124918,7 +124947,7 @@
    "hit": null
   },
   "subvysion": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "sudocode": {
@@ -124978,7 +125007,7 @@
    "hit": "greenhouse:super"
   },
   "super-powers-mobility-spm": {
-   "at": "2026-11-08T15:58:17Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "superagent": {
@@ -125006,7 +125035,7 @@
    "hit": null
   },
   "superlog": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "supermedium": {
@@ -125066,11 +125095,11 @@
    "hit": null
   },
   "surtr-defense-systems": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "sutrix": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "svbtle": {
@@ -125130,7 +125159,7 @@
    "hit": "greenhouse:symphony"
   },
   "synapse-semiconductor": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "synapticure": {
@@ -125138,7 +125167,7 @@
    "hit": "lever:synapticure"
   },
   "synara": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "sync-2": {
@@ -125162,7 +125191,7 @@
    "hit": null
   },
   "synphony": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "synsorybio": {
@@ -125242,7 +125271,7 @@
    "hit": null
   },
   "taiga": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "tailor": {
@@ -125270,7 +125299,7 @@
    "hit": null
   },
   "talentpluto": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "talentropy-ai": {
@@ -125282,7 +125311,7 @@
    "hit": null
   },
   "talking-computers": {
-   "at": "2026-11-08T15:58:10Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "tall-poppy": {
@@ -125294,7 +125323,7 @@
    "hit": null
   },
   "talos-us": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "talus-bio": {
@@ -125330,11 +125359,11 @@
    "hit": null
   },
   "tarebio": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "tarifflo-inc": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "tarjimly-acquired": {
@@ -125342,7 +125371,7 @@
    "hit": null
   },
   "tash": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:04Z",
    "hit": null
   },
   "taskade": {
@@ -125354,7 +125383,7 @@
    "hit": null
   },
   "tasklet-2": {
-   "at": "2026-11-08T15:58:13Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "tavus": {
@@ -125366,7 +125395,7 @@
    "hit": null
   },
   "tdaycom": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "teabot": {
@@ -125398,7 +125427,7 @@
    "hit": "ashby:tekton-dynamics"
   },
   "telamont": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "teleport": {
@@ -125434,7 +125463,7 @@
    "hit": "lever:tendo"
   },
   "tenet-industries": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "tennr": {
@@ -125446,7 +125475,7 @@
    "hit": "ashby:tenor"
   },
   "tensortest": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "tensr": {
@@ -125546,7 +125575,7 @@
    "hit": null
   },
   "the-agentic-data-co": {
-   "at": "2026-11-08T15:58:16Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "the-ankler": {
@@ -125562,7 +125591,7 @@
    "hit": null
   },
   "the-company-company": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "the-context-company": {
@@ -125614,7 +125643,7 @@
    "hit": null
   },
   "the-subvocal-company": {
-   "at": "2026-11-08T15:58:17Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "the-synthesis-company": {
@@ -125678,7 +125707,7 @@
    "hit": null
   },
   "theseus-robotics": {
-   "at": "2026-11-08T15:58:16Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "theta": {
@@ -125702,7 +125731,7 @@
    "hit": "ashby:thndr"
   },
   "thomas": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:03Z",
    "hit": null
   },
   "thornwick": {
@@ -125738,11 +125767,11 @@
    "hit": null
   },
   "tilion": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "tilo": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "tilt-2": {
@@ -125806,7 +125835,7 @@
    "hit": null
   },
   "tokenless": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "toko": {
@@ -125854,7 +125883,7 @@
    "hit": null
   },
   "topos": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "topship": {
@@ -125870,11 +125899,11 @@
    "hit": null
   },
   "torus": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:04Z",
    "hit": null
   },
   "totalis": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:57Z",
    "hit": null
   },
   "touch-and-pay-technologies-limited": {
@@ -125882,7 +125911,7 @@
    "hit": null
   },
   "touchmark": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:11Z",
    "hit": null
   },
   "tough-commerce": {
@@ -125894,7 +125923,7 @@
    "hit": "lever:tovala"
   },
   "tovenai": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:15Z",
    "hit": null
   },
   "tower": {
@@ -125914,7 +125943,7 @@
    "hit": null
   },
   "traceforce": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "traceroot": {
@@ -125974,7 +126003,7 @@
    "hit": null
   },
   "transload": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "trapeze": {
@@ -126018,7 +126047,7 @@
    "hit": null
   },
   "trebu": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "treinta": {
@@ -126074,7 +126103,7 @@
    "hit": null
   },
   "trident": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:02Z",
    "hit": null
   },
   "trigger-dev": {
@@ -126098,7 +126127,7 @@
    "hit": null
   },
   "trope": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:05Z",
    "hit": null
   },
   "true-link": {
@@ -126122,7 +126151,7 @@
    "hit": null
   },
   "truemile": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "trueplace": {
@@ -126154,7 +126183,7 @@
    "hit": null
   },
   "trycardinal-ai": {
-   "at": "2026-11-08T15:58:10Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "tryjanet": {
@@ -126162,7 +126191,7 @@
    "hit": null
   },
   "trynearby": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "tsenta": {
@@ -126198,7 +126227,7 @@
    "hit": "ashby:turion-space"
   },
   "turnstone": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "tuva-health": {
@@ -126214,7 +126243,7 @@
    "hit": "ashby:twenty"
   },
   "twentyfour26": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "twentytwo": {
@@ -126226,7 +126255,7 @@
    "hit": null
   },
   "twolabs": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "tybr-health": {
@@ -126278,7 +126307,7 @@
    "hit": null
   },
   "ultrasonium": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "unbound": {
@@ -126298,7 +126327,7 @@
    "hit": "greenhouse:understoodcare"
   },
   "unifold": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "union54": {
@@ -126326,7 +126355,7 @@
    "hit": null
   },
   "uno-wallet": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:20Z",
    "hit": null
   },
   "unravel-carbon": {
@@ -126434,7 +126463,7 @@
    "hit": null
   },
   "useparrot": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "usereframe": {
@@ -126446,15 +126475,15 @@
    "hit": "greenhouse:usergems"
   },
   "userlens": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:56Z",
    "hit": null
   },
   "useterse": {
-   "at": "2026-11-08T15:58:18Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "uxduck": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "vaero": {
@@ -126466,7 +126495,7 @@
    "hit": null
   },
   "valctrl": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
   "valence": {
@@ -126550,7 +126579,7 @@
    "hit": null
   },
   "veeza-ai": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "vela": {
@@ -126658,7 +126687,7 @@
    "hit": null
   },
   "verdant": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:12Z",
    "hit": null
   },
   "verdex": {
@@ -126666,11 +126695,11 @@
    "hit": null
   },
   "verdict-machine": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "verdun": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:19Z",
    "hit": null
   },
   "verge-genomics": {
@@ -126686,7 +126715,7 @@
    "hit": null
   },
   "veriad": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "veriff": {
@@ -126710,7 +126739,7 @@
    "hit": null
   },
   "vernius-systems-inc": {
-   "at": "2026-11-08T15:58:14Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "verno": {
@@ -126758,7 +126787,7 @@
    "hit": null
   },
   "vestris": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:13Z",
    "hit": null
   },
   "vetcove": {
@@ -126774,7 +126803,7 @@
    "hit": null
   },
   "vexo": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:17Z",
    "hit": null
   },
   "vibe": {
@@ -126830,7 +126859,7 @@
    "hit": null
   },
   "viraj-aero": {
-   "at": "2026-11-08T15:58:28Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "virtualmin": {
@@ -126930,11 +126959,11 @@
    "hit": null
   },
   "voquill": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:57Z",
    "hit": null
   },
   "vorelios": {
-   "at": "2026-11-08T15:57:51Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "vorflux": {
@@ -126966,7 +126995,7 @@
    "hit": null
   },
   "vouchwealth": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "voxel-energy": {
@@ -126978,11 +127007,11 @@
    "hit": null
   },
   "voyager": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "voygr": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "vulcan-technologies": {
@@ -126994,7 +127023,7 @@
    "hit": null
   },
   "vyra": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "waddle-labs": {
@@ -127026,7 +127055,7 @@
    "hit": "ashby:wallbit"
   },
   "walter": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:59Z",
    "hit": null
   },
   "wand-solar": {
@@ -127074,7 +127103,7 @@
    "hit": null
   },
   "wato": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:59Z",
    "hit": null
   },
   "watsi": {
@@ -127098,11 +127127,11 @@
    "hit": null
   },
   "waybill": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:14Z",
    "hit": null
   },
   "wayco": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:58Z",
    "hit": null
   },
   "waydev": {
@@ -127126,7 +127155,7 @@
    "hit": null
   },
   "wealor": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:58Z",
    "hit": null
   },
   "weathercheck": {
@@ -127214,7 +127243,7 @@
    "hit": null
   },
   "wideframe": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:54Z",
    "hit": null
   },
   "wifi-dabba-inc": {
@@ -127278,7 +127307,7 @@
    "hit": null
   },
   "wondering": {
-   "at": "2026-11-08T15:57:50Z",
+   "at": "2026-11-22T17:08:16Z",
    "hit": null
   },
   "wonderly": {
@@ -127290,7 +127319,7 @@
    "hit": null
   },
   "wondertx": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:57Z",
    "hit": null
   },
   "wordware": {
@@ -127298,7 +127327,7 @@
    "hit": null
   },
   "workers-io": {
-   "at": "2026-11-08T15:58:15Z",
+   "at": "2026-11-22T17:08:22Z",
    "hit": null
   },
   "workflow86": {
@@ -127374,7 +127403,7 @@
    "hit": "ashby:ycombinator"
   },
   "yam": {
-   "at": "2026-11-08T15:57:52Z",
+   "at": "2026-11-22T17:08:18Z",
    "hit": null
   },
   "yardbook": {
@@ -127434,7 +127463,7 @@
    "hit": null
   },
   "youart": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
   "youlearn": {
@@ -127474,7 +127503,7 @@
    "hit": "ashby:zapier"
   },
   "zaplar": {
-   "at": "2026-11-08T15:57:49Z",
+   "at": "2026-11-22T17:08:12Z",
    "hit": null
   },
   "zarna": {
@@ -127594,7 +127623,7 @@
    "hit": null
   },
   "zibra-labs": {
-   "at": "2026-11-08T15:58:11Z",
+   "at": "2026-11-22T17:08:21Z",
    "hit": null
   },
   "zidisha": {
@@ -127634,11 +127663,11 @@
    "hit": null
   },
   "zolvo": {
-   "at": "2026-11-08T15:57:47Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   },
   "zomma": {
-   "at": "2026-11-08T15:57:48Z",
+   "at": "2026-11-22T17:08:08Z",
    "hit": null
   },
   "zorba": {
@@ -127658,7 +127687,7 @@
    "hit": null
   },
   "zymbly": {
-   "at": "2026-11-08T15:57:46Z",
+   "at": "2026-11-22T17:07:55Z",
    "hit": null
   }
  }
