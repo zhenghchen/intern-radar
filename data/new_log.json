@@ -1,6 +1,26 @@
 [
  {
   "backers": [
+   "General Catalyst",
+   "Accel",
+   "Andreessen Horowitz",
+   "8VC"
+  ],
+  "company": "Illumio",
+  "first_seen": "2026-11-23T23:47:26Z",
+  "fit": 4,
+  "id": "ashby:illumio:95bc7491-9b2f-493c-9297-e9cb36a63b45",
+  "location": "Sunnyvale, California - HQ",
+  "posted_at": "2026-11-23T23:42:27Z",
+  "score": 8,
+  "signal": 4,
+  "term": "",
+  "title": "Engineering Intern, Security Platforms",
+  "type": "startup",
+  "url": "https://jobs.ashbyhq.com/illumio/95bc7491-9b2f-493c-9297-e9cb36a63b45"
+ },
+ {
+  "backers": [
    "Lightspeed"
   ],
   "company": "Intel",
