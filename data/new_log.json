@@ -1,6 +1,23 @@
 [
  {
   "backers": [
+   "Kleiner Perkins"
+  ],
+  "company": "CesiumAstro",
+  "first_seen": "2026-11-23T16:20:02Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1GQ",
+  "location": "Austin, TX",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "Spring",
+  "title": "Software Engineering Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1GQ"
+ },
+ {
+  "backers": [
    "Andreessen Horowitz",
    "Sequoia Capital",
    "Thrive Capital"
