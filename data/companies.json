@@ -76,7 +76,7 @@
    "name": "9 Mothers",
    "one_liner": "Counter Drone Systems. $1.6m sales. We delivered for the DoW.",
    "src": "common crawl",
-   "team_size": 19,
+   "team_size": 35,
    "yc": "Spring 2026"
   },
   "9fin": {
@@ -2862,8 +2862,8 @@
   "brainbaselabs": {
    "hq": "San Francisco, CA, USA",
    "name": "Brainbase Labs",
-   "one_liner": "The AI Labor Company",
-   "team_size": 4,
+   "one_liner": "Internal agent infrastructure for enterprise",
+   "team_size": 6,
    "yc": "Winter 2024"
   },
   "brainco": {
@@ -7731,7 +7731,7 @@
   "lark": {
    "hq": "San Francisco, CA, USA",
    "name": "Lark",
-   "one_liner": "AI agents that automate workflows for distributors",
+   "one_liner": "AI native operating system for distributors ",
    "team_size": 2,
    "yc": "Fall 2026"
   },
@@ -10692,8 +10692,8 @@
   "quindar": {
    "hq": "Denver, CO, USA",
    "name": "Quindar",
-   "one_liner": "Datadog for Space",
-   "team_size": 57,
+   "one_liner": "Infrastructure for Space",
+   "team_size": 91,
    "yc": "Summer 2022"
   },
   "quippy": {
@@ -35724,6 +35724,9 @@
   "artefactlinkedin": {
    "name": "Artefact"
   },
+  "artefactnoram": {
+   "name": "Artefact"
+  },
   "arteriaai": {
    "name": "Arteriaai",
    "src": "common crawl"
@@ -43604,6 +43607,9 @@
    "team_size": 2,
    "yc": "Fall 2026"
   },
+  "proton": {
+   "name": "Proton"
+  },
   "prove": {
    "name": "Prove",
    "src": "common crawl"
@@ -45883,6 +45889,9 @@
   "uvimco": {
    "name": "University of Virginia Investment Management Company (UVIMCO)"
   },
+  "vailexa": {
+   "name": "Vailexa"
+  },
   "valaratomics": {
    "name": "Valaratomics",
    "src": "common crawl"
@@ -46024,6 +46033,9 @@
   "village": {
    "name": "Village",
    "src": "common crawl"
+  },
+  "vinteden": {
+   "name": "Vinted"
   },
   "vipvermontinformationprocessing2": {
    "name": "Vermont Information Processing"
@@ -49111,6 +49123,9 @@
   "QANALYSTSLLC2": {
    "name": "QualityAI"
   },
+  "QSL": {
+   "name": "QSL"
+  },
   "RA2": {
    "name": "Roljobs Technology Services"
   },
@@ -49433,7 +49448,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-22T17:56:57Z",
+ "updated": "2026-11-23T22:04:20Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -52972,12 +52987,13 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Financial Services",
-    "Fintech"
+    "Enterprise Software",
+    "Productivity",
+    "SaaS"
    ],
    "name": "Alloy",
    "stage": "Growth",
-   "team_size": 425,
+   "team_size": 7,
    "vcs": [
     "Menlo Ventures",
     "Primary Venture Partners",
@@ -55587,11 +55603,11 @@
     "Bessemer Ventures"
    ],
    "markets": [
-    "Leisure, Travel & Tourism"
+    "Fintech"
    ],
    "name": "Ascend",
-   "stage": "Seed funded",
-   "team_size": 73,
+   "stage": "Series A",
+   "team_size": 113,
    "vcs": [
     "Felicis",
     "First Round Capital",
@@ -61583,7 +61599,7 @@
    ],
    "name": "Chalk",
    "stage": "Series A",
-   "team_size": 94,
+   "team_size": 136,
    "vcs": [
     "Felicis"
    ]
@@ -63921,12 +63937,11 @@
     "Bain Ventures"
    ],
    "markets": [
-    "AI",
-    "Insurance"
+    "AI"
    ],
    "name": "Corridor",
-   "stage": "Seed funded",
-   "team_size": 13,
+   "stage": "Series A",
+   "team_size": 35,
    "vcs": [
     "Felicis",
     "Bain Capital Ventures"
@@ -63940,11 +63955,13 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Productivity"
+    "Enterprise Software",
+    "Marketing and Advertising",
+    "SaaS"
    ],
    "name": "Cortex",
    "stage": "Growth",
-   "team_size": 112,
+   "team_size": 17,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -65370,11 +65387,12 @@
     "GV"
    ],
    "markets": [
-    "AI"
+    "Enterprise Software",
+    "SaaS"
    ],
    "name": "daydream",
-   "stage": "Seed funded",
-   "team_size": 59,
+   "stage": "Series A",
+   "team_size": 24,
    "vcs": [
     "First Round Capital",
     "GV"
@@ -69867,6 +69885,14 @@
     "GV"
    ]
   },
+  "firstresonance": {
+   "investors": [],
+   "name": "First Resonance",
+   "stage": "series_unknown",
+   "vcs": [
+    "Craft Ventures"
+   ]
+  },
   "fiscalnote": {
    "investors": [
     "Conversion Capital",
@@ -72522,10 +72548,10 @@
     "GV"
    ],
    "markets": [
-    "Banking",
-    "Financial Services",
-    "Fintech",
-    "Payments"
+    "Automotive",
+    "Mobility",
+    "Renewables & Environment",
+    "Transportation"
    ],
    "name": "GRAVITY",
    "stage": "Seed funded",
@@ -73243,7 +73269,7 @@
    ],
    "name": "Harvey",
    "stage": "Growth",
-   "team_size": 1840,
+   "team_size": 2235,
    "vcs": [
     "Lightspeed",
     "GV",
@@ -75325,6 +75351,14 @@
    "team_size": 28,
    "vcs": [
     "Sequoia Capital"
+   ]
+  },
+  "insify": {
+   "investors": [],
+   "name": "Insify",
+   "stage": "series_b",
+   "vcs": [
+    "Accel"
    ]
   },
   "insifynl": {
@@ -77854,7 +77888,7 @@
     "SaaS"
    ],
    "name": "Legora",
-   "stage": "series_d",
+   "stage": "Growth",
    "team_size": 897,
    "vcs": [
     "Bain Capital Ventures",
@@ -78202,11 +78236,12 @@
     "Contrary"
    ],
    "markets": [
-    "Telecommunications"
+    "Financial Services",
+    "Fintech"
    ],
    "name": "Lightyear",
-   "stage": "Growth",
-   "team_size": 75,
+   "stage": "Series A",
+   "team_size": 95,
    "vcs": [
     "Lightspeed",
     "Contrary"
@@ -80947,11 +80982,12 @@
     "Kleiner Perkins"
    ],
    "markets": [
-    "Fintech"
+    "Computer & Network Security",
+    "Developer Tools"
    ],
    "name": "Mine",
-   "stage": "Seed funded",
-   "team_size": 69,
+   "stage": "Growth",
+   "team_size": 111,
    "vcs": [
     "Battery Ventures",
     "Kleiner Perkins"
@@ -93300,11 +93336,12 @@
     "GV"
    ],
    "markets": [
-    "Consumer"
+    "Consumer Services",
+    "Health, Wellness and Fitness"
    ],
    "name": "Sesame",
    "stage": "Growth",
-   "team_size": 120,
+   "team_size": 160,
    "vcs": [
     "Sequoia Capital",
     "GV"
@@ -95704,7 +95741,7 @@
     "Hospital & Health Care"
    ],
    "name": "Sprinter Health",
-   "stage": "Venture",
+   "stage": "Growth",
    "team_size": 243,
    "vcs": [
     "GV",
@@ -96486,7 +96523,7 @@
    ],
    "name": "Straiker",
    "stage": "Series A",
-   "team_size": 103,
+   "team_size": 109,
    "vcs": [
     "Lightspeed",
     "Bain Capital Ventures"
@@ -96909,7 +96946,8 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Renewables & Environment"
+    "AI",
+    "Automation & Robotics"
    ],
    "name": "Sunday",
    "stage": "Growth",
@@ -102418,11 +102456,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Developer Tools"
+    "AI"
    ],
    "name": "Warp",
    "stage": "Growth",
-   "team_size": 98,
+   "team_size": 87,
    "vcs": [
     "Battery Ventures",
     "GV",
@@ -103206,12 +103244,12 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Delivery Services",
-    "Food & Beverages"
+    "Enterprise Software",
+    "Research"
    ],
    "name": "Wonder",
-   "stage": "Growth",
-   "team_size": 10266,
+   "stage": "Series A",
+   "team_size": 236,
    "vcs": [
     "NEA",
     "GV",
@@ -103310,7 +103348,7 @@
    ],
    "name": "Workato",
    "stage": "pre_seed",
-   "team_size": 1466,
+   "team_size": 1498,
    "vcs": [
     "Battery Ventures",
     "Insight Partners"
@@ -110318,6 +110356,10 @@
    "at": "2026-11-21T16:49:41Z",
    "hit": null
   },
+  "10x-dental": {
+   "at": "2026-11-23T21:17:01Z",
+   "hit": null
+  },
   "10x-science": {
    "at": "2026-11-21T16:50:52Z",
    "hit": null
@@ -112219,7 +112261,7 @@
    "hit": null
   },
   "biodelivera": {
-   "at": "2026-11-09T19:46:49Z",
+   "at": "2026-11-23T21:17:01Z",
    "hit": null
   },
   "biodock": {
@@ -114530,6 +114572,10 @@
    "at": "2026-11-21T16:49:24Z",
    "hit": null
   },
+  "digibuild-resilience": {
+   "at": "2026-11-23T21:17:01Z",
+   "hit": null
+  },
   "digipals": {
    "at": "2026-11-21T16:49:44Z",
    "hit": null
@@ -115043,7 +115089,7 @@
    "hit": "greenhouse:elite"
   },
   "elithia": {
-   "at": "2026-11-09T19:46:49Z",
+   "at": "2026-11-23T21:17:00Z",
    "hit": null
   },
   "ellipsis": {
@@ -119519,7 +119565,7 @@
    "hit": "ashby:metal"
   },
   "metalcraft": {
-   "at": "2026-11-09T19:46:49Z",
+   "at": "2026-11-23T21:17:00Z",
    "hit": null
   },
   "metalware": {
@@ -120905,6 +120951,10 @@
   "ophelia": {
    "at": "2026-10-23T23:56:10Z",
    "hit": "greenhouse:ophelia"
+  },
+  "opsis": {
+   "at": "2026-11-23T21:17:00Z",
+   "hit": null
   },
   "opslane": {
    "at": "2026-11-21T16:49:37Z",
@@ -123430,6 +123480,10 @@
    "at": "2026-11-22T17:08:01Z",
    "hit": null
   },
+  "runtime-si": {
+   "at": "2026-11-23T21:17:01Z",
+   "hit": null
+  },
   "runtimesi": {
    "at": "2026-11-22T17:08:22Z",
    "hit": null
@@ -125543,7 +125597,7 @@
    "hit": "lever:tesorio"
   },
   "tesser": {
-   "at": "2026-11-09T19:46:49Z",
+   "at": "2026-11-23T21:17:00Z",
    "hit": null
   },
   "tesseract": {
@@ -127395,7 +127449,7 @@
    "hit": null
   },
   "xulux": {
-   "at": "2026-11-09T19:46:49Z",
+   "at": "2026-11-23T21:17:00Z",
    "hit": null
   },
   "y-combinator": {
