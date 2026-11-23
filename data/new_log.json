@@ -1,6 +1,24 @@
 [
  {
   "backers": [
+   "Andreessen Horowitz",
+   "Felicis"
+  ],
+  "company": "Exowatt",
+  "first_seen": "2026-11-23T23:52:41Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1Hs",
+  "location": "Austin, TX",
+  "posted_at": null,
+  "score": 6,
+  "signal": 4,
+  "term": "Spring",
+  "title": "Software & AI Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1Hs"
+ },
+ {
+  "backers": [
    "General Catalyst",
    "Accel",
    "Andreessen Horowitz",
