@@ -1,5 +1,25 @@
 [
  {
+  "backers": [
+   "Andreessen Horowitz",
+   "Sequoia Capital",
+   "Thrive Capital",
+   "Y Combinator"
+  ],
+  "company": "Benchling",
+  "first_seen": "2026-11-23T14:32:47Z",
+  "fit": 2,
+  "id": "ashby:benchling:96370d1b-d35e-446b-8e26-dce088860099",
+  "location": "San Francisco, CA; Remote",
+  "posted_at": "2026-11-23T14:31:51Z",
+  "score": 6,
+  "signal": 4,
+  "term": "Summer 2027",
+  "title": "Software Engineer, Intern (Summer 2027)",
+  "type": "startup",
+  "url": "https://jobs.ashbyhq.com/benchling/96370d1b-d35e-446b-8e26-dce088860099"
+ },
+ {
   "backers": [],
   "company": "NVIDIA",
   "first_seen": "2026-11-23T08:25:56Z",
