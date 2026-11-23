@@ -7,6 +7,26 @@
    "Lerer Hippeau"
   ],
   "company": "Oscar Health",
+  "first_seen": "2026-11-23T19:18:57Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1H6",
+  "location": "New York, NY",
+  "posted_at": null,
+  "score": 6,
+  "signal": 4,
+  "term": "Summer",
+  "title": "Software Engineering Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1H6"
+ },
+ {
+  "backers": [
+   "General Catalyst",
+   "Thrive Capital",
+   "8VC",
+   "Lerer Hippeau"
+  ],
+  "company": "Oscar Health",
   "first_seen": "2026-11-23T18:34:07Z",
   "fit": 2,
   "id": "gh:8407472",
