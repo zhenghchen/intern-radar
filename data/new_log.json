@@ -7,6 +7,26 @@
    "8VC"
   ],
   "company": "Illumio",
+  "first_seen": "2026-11-24T00:19:48Z",
+  "fit": 4,
+  "id": "url:go.vansh.nyc/1HB",
+  "location": "Sunnyvale, CA",
+  "posted_at": null,
+  "score": 8,
+  "signal": 4,
+  "term": "Summer",
+  "title": "Engineering Intern, Security Platforms",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1HB"
+ },
+ {
+  "backers": [
+   "General Catalyst",
+   "Accel",
+   "Andreessen Horowitz",
+   "8VC"
+  ],
+  "company": "Illumio",
   "first_seen": "2026-11-24T00:06:25Z",
   "fit": 3,
   "id": "ashby:illumio:78a9e57d-c213-405b-9cf3-6e68109a4ce7",
