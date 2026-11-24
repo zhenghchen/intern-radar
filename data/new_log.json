@@ -1,6 +1,23 @@
 [
  {
   "backers": [
+   "Sequoia Capital"
+  ],
+  "company": "Strava",
+  "first_seen": "2026-11-24T00:56:52Z",
+  "fit": 3,
+  "id": "ashby:strava:924afc4f-b490-4716-a308-5e02fe56653b",
+  "location": "San Francisco, California, United States",
+  "posted_at": null,
+  "score": 6,
+  "signal": 3,
+  "term": "",
+  "title": "Software Engineering Intern, Server, Security",
+  "type": "startup",
+  "url": "https://jobs.ashbyhq.com/strava/924afc4f-b490-4716-a308-5e02fe56653b?utm_source=jobs.sequoiacap.com"
+ },
+ {
+  "backers": [
    "General Catalyst",
    "Accel",
    "Andreessen Horowitz",
