@@ -16,6 +16,10 @@
    "name": "115Ventures",
    "src": "common crawl"
   },
+  "1five": {
+   "name": "1Five",
+   "src": "common crawl"
+  },
   "1mind": {
    "name": "1Mind",
    "src": "common crawl"
@@ -40,6 +44,10 @@
   },
   "3imembers": {
    "name": "3Imembers",
+   "src": "common crawl"
+  },
+  "3y-health": {
+   "name": "3Y Health",
    "src": "common crawl"
   },
   "42dot": {
@@ -92,6 +100,10 @@
   },
   "APEXX": {
    "name": "Apexx",
+   "src": "common crawl"
+  },
+  "Abode Money": {
+   "name": "Abode Money",
    "src": "common crawl"
   },
   "Abound": {
@@ -152,6 +164,10 @@
    "name": "Ankorstore",
    "src": "common crawl"
   },
+  "Anori": {
+   "name": "Anori",
+   "src": "common crawl"
+  },
   "Antares": {
    "name": "Antares Nuclear"
   },
@@ -184,6 +200,10 @@
   },
   "Armory": {
    "name": "Armory",
+   "src": "common crawl"
+  },
+  "AstralisFoundation": {
+   "name": "Astralisfoundation",
    "src": "common crawl"
   },
   "Astro-Mechanica": {
@@ -229,6 +249,10 @@
   },
   "Blossom-Health": {
    "name": "Blossom Health",
+   "src": "common crawl"
+  },
+  "Blue-Raincoat-Music": {
+   "name": "Blue Raincoat Music",
    "src": "common crawl"
   },
   "Bounce": {
@@ -673,6 +697,9 @@
   "KAYAK": {
    "name": "KAYAK"
   },
+  "Karman%20Industries": {
+   "name": "Karman Industries"
+  },
   "Keragon": {
    "name": "Keragon",
    "src": "common crawl"
@@ -1078,6 +1105,9 @@
    "name": "Standardbots",
    "src": "common crawl"
   },
+  "Strava": {
+   "name": "Strava"
+  },
   "SunnyData": {
    "name": "Sunnydata",
    "src": "common crawl"
@@ -1179,6 +1209,10 @@
    "name": "A16Z New Media",
    "src": "common crawl"
   },
+  "aaru": {
+   "name": "Aaru",
+   "src": "common crawl"
+  },
   "abacum": {
    "hq": "New York City, NY, USA",
    "name": "Abacum",
@@ -1199,6 +1233,10 @@
   },
   "abridge": {
    "name": "Abridge"
+  },
+  "absci": {
+   "name": "Absci",
+   "src": "common crawl"
   },
   "absentia-labs": {
    "name": "Absentia Labs",
@@ -1240,6 +1278,10 @@
   },
   "acquisition": {
    "name": "Acquisition",
+   "src": "common crawl"
+  },
+  "act-security": {
+   "name": "Act Security",
    "src": "common crawl"
   },
   "activesite": {
@@ -1570,6 +1612,10 @@
   "alphalifesci": {
    "name": "AlphaLife Sciences"
   },
+  "alt": {
+   "name": "Alt",
+   "src": "common crawl"
+  },
   "alta-ares": {
    "name": "Alta Ares"
   },
@@ -1629,6 +1675,10 @@
    "name": "American Turbines",
    "src": "common crawl"
   },
+  "americansupercritical": {
+   "name": "Americansupercritical",
+   "src": "common crawl"
+  },
   "ami": {
    "name": "AMI"
   },
@@ -1665,8 +1715,16 @@
    "team_size": 5,
    "yc": "Summer 2024"
   },
+  "anatomy-financial": {
+   "name": "Anatomy Financial",
+   "src": "common crawl"
+  },
   "ande": {
    "name": "Ande"
+  },
+  "andel": {
+   "name": "Andel",
+   "src": "common crawl"
   },
   "andela": {
    "name": "Andela",
@@ -1757,8 +1815,16 @@
    "name": "Antimetal",
    "src": "common crawl"
   },
+  "antioch": {
+   "name": "Antioch",
+   "src": "common crawl"
+  },
   "antithesis": {
    "name": "Antithesis",
+   "src": "common crawl"
+  },
+  "anvil-robotics": {
+   "name": "Anvil Robotics",
    "src": "common crawl"
   },
   "anvilcarbon": {
@@ -1827,6 +1893,10 @@
   },
   "appliedlabs": {
    "name": "Appliedlabs",
+   "src": "common crawl"
+  },
+  "applike-group": {
+   "name": "Applike Group",
    "src": "common crawl"
   },
   "april": {
@@ -2000,6 +2070,10 @@
    "team_size": 20,
    "yc": "Summer 2023"
   },
+  "artificial": {
+   "name": "Artificial",
+   "src": "common crawl"
+  },
   "artificial.agency": {
    "name": "Artificial.Agency"
   },
@@ -2100,6 +2174,10 @@
   },
   "astronomer": {
    "name": "Astronomer"
+  },
+  "astroscale-us": {
+   "name": "Astroscale Us",
+   "src": "common crawl"
   },
   "asula": {
    "name": "Asula",
@@ -2226,6 +2304,10 @@
   "augmodo": {
    "name": "Augmodo"
   },
+  "augrade": {
+   "name": "Augrade",
+   "src": "common crawl"
+  },
   "augur": {
    "name": "Augur",
    "src": "common crawl"
@@ -2298,6 +2380,10 @@
   },
   "avantos": {
    "name": "Avantos",
+   "src": "common crawl"
+  },
+  "avartha": {
+   "name": "Avartha",
    "src": "common crawl"
   },
   "avelios-medical": {
@@ -2461,6 +2547,10 @@
   },
   "beaconai": {
    "name": "Beacon AI"
+  },
+  "beaconholdings": {
+   "name": "Beaconholdings",
+   "src": "common crawl"
   },
   "beacons": {
    "hq": "San Francisco, CA, USA",
@@ -2793,8 +2883,16 @@
    "name": "Blumen",
    "src": "common crawl"
   },
+  "blvdrecruiting": {
+   "name": "Blvdrecruiting",
+   "src": "common crawl"
+  },
   "bobyard": {
    "name": "Bobyard"
+  },
+  "bodysoul": {
+   "name": "Bodysoul",
+   "src": "common crawl"
   },
   "bold": {
    "name": "Bold",
@@ -2956,6 +3054,10 @@
   },
   "broccoli": {
    "name": "Broccoli",
+   "src": "common crawl"
+  },
+  "brooklinen": {
+   "name": "Brooklinen",
    "src": "common crawl"
   },
   "brooklyn-health": {
@@ -3205,6 +3307,10 @@
    "name": "Cargo One",
    "src": "common crawl"
   },
+  "cari": {
+   "name": "Cari",
+   "src": "common crawl"
+  },
   "caribou": {
    "hq": "London, England, United Kingdom",
    "name": "Caribou",
@@ -3451,6 +3557,10 @@
    "name": "Chief",
    "src": "common crawl"
   },
+  "chiefai": {
+   "name": "Chiefai",
+   "src": "common crawl"
+  },
   "chilipiper": {
    "name": "Chilipiper",
    "src": "common crawl"
@@ -3473,6 +3583,10 @@
    "team_size": 30,
    "yc": "Winter 2022"
   },
+  "circle": {
+   "name": "Circle",
+   "src": "common crawl"
+  },
   "circleback": {
    "hq": "San Francisco, CA, USA",
    "name": "Circleback",
@@ -3489,6 +3603,10 @@
   },
   "ciridae": {
    "name": "Ciridae",
+   "src": "common crawl"
+  },
+  "ciroos": {
+   "name": "Ciroos",
    "src": "common crawl"
   },
   "citadel-ai": {
@@ -3540,6 +3658,10 @@
    "team_size": 16,
    "yc": "Winter 2024"
   },
+  "claritypay": {
+   "name": "Claritypay",
+   "src": "common crawl"
+  },
   "claritypediatrics": {
    "name": "Claritypediatrics",
    "src": "common crawl"
@@ -3581,6 +3703,10 @@
    "one_liner": "Automate security and privacy reviews",
    "team_size": 17,
    "yc": "Summer 2024"
+  },
+  "clearvector": {
+   "name": "Clearvector",
+   "src": "common crawl"
   },
   "clera": {
    "name": "Clera"
@@ -3728,6 +3854,10 @@
    "team_size": 70,
    "yc": "Winter 2018"
   },
+  "colibri-group": {
+   "name": "Colibri Group",
+   "src": "common crawl"
+  },
   "collective": {
    "name": "Collective"
   },
@@ -3782,8 +3912,16 @@
    "name": "Community Preservation Corporation",
    "src": "common crawl"
   },
+  "como": {
+   "name": "Como",
+   "src": "common crawl"
+  },
   "compa": {
    "name": "Compa"
+  },
+  "compiled-health": {
+   "name": "Compiled Health",
+   "src": "common crawl"
   },
   "complete": {
    "hq": "San Francisco, CA, USA",
@@ -3809,6 +3947,10 @@
   },
   "composio": {
    "name": "Composio"
+  },
+  "composite": {
+   "name": "Composite",
+   "src": "common crawl"
   },
   "compound": {
    "name": "Compound",
@@ -3842,6 +3984,10 @@
    "one_liner": "The AI Agent platform for finance",
    "team_size": 15,
    "yc": "Winter 2023"
+  },
+  "concoursetech": {
+   "name": "Concoursetech",
+   "src": "common crawl"
   },
   "condor-software": {
    "name": "Condor Software",
@@ -3909,8 +4055,8 @@
   "constellationspace": {
    "hq": "Seattle, WA, USA",
    "name": "Constellation Space",
-   "one_liner": "AI operating system for mega-scale satellite networks. ",
-   "team_size": 4,
+   "one_liner": "Physics-grounded autonomy for satellite link forecasts and fleet ops.",
+   "team_size": 6,
    "yc": "Winter 2026"
   },
   "constructor": {
@@ -3944,6 +4090,10 @@
   },
   "convey": {
    "name": "Convey",
+   "src": "common crawl"
+  },
+  "conveydev": {
+   "name": "Conveydev",
    "src": "common crawl"
   },
   "coperniq": {
@@ -4068,6 +4218,10 @@
    "name": "Creem",
    "src": "common crawl"
   },
+  "crewcarbon": {
+   "name": "Crewcarbon",
+   "src": "common crawl"
+  },
   "critical-energy": {
    "name": "Critical Energy",
    "src": "common crawl"
@@ -4150,6 +4304,10 @@
   },
   "customuse": {
    "name": "Customuse",
+   "src": "common crawl"
+  },
+  "cybcube": {
+   "name": "Cybcube",
    "src": "common crawl"
   },
   "cyber.Fund": {
@@ -4291,12 +4449,20 @@
    "name": "Daydream Ai",
    "src": "common crawl"
   },
+  "dayhoff-labs": {
+   "name": "Dayhoff Labs",
+   "src": "common crawl"
+  },
   "dayjob-ai": {
    "name": "Dayjob Ai",
    "src": "common crawl"
   },
   "ddn": {
    "name": "Ddn",
+   "src": "common crawl"
+  },
+  "deaa6ad2-d184-436b-b69e-17f761da1d94": {
+   "name": "Deaa6Ad2 D184 436B B69E 17F761Da1D94",
    "src": "common crawl"
   },
   "dealops": {
@@ -4383,6 +4549,10 @@
   "deft-ai": {
    "name": "Deft AI"
   },
+  "delfa": {
+   "name": "Delfa",
+   "src": "common crawl"
+  },
   "delian": {
    "name": "Delian",
    "src": "common crawl"
@@ -4399,6 +4569,10 @@
   },
   "delphi": {
    "name": "Delphi",
+   "src": "common crawl"
+  },
+  "delplayagroup": {
+   "name": "Delplayagroup",
    "src": "common crawl"
   },
   "demandbase": {
@@ -11118,6 +11292,9 @@
    "name": "Runlayer",
    "src": "common crawl"
   },
+  "runna": {
+   "name": "Runna"
+  },
   "runpod": {
    "name": "Runpod"
   },
@@ -11789,6 +11966,9 @@
   "stratum-ai": {
    "name": "Stratum Ai",
    "src": "common crawl"
+  },
+  "strava": {
+   "name": "Strava"
   },
   "stream": {
    "hq": "San Francisco, CA, USA",
@@ -12773,6 +12953,9 @@
    "name": "Webai",
    "src": "common crawl"
   },
+  "webai": {
+   "name": "WebAI"
+  },
   "webflow": {
    "hq": "San Francisco, CA, USA",
    "name": "Webflow",
@@ -13021,7 +13204,7 @@
  },
  "cc_probe": {
   "ashby:01c": {
-   "at": "2026-10-25T13:49:22Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:0g": {
@@ -13044,6 +13227,10 @@
    "at": "2026-10-24T03:14:39Z",
    "hit": false
   },
+  "ashby:1five": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:1mind": {
    "at": "2026-10-24T03:14:39Z",
    "hit": true
@@ -13062,6 +13249,10 @@
   },
   "ashby:3imembers": {
    "at": "2026-10-24T03:14:39Z",
+   "hit": true
+  },
+  "ashby:3y-health": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "ashby:51f67855-3ba7-445a-99bb-97e9f5093e4b": {
@@ -13089,7 +13280,7 @@
    "hit": true
   },
   "ashby:91b38662-e5a9-4bc3-ade7-44e29d01d343": {
-   "at": "2026-10-25T13:49:22Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:a-place-for-mom": {
@@ -13109,15 +13300,27 @@
    "hit": true
   },
   "ashby:a37": {
-   "at": "2026-10-24T03:14:34Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
+  },
+  "ashby:aaru": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
   },
   "ashby:abe": {
    "at": "2026-10-24T03:14:39Z",
    "hit": true
   },
+  "ashby:abode money": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:aboon": {
    "at": "2026-10-24T03:14:34Z",
+   "hit": true
+  },
+  "ashby:absci": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "ashby:absentia-labs": {
@@ -13137,7 +13340,7 @@
    "hit": true
   },
   "ashby:ace-1-media": {
-   "at": "2026-10-25T13:49:22Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:achira": {
@@ -13152,8 +13355,12 @@
    "at": "2026-10-24T03:14:34Z",
    "hit": true
   },
+  "ashby:act-security": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:activeloop": {
-   "at": "2026-10-25T13:49:21Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:activesite": {
@@ -13205,7 +13412,7 @@
    "hit": true
   },
   "ashby:adtucon": {
-   "at": "2026-10-25T13:49:21Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:aduro-advisors": {
@@ -13249,11 +13456,11 @@
    "hit": true
   },
   "ashby:agora": {
-   "at": "2026-10-25T13:49:21Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:agreena": {
-   "at": "2026-10-25T13:49:20Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:aibidia": {
@@ -13313,7 +13520,7 @@
    "hit": true
   },
   "ashby:aisle3": {
-   "at": "2026-10-25T13:49:22Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:aiuc": {
@@ -13325,7 +13532,7 @@
    "hit": true
   },
   "ashby:aizen": {
-   "at": "2026-10-25T13:49:21Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:ajax": {
@@ -13405,7 +13612,7 @@
    "hit": true
   },
   "ashby:alpaca": {
-   "at": "2026-10-24T03:14:39Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:alpacahealth": {
@@ -13421,8 +13628,12 @@
    "hit": true
   },
   "ashby:alpic": {
-   "at": "2026-10-25T13:49:22Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
+  },
+  "ashby:alt": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
   },
   "ashby:alternativepayments": {
    "at": "2026-10-24T03:14:39Z",
@@ -13437,7 +13648,7 @@
    "hit": true
   },
   "ashby:altitude": {
-   "at": "2026-10-24T03:14:34Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:altura": {
@@ -13469,7 +13680,7 @@
    "hit": true
   },
   "ashby:americaachieves": {
-   "at": "2026-10-25T13:49:20Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:american terawatt": {
@@ -13484,8 +13695,12 @@
    "at": "2026-10-24T03:14:34Z",
    "hit": true
   },
+  "ashby:americansupercritical": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:amidon": {
-   "at": "2026-10-24T03:14:39Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:amo": {
@@ -13497,7 +13712,7 @@
    "hit": true
   },
   "ashby:amper": {
-   "at": "2026-10-24T03:14:39Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:amperos": {
@@ -13516,6 +13731,14 @@
    "at": "2026-10-24T03:14:39Z",
    "hit": true
   },
+  "ashby:anatomy-financial": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
+  "ashby:andel": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:andela": {
    "at": "2026-10-24T03:14:34Z",
    "hit": true
@@ -13525,7 +13748,7 @@
    "hit": true
   },
   "ashby:andi": {
-   "at": "2026-10-25T13:49:20Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:andotechnologies": {
@@ -13553,8 +13776,12 @@
    "hit": true
   },
   "ashby:anon": {
-   "at": "2026-10-24T03:14:39Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
+  },
+  "ashby:anori": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
   },
   "ashby:anrok": {
    "at": "2026-10-24T03:14:34Z",
@@ -13580,8 +13807,16 @@
    "at": "2026-10-24T03:14:39Z",
    "hit": true
   },
+  "ashby:antioch": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:antithesis": {
    "at": "2026-10-24T03:14:34Z",
+   "hit": true
+  },
+  "ashby:anvil-robotics": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "ashby:anvilcarbon": {
@@ -13640,6 +13875,10 @@
    "at": "2026-10-24T03:14:39Z",
    "hit": true
   },
+  "ashby:applike-group": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:appsumo": {
    "at": "2026-10-24T03:14:39Z",
    "hit": false
@@ -13661,7 +13900,7 @@
    "hit": true
   },
   "ashby:aquila": {
-   "at": "2026-10-24T03:14:34Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:arago": {
@@ -13681,7 +13920,7 @@
    "hit": true
   },
   "ashby:arbitrumgamingventures": {
-   "at": "2026-10-25T13:49:22Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:arbor": {
@@ -13693,7 +13932,7 @@
    "hit": true
   },
   "ashby:arcada": {
-   "at": "2026-10-25T13:49:20Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:arcade": {
@@ -13717,7 +13956,7 @@
    "hit": true
   },
   "ashby:archerfaris": {
-   "at": "2026-10-25T13:49:22Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:archive": {
@@ -13765,7 +14004,11 @@
    "hit": true
   },
   "ashby:arqu": {
-   "at": "2026-10-24T03:14:34Z",
+   "at": "2026-11-24T20:14:51Z",
+   "hit": false
+  },
+  "ashby:arrakis": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:array-behavioral-care": {
@@ -13794,6 +14037,10 @@
   },
   "ashby:articul8": {
    "at": "2026-10-24T03:14:39Z",
+   "hit": true
+  },
+  "ashby:artificial": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "ashby:artsy": {
@@ -13840,8 +14087,16 @@
    "at": "2026-10-24T03:14:39Z",
    "hit": true
   },
+  "ashby:astralisfoundation": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:astrocade": {
    "at": "2026-10-24T03:14:39Z",
+   "hit": true
+  },
+  "ashby:astroscale-us": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "ashby:asula": {
@@ -13924,6 +14179,10 @@
    "at": "2026-10-24T03:14:39Z",
    "hit": false
   },
+  "ashby:augrade": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:augur": {
    "at": "2026-10-24T03:14:34Z",
    "hit": true
@@ -13964,6 +14223,10 @@
    "at": "2026-10-24T03:14:34Z",
    "hit": true
   },
+  "ashby:avartha": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:avelios-medical": {
    "at": "2026-10-24T03:14:39Z",
    "hit": true
@@ -13991,6 +14254,10 @@
   "ashby:axiom-co": {
    "at": "2026-10-25T13:49:22Z",
    "hit": true
+  },
+  "ashby:axiom-trade": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": false
   },
   "ashby:axiombio": {
    "at": "2026-10-24T03:14:40Z",
@@ -14069,7 +14336,7 @@
    "hit": true
   },
   "ashby:base": {
-   "at": "2026-10-24T03:14:34Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:base-operations": {
@@ -14119,6 +14386,10 @@
   "ashby:beacon": {
    "at": "2026-10-24T03:14:40Z",
    "hit": false
+  },
+  "ashby:beaconholdings": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
   },
   "ashby:beam": {
    "at": "2026-10-24T03:14:40Z",
@@ -14268,6 +14539,10 @@
    "at": "2026-10-25T13:49:20Z",
    "hit": true
   },
+  "ashby:bitcoin-talent-co": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": false
+  },
   "ashby:bite": {
    "at": "2026-10-24T03:14:34Z",
    "hit": true
@@ -14356,6 +14631,10 @@
    "at": "2026-10-24T03:14:34Z",
    "hit": true
   },
+  "ashby:blue-raincoat-music": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:blueberry": {
    "at": "2026-10-24T03:14:40Z",
    "hit": false
@@ -14372,9 +14651,21 @@
    "at": "2026-10-24T03:14:34Z",
    "hit": true
   },
+  "ashby:blvdrecruiting": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
+  "ashby:boam": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": false
+  },
   "ashby:bobsled": {
    "at": "2026-10-25T13:49:22Z",
    "hit": false
+  },
+  "ashby:bodysoul": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
   },
   "ashby:bold": {
    "at": "2026-10-24T03:14:40Z",
@@ -14411,6 +14702,10 @@
   "ashby:bounce": {
    "at": "2026-10-24T03:14:40Z",
    "hit": true
+  },
+  "ashby:bounti": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": false
   },
   "ashby:bowatt": {
    "at": "2026-10-24T03:14:40Z",
@@ -14492,6 +14787,10 @@
    "at": "2026-10-24T03:14:40Z",
    "hit": true
   },
+  "ashby:brooklinen": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:brooklyn-health": {
    "at": "2026-10-24T03:14:34Z",
    "hit": true
@@ -14525,7 +14824,7 @@
    "hit": true
   },
   "ashby:buildwithfern": {
-   "at": "2026-10-24T03:14:40Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:bullpen-talent": {
@@ -14654,6 +14953,10 @@
   },
   "ashby:cargo-one": {
    "at": "2026-10-24T03:14:40Z",
+   "hit": true
+  },
+  "ashby:cari": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "ashby:carry": {
@@ -14844,6 +15147,10 @@
    "at": "2026-10-24T13:41:38Z",
    "hit": true
   },
+  "ashby:chiefai": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:chilipiper": {
    "at": "2026-10-24T13:41:38Z",
    "hit": true
@@ -14864,8 +15171,16 @@
    "at": "2026-10-24T13:41:38Z",
    "hit": false
   },
+  "ashby:circle": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:ciridae": {
    "at": "2026-10-25T13:49:21Z",
+   "hit": true
+  },
+  "ashby:ciroos": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "ashby:citadel-ai": {
@@ -14912,6 +15227,10 @@
    "at": "2026-10-24T13:41:38Z",
    "hit": false
   },
+  "ashby:claritypay": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:claritypediatrics": {
    "at": "2026-10-24T13:41:38Z",
    "hit": true
@@ -14926,6 +15245,10 @@
   },
   "ashby:clearco": {
    "at": "2026-10-24T13:41:38Z",
+   "hit": true
+  },
+  "ashby:clearvector": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "ashby:cleric": {
@@ -15056,6 +15379,10 @@
    "at": "2026-10-25T13:49:22Z",
    "hit": true
   },
+  "ashby:colibri-group": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:collider": {
    "at": "2026-10-24T13:41:38Z",
    "hit": false
@@ -15116,8 +15443,20 @@
    "at": "2026-10-24T13:41:39Z",
    "hit": false
   },
+  "ashby:como": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
+  "ashby:compiled-health": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:complir": {
    "at": "2026-10-24T03:14:35Z",
+   "hit": true
+  },
+  "ashby:composite": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "ashby:compound": {
@@ -15146,6 +15485,10 @@
   },
   "ashby:conception": {
    "at": "2026-10-24T13:41:38Z",
+   "hit": true
+  },
+  "ashby:concoursetech": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "ashby:condor-software": {
@@ -15208,6 +15551,10 @@
    "at": "2026-10-24T13:41:38Z",
    "hit": false
   },
+  "ashby:contradict capital": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": false
+  },
   "ashby:contrast-security": {
    "at": "2026-10-24T13:41:38Z",
    "hit": true
@@ -15226,6 +15573,10 @@
   },
   "ashby:convey": {
    "at": "2026-10-24T03:14:35Z",
+   "hit": true
+  },
+  "ashby:conveydev": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "ashby:copilot": {
@@ -15340,6 +15691,10 @@
    "at": "2026-10-24T13:41:38Z",
    "hit": false
   },
+  "ashby:crewcarbon": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:critical-energy": {
    "at": "2026-10-24T03:14:35Z",
    "hit": true
@@ -15398,6 +15753,10 @@
   },
   "ashby:customuse": {
    "at": "2026-10-25T13:49:22Z",
+   "hit": true
+  },
+  "ashby:cybcube": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "ashby:cyber.fund": {
@@ -15504,6 +15863,10 @@
    "at": "2026-10-25T13:49:20Z",
    "hit": false
   },
+  "ashby:dayhoff-labs": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:dayjob-ai": {
    "at": "2026-10-25T13:49:20Z",
    "hit": true
@@ -15514,6 +15877,10 @@
   },
   "ashby:ddn": {
    "at": "2026-10-24T03:14:35Z",
+   "hit": true
+  },
+  "ashby:deaa6ad2-d184-436b-b69e-17f761da1d94": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "ashby:dealops": {
@@ -15564,6 +15931,10 @@
    "at": "2026-10-24T13:41:38Z",
    "hit": true
   },
+  "ashby:delfa": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "ashby:delian": {
    "at": "2026-10-24T13:41:38Z",
    "hit": true
@@ -15578,6 +15949,10 @@
   },
   "ashby:delphina": {
    "at": "2026-10-24T13:41:38Z",
+   "hit": true
+  },
+  "ashby:delplayagroup": {
+   "at": "2026-11-24T20:14:52Z",
    "hit": true
   },
   "ashby:deltia": {
@@ -15625,7 +16000,7 @@
    "hit": true
   },
   "ashby:dfd001cc-f1d3-494c-a350-b14cfef0f0e1": {
-   "at": "2026-10-24T03:14:35Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:diagrid": {
@@ -17345,7 +17720,7 @@
    "hit": true
   },
   "ashby:honeyinsurance": {
-   "at": "2026-10-24T03:14:36Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:hook": {
@@ -17621,7 +17996,7 @@
    "hit": true
   },
   "ashby:interaction": {
-   "at": "2026-10-24T03:14:36Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:interface": {
@@ -17885,7 +18260,7 @@
    "hit": false
   },
   "ashby:keep": {
-   "at": "2026-10-24T03:14:36Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:keeper": {
@@ -18309,7 +18684,7 @@
    "hit": true
   },
   "ashby:lime": {
-   "at": "2026-10-24T03:14:36Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:limelight-steel": {
@@ -18677,7 +19052,7 @@
    "hit": false
   },
   "ashby:material": {
-   "at": "2026-10-24T03:14:36Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:materialize": {
@@ -19493,7 +19868,7 @@
    "hit": true
   },
   "ashby:numo": {
-   "at": "2026-10-24T03:14:37Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "ashby:nuon": {
@@ -21085,7 +21460,7 @@
    "hit": true
   },
   "greenhouse:0x": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:100thieves": {
@@ -21097,16 +21472,20 @@
    "hit": true
   },
   "greenhouse:1047games": {
-   "at": "2026-10-24T13:41:42Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:10up": {
-   "at": "2026-10-24T13:41:40Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:10xgenomics": {
-   "at": "2026-10-24T13:41:41Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
+  },
+  "greenhouse:12345": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
   },
   "greenhouse:12twenty": {
    "at": "2026-10-24T03:08:10Z",
@@ -21125,15 +21504,15 @@
    "hit": true
   },
   "greenhouse:1848ventures": {
-   "at": "2026-10-24T13:41:43Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:1906newhighs": {
-   "at": "2026-10-24T13:41:42Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:1910genetics": {
-   "at": "2026-10-24T13:41:44Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:1945bce8d3924ece9421ba8630f57b0c": {
@@ -21149,11 +21528,19 @@
    "hit": true
   },
   "greenhouse:1uphealth": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
+   "hit": false
+  },
+  "greenhouse:2023fellowscolorstack": {
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "greenhouse:240certification": {
    "at": "2026-10-24T13:41:43Z",
+   "hit": true
+  },
+  "greenhouse:240tutoringinc": {
+   "at": "2026-11-24T20:14:52Z",
    "hit": true
   },
   "greenhouse:24hourhomecare": {
@@ -21177,11 +21564,11 @@
    "hit": true
   },
   "greenhouse:33vincent": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:350org": {
-   "at": "2026-10-24T13:41:41Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:3cloud": {
@@ -21249,11 +21636,11 @@
    "hit": true
   },
   "greenhouse:777partners": {
-   "at": "2026-10-24T13:41:42Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:7shifts": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:84674th44metrea9999": {
@@ -21261,7 +21648,7 @@
    "hit": true
   },
   "greenhouse:86repairs": {
-   "at": "2026-10-24T13:41:42Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:8thlightrebuild": {
@@ -21273,11 +21660,11 @@
    "hit": true
   },
   "greenhouse:98point6": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:a": {
-   "at": "2026-10-24T13:41:43Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:a1msolutions": {
@@ -21289,40 +21676,64 @@
    "hit": true
   },
   "greenhouse:aaboratoriesace": {
-   "at": "2026-10-24T13:41:41Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:aacpnw": {
    "at": "2026-10-24T13:41:39Z",
    "hit": true
   },
+  "greenhouse:aalphabio": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "greenhouse:aarkiinc": {
-   "at": "2026-10-24T13:41:38Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
+  },
+  "greenhouse:aavaa": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
+  "greenhouse:aavantgardebio": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
   },
   "greenhouse:abacus": {
    "at": "2026-10-24T03:08:10Z",
    "hit": true
   },
   "greenhouse:abacusgroup": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:abakaai": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:abarca": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:abbycare": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
+   "hit": false
+  },
+  "greenhouse:abbyy": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
+  "greenhouse:abclabs": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:abclegalservices": {
    "at": "2026-10-24T13:41:42Z",
    "hit": true
+  },
+  "greenhouse:abdielcapital": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": false
   },
   "greenhouse:abilitypath": {
    "at": "2026-10-24T03:08:10Z",
@@ -21332,12 +21743,16 @@
    "at": "2026-10-24T03:08:10Z",
    "hit": true
   },
+  "greenhouse:abiologics": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "greenhouse:able": {
    "at": "2026-10-24T03:08:10Z",
    "hit": true
   },
   "greenhouse:ableto": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:ably30": {
@@ -21349,11 +21764,11 @@
    "hit": true
   },
   "greenhouse:abodo": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:abpartners": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:abricareinc": {
@@ -21412,12 +21827,20 @@
    "at": "2026-10-24T03:08:10Z",
    "hit": true
   },
+  "greenhouse:aceable": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "greenhouse:acecharter": {
-   "at": "2026-10-24T13:41:40Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:acentria": {
    "at": "2026-10-24T03:08:10Z",
+   "hit": true
+  },
+  "greenhouse:achievementcenteroflecomhealth": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "greenhouse:achievementfirstnetworksupportcareers": {
@@ -21432,12 +21855,20 @@
    "at": "2026-10-24T03:08:10Z",
    "hit": true
   },
+  "greenhouse:acloudguru": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": false
+  },
   "greenhouse:aclunc": {
    "at": "2026-10-24T03:08:10Z",
    "hit": true
   },
   "greenhouse:aclunj": {
    "at": "2026-10-24T13:41:40Z",
+   "hit": true
+  },
+  "greenhouse:acmelock&door": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "greenhouse:acog": {
@@ -21453,15 +21884,19 @@
    "hit": true
   },
   "greenhouse:acorns": {
-   "at": "2026-10-25T13:49:23Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
+  },
+  "greenhouse:acp": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
   },
   "greenhouse:acquia": {
    "at": "2026-10-24T03:08:10Z",
    "hit": true
   },
   "greenhouse:acronis": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:acryldata": {
@@ -21481,7 +21916,7 @@
    "hit": true
   },
   "greenhouse:actiumhealth": {
-   "at": "2026-10-24T13:41:43Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:activate": {
@@ -21489,7 +21924,7 @@
    "hit": true
   },
   "greenhouse:actpowerservices": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:acumen": {
@@ -21498,6 +21933,10 @@
   },
   "greenhouse:acutechgroupinc": {
    "at": "2026-10-24T03:08:10Z",
+   "hit": true
+  },
+  "greenhouse:adams-engineers": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "greenhouse:adamsclinical": {
@@ -21512,6 +21951,14 @@
    "at": "2026-10-24T03:08:10Z",
    "hit": true
   },
+  "greenhouse:adaugeohealthcare": {
+   "at": "2026-11-24T20:14:52Z",
+   "hit": true
+  },
+  "greenhouse:addatainitiative": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "greenhouse:adelphigraduatecareers": {
    "at": "2026-10-25T13:49:24Z",
    "hit": true
@@ -21521,7 +21968,7 @@
    "hit": true
   },
   "greenhouse:adhocteam": {
-   "at": "2026-10-24T13:41:42Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:adicettherapeuticsinc": {
@@ -21537,7 +21984,7 @@
    "hit": true
   },
   "greenhouse:admarketplaceinc": {
-   "at": "2026-10-24T13:41:43Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "greenhouse:administrative": {
@@ -21545,11 +21992,11 @@
    "hit": true
   },
   "greenhouse:adpractitionersllc": {
-   "at": "2026-10-24T13:41:39Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:adroll": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:advertisementstrikeltd": {
@@ -21577,19 +22024,23 @@
    "hit": true
   },
   "greenhouse:aerospike": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:aescape": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
+  },
+  "greenhouse:aestheticphysicianspc": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
   },
   "greenhouse:aestudio": {
    "at": "2026-10-24T03:08:10Z",
    "hit": true
   },
   "greenhouse:aetion": {
-   "at": "2026-10-25T13:49:25Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:aevumcorporate": {
@@ -21600,6 +22051,10 @@
    "at": "2026-10-24T13:41:42Z",
    "hit": true
   },
+  "greenhouse:af": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": false
+  },
   "greenhouse:afam": {
    "at": "2026-10-24T03:08:10Z",
    "hit": true
@@ -21608,8 +22063,12 @@
    "at": "2026-10-24T13:41:40Z",
    "hit": true
   },
+  "greenhouse:affecttherapeutics": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": false
+  },
   "greenhouse:affiniatherapeutics": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:affinidi": {
@@ -21644,6 +22103,10 @@
    "at": "2026-10-24T03:08:10Z",
    "hit": true
   },
+  "greenhouse:agecareers": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "greenhouse:agencyeight": {
    "at": "2026-10-24T03:08:10Z",
    "hit": true
@@ -21660,8 +22123,12 @@
    "at": "2026-10-24T13:41:42Z",
    "hit": true
   },
+  "greenhouse:agilesix": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "greenhouse:agilespaceindustries": {
-   "at": "2026-10-24T13:41:44Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "greenhouse:agilityrobotics": {
@@ -21680,6 +22147,10 @@
    "at": "2026-10-24T13:41:41Z",
    "hit": true
   },
+  "greenhouse:ai_opt_out_request": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": false
+  },
   "greenhouse:aiaf": {
    "at": "2026-10-24T13:41:42Z",
    "hit": true
@@ -21694,6 +22165,10 @@
   },
   "greenhouse:aifoundry": {
    "at": "2026-10-25T13:49:24Z",
+   "hit": true
+  },
+  "greenhouse:aifss2026": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "greenhouse:aift": {
@@ -21717,7 +22192,7 @@
    "hit": true
   },
   "greenhouse:airbase": {
-   "at": "2026-10-24T13:41:40Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:airbnb": {
@@ -21725,7 +22200,7 @@
    "hit": true
   },
   "greenhouse:airbyte": {
-   "at": "2026-10-24T13:41:41Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:aircallioinc": {
@@ -21761,7 +22236,7 @@
    "hit": true
   },
   "greenhouse:airspeed": {
-   "at": "2026-10-24T13:41:44Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "greenhouse:airtamejobs": {
@@ -21777,7 +22252,7 @@
    "hit": true
   },
   "greenhouse:aiserajobs": {
-   "at": "2026-10-24T13:41:42Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:aisquared": {
@@ -21798,6 +22273,10 @@
   },
   "greenhouse:akko": {
    "at": "2026-10-24T13:41:40Z",
+   "hit": true
+  },
+  "greenhouse:akqa": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": true
   },
   "greenhouse:aks-internships": {
@@ -21833,7 +22312,7 @@
    "hit": false
   },
   "greenhouse:alchemy": {
-   "at": "2026-10-24T13:41:42Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "greenhouse:alertmedia": {
@@ -21873,7 +22352,7 @@
    "hit": true
   },
   "greenhouse:allarahealth": {
-   "at": "2026-10-24T13:41:39Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:allbooked": {
@@ -21893,7 +22372,7 @@
    "hit": true
   },
   "greenhouse:allergandatalabs": {
-   "at": "2026-10-24T13:41:39Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:alliance": {
@@ -21976,12 +22455,16 @@
    "at": "2026-10-24T13:41:43Z",
    "hit": false
   },
+  "greenhouse:alta": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
+  },
   "greenhouse:altanaai": {
    "at": "2026-10-24T13:41:39Z",
    "hit": true
   },
   "greenhouse:alteradigitalhealth": {
-   "at": "2026-10-24T13:41:44Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:alteradigitalhealthcanada": {
@@ -21997,11 +22480,11 @@
    "hit": false
   },
   "greenhouse:altium": {
-   "at": "2026-10-24T13:41:39Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:altoira": {
-   "at": "2026-10-24T13:41:42Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:altoslabs": {
@@ -22065,11 +22548,15 @@
    "hit": true
   },
   "greenhouse:ambiencehealthcare": {
-   "at": "2026-10-24T13:41:43Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:ambient": {
    "at": "2026-10-24T13:41:42Z",
+   "hit": false
+  },
+  "greenhouse:ambientai": {
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:amcc": {
@@ -22137,7 +22624,7 @@
    "hit": true
   },
   "greenhouse:amplitude": {
-   "at": "2026-10-24T13:41:43Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:ampsortation": {
@@ -22149,7 +22636,7 @@
    "hit": true
   },
   "greenhouse:amun": {
-   "at": "2026-10-24T13:41:42Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:amwell": {
@@ -22165,7 +22652,7 @@
    "hit": true
   },
   "greenhouse:anaconda": {
-   "at": "2026-10-24T13:41:44Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:analyst1": {
@@ -22185,7 +22672,7 @@
    "hit": false
   },
   "greenhouse:anchorage": {
-   "at": "2026-10-25T13:49:23Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "greenhouse:ancientnutrition": {
@@ -22193,8 +22680,12 @@
    "hit": false
   },
   "greenhouse:andela": {
-   "at": "2026-10-24T13:41:43Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
+  },
+  "greenhouse:andesite": {
+   "at": "2026-11-24T20:14:51Z",
+   "hit": true
   },
   "greenhouse:anellophotonics": {
    "at": "2026-10-25T13:49:24Z",
@@ -33241,7 +33732,7 @@
    "hit": true
   },
   "lever:3box": {
-   "at": "2026-10-24T03:14:40Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:90seconds": {
@@ -33249,7 +33740,7 @@
    "hit": true
   },
   "lever:abtasty": {
-   "at": "2026-10-24T03:14:40Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:actionlife": {
@@ -33301,7 +33792,7 @@
    "hit": true
   },
   "lever:anthropic": {
-   "at": "2026-10-24T03:14:40Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "lever:aogarciaagency": {
@@ -33313,7 +33804,7 @@
    "hit": true
   },
   "lever:apptimize": {
-   "at": "2026-10-24T03:14:40Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:arbitalhealth": {
@@ -33321,7 +33812,7 @@
    "hit": true
   },
   "lever:arcade": {
-   "at": "2026-10-24T03:08:11Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:asapp-2": {
@@ -33337,11 +33828,11 @@
    "hit": true
   },
   "lever:atlassian": {
-   "at": "2026-10-24T03:14:45Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:attentive": {
-   "at": "2026-10-24T03:14:40Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "lever:avalerehealth": {
@@ -33357,7 +33848,7 @@
    "hit": true
   },
   "lever:blinkist": {
-   "at": "2026-10-24T03:14:40Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "lever:blueland": {
@@ -33373,7 +33864,7 @@
    "hit": true
   },
   "lever:bound": {
-   "at": "2026-10-24T03:14:41Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:bounteous": {
@@ -33417,7 +33908,7 @@
    "hit": true
   },
   "lever:careaccessresearch": {
-   "at": "2026-10-24T03:14:40Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:catalystmobility": {
@@ -33465,11 +33956,11 @@
    "hit": true
   },
   "lever:copper": {
-   "at": "2026-10-24T03:14:41Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:coursera": {
-   "at": "2026-10-24T03:14:41Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "lever:crypto": {
@@ -33485,11 +33976,11 @@
    "hit": true
   },
   "lever:deep6": {
-   "at": "2026-10-24T03:14:41Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:deltadental": {
-   "at": "2026-10-24T03:14:43Z",
+   "at": "2026-11-24T20:14:53Z",
    "hit": false
   },
   "lever:deputy": {
@@ -33509,11 +34000,11 @@
    "hit": true
   },
   "lever:drizly": {
-   "at": "2026-10-24T03:14:44Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "lever:droneseed": {
-   "at": "2026-10-24T03:14:45Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:dualitas-therapeutics": {
@@ -33565,15 +34056,15 @@
    "hit": true
   },
   "lever:globalelitecareers": {
-   "at": "2026-10-24T03:14:59Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "lever:goat": {
-   "at": "2026-10-24T03:14:45Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:gong": {
-   "at": "2026-10-24T03:14:45Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:goodleap": {
@@ -33593,7 +34084,7 @@
    "hit": true
   },
   "lever:harrison": {
-   "at": "2026-10-24T03:14:45Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:hashtagpaid": {
@@ -33601,7 +34092,7 @@
    "hit": true
   },
   "lever:heirloomtechnologies": {
-   "at": "2026-10-24T03:14:45Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:heyrowan": {
@@ -33629,12 +34120,12 @@
    "hit": true
   },
   "lever:jarofleets": {
-   "at": "2026-10-24T03:14:46Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "lever:jobgether": {
-   "at": "2026-10-24T03:15:17Z",
-   "hit": false
+   "at": "2026-11-24T20:14:52Z",
+   "hit": true
   },
   "lever:jobscan-2": {
    "at": "2026-10-24T03:14:46Z",
@@ -33653,11 +34144,11 @@
    "hit": true
   },
   "lever:kensho": {
-   "at": "2026-10-24T03:14:46Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "lever:kickoff": {
-   "at": "2026-10-24T03:14:48Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:kivaconfections": {
@@ -33665,7 +34156,7 @@
    "hit": true
   },
   "lever:knotch": {
-   "at": "2026-10-24T03:14:46Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:kobie": {
@@ -33685,7 +34176,7 @@
    "hit": true
   },
   "lever:landing": {
-   "at": "2026-10-24T03:14:46Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:last-energy": {
@@ -33733,11 +34224,11 @@
    "hit": true
   },
   "lever:medacuitysoftware": {
-   "at": "2026-10-24T03:14:47Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "lever:mediaocean": {
-   "at": "2026-10-24T03:14:46Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:meesho": {
@@ -33745,7 +34236,7 @@
    "hit": true
   },
   "lever:meetgroup": {
-   "at": "2026-10-24T03:14:50Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:megaport": {
@@ -33769,7 +34260,7 @@
    "hit": true
   },
   "lever:modsquad": {
-   "at": "2026-10-24T03:14:47Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:momsmeals": {
@@ -33789,7 +34280,7 @@
    "hit": true
   },
   "lever:nexgenanimalhealth": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "lever:ninjavan": {
@@ -33837,7 +34328,7 @@
    "hit": true
   },
   "lever:oxylabs": {
-   "at": "2026-10-24T03:14:47Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:payjoy": {
@@ -33869,7 +34360,7 @@
    "hit": true
   },
   "lever:qcells": {
-   "at": "2026-10-24T03:14:50Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:qonto": {
@@ -33917,7 +34408,7 @@
    "hit": true
   },
   "lever:runforsomething": {
-   "at": "2026-10-24T03:14:49Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:scale3c": {
@@ -33937,7 +34428,7 @@
    "hit": true
   },
   "lever:sensortower": {
-   "at": "2026-10-24T03:14:49Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:servicerocket": {
@@ -33957,7 +34448,7 @@
    "hit": true
   },
   "lever:spin": {
-   "at": "2026-10-24T03:08:10Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:spreetail": {
@@ -33965,15 +34456,15 @@
    "hit": true
   },
   "lever:stackadapt": {
-   "at": "2026-10-24T03:14:51Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:stridehealth": {
-   "at": "2026-10-24T03:14:51Z",
+   "at": "2026-11-24T20:14:51Z",
    "hit": false
   },
   "lever:super-com": {
-   "at": "2026-10-24T03:14:50Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:swordhealth": {
@@ -33985,11 +34476,11 @@
    "hit": true
   },
   "lever:takescoop": {
-   "at": "2026-10-24T03:14:50Z",
+   "at": "2026-11-24T20:14:56Z",
    "hit": false
   },
   "lever:tbwachiatday": {
-   "at": "2026-10-24T03:14:50Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:teambuilders": {
@@ -34029,7 +34520,7 @@
    "hit": true
   },
   "lever:uplift": {
-   "at": "2026-10-24T03:14:51Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:valiantys": {
@@ -34053,7 +34544,7 @@
    "hit": true
   },
   "lever:volka": {
-   "at": "2026-10-24T03:14:51Z",
+   "at": "2026-11-24T20:14:52Z",
    "hit": false
   },
   "lever:wattpad": {
@@ -34116,6 +34607,10 @@
   "10beauty": {
    "name": "10Beauty"
   },
+  "12345": {
+   "name": "12345",
+   "src": "common crawl"
+  },
   "12twenty": {
    "name": "12Twenty",
    "src": "common crawl"
@@ -34148,6 +34643,10 @@
   },
   "240certification": {
    "name": "240Certification",
+   "src": "common crawl"
+  },
+  "240tutoringinc": {
+   "name": "240Tutoringinc",
    "src": "common crawl"
   },
   "24hourhomecare": {
@@ -34471,12 +34970,28 @@
    "name": "Aacpnw",
    "src": "common crawl"
   },
+  "aalphabio": {
+   "name": "Aalphabio",
+   "src": "common crawl"
+  },
+  "aavaa": {
+   "name": "Aavaa",
+   "src": "common crawl"
+  },
+  "aavantgardebio": {
+   "name": "Aavantgardebio",
+   "src": "common crawl"
+  },
   "abacus": {
    "name": "Abacus",
    "src": "common crawl"
   },
   "abacusinsights": {
    "name": "Abacus Insights"
+  },
+  "abbyy": {
+   "name": "Abbyy",
+   "src": "common crawl"
   },
   "abclegalservices": {
    "name": "Abclegalservices",
@@ -34488,6 +35003,10 @@
   },
   "abinbev": {
    "name": "Abinbev",
+   "src": "common crawl"
+  },
+  "abiologics": {
+   "name": "Abiologics",
    "src": "common crawl"
   },
   "able": {
@@ -34567,8 +35086,16 @@
   "accuweather": {
    "name": "AccuWeather"
   },
+  "aceable": {
+   "name": "Aceable",
+   "src": "common crawl"
+  },
   "acentria": {
    "name": "Acentria",
+   "src": "common crawl"
+  },
+  "achievementcenteroflecomhealth": {
+   "name": "Achievementcenteroflecomhealth",
    "src": "common crawl"
   },
   "achievementfirstnetworksupportcareers": {
@@ -34601,6 +35128,10 @@
    "name": "Aclunj",
    "src": "common crawl"
   },
+  "acmelock&door": {
+   "name": "Acmelock&Door",
+   "src": "common crawl"
+  },
   "acog": {
    "name": "Acog",
    "src": "common crawl"
@@ -34611,6 +35142,10 @@
   },
   "acornhealth": {
    "name": "Acornhealth",
+   "src": "common crawl"
+  },
+  "acp": {
+   "name": "Acp",
    "src": "common crawl"
   },
   "acquia": {
@@ -34651,6 +35186,10 @@
   "ada18": {
    "name": "Ada"
   },
+  "adams-engineers": {
+   "name": "Adams Engineers",
+   "src": "common crawl"
+  },
   "adamsclinical": {
    "name": "Adamsclinical",
    "src": "common crawl"
@@ -34661,6 +35200,14 @@
   },
   "adaptivebiotechnologies": {
    "name": "Adaptivebiotechnologies",
+   "src": "common crawl"
+  },
+  "adaugeohealthcare": {
+   "name": "Adaugeohealthcare",
+   "src": "common crawl"
+  },
+  "addatainitiative": {
+   "name": "Addatainitiative",
    "src": "common crawl"
   },
   "addepar1": {
@@ -34732,6 +35279,10 @@
   "aegworldwide": {
    "name": "AEG"
   },
+  "aestheticphysicianspc": {
+   "name": "Aestheticphysicianspc",
+   "src": "common crawl"
+  },
   "aestudio": {
    "name": "Aestudio",
    "src": "common crawl"
@@ -34789,6 +35340,10 @@
    "name": "Agebold",
    "src": "common crawl"
   },
+  "agecareers": {
+   "name": "Agecareers",
+   "src": "common crawl"
+  },
   "agency": {
    "hq": "New York City, NY, USA",
    "name": "Invisible Technologies",
@@ -34810,6 +35365,10 @@
   },
   "agibankvagasfuturas": {
    "name": "Agibankvagasfuturas",
+   "src": "common crawl"
+  },
+  "agilesix": {
+   "name": "Agilesix",
    "src": "common crawl"
   },
   "agilityrobotics": {
@@ -34851,6 +35410,10 @@
   },
   "aifoundry": {
    "name": "Aifoundry",
+   "src": "common crawl"
+  },
+  "aifss2026": {
+   "name": "Aifss2026",
    "src": "common crawl"
   },
   "aift": {
@@ -34947,6 +35510,10 @@
   },
   "akko": {
    "name": "Akko",
+   "src": "common crawl"
+  },
+  "akqa": {
+   "name": "Akqa",
    "src": "common crawl"
   },
   "aks-internships": {
@@ -35144,6 +35711,10 @@
   "alphataraxia": {
    "name": "Alphataraxia"
   },
+  "alta": {
+   "name": "Alta",
+   "src": "common crawl"
+  },
   "altanaai": {
    "name": "Altanaai",
    "src": "common crawl"
@@ -35317,6 +35888,10 @@
   },
   "anc": {
    "name": "Anc",
+   "src": "common crawl"
+  },
+  "andesite": {
+   "name": "Andesite",
    "src": "common crawl"
   },
   "andurilindustries": {
@@ -38757,6 +39332,9 @@
   "dlrgroup": {
    "name": "DLR Group"
   },
+  "dmcengineering_campus": {
+   "name": "DMC Engineering"
+  },
   "dmgevents": {
    "name": "Dmgevents",
    "src": "common crawl"
@@ -38930,6 +39508,9 @@
   "echodynecorp": {
    "name": "Echodyne"
   },
+  "ecjobb": {
+   "name": "CarGurus"
+  },
   "eclinicalsolutions": {
    "name": "Eclinicalsolutions",
    "src": "common crawl"
@@ -39045,6 +39626,9 @@
    "name": "EnergyHub"
   },
   "energysolutions": {
+   "name": "Energy Solutions"
+  },
+  "energysolutionsinternships": {
    "name": "Energy Solutions"
   },
   "engine": {
@@ -40994,6 +41578,9 @@
   "jetsonhome": {
    "name": "Jetsonhome",
    "src": "common crawl"
+  },
+  "joblinks": {
+   "name": "AQR Capital Management"
   },
   "jobsatphamily": {
    "name": "Phamily"
@@ -45079,6 +45666,12 @@
   "stubhubinc": {
    "name": "StubHub"
   },
+  "studentinternships": {
+   "name": "ISO New England"
+  },
+  "studentprogram": {
+   "name": "Esri"
+  },
   "studiokraftonboard": {
    "name": "KRAFTON"
   },
@@ -47441,6 +48034,10 @@
   "jamcity": {
    "name": "Jam City"
   },
+  "jobgether": {
+   "name": "Jobgether",
+   "src": "common crawl"
+  },
   "jobscan-2": {
    "name": "Jobscan 2",
    "src": "common crawl"
@@ -48303,6 +48900,9 @@
   "syntax": {
    "name": "Syntax"
   },
+  "syntronic": {
+   "name": "Syntronic"
+  },
   "tahoebio-ai": {
    "name": "Tahoe Therapeutics"
   },
@@ -48777,6 +49377,9 @@
   },
   "BCforward3": {
    "name": "BCforward"
+  },
+  "BEUMERGroup1": {
+   "name": "BEUMER Group"
   },
   "Bertelsmann-Jobs": {
    "name": "Bertelsmann"
@@ -49448,7 +50051,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-23T22:04:20Z",
+ "updated": "2026-11-24T20:14:56Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -49642,7 +50245,27 @@
     "Battery Ventures"
    ],
    "markets": [
-    "AI"
+    "Artificial Intelligence (AI)",
+    "Business/Productivity Software",
+    "Clinics/Outpatient Services",
+    "Customer Service",
+    "Data & Analytics",
+    "Health Care",
+    "Information Technology",
+    "Internet Services",
+    "Media & Entertainment",
+    "Mental Health",
+    "Mental Health Care",
+    "Mobile",
+    "Professional Services",
+    "SaaS",
+    "Sales & Marketing",
+    "Sales Automation",
+    "Science and Engineering",
+    "Social Media",
+    "Social Network",
+    "Software",
+    "Wellness"
    ],
    "name": "1Mind",
    "stage": "Series A",
@@ -50507,17 +51130,18 @@
   "absurd": {
    "investors": [],
    "markets": [
-    "Advertising",
     "Artificial Intelligence (AI)",
     "Data & Analytics",
+    "Film Production",
     "Media & Entertainment",
+    "Media and Entertainment",
     "Sales & Marketing",
     "Science and Engineering",
     "Software",
     "Video"
    ],
    "name": "Absurd",
-   "stage": "Pre Seed",
+   "stage": "Seed",
    "vcs": [
     "SV Angel"
    ]
@@ -55603,11 +56227,11 @@
     "Bessemer Ventures"
    ],
    "markets": [
-    "Fintech"
+    "Leisure, Travel & Tourism"
    ],
    "name": "Ascend",
    "stage": "Series A",
-   "team_size": 113,
+   "team_size": 25,
    "vcs": [
     "Felicis",
     "First Round Capital",
@@ -57731,11 +58355,31 @@
     "MIT Alumni Startups"
    ],
    "markets": [
-    "Consumer",
-    "Real Estate"
+    "Application Software",
+    "Commerce and Shopping",
+    "Consumer Software",
+    "Finance",
+    "Hospitality",
+    "Information Technology",
+    "Information Technology and Services",
+    "Internet",
+    "Internet Services",
+    "Marketplace",
+    "Media and Information Services (B2B)",
+    "Other Services (B2C Non-Financial)",
+    "Property Management",
+    "Real Estate",
+    "Real Estate & Construction",
+    "Real Estate Services (B2C)",
+    "Rental",
+    "Residential",
+    "Service Industry",
+    "Software",
+    "Technology, Information and Internet",
+    "Travel & Tourism"
    ],
    "name": "Belong",
-   "stage": "Growth",
+   "stage": "Series C",
    "team_size": 190,
    "vcs": [
     "Notable Capital",
@@ -57816,7 +58460,9 @@
    "vcs": [
     "Thrive Capital",
     "Sequoia Capital",
-    "Andreessen Horowitz"
+    "Andreessen Horowitz",
+    "Lux Capital",
+    "Menlo Ventures"
    ]
   },
   "berkshiregrey": {
@@ -59363,7 +60009,7 @@
    ],
    "name": "The Boring Company",
    "stage": "series_d",
-   "team_size": 627,
+   "team_size": 815,
    "vcs": [
     "Sequoia Capital",
     "Thrive Capital",
@@ -61582,7 +62228,7 @@
    ],
    "name": "Chainguard",
    "stage": "other",
-   "team_size": 766,
+   "team_size": 842,
    "vcs": [
     "Lightspeed",
     "Sequoia Capital",
@@ -63955,13 +64601,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Enterprise Software",
-    "Marketing and Advertising",
-    "SaaS"
+    "Productivity"
    ],
    "name": "Cortex",
    "stage": "Growth",
-   "team_size": 17,
+   "team_size": 112,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -65387,12 +66031,11 @@
     "GV"
    ],
    "markets": [
-    "Enterprise Software",
-    "SaaS"
+    "AI"
    ],
    "name": "daydream",
-   "stage": "Series A",
-   "team_size": 24,
+   "stage": "Seed funded",
+   "team_size": 59,
    "vcs": [
     "First Round Capital",
     "GV"
@@ -68817,7 +69460,7 @@
    ],
    "name": "Exabeam",
    "stage": "Growth",
-   "team_size": 811,
+   "team_size": 760,
    "vcs": [
     "Lightspeed"
    ]
@@ -69308,11 +69951,11 @@
     "StartX"
    ],
    "markets": [
-    "Biotech/Pharma"
+    "Hospital & Health Care"
    ],
    "name": "Fathom",
    "stage": "Growth",
-   "team_size": 3,
+   "team_size": 73,
    "vcs": [
     "Costanoa Ventures",
     "GV",
@@ -85165,7 +85808,7 @@
    ],
    "name": "Optibus",
    "stage": "Growth",
-   "team_size": 335,
+   "team_size": 317,
    "vcs": [
     "Bessemer Venture Partners"
    ]
@@ -89700,7 +90343,7 @@
    ],
    "name": "Qventus",
    "stage": "Growth",
-   "team_size": 268,
+   "team_size": 271,
    "vcs": [
     "Bessemer Venture Partners"
    ]
@@ -93336,12 +93979,11 @@
     "GV"
    ],
    "markets": [
-    "Consumer Services",
-    "Health, Wellness and Fitness"
+    "Consumer"
    ],
    "name": "Sesame",
    "stage": "Growth",
-   "team_size": 160,
+   "team_size": 120,
    "vcs": [
     "Sequoia Capital",
     "GV"
@@ -94005,7 +94647,7 @@
    ],
    "name": "Simile",
    "stage": "Growth",
-   "team_size": 76,
+   "team_size": 95,
    "vcs": [
     "Bain Capital Ventures"
    ]
@@ -95741,7 +96383,7 @@
     "Hospital & Health Care"
    ],
    "name": "Sprinter Health",
-   "stage": "Growth",
+   "stage": "Venture",
    "team_size": 243,
    "vcs": [
     "GV",
@@ -96946,8 +97588,7 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "AI",
-    "Automation & Robotics"
+    "Renewables & Environment"
    ],
    "name": "Sunday",
    "stage": "Growth",
@@ -100675,6 +101316,14 @@
     "Bessemer Venture Partners"
    ]
   },
+  "universal": {
+   "investors": [],
+   "name": "Universal",
+   "stage": "Seed",
+   "vcs": [
+    "Andreessen Horowitz"
+   ]
+  },
   "universe": {
    "investors": [
     "GV"
@@ -102456,11 +103105,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "AI"
+    "Developer Tools"
    ],
    "name": "Warp",
    "stage": "Growth",
-   "team_size": 87,
+   "team_size": 98,
    "vcs": [
     "Battery Ventures",
     "GV",
@@ -103244,12 +103893,12 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Enterprise Software",
-    "Research"
+    "Delivery Services",
+    "Food & Beverages"
    ],
    "name": "Wonder",
-   "stage": "Series A",
-   "team_size": 236,
+   "stage": "Growth",
+   "team_size": 10266,
    "vcs": [
     "NEA",
     "GV",
@@ -106519,6 +107168,9 @@
   "etsy.wd5.myworkdayjobs.com|etsy|Etsy_Careers": {
    "name": "Etsy"
   },
+  "europeantour.wd3.myworkdayjobs.com|europeantour|europeantour": {
+   "name": "European Tour Group"
+  },
   "evercommerce.wd1.myworkdayjobs.com|evercommerce|evercommerce_careers": {
    "name": "EverCommerce"
   },
@@ -108631,6 +109283,9 @@
   "pjtpartners.wd1.myworkdayjobs.com|pjtpartners|Careers": {
    "name": "PJT Partners"
   },
+  "plains.wd1.myworkdayjobs.com|plains|plains": {
+   "name": "Plains All American Pipeline"
+  },
   "plantemoran.wd1.myworkdayjobs.com|plantemoran|pmexternalcareers": {
    "name": "Plante Moran"
   },
@@ -110341,7 +110996,7 @@
  },
  "yc_probe": {
   "0security": {
-   "at": "2026-11-10T17:01:29Z",
+   "at": "2026-11-24T20:09:25Z",
    "hit": null
   },
   "10-by-10": {
@@ -110421,7 +111076,7 @@
    "hit": null
   },
   "a1base": {
-   "at": "2026-11-10T17:01:12Z",
+   "at": "2026-11-24T20:09:12Z",
    "hit": null
   },
   "a1zap-by-a1base": {
@@ -110686,6 +111341,10 @@
   },
   "agentin-ai": {
    "at": "2026-11-21T16:50:49Z",
+   "hit": null
+  },
+  "agentjam": {
+   "at": "2026-11-24T20:08:54Z",
    "hit": null
   },
   "agentnoon": {
@@ -112369,7 +113028,7 @@
    "hit": "ashby:blink"
   },
   "blinka": {
-   "at": "2026-11-10T17:01:13Z",
+   "at": "2026-11-24T20:09:06Z",
    "hit": null
   },
   "blitz": {
@@ -114245,7 +114904,7 @@
    "hit": "ashby:darwin"
   },
   "darwin-robotics": {
-   "at": "2026-11-10T17:01:14Z",
+   "at": "2026-11-24T20:09:09Z",
    "hit": null
   },
   "dashlabs-ai": {
@@ -114285,7 +114944,7 @@
    "hit": "ashby:dataleap"
   },
   "datanode": {
-   "at": "2026-11-10T17:01:12Z",
+   "at": "2026-11-24T20:08:54Z",
    "hit": null
   },
   "datasaur": {
@@ -115377,7 +116036,7 @@
    "hit": null
   },
   "everyapp": {
-   "at": "2026-11-10T17:01:12Z",
+   "at": "2026-11-24T20:08:55Z",
    "hit": null
   },
   "evidence": {
@@ -115385,7 +116044,7 @@
    "hit": null
   },
   "evident-machines": {
-   "at": "2026-11-10T17:01:14Z",
+   "at": "2026-11-24T20:09:09Z",
    "hit": null
   },
   "evidently-ai": {
@@ -117325,7 +117984,7 @@
    "hit": null
   },
   "hyperbench": {
-   "at": "2026-11-10T17:01:12Z",
+   "at": "2026-11-24T20:08:55Z",
    "hit": null
   },
   "hyperbound": {
@@ -119497,7 +120156,7 @@
    "hit": null
   },
   "mendelia": {
-   "at": "2026-11-10T17:01:12Z",
+   "at": "2026-11-24T20:08:54Z",
    "hit": null
   },
   "mentalhappy": {
@@ -120841,7 +121500,7 @@
    "hit": null
   },
   "opencrawl": {
-   "at": "2026-11-10T17:01:13Z",
+   "at": "2026-11-24T20:08:54Z",
    "hit": null
   },
   "opencurriculum": {
@@ -120885,7 +121544,7 @@
    "hit": null
   },
   "openscale": {
-   "at": "2026-11-10T17:01:13Z",
+   "at": "2026-11-24T20:08:55Z",
    "hit": null
   },
   "opensea": {
@@ -121021,7 +121680,7 @@
    "hit": null
   },
   "ordo-labs": {
-   "at": "2026-11-10T17:01:13Z",
+   "at": "2026-11-24T20:08:55Z",
    "hit": null
   },
   "organizely": {
@@ -121373,7 +122032,7 @@
    "hit": null
   },
   "paradev": {
-   "at": "2026-11-10T17:01:13Z",
+   "at": "2026-11-24T20:08:55Z",
    "hit": null
   },
   "paragon": {
@@ -123773,7 +124432,7 @@
    "hit": null
   },
   "se3-labs": {
-   "at": "2026-11-10T17:01:13Z",
+   "at": "2026-11-24T20:08:55Z",
    "hit": null
   },
   "seabound": {
@@ -124612,6 +125271,10 @@
    "at": "2026-11-21T16:50:36Z",
    "hit": null
   },
+  "spita-labs": {
+   "at": "2026-11-24T20:09:09Z",
+   "hit": null
+  },
   "splash-inc": {
    "at": "2026-11-21T16:50:48Z",
    "hit": null
@@ -125021,7 +125684,7 @@
    "hit": null
   },
   "summer-engine": {
-   "at": "2026-11-10T17:01:13Z",
+   "at": "2026-11-24T20:09:05Z",
    "hit": null
   },
   "sunfarmer": {
@@ -125577,7 +126240,7 @@
    "hit": null
   },
   "terraferma": {
-   "at": "2026-11-10T17:01:13Z",
+   "at": "2026-11-24T20:08:54Z",
    "hit": null
   },
   "terrakotta": {
@@ -127021,7 +127684,7 @@
    "hit": null
   },
   "vorflux": {
-   "at": "2026-11-10T17:01:13Z",
+   "at": "2026-11-24T20:09:09Z",
    "hit": null
   },
   "vori": {
@@ -127329,7 +127992,7 @@
    "hit": null
   },
   "wingman-law": {
-   "at": "2026-11-10T17:01:14Z",
+   "at": "2026-11-24T20:08:55Z",
    "hit": null
   },
   "withasync": {
