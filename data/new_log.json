@@ -1,6 +1,180 @@
 [
  {
   "backers": [],
+  "company": "Cisco",
+  "first_seen": "2026-11-25T20:41:29Z",
+  "fit": 1,
+  "id": "wd:cisco:2025885",
+  "location": "RTP, North Carolina, US",
+  "posted_at": "2026-11-25T20:41:30Z",
+  "score": 3,
+  "signal": 2,
+  "term": "",
+  "title": "Security Engineer I (Intern) - United States",
+  "type": "bigtech",
+  "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/RTP-North-Carolina-US/Security-Engineer-I--Intern----United-States_2025885"
+ },
+ {
+  "backers": [
+   "Battery Ventures",
+   "GV"
+  ],
+  "company": "SambaNova",
+  "first_seen": "2026-11-25T20:41:29Z",
+  "fit": 2,
+  "id": "url:go.vansh.nyc/1Jr",
+  "location": "Austin, TX; San Jose, CA",
+  "posted_at": null,
+  "score": 5,
+  "signal": 3,
+  "term": "Summer",
+  "title": "Machine Learning Engineer Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1Jr"
+ },
+ {
+  "backers": [
+   "Battery Ventures",
+   "GV"
+  ],
+  "company": "SambaNova",
+  "first_seen": "2026-11-25T20:41:29Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/1Jq",
+  "location": "San Jose, CA",
+  "posted_at": null,
+  "score": 6,
+  "signal": 3,
+  "term": "Summer",
+  "title": "Cloud Platform Engineer Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1Jq"
+ },
+ {
+  "backers": [
+   "Battery Ventures",
+   "GV"
+  ],
+  "company": "SambaNova",
+  "first_seen": "2026-11-25T20:41:29Z",
+  "fit": 4,
+  "id": "url:go.vansh.nyc/1Jp",
+  "location": "Austin, TX; San Jose, CA",
+  "posted_at": null,
+  "score": 7,
+  "signal": 3,
+  "term": "Summer",
+  "title": "ML Infrastructure Engineer Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1Jp"
+ },
+ {
+  "backers": [
+   "Battery Ventures",
+   "GV"
+  ],
+  "company": "SambaNova",
+  "first_seen": "2026-11-25T20:41:29Z",
+  "fit": 3,
+  "id": "url:go.vansh.nyc/1Jj",
+  "location": "Austin, TX; San Jose, CA",
+  "posted_at": null,
+  "score": 6,
+  "signal": 3,
+  "term": "Summer",
+  "title": "AI Performance Engineer Intern",
+  "type": "startup",
+  "url": "https://go.vansh.nyc/1Jj"
+ },
+ {
+  "backers": [
+   "Battery Ventures",
+   "GV"
+  ],
+  "company": "SambaNova",
+  "first_seen": "2026-11-25T20:41:29Z",
+  "fit": 4,
+  "id": "gh:6271289004",
+  "location": "Austin, Texas, United States; San Jose, California, United States",
+  "posted_at": "2026-11-25T17:04:03Z",
+  "score": 7,
+  "signal": 3,
+  "term": "",
+  "title": "ML Infrastructure Engineer Intern",
+  "type": "startup",
+  "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6271289004"
+ },
+ {
+  "backers": [
+   "Battery Ventures",
+   "GV"
+  ],
+  "company": "SambaNova",
+  "first_seen": "2026-11-25T20:41:29Z",
+  "fit": 2,
+  "id": "gh:6271395004",
+  "location": "Austin, Texas, United States; San Jose, California, United States",
+  "posted_at": "2026-11-25T18:24:13Z",
+  "score": 5,
+  "signal": 3,
+  "term": "",
+  "title": "Machine Learning Engineer Intern",
+  "type": "startup",
+  "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6271395004"
+ },
+ {
+  "backers": [
+   "Battery Ventures",
+   "GV"
+  ],
+  "company": "SambaNova",
+  "first_seen": "2026-11-25T20:41:29Z",
+  "fit": 3,
+  "id": "gh:6271352004",
+  "location": "San Jose, California, United States",
+  "posted_at": "2026-11-25T17:51:09Z",
+  "score": 6,
+  "signal": 3,
+  "term": "",
+  "title": "Cloud Platform Engineer Intern (San Jose)",
+  "type": "startup",
+  "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6271352004"
+ },
+ {
+  "backers": [
+   "Battery Ventures",
+   "GV"
+  ],
+  "company": "SambaNova",
+  "first_seen": "2026-11-25T20:41:29Z",
+  "fit": 3,
+  "id": "gh:6271183004",
+  "location": "Austin, Texas, United States; San Jose, California, United States",
+  "posted_at": "2026-11-25T16:32:08Z",
+  "score": 6,
+  "signal": 3,
+  "term": "",
+  "title": "AI Performance Engineer Intern",
+  "type": "startup",
+  "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6271183004"
+ },
+ {
+  "backers": [],
+  "company": "Coinbase",
+  "first_seen": "2026-11-25T20:41:29Z",
+  "fit": 1,
+  "id": "gh:8415869",
+  "location": "Hybrid - New York, NY",
+  "posted_at": "2026-11-25T20:22:13Z",
+  "score": 3,
+  "signal": 2,
+  "term": "",
+  "title": "Security Engineer Intern",
+  "type": "bigtech",
+  "url": "https://www.coinbase.com/careers/positions/8415869?gh_jid=8415869"
+ },
+ {
+  "backers": [],
   "company": "NVIDIA",
   "first_seen": "2026-11-25T07:21:31Z",
   "fit": 2,
