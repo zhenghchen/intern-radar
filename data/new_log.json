@@ -1,6 +1,21 @@
 [
  {
   "backers": [],
+  "company": "Tesla",
+  "first_seen": "2026-11-25T23:35:46Z",
+  "fit": 0,
+  "id": "url:tesla.com/careers/search/job/291227",
+  "location": "Palo Alto, CA",
+  "posted_at": null,
+  "score": 2,
+  "signal": 2,
+  "term": "Summer 2027",
+  "title": "Robotics Audio DSP Engineer Intern",
+  "type": "bigtech",
+  "url": "https://www.tesla.com/careers/search/job/291227"
+ },
+ {
+  "backers": [],
   "company": "Cisco",
   "first_seen": "2026-11-25T23:23:08Z",
   "fit": 1,
