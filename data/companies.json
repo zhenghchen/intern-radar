@@ -2909,6 +2909,9 @@
    "name": "Bolt Farm",
    "src": "common crawl"
   },
+  "boltz": {
+   "name": "Boltz"
+  },
   "bonfireanalytics": {
    "name": "Bonfireanalytics",
    "src": "common crawl"
@@ -12196,7 +12199,7 @@
    "hq": "Berlin, Berlin, Germany",
    "name": "telli",
    "one_liner": "intelligent interactions",
-   "team_size": 25,
+   "team_size": 45,
    "yc": "Fall 2024"
   },
   "telus-digital": {
@@ -43658,6 +43661,9 @@
   "patientpoint": {
    "name": "PatientPoint"
   },
+  "patientpointinviteonly": {
+   "name": "PatientPoint"
+  },
   "patriotgrowthinsuranceservicesllc": {
    "name": "Patriotgrowthinsuranceservicesllc",
    "src": "common crawl"
@@ -44191,7 +44197,7 @@
    "hq": "San Francisco, CA, USA",
    "name": "Proto",
    "one_liner": "The coding agent for product design",
-   "team_size": 2,
+   "team_size": 3,
    "yc": "Fall 2026"
   },
   "proton": {
@@ -44380,7 +44386,7 @@
   "raven": {
    "hq": "BY, Germany",
    "name": "Raven",
-   "one_liner": "A new phone rebuilt around agents: more done, less time on screen.",
+   "one_liner": "AI phone rebuilt around agents",
    "team_size": 1,
    "yc": "Fall 2026"
   },
@@ -47802,6 +47808,9 @@
    "team_size": 100,
    "yc": "Summer 2018"
   },
+  "fireflyon": {
+   "name": "Firefly"
+  },
   "firemon": {
    "name": "Firemon"
   },
@@ -48621,6 +48630,9 @@
   },
   "ravl_io": {
    "name": "RAVL"
+  },
+  "reachpower": {
+   "name": "Reach Labs"
   },
   "redhorsecorp": {
    "name": "Redhorse"
@@ -50051,7 +50063,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-24T20:14:56Z",
+ "updated": "2026-11-25T19:24:27Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -50245,27 +50257,7 @@
     "Battery Ventures"
    ],
    "markets": [
-    "Artificial Intelligence (AI)",
-    "Business/Productivity Software",
-    "Clinics/Outpatient Services",
-    "Customer Service",
-    "Data & Analytics",
-    "Health Care",
-    "Information Technology",
-    "Internet Services",
-    "Media & Entertainment",
-    "Mental Health",
-    "Mental Health Care",
-    "Mobile",
-    "Professional Services",
-    "SaaS",
-    "Sales & Marketing",
-    "Sales Automation",
-    "Science and Engineering",
-    "Social Media",
-    "Social Network",
-    "Software",
-    "Wellness"
+    "AI"
    ],
    "name": "1Mind",
    "stage": "Series A",
@@ -51297,6 +51289,21 @@
    "stage": "Acquisition",
    "vcs": [
     "Notable Capital"
+   ]
+  },
+  "accompanyhealth": {
+   "investors": [
+    "GV",
+    "IVP"
+   ],
+   "markets": [
+    "Hospital & Health Care"
+   ],
+   "name": "Accompany Health",
+   "stage": "Series A",
+   "team_size": 286,
+   "vcs": [
+    "GV"
    ]
   },
   "accordance": {
@@ -53792,7 +53799,7 @@
    ],
    "name": "Altana AI",
    "stage": "Growth",
-   "team_size": 307,
+   "team_size": 327,
    "vcs": [
     "GV"
    ]
@@ -56230,8 +56237,8 @@
     "Leisure, Travel & Tourism"
    ],
    "name": "Ascend",
-   "stage": "Series A",
-   "team_size": 25,
+   "stage": "Seed funded",
+   "team_size": 73,
    "vcs": [
     "Felicis",
     "First Round Capital",
@@ -57667,7 +57674,7 @@
    ],
    "name": "Avoca AI",
    "stage": "Growth",
-   "team_size": 270,
+   "team_size": 299,
    "vcs": [
     "Bain Capital Ventures"
    ]
@@ -57803,7 +57810,7 @@
    ],
    "name": "Axion",
    "stage": "Series A",
-   "team_size": 419,
+   "team_size": 427,
    "vcs": [
     "Bessemer Venture Partners"
    ]
@@ -58355,31 +58362,11 @@
     "MIT Alumni Startups"
    ],
    "markets": [
-    "Application Software",
-    "Commerce and Shopping",
-    "Consumer Software",
-    "Finance",
-    "Hospitality",
-    "Information Technology",
-    "Information Technology and Services",
-    "Internet",
-    "Internet Services",
-    "Marketplace",
-    "Media and Information Services (B2B)",
-    "Other Services (B2C Non-Financial)",
-    "Property Management",
-    "Real Estate",
-    "Real Estate & Construction",
-    "Real Estate Services (B2C)",
-    "Rental",
-    "Residential",
-    "Service Industry",
-    "Software",
-    "Technology, Information and Internet",
-    "Travel & Tourism"
+    "Consumer",
+    "Real Estate"
    ],
    "name": "Belong",
-   "stage": "Series C",
+   "stage": "Growth",
    "team_size": 190,
    "vcs": [
     "Notable Capital",
@@ -59907,6 +59894,14 @@
     "Sequoia Capital"
    ]
   },
+  "boltz": {
+   "investors": [],
+   "name": "Boltz",
+   "stage": "Venture",
+   "vcs": [
+    "Andreessen Horowitz"
+   ]
+  },
   "bonnet": {
    "investors": [
     "GV"
@@ -60246,7 +60241,7 @@
    ],
    "name": "Brellium",
    "stage": "Series A",
-   "team_size": 83,
+   "team_size": 81,
    "vcs": [
     "First Round Capital"
    ]
@@ -64583,11 +64578,12 @@
     "Bain Ventures"
    ],
    "markets": [
-    "AI"
+    "AI",
+    "Insurance"
    ],
    "name": "Corridor",
-   "stage": "Series A",
-   "team_size": 35,
+   "stage": "Seed funded",
+   "team_size": 13,
    "vcs": [
     "Felicis",
     "Bain Capital Ventures"
@@ -64601,11 +64597,13 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Productivity"
+    "Enterprise Software",
+    "Marketing and Advertising",
+    "SaaS"
    ],
    "name": "Cortex",
    "stage": "Growth",
-   "team_size": 112,
+   "team_size": 17,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -65988,7 +65986,7 @@
    ],
    "name": "David AI",
    "stage": "Seed funded",
-   "team_size": 67,
+   "team_size": 144,
    "vcs": [
     "First Round Capital"
    ]
@@ -66828,7 +66826,7 @@
     "Fintech"
    ],
    "name": "Digital Currency Group",
-   "team_size": 209,
+   "team_size": 255,
    "vcs": [
     "Bain Capital Ventures"
    ]
@@ -70457,10 +70455,11 @@
     "Marketing and Advertising"
    ],
    "name": "Firefly",
-   "stage": "Growth",
+   "stage": "series_b",
    "team_size": 337,
    "vcs": [
-    "GV"
+    "GV",
+    "NFX"
    ]
   },
   "firestorm": {
@@ -71342,7 +71341,7 @@
    ],
    "name": "Forter",
    "stage": "Growth",
-   "team_size": 717,
+   "team_size": 715,
    "vcs": [
     "Bessemer Venture Partners",
     "Sequoia Capital"
@@ -72347,6 +72346,14 @@
     "Bessemer Venture Partners"
    ]
   },
+  "getaround": {
+   "investors": [],
+   "name": "Getaround",
+   "stage": "other",
+   "vcs": [
+    "Accel"
+   ]
+  },
   "getinsured": {
    "investors": [
     "Bessemer Ventures"
@@ -73191,10 +73198,10 @@
     "GV"
    ],
    "markets": [
-    "Automotive",
-    "Mobility",
-    "Renewables & Environment",
-    "Transportation"
+    "Banking",
+    "Financial Services",
+    "Fintech",
+    "Payments"
    ],
    "name": "GRAVITY",
    "stage": "Seed funded",
@@ -76509,7 +76516,7 @@
     "Digital Health"
    ],
    "name": "January AI",
-   "team_size": 21,
+   "team_size": 18,
    "vcs": [
     "Felicis"
    ]
@@ -76784,7 +76791,7 @@
    ],
    "name": "Juniper Square",
    "stage": "Growth",
-   "team_size": 1064,
+   "team_size": 1193,
    "vcs": [
     "Felicis"
    ]
@@ -78331,13 +78338,13 @@
     "Union Square Ventures"
    ],
    "markets": [
-    "Enterprise Software",
-    "Retail",
-    "SaaS"
+    "Climate",
+    "Energy Transition",
+    "Renewables & Environment"
    ],
    "name": "Leap",
    "stage": "Growth",
-   "team_size": 408,
+   "team_size": 111,
    "vcs": [
     "Costanoa Ventures",
     "Union Square Ventures"
@@ -79587,6 +79594,14 @@
    "team_size": 264,
    "vcs": [
     "Bain Capital Ventures"
+   ]
+  },
+  "lucis": {
+   "investors": [],
+   "name": "Lucis",
+   "stage": "series_a",
+   "vcs": [
+    "General Catalyst"
    ]
   },
   "luel": {
@@ -82558,7 +82573,7 @@
     "Transportation"
    ],
    "name": "Motive",
-   "team_size": 6461,
+   "team_size": 6537,
    "vcs": [
     "GV",
     "Kleiner Perkins"
@@ -89310,7 +89325,7 @@
    ],
    "name": "Premise",
    "stage": "Growth",
-   "team_size": 354,
+   "team_size": 347,
    "vcs": [
     "GV"
    ]
@@ -90754,6 +90769,14 @@
     "Lightspeed"
    ]
   },
+  "reach": {
+   "investors": [],
+   "name": "Reach",
+   "stage": "pre_seed",
+   "vcs": [
+    "DCVC"
+   ]
+  },
   "reactor": {
    "investors": [
     "Abstract Ventures",
@@ -91819,7 +91842,7 @@
     "SaaS"
    ],
    "name": "Revel",
-   "stage": "series_b",
+   "stage": "Growth",
    "team_size": 39,
    "vcs": [
     "Felicis",
@@ -93073,6 +93096,14 @@
    "vcs": [
     "GV",
     "Andreessen Horowitz"
+   ]
+  },
+  "sarlaaviation": {
+   "investors": [],
+   "name": "Sarla Aviation",
+   "stage": "series_unknown",
+   "vcs": [
+    "Accel"
    ]
   },
   "saronic": {
@@ -95316,7 +95347,7 @@
    ],
    "name": "Smartling",
    "stage": "Growth",
-   "team_size": 474,
+   "team_size": 482,
    "vcs": [
     "Battery Ventures",
     "First Round Capital"
@@ -111408,7 +111439,7 @@
    "hit": null
   },
   "aikido-technologies": {
-   "at": "2026-11-11T17:06:39Z",
+   "at": "2026-11-25T19:14:32Z",
    "hit": null
   },
   "ailit": {
@@ -111740,7 +111771,7 @@
    "hit": null
   },
   "ample-computer": {
-   "at": "2026-11-11T17:06:39Z",
+   "at": "2026-11-25T19:14:32Z",
    "hit": null
   },
   "ampup": {
@@ -112008,7 +112039,7 @@
    "hit": null
   },
   "archgen-labs": {
-   "at": "2026-11-11T17:06:39Z",
+   "at": "2026-11-25T19:14:31Z",
    "hit": null
   },
   "archil": {
@@ -112632,7 +112663,7 @@
    "hit": null
   },
   "axonnic": {
-   "at": "2026-11-11T17:06:40Z",
+   "at": "2026-11-25T19:14:31Z",
    "hit": null
   },
   "axross-pte-ltd": {
@@ -112768,7 +112799,7 @@
    "hit": null
   },
   "bear-inc": {
-   "at": "2026-11-11T17:06:39Z",
+   "at": "2026-11-25T19:14:32Z",
    "hit": null
   },
   "beau": {
@@ -114444,7 +114475,7 @@
    "hit": null
   },
   "confetti": {
-   "at": "2026-11-11T17:06:38Z",
+   "at": "2026-11-25T19:14:31Z",
    "hit": null
   },
   "confident-ai": {
@@ -115701,6 +115732,10 @@
   },
   "elayne": {
    "at": "2026-11-21T16:49:38Z",
+   "hit": null
+  },
+  "elbic": {
+   "at": "2026-11-25T19:14:32Z",
    "hit": null
   },
   "electric-air-2": {
@@ -117208,7 +117243,7 @@
    "hit": null
   },
   "goodshelf": {
-   "at": "2026-11-11T17:06:38Z",
+   "at": "2026-11-25T19:14:31Z",
    "hit": null
   },
   "gooseworks": {
@@ -117584,7 +117619,7 @@
    "hit": null
   },
   "helios-intelligence": {
-   "at": "2026-11-11T17:06:39Z",
+   "at": "2026-11-25T19:14:32Z",
    "hit": null
   },
   "helium": {
@@ -117868,7 +117903,7 @@
    "hit": null
   },
   "hub-labs": {
-   "at": "2026-11-11T17:06:39Z",
+   "at": "2026-11-25T19:14:32Z",
    "hit": null
   },
   "hubble": {
@@ -119264,7 +119299,7 @@
    "hit": "ashby:letterai"
   },
   "letter-dev": {
-   "at": "2026-11-11T17:06:39Z",
+   "at": "2026-11-25T19:14:32Z",
    "hit": null
   },
   "letterbook": {
@@ -122528,7 +122563,7 @@
    "hit": null
   },
   "plek-ai": {
-   "at": "2026-11-11T17:06:39Z",
+   "at": "2026-11-25T19:14:32Z",
    "hit": null
   },
   "plena-health": {
@@ -127460,7 +127495,7 @@
    "hit": null
   },
   "verno": {
-   "at": "2026-11-11T17:06:38Z",
+   "at": "2026-11-25T19:14:31Z",
    "hit": null
   },
   "versa": {
@@ -127760,7 +127795,7 @@
    "hit": null
   },
   "wakeshift": {
-   "at": "2026-11-11T17:06:38Z",
+   "at": "2026-11-25T19:14:31Z",
    "hit": null
   },
   "wakie": {
