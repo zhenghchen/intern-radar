@@ -1,6 +1,21 @@
 [
  {
   "backers": [],
+  "company": "Meta",
+  "first_seen": "2026-11-25T00:02:12Z",
+  "fit": 1,
+  "id": "url:metacareers.com/jobs/1165674205921515",
+  "location": "Sunnyvale, CA",
+  "posted_at": null,
+  "score": 3,
+  "signal": 2,
+  "term": "",
+  "title": "Battery Engineer Intern - Battery Systems Engineering",
+  "type": "bigtech",
+  "url": "https://www.metacareers.com/jobs/1165674205921515"
+ },
+ {
+  "backers": [],
   "company": "NVIDIA",
   "first_seen": "2026-11-24T18:51:41Z",
   "fit": 3,
