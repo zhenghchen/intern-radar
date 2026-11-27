@@ -9621,7 +9621,7 @@
    "hq": "Detroit, MI, USA",
    "name": "NOX METALS",
    "one_liner": "Supplying America's Industrial Base",
-   "team_size": 64,
+   "team_size": 73,
    "yc": "Summer 2025"
   },
   "noyo": {
@@ -11117,7 +11117,7 @@
    "name": "Render",
    "one_liner": "AI CMO that puts marketing on autopilot",
    "src": "common crawl",
-   "team_size": 1,
+   "team_size": 3,
    "yc": "Winter 2027"
   },
   "repeatbuilders": {
@@ -41258,6 +41258,9 @@
    "name": "Iconcareers",
    "src": "common crawl"
   },
+  "iconiqhandshake": {
+   "name": "ICONIQ Capital"
+  },
   "ideo": {
    "name": "Ideo",
    "src": "common crawl"
@@ -50072,7 +50075,7 @@
    "name": "System Canada Technologies"
   }
  },
- "updated": "2026-11-26T19:10:25Z",
+ "updated": "2026-11-27T18:57:28Z",
  "vc_companies": {
   "1001ai": {
    "investors": [],
@@ -52315,18 +52318,21 @@
   "agora": {
    "investors": [],
    "markets": [
-    "Financial Exchanges",
+    "B2B",
+    "Business Intelligence",
+    "Data Management",
+    "Enterprise Software",
     "Financial Services",
-    "Financial Software",
     "Fintech",
     "Information Technology",
-    "Lending and Investments",
-    "Other Financial Services",
+    "PropTech",
+    "Real Estate",
+    "Real Estate Investment",
     "SaaS",
     "Software"
    ],
    "name": "Agora",
-   "stage": "Series A",
+   "stage": "Series B",
    "vcs": [
     "General Catalyst",
     "Insight Partners"
@@ -52721,38 +52727,10 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Advertising",
-    "Aerospace",
-    "Application Software",
-    "Biometrics",
-    "Biotechnology",
-    "Business/Productivity Software",
-    "Data & Analytics",
-    "Digital Identity",
-    "E-Commerce",
-    "Enterprise Software",
-    "Hospitality",
-    "Identity Management",
-    "Information Security",
-    "Information Technology",
-    "IT Services and IT Consulting",
-    "Mobile",
-    "Payments",
-    "Privacy",
-    "Privacy and Security",
-    "Retail",
-    "Science and Engineering",
-    "Security",
-    "Software",
-    "Technology",
-    "Technology And Computing",
-    "Transportation",
-    "Travel",
-    "Travel & Leisure",
-    "Travel & Tourism"
+    "Security"
    ],
    "name": "Airside",
-   "stage": "Series B",
+   "stage": "Growth",
    "team_size": 12,
    "vcs": [
     "8VC",
@@ -53180,25 +53158,10 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Artificial Intelligence (AI)",
-    "Cloud Data Services",
-    "Communication & Sales",
-    "Data & Analytics",
-    "Enterprise Software",
-    "Financial Services",
-    "Financial Software",
-    "Fintech",
-    "Information Technology",
-    "Internet Services",
-    "Media and Information Services (B2B)",
-    "Other Financial Services",
-    "Science and Engineering",
-    "Software",
-    "Software Development",
-    "Technology"
+    "Fintech"
    ],
    "name": "Aleph",
-   "stage": "Series B",
+   "stage": "Growth",
    "team_size": 107,
    "vcs": [
     "Khosla Ventures",
@@ -53667,12 +53630,13 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Financial Services",
-    "Fintech"
+    "Enterprise Software",
+    "Productivity",
+    "SaaS"
    ],
    "name": "Alloy",
    "stage": "Growth",
-   "team_size": 425,
+   "team_size": 7,
    "vcs": [
     "Menlo Ventures",
     "Primary Venture Partners",
@@ -55393,6 +55357,14 @@
    "stage": "Acquisition",
    "vcs": [
     "Fifth Wall"
+   ]
+  },
+  "aramya": {
+   "investors": [],
+   "name": "Aramya",
+   "stage": "other",
+   "vcs": [
+    "Accel"
    ]
   },
   "arbor": {
@@ -59032,39 +59004,9 @@
     "Pantera Capital"
    ],
    "markets": [
-    "Asset Management",
-    "Bitcoin",
-    "Blockchain",
-    "Blockchain and Cryptocurrency",
-    "Cryptocurrency",
-    "Custody",
-    "Cybersecurity",
-    "Data Storage",
-    "Digital Assets",
-    "Digital Currency",
-    "Digital Wallet",
-    "Enterprise Software",
-    "Finance",
     "Financial Services",
-    "Financial Software",
-    "Financing",
     "Fintech",
-    "Information Security",
-    "Lending",
-    "Other Financial Services",
-    "Payments",
-    "Physical Security",
-    "Portfolio",
-    "Security",
-    "Settlement",
-    "Software",
-    "Staking",
-    "Storage",
-    "Tax",
-    "Technology",
-    "Trading",
-    "Virtual Currency",
-    "Wealth Management"
+    "Security"
    ],
    "name": "BitGo",
    "stage": "ipo",
@@ -62404,13 +62346,9 @@
     "South Park Commons"
    ],
    "markets": [
-    "Artificial Intelligence (AI)",
-    "Data & Analytics",
-    "Enterprise Systems (Healthcare)",
-    "Health Care",
-    "Hospital",
-    "Science and Engineering",
-    "Software"
+    "AI",
+    "Digital Health",
+    "Hospital & Health Care"
    ],
    "name": "Charta Health",
    "stage": "series_a",
@@ -64681,11 +64619,12 @@
     "Bain Ventures"
    ],
    "markets": [
-    "AI"
+    "AI",
+    "Insurance"
    ],
    "name": "Corridor",
-   "stage": "Series A",
-   "team_size": 35,
+   "stage": "Seed funded",
+   "team_size": 13,
    "vcs": [
     "Felicis",
     "Bain Capital Ventures"
@@ -64699,11 +64638,13 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Productivity"
+    "Enterprise Software",
+    "Marketing and Advertising",
+    "SaaS"
    ],
    "name": "Cortex",
    "stage": "Growth",
-   "team_size": 112,
+   "team_size": 17,
    "vcs": [
     "Bain Capital Ventures",
     "Sequoia Capital"
@@ -66968,12 +66909,11 @@
     "Union Square Ventures"
    ],
    "markets": [
-    "E-Learning",
-    "Education Management"
+    "AI"
    ],
    "name": "Disco",
    "stage": "Series A",
-   "team_size": 5,
+   "team_size": 65,
    "vcs": [
     "Felicis",
     "Union Square Ventures"
@@ -71510,11 +71450,11 @@
     "Sequoia Capital"
    ],
    "markets": [
-    "Fintech"
+    "Health, Wellness and Fitness"
    ],
    "name": "Found",
    "stage": "Growth",
-   "team_size": 119,
+   "team_size": 148,
    "vcs": [
     "GV",
     "Lightspeed",
@@ -78455,13 +78395,13 @@
     "Union Square Ventures"
    ],
    "markets": [
-    "Climate",
-    "Energy Transition",
-    "Renewables & Environment"
+    "Enterprise Software",
+    "Retail",
+    "SaaS"
    ],
    "name": "Leap",
    "stage": "Growth",
-   "team_size": 111,
+   "team_size": 408,
    "vcs": [
     "Costanoa Ventures",
     "Union Square Ventures"
@@ -81757,12 +81697,11 @@
     "Kleiner Perkins"
    ],
    "markets": [
-    "Computer & Network Security",
-    "Developer Tools"
+    "Fintech"
    ],
    "name": "Mine",
-   "stage": "Growth",
-   "team_size": 111,
+   "stage": "Seed funded",
+   "team_size": 69,
    "vcs": [
     "Battery Ventures",
     "Kleiner Perkins"
@@ -96457,6 +96396,14 @@
     "First Round Capital"
    ]
   },
+  "spreadshirt": {
+   "investors": [],
+   "name": "Spreadshirt",
+   "stage": "series_b",
+   "vcs": [
+    "Accel"
+   ]
+  },
   "sprig": {
    "investors": [
     "Andreessen Horowitz",
@@ -99863,11 +99810,13 @@
     "Lightspeed"
    ],
    "markets": [
-    "Entertainment",
-    "Video Games"
+    "Enterprise Software",
+    "Fintech",
+    "Payments",
+    "SaaS"
    ],
    "name": "Toast",
-   "team_size": 18,
+   "team_size": 7864,
    "vcs": [
     "GV",
     "Lightspeed"
@@ -104052,12 +104001,12 @@
     "Bain Ventures"
    ],
    "markets": [
-    "Enterprise Software",
-    "Research"
+    "Delivery Services",
+    "Food & Beverages"
    ],
    "name": "Wonder",
-   "stage": "Series A",
-   "team_size": 236,
+   "stage": "Growth",
+   "team_size": 10266,
    "vcs": [
     "NEA",
     "GV",
@@ -114271,7 +114220,7 @@
    "hit": null
   },
   "clickpad": {
-   "at": "2026-11-13T17:11:19Z",
+   "at": "2026-11-27T18:56:00Z",
    "hit": null
   },
   "clickpe": {
@@ -115703,7 +115652,7 @@
    "hit": "ashby:duffel"
   },
   "dukesell": {
-   "at": "2026-11-13T17:11:19Z",
+   "at": "2026-11-27T18:56:00Z",
    "hit": null
   },
   "duplo": {
@@ -116151,7 +116100,7 @@
    "hit": null
   },
   "ernd": {
-   "at": "2026-11-13T17:11:19Z",
+   "at": "2026-11-27T18:55:59Z",
    "hit": null
   },
   "erudifi": {
@@ -116655,7 +116604,7 @@
    "hit": "ashby:fleetworks"
   },
   "fleety": {
-   "at": "2026-11-13T17:11:19Z",
+   "at": "2026-11-27T18:55:59Z",
    "hit": null
   },
   "fleetzero": {
@@ -117147,7 +117096,7 @@
    "hit": null
   },
   "general-aviation-company": {
-   "at": "2026-11-13T17:11:20Z",
+   "at": "2026-11-27T18:56:00Z",
    "hit": null
   },
   "general-context-labs": {
@@ -118703,7 +118652,7 @@
    "hit": null
   },
   "jinko": {
-   "at": "2026-11-13T17:11:20Z",
+   "at": "2026-11-27T18:55:59Z",
    "hit": null
   },
   "jitter": {
@@ -121367,7 +121316,7 @@
    "hit": null
   },
   "nuum-robotics": {
-   "at": "2026-11-13T17:11:19Z",
+   "at": "2026-11-27T18:56:02Z",
    "hit": null
   },
   "nuvocargo": {
@@ -121895,7 +121844,7 @@
    "hit": null
   },
   "orikata-bio-pbc": {
-   "at": "2026-11-13T17:11:21Z",
+   "at": "2026-11-27T18:56:00Z",
    "hit": null
   },
   "ornadyne": {
@@ -121983,7 +121932,7 @@
    "hit": null
   },
   "outworld-labs": {
-   "at": "2026-11-13T17:11:19Z",
+   "at": "2026-11-27T18:56:00Z",
    "hit": null
   },
   "overdrive-health": {
@@ -124235,7 +124184,7 @@
    "hit": null
   },
   "routant": {
-   "at": "2026-11-13T17:11:19Z",
+   "at": "2026-11-27T18:55:59Z",
    "hit": null
   },
   "routerplus": {
@@ -126163,7 +126112,7 @@
    "hit": null
   },
   "tago-health": {
-   "at": "2026-11-13T17:11:20Z",
+   "at": "2026-11-27T18:56:00Z",
    "hit": null
   },
   "tagsafe": {
@@ -127827,7 +127776,7 @@
    "hit": null
   },
   "volaren": {
-   "at": "2026-11-13T17:11:19Z",
+   "at": "2026-11-27T18:56:00Z",
    "hit": null
   },
   "volaren-inc": {
